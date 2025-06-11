@@ -12,7 +12,7 @@ Reading these stories left me feeling deeply grateful and inspired. These mainta
 
 From the various back-and-forth messages with these maintainers, I was struck by their kindness and dedication, which filled my heart with hope and optimism. One message from Niklas Merz stayed with me:
 
-> Some years of doing Open Source and some periods with tiresome work, low recognition and motivation, small things like this help to relight the fire we all feel for Open Source. The opportunity to share our stories for Maintainer Month certainly had a great impact.
+> After many years of doing Open Source and some periods with tiresome work, low recognition and motivation, small things like this help to relight the fire we all feel for Open Source. The opportunity to share our stories for Maintainer Month certainly had a great impact.
 
 I hope this collection of stories brings you the same sense of appreciation and hope it brought me. Whether you're a maintainer yourself or someone who benefits from their work, may these stories help you see the people behind the code—and inspire you to celebrate and support them.
 
