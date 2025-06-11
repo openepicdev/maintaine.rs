@@ -155,7 +155,7 @@ After all, I wouldn't be here if it wasn't for Open Source.
 - Personal website: [https://www.jviotti.com](https://www.jviotti.com)
 - LinkedIn: [https://www.linkedin.com/in/jviotti/](https://www.linkedin.com/in/jviotti/)
 - GitHub: [https://github.com/jviotti](https://github.com/jviotti)
-- Book: ["Unifying Business, Data, and Code: Designing Data
-  Products with JSON Schema"](https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/)
+- O'Reilly Book: [Unifying Business, Data, and Code: Designing Data
+  Products with JSON Schema](https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/)
 
 \newpage
