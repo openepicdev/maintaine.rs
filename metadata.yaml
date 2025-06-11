@@ -6,3 +6,6 @@ header-left: "maintaine.rs"
 header-right: "2025 edition"
 footer-left: "maintaine.rs"
 footer-right: "page \\thepage"
+toc: false
+header-includes:
+  - \usepackage{eso-pic}
