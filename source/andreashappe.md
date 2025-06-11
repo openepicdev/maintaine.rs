@@ -4,13 +4,13 @@
 > [github.com/andreashappe](https://github.com/andreashappe)  
 > [maintaine.rs/andreashappe](https://maintaine.rs/andreashappe)
 
-Hi, I am Andreas, living in Vienna Austria. I'm a web developer gone penetration-tester gone phd student focusing on how to use LLMs for offensive security. I breathe security.
+Hi, I am Andreas, living in Vienna, Austria. I'm a developer gone penetration-tester gone PhD student focusing on how to use LLMs for offensive security. People tell me, that I breathe security.
 
 **What Projects are you currently involved in?**
 
-Currently I work on [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) and [cochise](https://github.com/andreashappe/cochise/): both are research projects that use LLMs to hack real systems. These projects enable security practitioners to "play around" with LLMs in little lines of code. In the long term, I believe that LLMs will democratize access to security testing.
+Currently I work on [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) and [cochise](https://github.com/andreashappe/cochise/): both are research projects that use LLMs to hack real systems. These projects enable security practitioners to experiment with using LLMs in very few lines of code. In the long term, I believe that LLMs will democratize access to security testing.
 
-I am also the leader for two OWASP Top 10 lists: the [OWASP Top 10 Proactive Controls](https://top10proactive.owasp.org/) and the upcoming [OWASP OT Top 10](https://ot.owasp.org/). The proactive top 10 describe common security measures and techniques that software developers should be aware of. I am not happy that we typically highlight how to attack systems, and not show how to better protect ourselves.
+I am also one of the leaders for two [OWASP](https://owasp.org/) projects: the [Top 10 Proactive Controls](https://top10proactive.owasp.org/) and the upcoming [OT Top 10](https://ot.owasp.org/). The Proactive Top 10s describe common security measures and techniques that software developers should be aware of. I am not happy that we typically only highlight how to attack systems and not show how to better protect ourselves.
 
 The OT Top 10 are currently under development. OT stands for Operational Technology, typically this is technology that controls some sort of physical process. Think factory floors, power networks, etc. We need to improve the security of these critical infrastructure systems.
 
@@ -18,7 +18,7 @@ The OT Top 10 are currently under development. OT stands for Operational Technol
 
 I don't understand the question.
 
-I was learning to code in the late 90s, living in Austria's country-side. People were talking about this new thing, Linux, and I became intrigued. Online, I found my tribe and have been a proponent of FOSS since. David Roe's awesome [firstcommit.js](https://firstcommit.js) gives my first commit as [a documentation/configuration fix for the linux kernel in 2000](https://firstcommit.is/andreashappe).
+I was learning to code in the late 90s, living in Austria's country-side. People were talking about this new thing, Linux, and I became intrigued. Online, I found my tribe and have been a proponent of FOSS since. David Roe's awesome [firstcommit.js](https://firstcommit.js) gives my first commit as [a documentation/configuration fix for the linux kernel in 2000](https://firstcommit.is/andreashappe) (although I believe that this commit happened around 2003/2004).
 
 How do I feel about Open Source? How does a fish feel about water? Open Source and its community has been a big influence on my life. This is true for most of us, some of us might just not know that yet.
 
@@ -26,7 +26,7 @@ I work in the security domain. In my opinion, Open Source security (and FOSS sec
 
 ## What do you think are the biggest security challenges facing Open Source today?
 
-I see two big problems:
+I see two two challenges:
 
 1. Maintaining Trust
 
@@ -36,9 +36,9 @@ I see two big problems:
 
    I believe in making it easy to do the right thing, especially when it comes to security. Developers should not have to explicitly think about how to make things secure, the "normal" way of solving a problem should already be the secure way. Frameworks that offer sane secure defaults have had a great positive impact on web application security.
 
-3. Don't use Security to Shame People
+And a bonus one: Don't use Security to Shame People
 
-   Typically people can only keep a few things on their mind (3-4 things). Imagine, you're a developer, those five things are quickly used up: functional requirements, non-functional requirements, food, personal life. Now, imagine a pen-tester gets to work on the same projects. What's on their mind? security, security, security, coffee. Of course, they will find issues.. and that's okay. We're here to help. An audit is just an opportunity to learn and fix problems before real attackers find it.
+   Typically people can only keep a few things on their mind (3-4 things). Imagine, you're a developer. Those four things are quickly used up: one or two functional requirements, performance, food & coffe, and maybe there's something going on in your personal life. Now, imagine a pen-tester gets to work on the same projects. What's on their mind? security, security, security, coffee. Of course, they will find issues.. and that's okay. We're here to help. An audit is just an opportunity to learn and fix problems before real attackers find them.
 
 ## What’s the impact of AI on Open Source development?
 
