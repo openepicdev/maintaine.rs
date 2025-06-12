@@ -4,7 +4,7 @@
 > [github.com/nickytonline](https://github.com/nickytonline)  
 > [maintaine.rs/nickytonline](https://maintaine.rs/nickytonline)
 
-Hi, I’m Nick Taylor ([@nickytonline](https://nickyt.online)), a Developer Advocate and software engineer based in Montreal, Canada. Over the past several years, Open Source has been the thread connecting every chapter of my career — from learning new technologies to building communities and landing roles at companies like [Forem](https://forem.com) (the team behind [DEV](https://dev.to)), [Netlify](https://netlify.com), [OpenSauced](https://opensauced.pizza), and now [Pomerium](https://pomerium.com), where Open Source continues to be at the core of my work.
+Hi, I’m Nick Taylor ([\@nickytonline](https://nickyt.online)), a Developer Advocate and software engineer based in Montreal, Canada. Over the past several years, Open Source has been the thread connecting every chapter of my career — from learning new technologies to building communities and landing roles at companies like [Forem](https://forem.com) (the team behind [DEV](https://dev.to)), [Netlify](https://netlify.com), [OpenSauced](https://opensauced.pizza), and now [Pomerium](https://pomerium.com), where Open Source continues to be at the core of my work.
 
 ## Getting Started with Open Source
 

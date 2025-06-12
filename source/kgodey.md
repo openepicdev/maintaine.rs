@@ -64,6 +64,6 @@ This year, Maintainer Month is highlighting project security and the implication
 
 If anything here resonated—or if you just want to talk, I’d love to hear from you.
 
-You can find me on GitHub at [@kgodey](https://github.com/kgodey), [LinkedIn](https://www.linkedin.com/in/kritigodey/), or reach me by email at <kriti@mathesar.org>.
+You can find me on GitHub at [\@kgodey](https://github.com/kgodey), [LinkedIn](https://www.linkedin.com/in/kritigodey/), or reach me by email at <kriti@mathesar.org>.
 
 \newpage

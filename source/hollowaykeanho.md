@@ -180,7 +180,7 @@ there is a baseline tariff for network traffic (e.g. from
 mitigate such threat oversight?"; This question alone is suffice to cause
 enough chaos worldwide. Louis Rossman compiled a lot of toxic business practices
 for case studying on his YouTube channel
-[https://www.youtube.com/@rossmanngroup/videos](https://www.youtube.com/@rossmanngroup/videos).
+<https://www.youtube.com/@rossmanngroup/videos>.
 
 **Threat No.2** is the over reliance on the centralized supply repositories
 (as in NPM, Python PiP, DockerHub, and Rust's Cargo, and GitHub). If the
@@ -315,9 +315,9 @@ Don’t give up and stay connected! My blessing to you.
 
 **YouTube**
 
-- Soundtracks : [https://www.youtube.com/@chewkeanho-soundtracks](https://www.youtube.com/@chewkeanho-soundtracks)
-- Tech Entries: [https://www.youtube.com/@chewkeanho-tech-codex](https://www.youtube.com/@chewkeanho-soundtracks)
-- Personal : [https://www.youtube.com/@hollowaykeanho](https://www.youtube.com/@chewkeanho-soundtracks)
+- Soundtracks : <https://www.youtube.com/@chewkeanho-soundtracks>
+- Tech Entries: <https://www.youtube.com/@chewkeanho-tech-codex>
+- Personal : <https://www.youtube.com/@hollowaykeanho>
 
 **Independent Research**
 
@@ -331,7 +331,7 @@ Don’t give up and stay connected! My blessing to you.
 
 **Mastodon Social**
 
-- Main : [https://mastodon.online/@hollowaykeanho](https://mastodon.online/@hollowaykeanho)
+- Main : <https://mastodon.online/@hollowaykeanho>
 
 **BlueSky Social**
 

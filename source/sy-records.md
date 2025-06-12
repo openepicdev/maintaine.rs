@@ -4,7 +4,7 @@
 > [github.com/sy-records](https://github.com/sy-records)  
 > [maintaine.rs/sy-records](https://maintaine.rs/sy-records)
 
-I’m Luffy, a full-stack developer passionate about Open Source. You can find me on GitHub [@sy-records](https://github.com/sy-records).
+I’m Luffy, a full-stack developer passionate about Open Source. You can find me on GitHub [\@sy-records](https://github.com/sy-records).
 
 Before getting involved with Open Source, I was just an ordinary software user and a PHP developer, knowing little about the communities, collaboration, or the idea of contributing behind the scenes.
 
