@@ -36,6 +36,6 @@ Growing a community is a relatively tough challenge. Things that help are “Goo
 
 Open Source has been, and still is, a wonderful journey. I hope to keep doing it for many many years to come, and keep publishing more work even during my day-to-day job.
 
-Feel free to reach out to me on all platforms as [@freak4pc](https://github.com/freak4pc) (X, GitHub, etc.), I’d love to hear from you!
+Feel free to reach out to me on all platforms as [\@freak4pc](https://github.com/freak4pc) (X, GitHub, etc.), I’d love to hear from you!
 
 \newpage

@@ -103,6 +103,6 @@ vulnerable. If you trust AI-generated code, you may accidentally introduce vulne
 code. The most problematic is so-called vibe coding, when you don't even check what the AI has
 produced.
 
-If you're interested in what I do, you can find me on Twitter/X at [@jcubic](https://x.com/jcubic).
+If you're interested in what I do, you can find me on Twitter/X at [\@jcubic](https://x.com/jcubic).
 
 \newpage

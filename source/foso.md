@@ -40,8 +40,8 @@ In my eyes, Open Source is a shared effort. It shouldn’t have to rest on one p
 Thanks to all people contributing to Open Source, in any kind.
 
 Contact:
-Jens Klingenberg
-[https://github.com/foso](https://github.com/foso)
+Jens Klingenberg  
+[https://github.com/foso](https://github.com/foso)  
 [https://bsky.app/profile/jensklingenberg.de](https://bsky.app/profile/jensklingenberg.de)
 
 \newpage

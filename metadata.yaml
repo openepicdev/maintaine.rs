@@ -9,3 +9,6 @@ footer-right: "page \\thepage"
 toc: false
 header-includes:
   - \usepackage{eso-pic}
+  - \usepackage[normalem]{ulem}
+  - \let\oldhref\href
+  - \renewcommand{\href}[2]{\oldhref{#1}{\uline{#2}}}

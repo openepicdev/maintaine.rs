@@ -19,7 +19,7 @@ Follow the instructions from [Eisvogel](https://github.com/Wandmalfarbe/pandoc-l
 ## Generating the PDF
 
 ```bash
-pandoc ./source/*.md --pdf-engine=pdflatex --from markdown+raw_tex --toc --toc-depth=1 --template eisvogel --metadata-file=./metadata.yaml --listings -o maintainers.pdf
+pandoc ./source/*.md --pdf-engine=pdflatex --from markdown+raw_tex --template eisvogel --metadata-file=./metadata.yaml --listings -o maintainers.pdf
 ```
 
 ## License
