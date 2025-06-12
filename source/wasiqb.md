@@ -1,5 +1,9 @@
 # @wasiqb -- Wasiq Bhamla
 
+> ![](https://i0.wp.com/github.com/wasiqb.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> [github.com/wasiqb](https://github.com/wasiqb)  
+> [maintaine.rs/wasiqb](https://maintaine.rs/wasiqb)
+
 Hello Open Source community\! I’m Wasiq Bhamla, a Software Quality Assurance Engineer for more than 18 years and Open Source maintainer and contributor for almost a decade. I am passionate about building Testing tools and frameworks that empower the QA community.
 
 After I complete my job time or on my days off from work, I dive straight in to work on my Open Source projects.

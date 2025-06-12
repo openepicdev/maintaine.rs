@@ -1,5 +1,9 @@
 # @vdemeester -- Vincent Demeester
 
+> ![](https://i0.wp.com/github.com/vdemeester.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> [github.com/vdemeester](https://github.com/vdemeester)  
+> [maintaine.rs/vdemeester](https://maintaine.rs/vdemeester)
+
 I've always wanted to do Open Source, since I discovered it around 1999. The first Linux distribution I used was Red Hat Linux, and that was also my first encounter with Linux and Open Source. Little did I know that 20 years later I would work for the company that kind of introduced me to it!
 
 I initially started looking into small projects I would need in my first startup job, like `fog/fog`, but what really got me started was the Docker project. Docker organized those "contribute meetups" in different places around their "birthday" and so, I made my first pull-request to the project that way. And from that point on, I was hooked. I also got involved a bit in the Archlinux User Repository when I was using it and now in NixOS.
