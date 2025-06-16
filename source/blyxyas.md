@@ -8,7 +8,7 @@ I'm Alejandra, one of the people that maintains [Clippy](https://github.com/rust
 
 ## Who are you again?
 
-As I said, I'm one of the people that maintains Rust's official linter, Clippy. You can execute Rust's linter any time[^1] if you have [Cargo] installed via `cargo clippy`. I've been working on Clippy full time as a maintainer for about 2 years. In that time I've implemented several lints, fixed a lot of bugs, reviewed hundreds of pull requests, implemented benchmarking tools into Clippy and integrated Clippy into other benchmarking tools. Even proposed a Rust Project Goal that got accepted!
+As I said, I'm one of the people that maintains Rust's official linter, Clippy. You can execute Rust's linter any time if you have [Cargo] installed via `cargo clippy` (unless you have a `minimal` profile set in your configuration). I've been working on Clippy full time as a maintainer for about 2 years. In that time I've implemented several lints, fixed a lot of bugs, reviewed hundreds of pull requests, implemented benchmarking tools into Clippy and integrated Clippy into other benchmarking tools. Even proposed a Rust Project Goal that got accepted!
 
 While I'm not the oldest maintainer, (not even close) I have some things to say, and I think that my advice could be valuable to whoever is happy to hear it.
 
@@ -46,20 +46,20 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
 
 2. Keep your CI pipelines safe
    - You probably use CI (and if you don't, absolutely do!) as a way to test your project before launching it to the greater product, make sure that your workflow files are safe! Don't use unknown dependencies (in fact, use as little dependencies as possible), with as little external applications as possible.
-   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, [each `run` field is a weak point.](runweakpoint)
+   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, [each `run` field is a weak point.](https://github.com/advisories/GHSA-8v8w-v8xg-79rf)
 3. Better and smaller pull requests produce better code
 
    - Avoid big pull requests. Making pull requests smaller is the best strategy to improve review times, code quality and overall team mentality.
    - Pull requests under 150 lines are reviewed the fastest and thus, can fix issues the fastest.
    - As a general guideline, always think about all the boundaries that the pull request code might handle, and how to break in the worst way possible that poor contributor's code.
-   - Get in the mud, explore the deep end of your contributor's code[^2]. Break your tests, read documentation for every single one of the added functions, see if functions could be removed, check if loops could be early-returned.
+   - Get in the mud, explore the deep end of your contributor's code (You can actually fetch a remote pull request with `git fetch origin pull/$pr_num/head:$branch_name`!). Break your tests, read documentation for every single one of the added functions, see if functions could be removed, check if loops could be early-returned.
    - Don't forget to talk to your contributors about documentation!
 
 4. Use automated tooling
 
-   - This is a very simple step, don't guess about memory leaks, use a heap memory profiler (like [heaptrack]). Don't guess about memory safety, use a static
-     code analyzer or a language that has memory safety built-in (like Rust). Don't guess about the origin of something, bisect it in your program (like with [`git bisect`][bisect]).
-   - Know your system, the better you know the tools you're using the better code you'll produce and the faster you'll be able to iterate on a design. With this I don't mean learning a fancy-schmancy IDE or keyboard layout, but learning to make `perf` valuable, learning to read stack traces, learning to efficiently search throughout your documentation to find that edge case that has been bugging you out all week.
+   - This is a very simple step, don't guess about memory leaks, use a heap memory profiler (like [heaptrack](https://github.com/KDE/heaptrack)). Don't guess about memory safety, use a static
+     code analyzer or a language that has memory safety built-in (like Rust). Don't guess about the origin of something, bisect it in your program (like with [`git bisect`](https://git-scm.com/docs/git-bisect)).
+   - Know your system, the better you know the tools you're using the better code you'll produce and the faster you'll be able to iterate on a design. With this I don't mean learning a fancy-schmancy IDE or keyboard layout, but learning to make [`perf`](https://perfwiki.github.io/main/) valuable, learning to read stack traces, learning to efficiently search throughout your documentation to find that edge case that has been bugging you out all week.
 
 5. Keep learning
    - Even if your brain is huge, with the best-quality gray matter in this sector of the galaxy, there have been people before you. The big advantage we have over humans before our time is the collective knowledge that aids us to achieve excellence. Do not let your ego and pride get in the way of making great software, because precisely the way to make great software is knowing who to ask the right question to get the desired results.
@@ -77,13 +77,5 @@ First, thanks a lot for wanting to help your fellow developers! The biggest help
 ## Conclusion
 
 And that's everything I'll talk about today! I hope that you have learned something new and used your critical thinking skills to decide if these thoughts fit your mental model. Thanks for listening to my ramblings and have a great week. Peace!
-
-[^1]: (unless you have a `minimal` profile set in your configuration).
-[^2]: You can actually fetch a remote pull request with `git fetch origin pull/$pr_num/head:$branch_name`!
-
-[bisect]: https://git-scm.com/docs/git-bisect
-[heaptrack]: https://github.com/KDE/heaptrack
-[perf]: https://perfwiki.github.io/main/
-[runweakpoint]: https://github.com/advisories/GHSA-8v8w-v8xg-79rf
 
 \newpage

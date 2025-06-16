@@ -8,7 +8,7 @@ I had my first contact with Open Source development before I even knew how to pr
 
 As a student, I learned how to use Linux as my daily OS. Since it took me multiple attempts and I knew the common problems beginners face, I organized Linux install parties with fellow students to help others avoid the same issues. It was a fun way to grow the Linux community and get more people excited about Open Source tools.
 
-At that time, I also learned how to program and became interested in Android app development. I started blogging about what I was learning on [my website](<[url](https://jensklingenberg.de/)>) and shared my code samples on GitHub under an Open Source license. One of the biggest advantages while learning was being able to explore other Open Source projects to see how they tackled similar problems. The fact that Android itself is Open Source makes it even easier to dive into the actual source code and understand how things work under the hood.
+At that time, I also learned how to program and became interested in Android app development. I started blogging about what I was learning on [my website](https://jensklingenberg.de) and shared my code samples on GitHub under an Open Source license. One of the biggest advantages while learning was being able to explore other Open Source projects to see how they tackled similar problems. The fact that Android itself is Open Source makes it even easier to dive into the actual source code and understand how things work under the hood.
 
 The two biggest projects I’m maintaining are:
 
