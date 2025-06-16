@@ -71,7 +71,7 @@ Having predictable workflows and expectations can be very helpful, but there is 
 
 While process requirements can be a bit fluid, the decision-making frameworks should be more rigid. These frameworks should always focus on judging ideas based on their merit, never the identities of those who propose them. We must seek as many viewpoints as possible before making decisions.
 
-## Change is community driven
+## Change is Community Driven
 
 While only committers can merge code, they are oftentimes just a final set of eyes in a longer process. Feedback loops with users, developers, and plugin and theme authors are essential. These feedback loops when combined with direction from leadership, additional testing, documentation, iteration, and some external influence (new industry standards, versions of PHP, MySQL, etc.) drive the majority of changes in the WordPress software.
 
@@ -97,7 +97,7 @@ One of the most important duties of a Core committer is collecting feedback to d
 
 In his writings, Karl Fogel explains that consensus can be either explicit or implicit. When seeking explicit consensus, always be clear what is being proposed. When someone objects, continue the discussion until the time is right to propose a new consensus. An example of implicit consensus is when a committer finds and fixes a small bug on their own. The act of committing is assuming consensus. If anyone objects, then a discussion can be had to reach a new consensus. If one can’t be reached, version control is a wonderful tool that allows for easily reverting a change.
 
-### Disagree and commit
+### Disagree and Commit
 
 When discussing changes in Open Source, disagreement is healthy and expected. It shows that contributors are engaged and care about the software. But endlessly rehashing the same discussions is tiresome and frustrating, and often leads to burnout.
 
@@ -147,7 +147,7 @@ Let’s evaluate this feature by applying the [project’s foundational philosop
 
 The Sitemap feature introduced no new options or user controls. The only way to alter the behavior of the feature is to change a pre-existing setting in the dashboard. This setting presents the site owner with one decision: should this site be visible to search engines? The code will take appropriate action to enable or disable Sitemaps behind the scenes based on this decision.
 
-### Clean, lean, and mean/striving for simplicity
+### Clean, lean, and mean/Striving for simplicity
 
 “The core of WordPress will always provide a solid array of basic features. It’s designed to be lean and fast and will always stay that way…If the next version of WordPress comes with a feature that the majority of users immediately want to turn off, or think they’ll never use, then we’ve blown it.” In the project, this is also referred to as the 80% principle.
 
@@ -176,7 +176,7 @@ Enabling the feature by default for all WordPress sites strongly aligns with the
 
 The case study above shows how the feature strongly aligned with 6 of the 8 project philosophies. But what about the other 2? And what else should be considered when making decisions about changes to software?
 
-### “No” ≠ never
+### “No” ≠ Never
 
 Oftentimes, doing nothing is the right thing. Not all proposals deserve implementation. Perhaps there’s poor rationale, a lack of clarity, or no compelling use case. Even when changes seem good, not everything will fit into the current long-term goals of the project. In software, stability is also a feature. And backwards compatibility is sacred.
 
@@ -196,7 +196,7 @@ One advantage of being disciplined with schedules and timelines is that it can h
 
 Good communication skills are essential for Open Source maintainers. When contributors pour time and effort into a proposal or patch, they deserve transparency. This is especially important when the answer is “no.” What aspects of the change look reasonable and acceptable? Where is the rationale unclear or weak? When should they expect a window for reconsideration?
 
-### Changing our minds
+### Changing Our Minds
 
 > “In the presence of good rationale, maintainers should be willing to change their mind often” <sup>[[3](https://ometer.com/features.html)]</sup>.
 
@@ -210,7 +210,7 @@ The most important part of any decision-making framework is evaluating cost and 
 
 Even when one character or line is changed, there is still a non-zero amount of risk. Remember, stability is also a feature, and backwards compatibility is a sacred pact with users that has helped WordPress grow significantly over the last 22 years.
 
-### Some benefits of backwards compatibility
+### Some Benefits of Backwards Compatibility
 
 In many cases, the project’s commitment to backwards compatibility is a sharp tool in the toolbox for limiting the risk of breaking sites.
 
@@ -229,7 +229,7 @@ Every feature merged or bug fixed is a vote against another that could have take
 
 In some situations, a “no” can be given due to an unreasonably high opportunity cost. An example of this can be seen in the WordPress project leading up to the initial release of the new block editor in version [5.0 “Bebo.”](https://wordpress.org/news/2018/12/bebo/) It was important that as many contributors as possible were focused on the objective at hand. Many changes received a “no” answer in large part because of the amount of resources it drew away from the Gutenberg project.
 
-### Maintainers are the code they commit
+### Maintainers Are the Code They Commit
 
 > “It's easy to write a patch. It's hard to maintain a software project over the long term” <sup>[[3](https://ometer.com/features.html)]</sup>.
 
@@ -237,7 +237,7 @@ When a change is made to a code base, the committer making that change is taking
 
 The code you commit is an extension of you.
 
-## Growing your community
+## Growing Your Community
 
 Growing an Open Source project is not the focus of this essay, but expanding the pool of available contributors should be in the back of your mind with every action we take. Though unique challenges come with growth, a growing project means more resources available to squash bugs and build out features. After all, “given enough eyeballs, all bugs are shallow” <sup>[[6](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html)]</sup>.
 
@@ -255,7 +255,7 @@ When you’ve been trying to reproduce a bug with specific and obscure criteria 
 
 The incredible stories of how Open Source is changing the world often go untold. The people writing those stories are busy doing the work, fundraising, caring for others, or simply trying to get by. If you are one of those stories,take the time to share it! Tell a maintainer how their work has impacted and empowered you. If you cross paths with a maintainer of software you rely on and they’re looking for sponsorship, support them if you have the means. I promise, they will appreciate it.
 
-## Reflecting on principles
+## Reflecting on Our Principles
 
 We are all stewards of the projects we maintain, championing the guiding principles used to make decisions. No one project, maintainer, or contributor is perfect. Philosophies will be interpreted in different ways at different times, even by the same person. As maintainers, we should reflect on the decision-making frameworks we use.
 
