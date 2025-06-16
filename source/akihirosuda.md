@@ -1,7 +1,7 @@
 # @akihirosuda -- Akihiro Suda
 
 > ![](https://i0.wp.com/github.com/akihirosuda.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
-> [github.com/desrosj](https://github.com/akihirosuda)  
+> [github.com/akihirosuda](https://github.com/akihirosuda)  
 > [maintaine.rs/akihirosuda](https://maintaine.rs/akihirosuda)
 
 I'm [Akihiro Suda](https://github.com/AkihiroSuda), a software engineer at [NTT](https://www.rd.ntt/e/) in Japan.
