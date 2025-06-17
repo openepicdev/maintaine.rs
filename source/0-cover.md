@@ -15,7 +15,7 @@ The **maintaine.rs** book is a curated collection of stories from top Open Sourc
 
 All stories are licensed under Creative Commons Attribution-ShareAlike (CC BY-SA). Attribution belongs to each individual author.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CC_BY-SA_icon.svg/88px-CC_BY-SA_icon.svg.png)
+![](source/cc.png)
 
 \newpage
 \setcounter{tocdepth}{1}
