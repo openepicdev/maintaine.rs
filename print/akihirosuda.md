@@ -1,6 +1,6 @@
 # @akihirosuda -- Akihiro Suda
 
-> ![](https://i0.wp.com/github.com/akihirosuda.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/akihirosuda.png){ width=64px height=64px }  
 > [github.com/akihirosuda](https://github.com/akihirosuda)  
 > [maintaine.rs/akihirosuda](https://maintaine.rs/akihirosuda)
 

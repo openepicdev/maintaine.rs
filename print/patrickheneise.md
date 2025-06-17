@@ -1,6 +1,6 @@
 # @patrickheneise -- Patrick Heneise
 
-> ![](https://i0.wp.com/github.com/patrickheneise.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/patrickheneise.png){ width=64px height=64px }  
 > [github.com/patrickheneise](https://github.com/patrickheneise)  
 > [maintaine.rs/patrickheneise](https://maintaine.rs/patrickheneise)
 

@@ -1,6 +1,6 @@
 # @srinivasantarget -- Srinivasan Sekar
 
-> ![](https://i0.wp.com/github.com/srinivasantarget.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/srinivasantarget.png){ width=64px height=64px }  
 > [github.com/srinivasantarget](https://github.com/srinivasantarget)  
 > [maintaine.rs/srinivasantarget](https://maintaine.rs/srinivasantarget)
 

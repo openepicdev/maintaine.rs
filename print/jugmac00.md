@@ -1,6 +1,6 @@
 # @jugmac00 -- Jürgen Gmach
 
-> ![](https://i0.wp.com/github.com/jugmac00.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/jugmac00.png){ width=64px height=64px }  
 > [github.com/jugmac00](https://github.com/jugmac00)  
 > [maintaine.rs/jugmac00](https://maintaine.rs/jugmac00)
 

@@ -1,6 +1,6 @@
 # @desrosj -- Jonathan Desrosiers
 
-> ![](https://i0.wp.com/github.com/desrosj.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/desrosj.png){ width=64px height=64px }  
 > [github.com/desrosj](https://github.com/desrosj)  
 > [maintaine.rs/desrosj](https://maintaine.rs/desrosj)
 

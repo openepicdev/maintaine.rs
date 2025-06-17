@@ -1,6 +1,6 @@
 # @foso -- Jens Klingenberg
 
-> ![](https://i0.wp.com/github.com/foso.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/foso.png){ width=64px height=64px }  
 > [github.com/foso](https://github.com/foso)  
 > [maintaine.rs/foso](https://maintaine.rs/foso)
 

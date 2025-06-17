@@ -1,6 +1,6 @@
 # @notmyfault -- Alexander Brandes
 
-> ![](https://i0.wp.com/github.com/notmyfault.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/notmyfault.png){ width=64px height=64px }  
 > [github.com/notmyfault](https://github.com/notmyfault)  
 > [maintaine.rs/notmyfault](https://maintaine.rs/notmyfault)
 

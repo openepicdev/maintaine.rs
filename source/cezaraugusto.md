@@ -1,6 +1,6 @@
 # @cezaraugusto -- Cezar Augusto
 
-> ![](https://i0.wp.com/github.com/cezaraugusto.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/cezaraugusto.png){ width=64px height=64px }  
 > [github.com/cezaraugusto](https://github.com/cezaraugusto)  
 > [maintaine.rs/cezaraugusto](https://maintaine.rs/cezaraugusto)
 

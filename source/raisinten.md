@@ -1,6 +1,6 @@
 # @raisinten -- Darshan Sen
 
-> ![](https://i0.wp.com/github.com/raisinten.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/raisinten.png){ width=64px height=64px }  
 > [github.com/raisinten](https://github.com/raisinten)  
 > [maintaine.rs/raisinten](https://maintaine.rs/raisinten)
 

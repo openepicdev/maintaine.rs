@@ -1,6 +1,6 @@
 # @blyxyas -- Alejandra Gonzalez
 
-> ![](https://i0.wp.com/github.com/blyxyas.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/blyxyas.png){ width=64px height=64px }  
 > [github.com/blyxyas](https://github.com/blyxyas)  
 > [maintaine.rs/blyxyas](https://maintaine.rs/blyxyas)
 

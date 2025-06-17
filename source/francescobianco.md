@@ -1,6 +1,6 @@
 # @francescobianco -- Francesco Bianco
 
-> ![](https://i0.wp.com/github.com/francescobianco.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/francescobianco.png){ width=64px height=64px }  
 > [github.com/francescobianco](https://github.com/francescobianco)  
 > [maintaine.rs/francescobianco](https://maintaine.rs/francescobianco)
 

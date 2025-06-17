@@ -1,6 +1,6 @@
 # @saikrishna321 -- Sai Krishna
 
-> ![](https://i0.wp.com/github.com/saikrishna321.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/saikrishna321.png){ width=64px height=64px }  
 > [github.com/saikrishna321](https://github.com/saikrishna321)  
 > [maintaine.rs/saikrishna321](https://maintaine.rs/saikrishna321)
 

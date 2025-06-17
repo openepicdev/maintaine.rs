@@ -1,10 +1,10 @@
 # @mte90 -- Daniele Scasciafratte
 
-> ![](https://i0.wp.com/github.com/mte90.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/mte90.png){ width=64px height=64px }  
 > [github.com/mte90](https://github.com/mte90)  
 > [maintaine.rs/mte90](https://maintaine.rs/mte90)
 
-My name is Daniele Scasciafratte, and I started contributing to Open Source projects over ten years ago. 
+My name is Daniele Scasciafratte, and I started contributing to Open Source projects over ten years ago.
 My journey began in 2013 with Mozilla and in 2015 with WordPress, where I took on various roles and participated in different activities.
 
 At Mozilla as an example, I was part of the Mozilla Reps council for two years and contributed to numerous projects, from community management to development. My name is listed in the about:credits section of Firefox and on the monuments outside their San Francisco office.

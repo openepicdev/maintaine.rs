@@ -1,6 +1,6 @@
 # @drmohundro -- David Mohundro
 
-> ![](https://i0.wp.com/github.com/drmohundro.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/drmohundro.png){ width=64px height=64px }  
 > [github.com/drmohundro](https://github.com/drmohundro)  
 > [maintaine.rs/drmohundro](https://maintaine.rs/drmohundro)
 

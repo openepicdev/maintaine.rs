@@ -1,6 +1,6 @@
 # @skywinder -- Petr Korolev
 
-> ![](https://i0.wp.com/github.com/skywinder.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/skywinder.png){ width=64px height=64px }  
 > [github.com/skywinder](https://github.com/skywinder)  
 > [maintaine.rs/skywinder](https://maintaine.rs/skywinder)
 

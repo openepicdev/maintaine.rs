@@ -1,6 +1,6 @@
 # Introduction
 
-> ![](https://i0.wp.com/github.com/nickvidal.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/nickvidal.png){ width=64px height=64px }  
 > [github.com/nickvidal](https://github.com/nickvidal)  
 > [maintaine.rs/nickvidal](https://maintaine.rs/nickvidal)
 

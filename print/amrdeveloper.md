@@ -1,6 +1,6 @@
 # @amrdeveloper -- Amr Hesham
 
-> ![](https://i0.wp.com/github.com/amrdeveloper.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/amrdeveloper.png){ width=64px height=64px }  
 > [github.com/amrdeveloper](https://github.com/amrdeveloper)  
 > [maintaine.rs/amrdeveloper](https://maintaine.rs/amrdeveloper)
 

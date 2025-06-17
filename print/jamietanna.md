@@ -1,6 +1,6 @@
 # @jamietanna -- Jamie Tanna
 
-> ![](https://i0.wp.com/github.com/jamietanna.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/jamietanna.png){ width=64px height=64px }  
 > [github.com/jamietanna](https://github.com/jamietanna)  
 > [maintaine.rs/jamietanna](https://maintaine.rs/jamietanna)
 

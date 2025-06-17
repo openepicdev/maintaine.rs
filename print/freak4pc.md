@@ -1,6 +1,6 @@
 # @freak4pc -- Shai Mishali
 
-> ![](https://i0.wp.com/github.com/freak4pc.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/freak4pc.png){ width=64px height=64px }  
 > [github.com/freak4pc](https://github.com/freak4pc)  
 > [maintaine.rs/freak4pc](https://maintaine.rs/freak4pc)
 

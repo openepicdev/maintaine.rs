@@ -1,6 +1,6 @@
 # @hzoo -- Henry Zhu
 
-> ![](https://i0.wp.com/github.com/hzoo.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/hzoo.png){ width=64px height=64px }  
 > [github.com/hzoo](https://github.com/hzoo)  
 > [maintaine.rs/hzoo](https://maintaine.rs/hzoo)
 

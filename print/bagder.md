@@ -1,6 +1,6 @@
 # @bagder -- Daniel Stenberg
 
-> ![](https://i0.wp.com/github.com/bagder.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/bagder.png){ width=64px height=64px }  
 > [github.com/bagder](https://github.com/bagder)  
 > [maintaine.rs/bagder](https://maintaine.rs/bagder)
 
