@@ -16,10 +16,12 @@ sudo apt install texlive texlive-latex-extra
 
 Follow the instructions from [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) to install the template.
 
-## Generating the PDF
+## Generating the PDFs
+
+This script generates two versions of the PDF: one optimized for online viewing with clickable inline links, and another formatted for print with footnotes.
 
 ```bash
-pandoc ./source/*.md --pdf-engine=pdflatex --from markdown+raw_tex --template eisvogel --metadata-file=./metadata.yaml --listings -o maintainers.pdf
+python3 generate_pdf.py
 ```
 
 ## License
