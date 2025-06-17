@@ -1,6 +1,6 @@
 # @shazow -- Andrey Petrov
 
-> ![](https://i0.wp.com/github.com/shazow.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/shazow.png){ width=64px height=64px }  
 > [github.com/shazow](https://github.com/shazow)  
 > [maintaine.rs/shazow](https://maintaine.rs/shazow)
 

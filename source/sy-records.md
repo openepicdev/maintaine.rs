@@ -1,6 +1,6 @@
 # @sy-records -- Lu Fei
 
-> ![](https://i0.wp.com/github.com/sy-records.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/sy-records.png){ width=64px height=64px }  
 > [github.com/sy-records](https://github.com/sy-records)  
 > [maintaine.rs/sy-records](https://maintaine.rs/sy-records)
 

@@ -1,6 +1,6 @@
 # @thomaspoignant -- Thomas Poignant
 
-> ![](https://i0.wp.com/github.com/thomaspoignant.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/thomaspoignant.png){ width=64px height=64px }  
 > [github.com/thomaspoignant](https://github.com/thomaspoignant)  
 > [maintaine.rs/thomaspoignant](https://maintaine.rs/thomaspoignant)
 

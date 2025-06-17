@@ -1,6 +1,6 @@
 # @alex -- Alex Gaynor
 
-> ![](https://i0.wp.com/github.com/alex.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/alex.png){ width=64px height=64px }  
 > [github.com/alex](https://github.com/alex)  
 > [maintaine.rs/alex](https://maintaine.rs/alex)
 

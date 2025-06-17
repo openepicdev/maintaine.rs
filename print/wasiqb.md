@@ -1,6 +1,6 @@
 # @wasiqb -- Wasiq Bhamla
 
-> ![](https://i0.wp.com/github.com/wasiqb.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/wasiqb.png){ width=64px height=64px }  
 > [github.com/wasiqb](https://github.com/wasiqb)  
 > [maintaine.rs/wasiqb](https://maintaine.rs/wasiqb)
 

@@ -1,6 +1,6 @@
 # @camilamaia -- Camila Maia
 
-> ![](https://i0.wp.com/github.com/camilamaia.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/camilamaia.png){ width=64px height=64px }  
 > [github.com/camilamaia](https://github.com/camilamaia)  
 > [maintaine.rs/camilamaia](https://maintaine.rs/camilamaia)
 

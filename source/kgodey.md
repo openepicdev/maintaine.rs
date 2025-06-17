@@ -1,6 +1,6 @@
 # @kgodey -- Kriti Godey
 
-> ![](https://i0.wp.com/github.com/kgodey.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/kgodey.png){ width=64px height=64px }  
 > [github.com/kgodey](https://github.com/kgodey)  
 > [maintaine.rs/kgodey](https://maintaine.rs/kgodey)
 

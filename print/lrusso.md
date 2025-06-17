@@ -1,6 +1,6 @@
 # @lrusso -- Leonardo Javier Russo
 
-> ![](https://i0.wp.com/github.com/lrusso.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/lrusso.png){ width=64px height=64px }  
 > [github.com/lrusso](https://github.com/lrusso)  
 > [maintaine.rs/lrusso](https://maintaine.rs/lrusso)
 

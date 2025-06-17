@@ -1,6 +1,6 @@
 # @sabderemane -- Sarah Abderemane
 
-> ![](https://i0.wp.com/github.com/sabderemane.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/sabderemane.png){ width=64px height=64px }  
 > [github.com/sabderemane](https://github.com/sabderemane)  
 > [maintaine.rs/sabderemane](https://maintaine.rs/sabderemane)
 

@@ -1,6 +1,6 @@
 # @atodorov -- Alexander Todorov
 
-> ![](https://i0.wp.com/github.com/atodorov.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/atodorov.png){ width=64px height=64px }  
 > [github.com/atodorov](https://github.com/atodorov)  
 > [maintaine.rs/atodorov](https://maintaine.rs/atodorov)
 

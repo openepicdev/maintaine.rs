@@ -1,6 +1,6 @@
 # @raphael -- Raphaël Simon
 
-> ![](https://i0.wp.com/github.com/raphael.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/raphael.png){ width=64px height=64px }  
 > [github.com/raphael](https://github.com/raphael)  
 > [maintaine.rs/raphael](https://maintaine.rs/raphael)
 

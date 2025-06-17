@@ -1,6 +1,6 @@
 # @jbednar -- James A. Bednar
 
-> ![](https://i0.wp.com/github.com/jbednar.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/jbednar.png){ width=64px height=64px }  
 > [github.com/jbednar](https://github.com/jbednar)  
 > [maintaine.rs/jbednar](https://maintaine.rs/jbednar)
 

@@ -1,6 +1,6 @@
 # @delta456 -- Swastik Baranwal
 
-> ![](https://i0.wp.com/github.com/delta456.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/delta456.png){ width=64px height=64px }  
 > [github.com/delta456](https://github.com/delta456)  
 > [maintaine.rs/delta456](https://maintaine.rs/delta456)
 

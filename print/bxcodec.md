@@ -1,6 +1,6 @@
 # @bxcodec -- Iman Tumorang
 
-> ![](https://i0.wp.com/github.com/bxcodec.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/bxcodec.png){ width=64px height=64px }  
 > [github.com/bxcodec](https://github.com/bxcodec)  
 > [maintaine.rs/bxcodec](https://maintaine.rs/bxcodec)
 

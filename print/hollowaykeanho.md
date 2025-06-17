@@ -1,6 +1,6 @@
 # @hollowaykeanho -- (Holloway) Chew Kean Ho
 
-> ![](https://i0.wp.com/github.com/hollowaykeanho.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/hollowaykeanho.png){ width=64px height=64px }  
 > [github.com/hollowaykeanho](https://github.com/hollowaykeanho)  
 > [maintaine.rs/hollowaykeanho](https://maintaine.rs/hollowaykeanho)
 

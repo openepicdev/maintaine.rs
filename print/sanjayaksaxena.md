@@ -1,6 +1,6 @@
 # @sanjayaksaxena -- Sanjaya Kumar Saxena
 
-> ![](https://i0.wp.com/github.com/sanjayaksaxena.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/sanjayaksaxena.png){ width=64px height=64px }  
 > [github.com/sanjayaksaxena](https://github.com/sanjayaksaxena)  
 > [maintaine.rs/sanjayaksaxena](https://maintaine.rs/sanjayaksaxena)
 

@@ -1,6 +1,6 @@
 # @fabiocaccamo -- Fabio Caccamo
 
-> ![](https://i0.wp.com/github.com/fabiocaccamo.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/fabiocaccamo.png){ width=64px height=64px }  
 > [github.com/fabiocaccamo](https://github.com/fabiocaccamo)  
 > [maintaine.rs/fabiocaccamo](https://maintaine.rs/fabiocaccamo)
 

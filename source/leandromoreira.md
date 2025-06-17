@@ -1,6 +1,6 @@
 # @leandromoreira -- Leandro Moreira
 
-> ![](https://i0.wp.com/github.com/leandromoreira.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/leandromoreira.png){ width=64px height=64px }  
 > [github.com/leandromoreira](https://github.com/leandromoreira)  
 > [maintaine.rs/leandromoreira](https://maintaine.rs/leandromoreira)
 

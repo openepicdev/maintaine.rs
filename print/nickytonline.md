@@ -1,6 +1,6 @@
 # @nickytonline -- Nick Taylor
 
-> ![](https://i0.wp.com/github.com/nickytonline.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/nickytonline.png){ width=64px height=64px }  
 > [github.com/nickytonline](https://github.com/nickytonline)  
 > [maintaine.rs/nickytonline](https://maintaine.rs/nickytonline)
 

@@ -1,6 +1,6 @@
 # @jviotti -- Juan Cruz Viotti
 
-> ![](https://i0.wp.com/github.com/jviotti.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/jviotti.png){ width=64px height=64px }  
 > [github.com/jviotti](https://github.com/jviotti)  
 > [maintaine.rs/jviotti](https://maintaine.rs/jviotti)
 

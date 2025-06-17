@@ -1,6 +1,6 @@
 # @pradumnasaraf -- Pradumna Saraf
 
-> ![](https://i0.wp.com/github.com/pradumnasaraf.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/pradumnasaraf.png){ width=64px height=64px }  
 > [github.com/pradumnasaraf](https://github.com/pradumnasaraf)  
 > [maintaine.rs/pradumnasaraf](https://maintaine.rs/pradumnasaraf)
 

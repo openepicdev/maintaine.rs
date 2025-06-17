@@ -1,6 +1,6 @@
 # @mikemcquaid -- Mike McQuaid
 
-> ![](https://i0.wp.com/github.com/mikemcquaid.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/mikemcquaid.png){ width=64px height=64px }  
 > [github.com/mikemcquaid](https://github.com/mikemcquaid)  
 > [maintaine.rs/mikemcquaid](https://maintaine.rs/mikemcquaid)
 

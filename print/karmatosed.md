@@ -1,6 +1,6 @@
 # @karmatosed -- Tammie Lister
 
-> ![](https://i0.wp.com/github.com/karmatosed.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/karmatosed.png){ width=64px height=64px }  
 > [github.com/karmatosed](https://github.com/karmatosed)  
 > [maintaine.rs/karmatosed](https://maintaine.rs/karmatosed)
 

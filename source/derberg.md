@@ -1,6 +1,6 @@
 # @derberg -- Lukasz Gornicki
 
-> ![](https://i0.wp.com/github.com/derberg.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/derberg.png){ width=64px height=64px }  
 > [github.com/derberg](https://github.com/derberg)  
 > [maintaine.rs/derberg](https://maintaine.rs/derberg)
 
@@ -26,7 +26,7 @@ This is a long story to tell. In short, by putting the community first and every
 
 - **Dedicated participation in mentorships** ([GitHub](https://github.com/asyncapi/community/tree/master/mentorship)). We also set up our own mentorship program. We're pushing for a new concept we call `Maintainership`, which focuses not on creating new projects but on mentoring people on how to become a maintainer and how complex and responsible a role it is.
 - **AsyncAPI Conference** ([conference.asyncapi.com](https://conference.asyncapi.com/)) – rather than a single annual event that requires extensive travel, we hold multiple events and host smaller sessions at well-established conferences. This approach allows us to reach a larger, more diverse audience in different locations. I recommend you [read in detail how from an online one-day event we scaled to most of the continents with multiple events a year](https://www.brainfart.dev/blog/foss-grow-through-events) so you can learn how such an approach can help you gain funding for the projects and friends that help to scale your community.
-- Build a program that recognizes people who promote your project. Call it Ambassador, Champion, Hero, Jedi - whatever you like, just recognize these people and give them space. You will never be able to promote the project alone as much as in a group of various influencers. Our [Ambassador program](https://www.asyncapi.com/community/ambassadors) gathers people who talk about AsyncAPI at conferences, record videos, write articles - basically create publicly available content. 
+- Build a program that recognizes people who promote your project. Call it Ambassador, Champion, Hero, Jedi - whatever you like, just recognize these people and give them space. You will never be able to promote the project alone as much as in a group of various influencers. Our [Ambassador program](https://www.asyncapi.com/community/ambassadors) gathers people who talk about AsyncAPI at conferences, record videos, write articles - basically create publicly available content.
 
 We also run other community programs.
 

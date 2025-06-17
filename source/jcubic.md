@@ -1,6 +1,6 @@
 # @jcubic -- Jakub T. Jankiewicz
 
-> ![](https://i0.wp.com/github.com/jcubic.png?resize=200%2C200&ssl=1){ width=64px height=64px }  
+> ![](https://github.com/jcubic.png){ width=64px height=64px }  
 > [github.com/jcubic](https://github.com/jcubic)  
 > [maintaine.rs/jcubic](https://maintaine.rs/jcubic)
 
