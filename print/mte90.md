@@ -22,9 +22,9 @@ The effect that open source can have to the world but at same time to your caree
 
 ## **What projects are you involved in?**
 
-Currently, I am serving my second term on the council of the Italian Linux Society[^174] and am part of the maintainer group for the Amber language[^175].
+Currently, I am serving my second term on the council of the Italian Linux Society[^175] and am part of the maintainer group for the Amber language[^176].
 
-Additionally, I have written a free and Open Source book titled "Contribute to Open Source the Right Way," available here[^176], and I am working on the fourth edition.
+Additionally, I have written a free and Open Source book titled "Contribute to Open Source the Right Way," available here[^177], and I am working on the fourth edition.
 
 ## **How do you grow your community?**
 
@@ -58,6 +58,6 @@ AI can be a great support in Open Source development, but you can't blindly trus
 \newpage
 
 
-[^174]: https://www.ils.org/
-[^175]: https://amber-lang.com/
-[^176]: https://daniele.tech/2022/09/contribute-to-open-source-the-right-way-3rd-edition/
+[^175]: https://www.ils.org/
+[^176]: https://amber-lang.com/
+[^177]: https://daniele.tech/2022/09/contribute-to-open-source-the-right-way-3rd-edition/

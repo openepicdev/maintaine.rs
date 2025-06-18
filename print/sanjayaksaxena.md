@@ -4,23 +4,23 @@
 > [github.com/sanjayaksaxena](https://github.com/sanjayaksaxena)  
 > [maintaine.rs/sanjayaksaxena](https://maintaine.rs/sanjayaksaxena)
 
-Open Source is not just about code availability—it is a powerful philosophy of collaborative innovation. To me, as a builder, tinkerer, and maintainer of the winkJS[^155] project in Javascript and its flagship library winkNLP[^156], Open Source represents freedom with responsibility. My builder instinct thrives in the freedom to create transparent solutions, my tinkerer spirit relishes the ability to continuously improve what others have started, and my maintainer mindset embraces the responsibility to ensure security, performance, and reliability for all users.
+Open Source is not just about code availability—it is a powerful philosophy of collaborative innovation. To me, as a builder, tinkerer, and maintainer of the winkJS[^156] project in Javascript and its flagship library winkNLP[^157], Open Source represents freedom with responsibility. My builder instinct thrives in the freedom to create transparent solutions, my tinkerer spirit relishes the ability to continuously improve what others have started, and my maintainer mindset embraces the responsibility to ensure security, performance, and reliability for all users.
 
-Beyond popularity[^157], industry recognition[^158] or compliance achievements[^159], what drives me is the opportunity to advance collective knowledge rather than serve corporate interests alone—creating tools that honor diverse skills and contributions equally in the process.
+Beyond popularity[^158], industry recognition[^159] or compliance achievements[^160], what drives me is the opportunity to advance collective knowledge rather than serve corporate interests alone—creating tools that honor diverse skills and contributions equally in the process.
 
 ## Proprietary Roots to Open Source
 
 My engagement with Open Source began when I was in my 50s, and it contrasts with my early years in software development. Starting my career in the early 1980s in India, I found myself in a setting that was dominated by closed-source, proprietary systems.
 
-The turning point arrived in the 2010s during my involvement in analytics and NLP projects, notably one designed to assist Indian farmers[^160]. Presenting our analytics-driven NLP research at international conferences made me question why we were limiting these innovations to academic circles instead of Open Sourcing them—a realization that fundamentally transformed my approach to technology development.
+The turning point arrived in the 2010s during my involvement in analytics and NLP projects, notably one designed to assist Indian farmers[^161]. Presenting our analytics-driven NLP research at international conferences made me question why we were limiting these innovations to academic circles instead of Open Sourcing them—a realization that fundamentally transformed my approach to technology development.
 
-Inspired by this shift in perspective, the core team members at the organisation I co-founded—Prateek[^161], Rachna[^162] and I—began to wonder, “Why not Open Source?” This simple yet powerful question sparked a journey toward creating the Open Source project winkJS.
+Inspired by this shift in perspective, the core team members at the organisation I co-founded—Prateek[^162], Rachna[^163] and I—began to wonder, “Why not Open Source?” This simple yet powerful question sparked a journey toward creating the Open Source project winkJS.
 
 ## License, Philosophy, and the True Meaning of “Open”
 
 Initially, we Open Sourced smaller NLP and machine learning utilities under the AGPLv3 license, before ambitiously moving forward to develop an integrated NLP tool—winkNLP. Soon, however, we were confronted with a philosophical dilemma: the somewhat restrictive copyleft nature of AGPLv3 inadvertently limited the freedom of developers, contradicting our initial purpose.
 
-An intense internal debate about what "open" genuinely means led us to a critical realization: genuine contribution to Open Source has to originate from within—it can't be mandated through restrictive licensing. In a pivotal moment of clarity, winkJS transitioned to the MIT license[^163], embracing a philosophy that genuinely aligned with our vision.
+An intense internal debate about what "open" genuinely means led us to a critical realization: genuine contribution to Open Source has to originate from within—it can't be mandated through restrictive licensing. In a pivotal moment of clarity, winkJS transitioned to the MIT license[^164], embracing a philosophy that genuinely aligned with our vision.
 
 This wasn’t merely a licensing change—it was a commitment to trusting the community, honoring collaboration, and embodying the true spirit of Open Source.
 
@@ -30,7 +30,7 @@ Our MIT license adoption coincided with an unwavering commitment to development 
 
 This rigor proved invaluable when the tests caught a critical security issue known as Regular Expression Denial of Service (ReDoS)—a vulnerability where malicious inputs can drastically slow down or halt software—in one of the regular expressions used by winkNLP’s tokenization engine, a core component responsible for breaking text into meaningful units.
 
-Our coding guidelines[^164] addressed everything from basic security practices—prohibiting eval() and mandating Object.create()—to sophisticated protections against ReDoS attacks. Perhaps our most consequential decision was eliminating external dependencies entirely from winkNLP, dramatically enhancing security while enabling precise performance optimization.
+Our coding guidelines[^165] addressed everything from basic security practices—prohibiting eval() and mandating Object.create()—to sophisticated protections against ReDoS attacks. Perhaps our most consequential decision was eliminating external dependencies entirely from winkNLP, dramatically enhancing security while enabling precise performance optimization.
 
 Contributors embraced these standards with impressive dedication. One even went so far as to refactor their implementation multiple times and add thorough tests—demonstrating a level of care and commitment that reflects the values we strive to uphold.
 
@@ -38,7 +38,7 @@ After releasing winkNLP, discovering the OpenSSF Best Practices Guidelines was a
 
 ## And the Journey Continues
 
-The work continues today with winkComposer[^165]—a real-time streaming-analytics framework. Just as our earlier work in NLP aimed to democratize language processing, winkComposer seeks to transform how developers work with continuous streams of data. The philosophy remains consistent: create tools that are open, reliable, and useful.
+The work continues today with winkComposer[^166]—a real-time streaming-analytics framework. Just as our earlier work in NLP aimed to democratize language processing, winkComposer seeks to transform how developers work with continuous streams of data. The philosophy remains consistent: create tools that are open, reliable, and useful.
 
 Processing millions of tokens per second without dependencies taught me lean design; that experience now shapes my streaming engine. This evolution reflects my own growth as a developer. The lessons learned from building secure, dependency-free libraries guide how I approach streaming analytics—creating lightweight, modular components—robust enough for finance yet lean enough for IoT gateways.
 
@@ -48,7 +48,7 @@ What excites me most is how winkComposer combines statistical methods, narrow AI
 
 Embracing Open Source has instilled in me an appreciation for what it means to have freedom with responsibility, and it has been inspirational to witness how community engagement amplifies innovation. My advice to maintainers, both experienced and new, is straightforward: embrace openness, rigorously uphold your project’s standards, and trust the community. High standards are never barriers; rather, they inspire trust and collective excellence.
 
-Ultimately, Open Source isn't just about writing code—it's about shaping an equitable technological future, collaboratively and transparently. I warmly invite anyone who shares this vision to join, contribute, and build alongside us—join winkComposer’s discussions[^166] or [write to me](mailto:sanjaya@graype.in) directly. Together, our collective efforts can create solutions that transcend individual capabilities and genuinely serve the community.
+Ultimately, Open Source isn't just about writing code—it's about shaping an equitable technological future, collaboratively and transparently. I warmly invite anyone who shares this vision to join, contribute, and build alongside us—join winkComposer’s discussions[^167] or [write to me](mailto:sanjaya@graype.in) directly. Together, our collective efforts can create solutions that transcend individual capabilities and genuinely serve the community.
 
 **Contact information**
 
@@ -58,15 +58,15 @@ Ultimately, Open Source isn't just about writing code—it's about shaping an eq
 \newpage
 
 
-[^155]: https://github.com/winkjs
-[^156]: https://github.com/winkjs/wink-nlp
-[^157]: https://www.star-history.com/#winkjs/wink-nlp&Date
-[^158]: https://www.linkedin.com/posts/nasscom-ai_enterprise-nasscomaigc2023-nasscomai-activity-7227576407755735040-QcpL
-[^159]: https://www.bestpractices.dev/en/projects/6035
-[^160]: https://winkjs.org/blog/nlp-in-agriculture.html
-[^161]: https://github.com/prtksxna
-[^162]: https://github.com/rachnachakraborty
-[^163]: https://winkjs.org/blog/a-more-permissive-license.html
-[^164]: https://github.com/winkjs/wink-nlp/blob/master/CONTRIBUTING.md
-[^165]: https://github.com/winkjs/wink-composer
-[^166]: https://github.com/winkjs/wink-composer/discussions
+[^156]: https://github.com/winkjs
+[^157]: https://github.com/winkjs/wink-nlp
+[^158]: https://www.star-history.com/#winkjs/wink-nlp&Date
+[^159]: https://www.linkedin.com/posts/nasscom-ai_enterprise-nasscomaigc2023-nasscomai-activity-7227576407755735040-QcpL
+[^160]: https://www.bestpractices.dev/en/projects/6035
+[^161]: https://winkjs.org/blog/nlp-in-agriculture.html
+[^162]: https://github.com/prtksxna
+[^163]: https://github.com/rachnachakraborty
+[^164]: https://winkjs.org/blog/a-more-permissive-license.html
+[^165]: https://github.com/winkjs/wink-nlp/blob/master/CONTRIBUTING.md
+[^166]: https://github.com/winkjs/wink-composer
+[^167]: https://github.com/winkjs/wink-composer/discussions

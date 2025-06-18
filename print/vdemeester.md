@@ -16,10 +16,10 @@ For me, Open Source is "the way" to do things. I truly believe in sharing common
 
 I am involved in a bunch of projects, some more than the others, but the highlights are:
 
-- The TektonCD project[^149], where I am one of the main contributors and a governance member. I am also the architect of our product based on top, OpenShift Pipelines[^150].
-- The Moby project[^151] and the Docker project[^152]. I have been a main contributor for years, and I am now a little less active.
-- The Traefik project[^153], where I was one of the first contributors—well, the second.
-- The NixOS project[^154], where I am maintaining a bunch of packages.
+- The TektonCD project[^150], where I am one of the main contributors and a governance member. I am also the architect of our product based on top, OpenShift Pipelines[^151].
+- The Moby project[^152] and the Docker project[^153]. I have been a main contributor for years, and I am now a little less active.
+- The Traefik project[^154], where I was one of the first contributors—well, the second.
+- The NixOS project[^155], where I am maintaining a bunch of packages.
 
 ## Nurturing Communities and Overcoming Hurdles
 
@@ -60,9 +60,9 @@ I am not sure it is clear yet what impact Artificial Intelligence (AI) will have
 \newpage
 
 
-[^149]: https://github.com/tektoncd
-[^150]: https://github.com/openshift-pipelines
-[^151]: https://github.com/moby
-[^152]: https://github.com/docker
-[^153]: https://github.com/traefik/
-[^154]: https://github.com/NixOS
+[^150]: https://github.com/tektoncd
+[^151]: https://github.com/openshift-pipelines
+[^152]: https://github.com/moby
+[^153]: https://github.com/docker
+[^154]: https://github.com/traefik/
+[^155]: https://github.com/NixOS

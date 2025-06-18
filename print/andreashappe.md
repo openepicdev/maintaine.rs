@@ -8,9 +8,9 @@ Hi, I am Andreas, living in Vienna, Austria. I'm a developer gone penetration-te
 
 **What Projects are you currently involved in?**
 
-Currently I work on hackingBuddyGPT[^167] and cochise[^168]: both are research projects that use LLMs to hack real systems. These projects enable security practitioners to experiment with using LLMs in very few lines of code. In the long term, I believe that LLMs will democratize access to security testing.
+Currently I work on hackingBuddyGPT[^168] and cochise[^169]: both are research projects that use LLMs to hack real systems. These projects enable security practitioners to experiment with using LLMs in very few lines of code. In the long term, I believe that LLMs will democratize access to security testing.
 
-I am also one of the leaders for two OWASP[^169] projects: the Top 10 Proactive Controls[^170] and the upcoming OT Top 10[^171]. The Proactive Top 10s describe common security measures and techniques that software developers should be aware of. I am not happy that we typically only highlight how to attack systems and not show how to better protect ourselves.
+I am also one of the leaders for two OWASP[^170] projects: the Top 10 Proactive Controls[^171] and the upcoming OT Top 10[^172]. The Proactive Top 10s describe common security measures and techniques that software developers should be aware of. I am not happy that we typically only highlight how to attack systems and not show how to better protect ourselves.
 
 The OT Top 10 are currently under development. OT stands for Operational Technology, typically this is technology that controls some sort of physical process. Think factory floors, power networks, etc. We need to improve the security of these critical infrastructure systems.
 
@@ -18,7 +18,7 @@ The OT Top 10 are currently under development. OT stands for Operational Technol
 
 I don't understand the question.
 
-I was learning to code in the late 90s, living in Austria's country-side. People were talking about this new thing, Linux, and I became intrigued. Online, I found my tribe and have been a proponent of FOSS since. David Roe's awesome [firstcommit.js](https://firstcommit.js) gives my first commit as a documentation/configuration fix for the linux kernel in 2000[^172] (although I believe that this commit happened around 2003/2004).
+I was learning to code in the late 90s, living in Austria's country-side. People were talking about this new thing, Linux, and I became intrigued. Online, I found my tribe and have been a proponent of FOSS since. David Roe's awesome [firstcommit.js](https://firstcommit.js) gives my first commit as a documentation/configuration fix for the linux kernel in 2000[^173] (although I believe that this commit happened around 2003/2004).
 
 How do I feel about Open Source? How does a fish feel about water? Open Source and its community has been a big influence on my life. This is true for most of us, some of us might just not know that yet.
 
@@ -30,7 +30,7 @@ I see two two challenges:
 
 1. Maintaining Trust
 
-   Sophisticated attacks[^173] against OSS maintainers erode the trust that is fundamental for online collaboration. Collaboration is the life blood of OSS, so we have to take this threat very seriously. If you think about it, other hyped security problems such as Supply-Chain Attacks (attacks against your dependencies) also boil down to trusting your dependencies' maintainers. Getting to know them (including face-to-face contact) is thus becoming more and more important.
+   Sophisticated attacks[^174] against OSS maintainers erode the trust that is fundamental for online collaboration. Collaboration is the life blood of OSS, so we have to take this threat very seriously. If you think about it, other hyped security problems such as Supply-Chain Attacks (attacks against your dependencies) also boil down to trusting your dependencies' maintainers. Getting to know them (including face-to-face contact) is thus becoming more and more important.
 
 2. Making Security invisible and unobtrusive
 
@@ -49,10 +49,10 @@ But once there's the code, you have to maintain it and keep it secure. For this,
 \newpage
 
 
-[^167]: https://github.com/ipa-lab/hackingBuddyGPT
-[^168]: https://github.com/andreashappe/cochise/
-[^169]: https://owasp.org/
-[^170]: https://top10proactive.owasp.org/
-[^171]: https://ot.owasp.org/
-[^172]: https://firstcommit.is/andreashappe
-[^173]: https://en.wikipedia.org/wiki/XZ_Utils_backdoor
+[^168]: https://github.com/ipa-lab/hackingBuddyGPT
+[^169]: https://github.com/andreashappe/cochise/
+[^170]: https://owasp.org/
+[^171]: https://top10proactive.owasp.org/
+[^172]: https://ot.owasp.org/
+[^173]: https://firstcommit.is/andreashappe
+[^174]: https://en.wikipedia.org/wiki/XZ_Utils_backdoor

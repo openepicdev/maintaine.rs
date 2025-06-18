@@ -4,17 +4,17 @@
 > [github.com/darccio](https://github.com/darccio)  
 > [maintaine.rs/darccio](https://maintaine.rs/darccio)
 
-Hola\! I’m Dario Castañé[^375], a software engineer and lifelong Open Source enthusiast based in Catalonia. In my career I’ve worn many hats – from full-stack developer to engineering manager – but a constant through it all has been my love for Free/Libre Open Source Software (FLOSS). I’m now a Senior Software Engineer at Datadog, where I work on Open Source client libraries (specifically the Go APM tracer). My journey into Open Source began with a simple desire to share solutions to problems I encountered.
+Hola\! I’m Dario Castañé[^376], a software engineer and lifelong Open Source enthusiast based in Catalonia. In my career I’ve worn many hats – from full-stack developer to engineering manager – but a constant through it all has been my love for Free/Libre Open Source Software (FLOSS). I’m now a Senior Software Engineer at Datadog, where I work on Open Source client libraries (specifically the Go APM tracer). My journey into Open Source began with a simple desire to share solutions to problems I encountered.
 
 ## Some of my projects
 
 Over the years, I’ve created and maintained several Open Source projects that reflect my diverse interests:
 
-- **Mergo**[^376] – a tiny Go library for merging structs and maps. I released Mergo back in 2013 to help configure default values in Go applications, and it took on a life of its own. Incredibly, Mergo is now used by over 60,000 repositories on GitHub and has been adopted by major projects like Docker, running my code millions of times in production.
+- **Mergo**[^377] – a tiny Go library for merging structs and maps. I released Mergo back in 2013 to help configure default values in Go applications, and it took on a life of its own. Incredibly, Mergo is now used by over 60,000 repositories on GitHub and has been adopted by major projects like Docker, running my code millions of times in production.
 
-- **Asembleo**[^377] – a pseudo-anonymous voting system for general assemblies and organizations. I built Asembleo inspired by my interest in civic tech and grassroots democracy. As a former city councilor in my hometown, I wanted a secure Open Source tool to help communities make collective decisions. Asembleo combines my political passion with coding, enabling transparent votes in a way that protects privacy. It’s an example of how Open Source can strengthen democratic participation.
+- **Asembleo**[^378] – a pseudo-anonymous voting system for general assemblies and organizations. I built Asembleo inspired by my interest in civic tech and grassroots democracy. As a former city councilor in my hometown, I wanted a secure Open Source tool to help communities make collective decisions. Asembleo combines my political passion with coding, enabling transparent votes in a way that protects privacy. It’s an example of how Open Source can strengthen democratic participation.
 
-- **Zas**[^378] – the simplest static site generator you can imagine, written in Go. Zas powers my personal website and blog. Rather than use a big framework, I created Zas to generate my site with just the features I needed. It’s minimalistic by design – the joy was in building something from scratch and sharing it. Zas embodies the “indie hacker” spirit I love: if the tool you want doesn’t exist, why not create it and Open Source it for others?
+- **Zas**[^379] – the simplest static site generator you can imagine, written in Go. Zas powers my personal website and blog. Rather than use a big framework, I created Zas to generate my site with just the features I needed. It’s minimalistic by design – the joy was in building something from scratch and sharing it. Zas embodies the “indie hacker” spirit I love: if the tool you want doesn’t exist, why not create it and Open Source it for others?
 
 These projects (and a few others in my GitHub) each started as a personal itch to scratch. By releasing them openly, I discovered the joy of seeing others benefit from my code. Each repository became a little community of its own, where I could collaborate with users and other contributors.
 
@@ -26,7 +26,7 @@ Beyond code, I’ve tried to give back to the community in other ways. I’m an 
 
 ## Maintaining Datadog’s dd-trace-go
 
-In my professional role at Datadog, I’m part of the team maintaining **dd-trace-go**[^379], Datadog’s Go client library for APM (tracing, profiling, etc.). This has been a unique experience because it sits at the intersection of corporate software and Open Source. On one hand, dd-trace-go is critical to many companies’ infrastructure (including our own product), and on the other hand it’s Open Source on GitHub, with a community of users and contributors just like any other OSS project.
+In my professional role at Datadog, I’m part of the team maintaining **dd-trace-go**[^380], Datadog’s Go client library for APM (tracing, profiling, etc.). This has been a unique experience because it sits at the intersection of corporate software and Open Source. On one hand, dd-trace-go is critical to many companies’ infrastructure (including our own product), and on the other hand it’s Open Source on GitHub, with a community of users and contributors just like any other OSS project.
 
 Maintaining dd-trace-go has reinforced a few key lessons for me:
 
@@ -38,11 +38,11 @@ Maintaining dd-trace-go has reinforced a few key lessons for me:
 
 ## The importance of Open Source supply chain management
 
-One aspect of Open Source that has really hit home for me is the importance of the **software supply chain** – the network of dependencies and libraries that modern applications rely on. As maintainers, we are not just writing code for ourselves; we’re effectively stewards of a supply chain that others trust. I learned this dramatically through Mergo. At one point, because of one teeny-tiny mistake in an update, I inadvertently _broke a released version of Docker_[^380]. It was an “oops” moment that taught me how even a minor change in a widely used library can have far-reaching consequences, even when you have an extensive test suite in place.
+One aspect of Open Source that has really hit home for me is the importance of the **software supply chain** – the network of dependencies and libraries that modern applications rely on. As maintainers, we are not just writing code for ourselves; we’re effectively stewards of a supply chain that others trust. I learned this dramatically through Mergo. At one point, because of one teeny-tiny mistake in an update, I inadvertently _broke a released version of Docker_[^381]. It was an “oops” moment that taught me how even a minor change in a widely used library can have far-reaching consequences, even when you have an extensive test suite in place.
 
 That incident turned into a story I now share with fellow developers: always consider the downstream impact of your changes. I was fortunate – the Docker community and maintainers were understanding, and we worked together to fix the issue quickly. But it highlighted the **responsibility maintainers carry**. Since then, I pay extra attention to semantic versioning, changelogs, and testing against real-world scenarios. It’s crucial to communicate breaking changes clearly (or avoid them when possible). In Open Source supply chains, trust is everything – users trust that our component will function as expected and not compromise their systems.
 
-Security is another big part of supply chain management. I’ve become much more proactive about addressing security reports and keeping dependencies up to date. In the wake of high-profile supply-chain attacks and vulnerabilities in recent years, I feel it’s part of my duty as a maintainer to ensure my projects don’t become weak links. This means embracing tools and best practices for dependency management, auditing, and incident response, like the ones championed by OpenSSF[^381]. It’s not the most glamorous part of Open Source, but it’s absolutely vital now.
+Security is another big part of supply chain management. I’ve become much more proactive about addressing security reports and keeping dependencies up to date. In the wake of high-profile supply-chain attacks and vulnerabilities in recent years, I feel it’s part of my duty as a maintainer to ensure my projects don’t become weak links. This means embracing tools and best practices for dependency management, auditing, and incident response, like the ones championed by OpenSSF[^382]. It’s not the most glamorous part of Open Source, but it’s absolutely vital now.
 
 Ultimately, my experiences – from the Docker mishap to managing dd-trace-go – have reinforced how interconnected the Open Source ecosystem is. We’re all links in a chain. By strengthening our own projects, we help secure and stabilize the broader ecosystem.
 
@@ -55,10 +55,10 @@ Open Source is a two-way street: you give something, and you almost always get s
 \newpage
 
 
-[^375]: https://dario.cat
-[^376]: https://github.com/darccio/mergo
-[^377]: https://github.com/coopanio/asembleo
-[^378]: https://github.com/darccio/zas
-[^379]: https://github.com/DataDog/dd-trace-go
-[^380]: https://www.youtube.com/watch?v=kx1ycW4YGqQ
-[^381]: https://openssf.org/technical-initiatives/developer-best-practices/
+[^376]: https://dario.cat
+[^377]: https://github.com/darccio/mergo
+[^378]: https://github.com/coopanio/asembleo
+[^379]: https://github.com/darccio/zas
+[^380]: https://github.com/DataDog/dd-trace-go
+[^381]: https://www.youtube.com/watch?v=kx1ycW4YGqQ
+[^382]: https://openssf.org/technical-initiatives/developer-best-practices/

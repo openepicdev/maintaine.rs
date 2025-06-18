@@ -12,7 +12,7 @@ actively sought out. Instead, it's something that's organically grown out of my 
 software industry. Incrementally as I've run into challenges, had ideas, or even just wanted to peek
 under the covers of how something works, I've found myself contributing back to projects more and more.
 
-It all started with this pull request: Glimpse/Glimpse#493[^339].
+It all started with this pull request: Glimpse/Glimpse#493[^340].
 
 I'd been playing around with the Glimpse Open Source project, and ran into some difficulty configuring things
 to work correctly with the project I was trying it out with. I took the opportunity to raise an issue asking
@@ -37,11 +37,11 @@ Looking back, this highlights some of the things that I think are great about Op
 Fast forward to today, and I'm a maintainer of multiple Open Source projects, some of which I started myself,
 others I've inherited from collaborating with others. These projects include:
 
-- Polly[^340] - a .NET resilience and transient fault handling library
+- Polly[^341] - a .NET resilience and transient fault handling library
 - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) - OpenAPI tools for documenting APIs
   built with ASP.NET Core.
-- HttpClient Interception[^341] - a library for intercepting and mocking HTTP requests for .NET applications
-- xunit Logging[^342] - An logging library for xUnit.net to route application logs to the test output
+- HttpClient Interception[^342] - a library for intercepting and mocking HTTP requests for .NET applications
+- xunit Logging[^343] - An logging library for xUnit.net to route application logs to the test output
 
 I'm also a regular contributor to .NET, raising issues, improving documentation, fixing bugs, and (very) occasionally adding new features. I also help with issue triage for ASP.NET Core, routing issues to the right core team members where
 necessary, or leaning on my own experience and knowledge to answer questions and troubleshoot users' problems myself.
@@ -91,7 +91,7 @@ I hope this post has inspired you to consider how you can contribute back to the
 \newpage
 
 
-[^339]: https://github.com/Glimpse/Glimpse/pull/493
-[^340]: https://github.com/App-vNext/Polly
-[^341]: https://github.com/justeattakeaway/httpclient-interception
-[^342]: https://github.com/martincostello/xunit-logging
+[^340]: https://github.com/Glimpse/Glimpse/pull/493
+[^341]: https://github.com/App-vNext/Polly
+[^342]: https://github.com/justeattakeaway/httpclient-interception
+[^343]: https://github.com/martincostello/xunit-logging

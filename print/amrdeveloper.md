@@ -4,9 +4,9 @@
 > [github.com/amrdeveloper](https://github.com/amrdeveloper)  
 > [maintaine.rs/amrdeveloper](https://maintaine.rs/amrdeveloper)
 
-I’m Amr Hesham (Known with username @AmrDeveloper[^324]), and I am working as a Compiler engineer, and today I'm writing about my way into Open Source..
+I’m Amr Hesham (Known with username @AmrDeveloper[^325]), and I am working as a Compiler engineer, and today I'm writing about my way into Open Source..
 
-Currently, I am the creator and maintainer of GitQL[^325], LLQL[^326], ClangQL[^327], LinkHub[^328], TurtleGraphics[^329] and some other nice projects, and I contribute almost daily to the LLVM[^330] foundation, especially in Clang, which is a C/C++ compiler and in the past, I contributed to other projects like Rust analyzer[^331], CheckStyle[^332], etc..
+Currently, I am the creator and maintainer of GitQL[^326], LLQL[^327], ClangQL[^328], LinkHub[^329], TurtleGraphics[^330] and some other nice projects, and I contribute almost daily to the LLVM[^331] foundation, especially in Clang, which is a C/C++ compiler and in the past, I contributed to other projects like Rust analyzer[^332], CheckStyle[^333], etc..
 
 ## **How did you get involved with Open Source?**
 
@@ -41,12 +41,12 @@ It’s essential to maintain your motivation and organize your time, enjoying wh
 \newpage
 
 
-[^324]: https://github.com/AmrDeveloper
-[^325]: https://github.com/AmrDeveloper/GQL
-[^326]: https://github.com/AmrDeveloper/LLQL
-[^327]: https://github.com/AmrDeveloper/ClangQL
-[^328]: https://github.com/AmrDeveloper/linkhub
-[^329]: https://github.com/AmrDeveloper/Turtle
-[^330]: https://github.com/llvm
-[^331]: https://github.com/rust-lang/rust-analyzer
-[^332]: https://github.com/checkstyle/checkstyle
+[^325]: https://github.com/AmrDeveloper
+[^326]: https://github.com/AmrDeveloper/GQL
+[^327]: https://github.com/AmrDeveloper/LLQL
+[^328]: https://github.com/AmrDeveloper/ClangQL
+[^329]: https://github.com/AmrDeveloper/linkhub
+[^330]: https://github.com/AmrDeveloper/Turtle
+[^331]: https://github.com/llvm
+[^332]: https://github.com/rust-lang/rust-analyzer
+[^333]: https://github.com/checkstyle/checkstyle
