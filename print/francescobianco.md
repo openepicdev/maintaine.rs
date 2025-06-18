@@ -6,7 +6,7 @@
 
 In a world that moves faster every day, finding an anchor—a sense of direction—is not always easy. For me, Open Source has been that anchor, a guiding compass that has shaped not only my career but my philosophy toward technology and collaboration.
 
-My name is Francesco Bianco[^278], and this is the story of how Open Source transformed my life, led me to create a community called Javanile[^279], and inspired me to contribute to various projects, always driven by a single, powerful belief: quality comes through openness and sharing.
+My name is Francesco Bianco[^279], and this is the story of how Open Source transformed my life, led me to create a community called Javanile[^280], and inspired me to contribute to various projects, always driven by a single, powerful belief: quality comes through openness and sharing.
 
 ## The Early Days: Planting the Seeds
 
@@ -71,5 +71,5 @@ And if you are reading this, maybe it can be part of your story too.
 \newpage
 
 
-[^278]: https://github.com/francescobianco
-[^279]: https://www.javanile.org/
+[^279]: https://github.com/francescobianco
+[^280]: https://www.javanile.org/

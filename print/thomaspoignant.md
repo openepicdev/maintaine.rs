@@ -10,9 +10,9 @@ I am currently Head Of Engineering in Leboncoin _(one of the largest classified 
 
 I started with Open Source like many of us by using it, but I always had in mind that I wanted to contribute back to the awesome ecosystem that Open Source provides. And when I moved to a more leadership position in my day job, putting me away from the code more and more, it was obvious for me that I will be involved more in Open Source.
 
-I started with a small library called scim-patch[^315], and now I spend most of my time around feature flags I am building GO Feature Flag[^316], a feature flag platform that works with all your favorite languages and is integrated easily in any company tech. You can start using feature flags super fast with GO Feature Flag.
+I started with a small library called scim-patch[^316], and now I spend most of my time around feature flags I am building GO Feature Flag[^317], a feature flag platform that works with all your favorite languages and is integrated easily in any company tech. You can start using feature flags super fast with GO Feature Flag.
 
-And I am also part of the OpenFeature[^317] technical committee. OpenFeature provides an open specification that provides a vendor-agnostic, community-driven API for feature flagging that works with any management tool or in-house solution.
+And I am also part of the OpenFeature[^318] technical committee. OpenFeature provides an open specification that provides a vendor-agnostic, community-driven API for feature flagging that works with any management tool or in-house solution.
 
 ## What are the main challenges you face as a maintainer?
 
@@ -70,6 +70,6 @@ If you're looking to get involved and contribute in Open Source, please feel fre
 \newpage
 
 
-[^315]: https://www.npmjs.com/package/scim-patch
-[^316]: https://github.com/thomaspoignant/go-feature-flag
-[^317]: https://openfeature.dev
+[^316]: https://www.npmjs.com/package/scim-patch
+[^317]: https://github.com/thomaspoignant/go-feature-flag
+[^318]: https://openfeature.dev

@@ -4,9 +4,9 @@
 > [github.com/kgodey](https://github.com/kgodey)  
 > [maintaine.rs/kgodey](https://maintaine.rs/kgodey)
 
-I’m Kriti Godey, project lead and one of the maintainers of Mathesar[^244]. I've been a software engineer for almost fifteen years, and have been working on Open Source projects full-time since 2018.
+I’m Kriti Godey, project lead and one of the maintainers of Mathesar[^245]. I've been a software engineer for almost fifteen years, and have been working on Open Source projects full-time since 2018.
 
-Like most people, I stumbled into Open Source by accident. At 19, I was a CS major looking for hands-on experience, so I applied for a campus web dev job. By some mix of luck and good timing, the job involved an Open Source codebase—a CMS built on Django[^245]—and I got a crash course in both how Open Source works and why it matters.
+Like most people, I stumbled into Open Source by accident. At 19, I was a CS major looking for hands-on experience, so I applied for a campus web dev job. By some mix of luck and good timing, the job involved an Open Source codebase—a CMS built on Django[^246]—and I got a crash course in both how Open Source works and why it matters.
 
 I didn’t know the term “maintainer”, and I had no business poking around Django internals yet, but even the documentation blew me away. People had written all this detail? Together? Just so others could use it? I didn’t realize I was already on the path to becoming someone who voluntarily writes style guides for issue templates.
 
@@ -24,21 +24,21 @@ I didn’t think of myself as “in” Open Source—I was just working, learnin
 
 In 2018, I was lucky enough to turn my admiration for Open Source into something more hands-on. Creative Commons was looking for someone to lead their engineering team, and I applied. It felt like a long shot, but I didn’t want to pass up the chance to work with an organization dedicated to making knowledge more open. The job wasn’t focused on community-building, but when I saw how many internal tools and libraries Creative Commons had, I got a little overenthusiastic in the interview and pitched a bunch of ideas anyway. I got the job—and then I got to actually implement those ideas.
 
-Over the next couple of years, the team and I cleaned up and published dozens of repos, launched new projects, and built a contributor ecosystem from scratch. We participated in programs like Google Summer of Code and Outreachy, wrote documentation, and set up an Open Source community portal[^246]. I learned firsthand that code was just the tip of the iceberg. It’s the documentation, responsiveness, onboarding, visibility, community architecture—that’s what makes Open Source projects successful.
+Over the next couple of years, the team and I cleaned up and published dozens of repos, launched new projects, and built a contributor ecosystem from scratch. We participated in programs like Google Summer of Code and Outreachy, wrote documentation, and set up an Open Source community portal[^247]. I learned firsthand that code was just the tip of the iceberg. It’s the documentation, responsiveness, onboarding, visibility, community architecture—that’s what makes Open Source projects successful.
 
 I also represented Creative Commons at the Open Source Initiative, where I got to meet maintainers from all over and talk shop. At some point, it hit me: I kept referring to them as “other maintainers.” Which meant I was one too.
 
 ## "What do we name the repo?"
 
-When Creative Commons restructured at the end of 2020, I started looking for a new home for some of the work we’d been doing—especially our flagship project, CC Search (now Openverse[^247] at Automattic). That process led to receiving a grant from the Center of Complex Interventions[^248] to start what eventually became Mathesar[^249], an intuitive UI that makes Postgres databases easier for non-technical users to work with.
+When Creative Commons restructured at the end of 2020, I started looking for a new home for some of the work we’d been doing—especially our flagship project, CC Search (now Openverse[^248] at Automattic). That process led to receiving a grant from the Center of Complex Interventions[^249] to start what eventually became Mathesar[^250], an intuitive UI that makes Postgres databases easier for non-technical users to work with.
 
 The lessons I learned at Creative Commons about community building helped us design Mathesar to be contributor-friendly from day one. We labeled issues that were accessible to beginners. We structured our internal team process around reviewing PRs quickly. We published specs, meeting notes, and design discussions on a public wiki. Even our "internal" team chat runs in a public Matrix room. The goal was to make it easy to show up.
 
-But starting a project from scratch is a different kind of maintenance. There’s no existing culture to steward—you’re creating one. The project didn’t just need code. It needed a shared vocabulary, a contributor workflow, a feedback loop, an ideation process, a technical identity. And that had to be invented in parallel—in public, with contributors across the world. I made a lot of mistakes. By the time we launched our alpha version in 2023[^250], it was clear that this was a much bigger project than I originally thought it was, and that it was time to start thinking about long-term stewardship.
+But starting a project from scratch is a different kind of maintenance. There’s no existing culture to steward—you’re creating one. The project didn’t just need code. It needed a shared vocabulary, a contributor workflow, a feedback loop, an ideation process, a technical identity. And that had to be invented in parallel—in public, with contributors across the world. I made a lot of mistakes. By the time we launched our alpha version in 2023[^251], it was clear that this was a much bigger project than I originally thought it was, and that it was time to start thinking about long-term stewardship.
 
 ## "Nonprofits need a financial audit _every_ year?!"
 
-We set up Mathesar Foundation (with generous support from Reid Hoffman[^251]) and now I'm both the project lead of Mathesar and CEO of the foundation. Mathesar has a team of full-time maintainers, and I don't get to write much code anymore. I still review design and implementation specs, weigh in on architectural decisions, and at least glance at every single issue and PR on GitHub. But my day-to-day is now mostly product direction, fundraising, and long-term strategy—a different kind of maintenance.
+We set up Mathesar Foundation (with generous support from Reid Hoffman[^252]) and now I'm both the project lead of Mathesar and CEO of the foundation. Mathesar has a team of full-time maintainers, and I don't get to write much code anymore. I still review design and implementation specs, weigh in on architectural decisions, and at least glance at every single issue and PR on GitHub. But my day-to-day is now mostly product direction, fundraising, and long-term strategy—a different kind of maintenance.
 
 Open Source is often built for developers by developers. Mathesar isn’t. Our goal is to offer infrastructure for _end-users_ that has the full power and interoperability of Postgres, but with the flexibility and intuitive UI of a tool like Airtable. We're also 100% Open Source (GPLv3 and no "open-core"), nonprofit, and the project is fully self-hostable. My job now isn't just to lead the project—it's to make the project sustainable over the long term _without compromising any of those parts_. If we pull it off, I hope it makes the same path easier for other projects.
 
@@ -56,7 +56,7 @@ I still can’t believe I get to do this full time.
 
 This year, Maintainer Month is highlighting project security and the implications of AI on Open Source, so I wanted to add a couple of thoughts:
 
-- **On key security features in Mathesar**: Mathesar connects to production databases, so we can't afford to be lax on security. In our recent beta release[^252], we switched Mathesar's access control system to use PostgreSQL roles and privileges. This massively improves security, since permissions are enforced at the database layer rather than the API layer. We also use Django’s default user system for UI authentication, since Django’s a well-established framework.
+- **On key security features in Mathesar**: Mathesar connects to production databases, so we can't afford to be lax on security. In our recent beta release[^253], we switched Mathesar's access control system to use PostgreSQL roles and privileges. This massively improves security, since permissions are enforced at the database layer rather than the API layer. We also use Django’s default user system for UI authentication, since Django’s a well-established framework.
 
 - **On the impact of AI on Open Source**: AI is a tool—its impact depends entirely on how it’s used. I can see it making maintainers' lives harder—by making low-effort PRs easier to produce, and easier by helping with triage, speeding up repetitive coding tasks, or improving documentation quality. I’m especially interested in its potential to make code and documentation interactive—something contributors can query instead of just read.
 
@@ -64,19 +64,19 @@ This year, Maintainer Month is highlighting project security and the implication
 
 If anything here resonated—or if you just want to talk, I’d love to hear from you.
 
-You can find me on GitHub at \@kgodey[^253], LinkedIn[^254], or reach me by email at <kriti@mathesar.org>.
+You can find me on GitHub at \@kgodey[^254], LinkedIn[^255], or reach me by email at <kriti@mathesar.org>.
 
 \newpage
 
 
-[^244]: https://github.com/mathesar-foundation/mathesar
-[^245]: https://github.com/ithinksw/philo
-[^246]: https://opensource.creativecommons.org/
-[^247]: https://openverse.org
-[^248]: https://centerofci.org/
-[^249]: https://mathesar.org/
-[^250]: https://news.ycombinator.com/item?id=34999774
-[^251]: https://mathesar.org/blog/2024/03/28/mathesar-foundation-announcement
-[^252]: https://mathesar.org/blog/2025/01/29/release-0-2-0
-[^253]: https://github.com/kgodey
-[^254]: https://www.linkedin.com/in/kritigodey/
+[^245]: https://github.com/mathesar-foundation/mathesar
+[^246]: https://github.com/ithinksw/philo
+[^247]: https://opensource.creativecommons.org/
+[^248]: https://openverse.org
+[^249]: https://centerofci.org/
+[^250]: https://mathesar.org/
+[^251]: https://news.ycombinator.com/item?id=34999774
+[^252]: https://mathesar.org/blog/2024/03/28/mathesar-foundation-announcement
+[^253]: https://mathesar.org/blog/2025/01/29/release-0-2-0
+[^254]: https://github.com/kgodey
+[^255]: https://www.linkedin.com/in/kritigodey/
