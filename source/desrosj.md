@@ -6,7 +6,7 @@
 
 Hello, my name is Jonathan Desrosiers. I’ve been a credited contributor to the WordPress project since 2013, a Core Committer since 2018, and a maintainer of several components throughout that time.
 
-I first encountered Open Source in college, using WordPress to build some websites for myself, school projects, and some freelance clients. That experience eventually led to a day job building WordPress sites, and soon after, I began attending and speaking at WordCamps.
+I first encountered Open Source in college, using WordPress to build some websites for myself, school projects, and some freelance clients. That experience eventually led to a day job building WordPress sites, and soon after I began attending and speaking at WordCamps.
 
 One day, I found a bug that was affecting my work. Instead of working around it, I submitted a patch. That sparked a deeper interest in how the software was built and maintained. I’ve been contributing to Open Source ever since.
 
@@ -26,7 +26,7 @@ Open Source is about coming together despite our differences to accomplish a sha
 
 Maintaining Open Source software and making decisions that affect every user in unique ways is both a burden and a privilege. Just the thought of this scale can sometimes make committing code terrifying, even to seasoned maintainers. But having decision-making frameworks and foundational philosophies in place help ensure that we make the best choices we can for our users.
 
-We should all strive to understand how the software we rely on in our personal and professional lives approach change and manage risk while making decisions. Here's how the WordPress core philosophies are used to guide maintainers when making decisions.
+We should all strive to understand how maintainers of the software we rely on in our personal and professional lives approach change and manage risk. Here's how the WordPress core philosophies are used to guide maintainers when making decisions.
 
 ## Maintainers in the WordPress Project
 
@@ -41,7 +41,7 @@ In the 22-year history of the project:
 - 55 have committed in the last 2 years
 - 23 have maintained a once per month commit average over that same two-year period
 
-There is also a second type of maintainer called a component maintainer. Component maintainers do not always have write access, but good ones exhibit many of the same qualities as committers while focusing on their small chunk of the software. Because of the overlapping responsibilities, it’s common for committers to also serve as component maintainers, and for component maintainers to eventually be granted committer status.
+There is also a second type of maintainer called a component maintainer. Component maintainers do not always have write access to WordPress Core, but good ones exhibit many of the same qualities as committers while focusing on their small chunk of the software. Because of the overlapping responsibilities, it’s common for committers to also serve as component maintainers, and for component maintainers to eventually be granted committer status.
 
 The code base is currently divided into 43 components and 20 sub-components with 65 unique contributors actively maintaining them. Of those contributors, 37 (approximately 57%) have been granted commit access. Every Open Source community should strive to achieve a healthy balance of new, intermediate, expert, and even emeritus contributors to ensure long-term stability. But that’s a topic to dive into another time!
 
