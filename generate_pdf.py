@@ -3,147 +3,131 @@ import re
 import glob
 import subprocess
 
-def find_existing_footnotes(content):
-    """Find all existing footnote numbers in the content."""
-    existing_footnotes = set()
+def collect_all_existing_footnotes(source_dir):
+    """First pass: collect all existing footnote numbers from all files."""
+    all_existing_footnotes = set()
     
-    # Find footnote references like [^1], [^2], etc.
-    footnote_refs = re.findall(r'\[\^(\d+)\]', content)
-    for ref in footnote_refs:
-        existing_footnotes.add(int(ref))
+    for root, _, files in os.walk(source_dir):
+        for file in files:
+            if file.endswith(".md"):
+                src_path = os.path.join(root, file)
+                rel_path = os.path.relpath(src_path, source_dir)
+                
+                # Skip if we're already in the print subdirectory
+                if rel_path.startswith("print" + os.sep):
+                    continue
+                
+                with open(src_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Find footnote references and definitions
+                footnote_refs = re.findall(r'\[\^(\d+)\]', content)
+                for ref in footnote_refs:
+                    all_existing_footnotes.add(int(ref))
     
-    # Find footnote definitions like [^1]: url
-    footnote_defs = re.findall(r'^\[\^(\d+)\]:', content, re.MULTILINE)
-    for def_num in footnote_defs:
-        existing_footnotes.add(int(def_num))
-    
-    return existing_footnotes
+    return all_existing_footnotes
 
 def extract_reference_links(content):
     """Extract reference-style link definitions and return cleaned content."""
     reference_links = {}
+    lines = content.split('\n')
+    cleaned_lines = []
     
     # Pattern for reference link definitions: [label]: url "optional title"
     ref_pattern = r'^\s*\[([^\]]+)\]:\s*(\S+)(?:\s+"([^"]*)")?\s*$'
-    
-    lines = content.split('\n')
-    cleaned_lines = []
     
     for line in lines:
         match = re.match(ref_pattern, line)
         if match:
             label = match.group(1).lower()  # Reference labels are case-insensitive
             url = match.group(2)
-            title = match.group(3) if match.group(3) else None
-            reference_links[label] = {'url': url, 'title': title}
+            reference_links[label] = url
         else:
             cleaned_lines.append(line)
     
     return '\n'.join(cleaned_lines), reference_links
 
-def convert_links_to_footnotes(content, footnote_start=1):
-    """Convert inline and reference links to footnotes, respecting existing footnotes."""
-    footnotes = []
-    
-    # Find existing footnotes to avoid conflicts
-    existing_footnotes = find_existing_footnotes(content)
-    
-    # Start from the next available footnote number
-    footnote_counter = footnote_start
-    while footnote_counter in existing_footnotes:
-        footnote_counter += 1
-    
-    # Extract reference links and clean content
+def looks_like_url(text, link):
+    """Check if the link text itself looks like a URL."""
+    return (
+        text == link or
+        re.fullmatch(r'https?://\S+', text) or     # full URL
+        re.fullmatch(r'\S+\.\S+(/\S*)?', text)     # domain or domain/path
+    )
+
+def convert_file_links_to_footnotes(content, next_available_footnote, all_existing_footnotes):
+    """Convert all links in a single file to footnotes."""
+    # Extract reference links first
     cleaned_content, reference_links = extract_reference_links(content)
     
-    def looks_like_url(text, link):
-        """Check if the link text itself looks like a URL."""
-        return (
-            text == link or
-            re.fullmatch(r'https?://\S+', text) or     # full URL
-            re.fullmatch(r'\S+\.\S+(/\S*)?', text)     # domain or domain/path
-        )
+    # Collect all links to convert
+    links_to_convert = []
     
-    def inline_link_replacer(match):
-        nonlocal footnote_counter
-        text = match.group(1)
-        link = match.group(2)
-        
-        # Skip conversion if text looks like a URL
-        if looks_like_url(text, link):
-            return match.group(0)
-        
-        # Create footnote for the link
-        footnotes.append(link)
-        current_footnote = footnote_counter
-        footnote_counter += 1
-        
-        # Skip to next available footnote number
-        while footnote_counter in existing_footnotes:
-            footnote_counter += 1
-            
-        return f"{text}[^{current_footnote}]"
+    # Find inline links [text](url)
+    inline_matches = re.finditer(r'\[([^\]]+?)\]\((https?://[^\s)]+)\)', cleaned_content)
+    for match in inline_matches:
+        text, url = match.groups()
+        if not looks_like_url(text, url):
+            links_to_convert.append((match.span(), text, url))
     
-    def reference_link_replacer(match):
-        nonlocal footnote_counter
-        text = match.group(1)
-        ref_label = match.group(2).lower() if match.group(2) else text.lower()
+    # Find reference links [text][ref] or [text][]
+    ref_matches = re.finditer(r'\[([^\]]+?)\]\[([^\]]*)\]', cleaned_content)
+    for match in ref_matches:
+        text, ref_label = match.groups()
+        ref_label = ref_label.lower() if ref_label else text.lower()
         
-        # Look up the reference
         if ref_label in reference_links:
-            link = reference_links[ref_label]['url']
-            
-            # Skip conversion if text looks like a URL
-            if looks_like_url(text, link):
-                return f"[{text}]({link})"
-            
-            # Create footnote for the reference link
-            footnotes.append(link)
-            current_footnote = footnote_counter
-            footnote_counter += 1
-            
-            # Skip to next available footnote number
-            while footnote_counter in existing_footnotes:
+            url = reference_links[ref_label]
+            if not looks_like_url(text, url):
+                links_to_convert.append((match.span(), text, url))
+    
+    # Sort by position (reverse order to avoid position shifts when replacing)
+    links_to_convert.sort(key=lambda x: x[0][0], reverse=True)
+    
+    # Assign footnote numbers and replace links
+    footnote_counter = next_available_footnote
+    url_to_footnote = {}  # Reuse footnote numbers for duplicate URLs
+    footnote_definitions = []
+    
+    for (start, end), text, url in links_to_convert:
+        if url not in url_to_footnote:
+            # Find next available footnote number
+            while footnote_counter in all_existing_footnotes:
                 footnote_counter += 1
-                
-            return f"{text}[^{current_footnote}]"
-        else:
-            # Reference not found, leave as is (will be broken link)
-            return match.group(0)
-    
-    # Process inline links: [text](url)
-    processed_content = re.sub(r'\[([^\]]+?)\]\((https?://[^\s)]+)\)', inline_link_replacer, cleaned_content)
-    
-    # Process reference links: [text][ref] or [text][] (where ref defaults to text)
-    processed_content = re.sub(r'\[([^\]]+?)\]\[([^\]]*)\]', reference_link_replacer, processed_content)
-    
-    # Add footnotes section if any footnotes were created
-    if footnotes:
-        # Check if there's already a footnotes section
-        if not re.search(r'^\[\^\d+\]:', processed_content, re.MULTILINE):
-            processed_content += "\n\n"
-        else:
-            processed_content += "\n"
             
-        # Add new footnotes using the actual footnote numbers assigned
-        footnote_num = footnote_start
-        while footnote_num in existing_footnotes:
-            footnote_num += 1
-            
-        for url in footnotes:
-            processed_content += f"[^{footnote_num}]: {url}\n"
-            footnote_num += 1
-            while footnote_num in existing_footnotes:
-                footnote_num += 1
+            url_to_footnote[url] = footnote_counter
+            footnote_definitions.append(f"[^{footnote_counter}]: {url}")
+            all_existing_footnotes.add(footnote_counter)  # Mark as used
+            footnote_counter += 1
+        
+        # Replace the link with footnote reference
+        footnote_num = url_to_footnote[url]
+        replacement = f"{text}[^{footnote_num}]"
+        cleaned_content = cleaned_content[:start] + replacement + cleaned_content[end:]
     
-    return processed_content, footnote_counter
-
-
+    # Add footnote definitions at the end
+    if footnote_definitions:
+        # Check if there are already footnote definitions
+        if re.search(r'^\[\^\d+\]:', cleaned_content, re.MULTILINE):
+            cleaned_content += "\n" + "\n".join(footnote_definitions) + "\n"
+        else:
+            cleaned_content += "\n\n" + "\n".join(footnote_definitions) + "\n"
+    
+    return cleaned_content, footnote_counter
 
 def convert_and_save_markdown(source_dir, dest_dir):
     """Convert and save markdown files to a new directory."""
-    global_footnote_counter = 1  # Track footnotes across all files
+    # First pass: collect all existing footnotes across all files
+    print("Collecting existing footnotes...")
+    all_existing_footnotes = collect_all_existing_footnotes(source_dir)
     
+    # Start numbering new footnotes after the highest existing one
+    next_footnote = max(all_existing_footnotes) + 1 if all_existing_footnotes else 1
+    
+    print(f"Found existing footnotes: {sorted(all_existing_footnotes) if all_existing_footnotes else 'None'}")
+    print(f"Starting new footnotes from: {next_footnote}")
+    
+    # Second pass: process each file
     for root, _, files in os.walk(source_dir):
         for file in files:
             if file.endswith(".md"):
@@ -157,15 +141,17 @@ def convert_and_save_markdown(source_dir, dest_dir):
                 dest_path = os.path.join(dest_dir, rel_path)
                 os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 
+                print(f"Processing: {rel_path}")
+
                 with open(src_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                final_content, global_footnote_counter = convert_links_to_footnotes(
-                    content, global_footnote_counter
+                converted_content, next_footnote = convert_file_links_to_footnotes(
+                    content, next_footnote, all_existing_footnotes
                 )
 
                 with open(dest_path, 'w', encoding='utf-8') as f:
-                    f.write(final_content)
+                    f.write(converted_content)
 
 def run_pandoc(md_dir, output_pdf):
     """Run Pandoc to generate PDF from markdown files in a directory."""

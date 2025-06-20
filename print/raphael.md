@@ -20,7 +20,7 @@ Each service had its own style and little quirks. Nothing major on its own, but 
 
 We really needed a better approach: designing APIs first, making sure they were consistent, and letting teams move quickly without creating headaches later on.
 
-In Ruby, we had built Praxis[^281] to help with that. But as we were moving towards Go, I wondered if we could do even better.
+In Ruby, we had built Praxis[^248] to help with that. But as we were moving towards Go, I wondered if we could do even better.
 
 After some trial and error, two main ideas came to light:
 
@@ -105,4 +105,4 @@ I’m excited for what’s next and for the new ideas that Goa will continue to 
 \newpage
 
 
-[^281]: https://praxis-framework.io/
+[^248]: https://praxis-framework.io/

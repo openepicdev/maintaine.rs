@@ -24,21 +24,21 @@ For me, Open Source is a way to help the community of Quality assurance Engineer
 
 Let me share details about few of my projects which I am maintaining:
 
-### Boyka Framework[^344]
+### Boyka Framework[^313]
 
 Ultimate Test automation framework for automation of Web, API, Android and iOS applications. This project was created to simplify and ease the Test automation process for the QA community. It was implemented by using all my 15+ years of experience and learnings so the problems which I faced, this framework would help me and all the QA’s overcome it.
 
-### Boyka CLI[^345]
+### Boyka CLI[^312]
 
 Boyka Framework command line assistant. This project was created for further simplifying the process of creating new or configuring the existing Boyka Framework projects.
 
-### Multiple Cucumber HTML Reporter[^346]
+### Multiple Cucumber HTML Reporter[^311]
 
 Generate beautiful Cucumber HTML reports This project was created by another Open Source contributor named Wim Selles, who was looking for someone to adopt this awesome tool project. I had the privilege to take over the ownership of this project and become a new maintainer for the project.
 
 Now it is nearing almost 1M downloads per month on NPM;
 
-### Maven Publish Action[^347]
+### Maven Publish Action[^310]
 
 Publish your Java JAR file to Maven Central with GitHub Actions. This project came into existence when the other Maven publish action which I was using, was not being maintained for almost a year.
 
@@ -67,7 +67,7 @@ My advice to maintainers, whether new or experienced, is to always keep up the g
 \newpage
 
 
-[^344]: https://github.com/BoykaFramework/boyka-framework
-[^345]: https://github.com/BoykaFramework/boyka-cli
-[^346]: https://github.com/WasiqB/multiple-cucumber-html-reporter
-[^347]: https://github.com/WasiqB/maven-publish-action
+[^310]: https://github.com/WasiqB/maven-publish-action
+[^311]: https://github.com/WasiqB/multiple-cucumber-html-reporter
+[^312]: https://github.com/BoykaFramework/boyka-cli
+[^313]: https://github.com/BoykaFramework/boyka-framework

@@ -12,7 +12,7 @@ actively sought out. Instead, it's something that's organically grown out of my 
 software industry. Incrementally as I've run into challenges, had ideas, or even just wanted to peek
 under the covers of how something works, I've found myself contributing back to projects more and more.
 
-It all started with this pull request: Glimpse/Glimpse#493[^340].
+It all started with this pull request: Glimpse/Glimpse#493[^309].
 
 I'd been playing around with the Glimpse Open Source project, and ran into some difficulty configuring things
 to work correctly with the project I was trying it out with. I took the opportunity to raise an issue asking
@@ -28,20 +28,20 @@ Looking back, this highlights some of the things that I think are great about Op
 2. You can solve your own problems - if you run into an edge case in some software where it might not otherwise
    be prioritised by the maintainers, you can give it your priority and make the change yourself.
 3. You can make things better for those who follow you - if you run into a problem, there's a good chance that
-   someone else will have the same experience at some point in the future. Sharing your solution for a difficulty
-   back to the project means you can magnify the impact of your discovery and leave things better than you found them.
-4. You don't just have to implement a big new feature to contribute - even a small change to some documentation can
+   someone else will have the same experience at some point in the future. Sharing your solution with the project
+   means you can magnify the impact of your discovery and leave things better than you found them.
+5. You don't just have to implement a big new feature to contribute - even a small change to some documentation can
    be invaluable to not only other users, but to the maintainers as well. Documentation is often the most neglected
    part of a project compared to the code itself.
 
 Fast forward to today, and I'm a maintainer of multiple Open Source projects, some of which I started myself,
 others I've inherited from collaborating with others. These projects include:
 
-- Polly[^341] - a .NET resilience and transient fault handling library
+- Polly[^308] - a .NET resilience and transient fault handling library
 - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) - OpenAPI tools for documenting APIs
   built with ASP.NET Core.
-- HttpClient Interception[^342] - a library for intercepting and mocking HTTP requests for .NET applications
-- xunit Logging[^343] - An logging library for xUnit.net to route application logs to the test output
+- HttpClient Interception[^307] - a library for intercepting and mocking HTTP requests for .NET applications
+- xunit Logging[^306] - An logging library for xUnit.net to route application logs to the test output
 
 I'm also a regular contributor to .NET, raising issues, improving documentation, fixing bugs, and (very) occasionally adding new features. I also help with issue triage for ASP.NET Core, routing issues to the right core team members where
 necessary, or leaning on my own experience and knowledge to answer questions and troubleshoot users' problems myself.
@@ -51,8 +51,7 @@ Go and JavaScript too.
 
 Open Source software is a great way to _be the change you want to see in the world_. If you find a bug in something,
 rather than sit back and wait for someone else to fix it, you can take control of your own destiny and try to fix it yourself.
-Not only will you learn something new, you'll help others, and contribute back to the community that you're part of
-from consuming Open Source software in your own projects.
+Not only will you learn something new, you'll help others, and contribute back to the community that you're part of.
 
 Over the last few years as I've got involved in more projects, especially as a maintainer of projects I've inherited,
 there's a few things I've observed that seem to be common pain points for maintainers of Open Source projects that aren't
@@ -76,12 +75,14 @@ directly impacts the health of your own projects too.
    projects, as it often makes resolution quicker, and also helps avoid considerations over prioritisation of the issue
    compared to other issues in their backlog. Just be sure to check the contribution guidelines for the project first.
 1. No contribution is too small. You don't just need to submit a cool new feature or fix a bug to contribute to an Open
-   Source project. Documentation is often an overlooked part of a project, but it's just as important as the code itself
-   to help users succeed. If you find a typo, or something that's unclear, consider raising an issue or submitting a pull request to fix it. Using the GitHub web interface is a great way to get started with small changes. You could be done within just a few minutes.
-1. Sponsor a project. An increasing number of Open Source projects now accept donations via GitHub Sponsors, and these don't
-   have to be a large amount of money, or even an ongoing commitment. If you get value from a project and are in a position
-   to do so (especially if you're using it in a commercial project), consider sponsoring the project to help the maintainer
-   prioritise the maintenance of the project amongst their other responsibilities and commitments. Even a small amount as a one-off sponsorship can go a long way to helping the maintainer feel appreciated for their work.
+   Source project. Documentation is often an overlooked part of a project, but it's just as important as the code itself.
+   If you find a typo, or something that's unclear, consider creating an issue or pull request to fix it. Using the GitHub web
+   interface is a great way to get started with small changes. You could be done within minutes.
+1. Sponsor a project. An increasing number of Open Source projects now accept donations via GitHub Sponsors[^305], and
+   these don't have to be a big amount of money, or an ongoing commitment. If you get value from a project and are in a position
+   to do so (especially if you're using it commercially), consider sponsoring the project to help the maintainer prioritise the
+   maintenance of the project amongst their other responsibilities and commitments. Even a small amount as a one-off sponsorship
+   can go a long way to helping the maintainer feel appreciated for their work.
 
 Open Source software is ultimately a large collaborative effort, with projects depending on each other to solve problems
 in the best way they can to help users reach their goals, whether that's in industry, academia, charity, or just for fun.
@@ -91,7 +92,8 @@ I hope this post has inspired you to consider how you can contribute back to the
 \newpage
 
 
-[^340]: https://github.com/Glimpse/Glimpse/pull/493
-[^341]: https://github.com/App-vNext/Polly
-[^342]: https://github.com/justeattakeaway/httpclient-interception
-[^343]: https://github.com/martincostello/xunit-logging
+[^305]: https://github.com/sponsors
+[^306]: https://github.com/martincostello/xunit-logging
+[^307]: https://github.com/justeattakeaway/httpclient-interception
+[^308]: https://github.com/App-vNext/Polly
+[^309]: https://github.com/Glimpse/Glimpse/pull/493

@@ -14,7 +14,7 @@ Open Source is about empowerment, collaboration, and shared learning. It’s a s
 
 ## **What projects are you involved in?**
 
-These days, I’m primarily involved in the Jenkins project[^95]. I contribute to Jenkins Core, maintain several plugins, and help with weekly and Long Term Support (LTS) releases. I also serve on the Jenkins governance board[^96], where I work on community processes, release coordination, and broader project direction.
+These days, I’m primarily involved in the Jenkins project[^88]. I contribute to Jenkins Core, maintain several plugins, and help with weekly and Long Term Support (LTS) releases. I also serve on the Jenkins governance board[^87], where I work on community processes, release coordination, and broader project direction.
 
 Beyond development, I focus on documentation, infrastructure improvements, and helping new contributors get involved. Jenkins is a large and diverse ecosystem, so there’s always something meaningful to work on.
 
@@ -40,7 +40,7 @@ It also helps when contributors stay engaged. Taking ownership of a plugin or fe
 
 Security is a core part of maintaining software responsibly. In my work, I focus on minimizing dependencies, using secure defaults, reviewing code carefully, and staying up to date with patches.
 
-Jenkins also has a dedicated Security Team[^97] that handles vulnerability reports and coordinates responsible disclosures. Their work is essential, but every maintainer has a role to play in keeping things secure—especially when touching sensitive parts of the codebase or publishing new releases.
+Jenkins also has a dedicated Security Team[^86] that handles vulnerability reports and coordinates responsible disclosures. Their work is essential, but every maintainer has a role to play in keeping things secure—especially when touching sensitive parts of the codebase or publishing new releases.
 
 ## **What do you think are the biggest security challenges facing Open Source today?**
 
@@ -57,6 +57,6 @@ Focus on building relationships, not just writing code. Good documentation, ment
 \newpage
 
 
-[^95]: https://github.com/jenkinsci/jenkins
-[^96]: https://www.jenkins.io/project/board/
-[^97]: https://www.jenkins.io/security/team/
+[^86]: https://www.jenkins.io/security/team/
+[^87]: https://www.jenkins.io/project/board/
+[^88]: https://github.com/jenkinsci/jenkins

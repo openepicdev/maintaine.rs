@@ -4,7 +4,7 @@
 > [github.com/drmohundro](https://github.com/drmohundro)  
 > [maintaine.rs/drmohundro](https://maintaine.rs/drmohundro)
 
-I'm David Mohundro and I'm a software architect living in the Memphis, TN area. During the day, I work at Clear Function[^282] and at night, I'm helping raise my four kids. I've been blogging at https://mohundro.com and my most well known Open Source project is SWXMLHash[^283].
+I'm David Mohundro and I'm a software architect living in the Memphis, TN area. During the day, I work at Clear Function[^250] and at night, I'm helping raise my four kids. I've been blogging at https://mohundro.com and my most well known Open Source project is SWXMLHash[^249].
 
 My early interactions with Open Source were primarily just on the receiving end of Open Source projects - mostly as a user, but also as a learner. I was intimidated by the prospect of working on Open Source and didn't think I had much I could offer; however, the fact that I could look at the source and learn so much from it increased my desire to join in.
 
@@ -23,5 +23,5 @@ My advice for anyone interested in contributing to Open Source or starting a new
 \newpage
 
 
-[^282]: https://clearfunction
-[^283]: https://github.com/drmohundro/SWXMLHash
+[^249]: https://github.com/drmohundro/SWXMLHash
+[^250]: https://clearfunction

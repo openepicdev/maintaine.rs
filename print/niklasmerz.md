@@ -10,7 +10,7 @@ Let’s start at the beginning. Like many others I did smaller documentation and
 
 Everybody finds a different entry, but I think the most sustainable way might be to get active in Open Source is from necessity. When I started using Apache Cordova, contributing became logical very soon. Projects like Cordova that have an open plugin ecosystem are naturally good for starting out. At some point in my day job we wanted additional features no existing plugin offered, and I started to build my own plugins and made them Open Source because it's just fair to give something back. We also encountered some issues or limitations in the core of the framework, so I dug deeper into the project and tried to fix them myself. From my experience it was just much faster to get help from the community if you can show that you did some research and offered solutions to tackle the problem. Every Open Source community is different, but usually it's appreciated if you show as much initiative as you can.
 
-My Open Source journey started out with coding fixes and features but over the years became much more. I'm proud of the features I implemented, the releases I managed, and the contributors I supported. Lately I really enjoy sharing my expertise as Co-Chair of the W3C WebView Community Group[^319] to improve the core technology that made Cordova possible. I also became interested in the community side and attended events to meet people and give talks. You can learn a lot from the wonderful people in Open Source and form meaningful connections. My current job came from a connection that formed at an Open Source event. Along the way, I also began to notice just how different Open Source projects can be in how they are built and maintained.
+My Open Source journey started out with coding fixes and features but over the years became much more. I'm proud of the features I implemented, the releases I managed, and the contributors I supported. Lately I really enjoy sharing my expertise as Co-Chair of the W3C WebView Community Group[^285] to improve the core technology that made Cordova possible. I also became interested in the community side and attended events to meet people and give talks. You can learn a lot from the wonderful people in Open Source and form meaningful connections. My current job came from a connection that formed at an Open Source event. Along the way, I also began to notice just how different Open Source projects can be in how they are built and maintained.
 
 ## Types of projects
 
@@ -51,7 +51,7 @@ Open Source has taken me from fixing small bugs to building communities and shar
 
 ### Advice for maintainers
 
-Every maintainer faces challenges like burnout, lack of funding or missing new contributors. For me personally motivation to continue working on some projects decreased, because I no longer really use them daily. Nevertheless, I'd like to stick around and try to give back by doing community work like organizing meetups or helping out on releases. My advice to maintainers of projects that are larger or older is to do health checks from time to time. For Cordova I wanted to check if our perception matches the reality of the project and check on the user base. We ran a survey[^320] to find out who is using Cordova, which parts of the framework are most used and which possible pain points exist. Taking a step back to evaluate the size and health of your project and community can help you refocus and rediscover your motivation.
+Every maintainer faces challenges like burnout, lack of funding or missing new contributors. For me personally motivation to continue working on some projects decreased, because I no longer really use them daily. Nevertheless, I'd like to stick around and try to give back by doing community work like organizing meetups or helping out on releases. My advice to maintainers of projects that are larger or older is to do health checks from time to time. For Cordova I wanted to check if our perception matches the reality of the project and check on the user base. We ran a survey[^284] to find out who is using Cordova, which parts of the framework are most used and which possible pain points exist. Taking a step back to evaluate the size and health of your project and community can help you refocus and rediscover your motivation.
 
 ### Advice for contributors
 
@@ -68,5 +68,5 @@ Everybody's experience is different. It's important to start somewhere and to st
 \newpage
 
 
-[^319]: https://www.w3.org/community/webview/
-[^320]: https://cordova.apache.org/announcements/2024/01/12/survey-results.html
+[^284]: https://cordova.apache.org/announcements/2024/01/12/survey-results.html
+[^285]: https://www.w3.org/community/webview/

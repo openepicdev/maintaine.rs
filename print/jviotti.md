@@ -4,29 +4,29 @@
 > [github.com/jviotti](https://github.com/jviotti)  
 > [maintaine.rs/jviotti](https://maintaine.rs/jviotti)
 
-Hey there! I'm Juan Cruz Viotti[^101]. I'm a
+Hey there! I'm Juan Cruz Viotti[^112]. I'm a
 member of the JSON Schema Technical Steering Committee, O'Reilly author
 (Unifying Business Data and Code: Designing Data Products with JSON
-Schema[^102]),
+Schema[^92]),
 award-winning University of Oxford alumnus, and founder of
-Sourcemeta[^103], my tiny company where I work in open
+Sourcemeta[^95], my tiny company where I work in open
 source for a living.
 
 Some of my notable Open Source current work includes
-Blaze[^104], a high-performance C++ JSON
-Schema validator, a JSON Schema CLI[^105]
+Blaze[^94], a high-performance C++ JSON
+Schema validator, a JSON Schema CLI[^111]
 designed for maintaining large JSON Schema ontologies, the Learn JSON
-Schema[^106] popular documentation site, and JSON
-BinPack[^107], an on-going research
+Schema[^96] popular documentation site, and JSON
+BinPack[^110], an on-going research
 project for space-efficient IoT data transfer. I also help co-organising the
-JSON Schema track[^108] within the API
-Days[^109] Conference and I've been a mentor in Google
+JSON Schema track[^109] within the API
+Days[^108] Conference and I've been a mentor in Google
 Summer of Code a couple of times now.
 
 You may also know me as the original author of
-Etcher[^110], plus I've been casually involved
+Etcher[^107], plus I've been casually involved
 in many other projects in the past, such as helping architect the Node.js
-Single Executable Application[^111]
+Single Executable Application[^106]
 initiative.
 
 ## It all started with Open Source
@@ -43,7 +43,7 @@ I got my own, which only made the fiddling problem a lot worse.
 Computer magazines and the Internet quickly introduced me to GNU/Linux and the
 Open Source philosophy. Back then, Ubuntu was gaining attention and Canonical
 was mailing live CDs for
-free[^112] to
+free[^105] to
 boost adoption. I never thought it would make it through customs to a 12 years
 old kid, but it did. I remember having to reassure my mother that it was
 nothing dodgy and that I had not somehow spent any money on it without her
@@ -65,13 +65,13 @@ later!)
 
 Soon after I turned 18, I opened a bank account and landed my first proper
 full-time job as an adult at a tiny London-based company that would eventually
-become Balena[^113], a well known multinational IoT startup
+become Balena[^104], a well known multinational IoT startup
 valued at $558M with $101M in
-funding[^114].
+funding[^103].
 It was a hell of a roller coaster (in a positive way!), and my experience
 there serving as an Engineering Lead taught me many valuable lessons. Of
 course, Balena is almost entirely open
-source[^115].
+source[^102].
 
 ## From Open Source hacker to founder
 
@@ -79,24 +79,24 @@ Thanks to Balena, I eventually moved to England, and as a Harry Potter fan (who
 read the series too many times), I was thrilled when I was accepted to the
 University of Oxford. I spent my time there studying formal methods,
 mathematical proofs, formal specifications like the Z
-Notation[^116],
+Notation[^101],
 and formal concurrency models like
-CSP[^117].
+CSP[^100].
 Hint: JSON Schema is not too different from these things!
 
 By the end of my degree, my dissertation focused on the use of expressive
 schema languages to derive binary serialisation rules for higher compression
 when transmitting telemetry data over 5G and satellite. The result was JSON
-BinPack[^118], an experimental open-source
+BinPack[^99], an experimental open-source
 binary serialisation format based in JSON Schema that proved to be more
 efficient than every other tested alternative in every single tested case. I
 was awarded the CAR Hoare Prize for the best dissertation and resulting
 project.
 
 While wrapping up at the University of Oxford, I started contracting at
-Postman[^119], a popular company in the API space. In a
+Postman[^98], a popular company in the API space. In a
 twist of serendipity, Postman started employing JSON Schema core
-contributors[^120]
+contributors[^97]
 as a way to sponsor their work. After my previous research around JSON Schema,
 this fueled my involvement there even more, and I eventually joined the JSON
 Schema Technical Steering Committee.
@@ -104,7 +104,7 @@ Schema Technical Steering Committee.
 My official JSON Schema membership and my recently published O'Reilly book
 touching on JSON Schema (Unifying Business Data and Code: Designing Data
 Products with JSON
-Schema[^121])
+Schema[^92])
 led me to various engagements with companies that were part of the community.
 This gave me additional firsthand experience on how substandard the ecosystem
 was for use cases beyond trivial.
@@ -113,12 +113,12 @@ For example, validating a simple configuration file is easy. But properly
 pulling off a large-scale schema ontology or API Governance program was
 borderline impossible from a tooling point of view. Educational resources were
 lacking too. Before I kickstarted Learn JSON
-Schema[^122], there was no reference documentation
+Schema[^96], there was no reference documentation
 for JSON Schema at all. You had to read and grok the specifications, which was
 no easy task.
 
 I saw this gap as a great opportunity to capitalize on my own self-funded
-company: Sourcemeta[^123]. Balena taught me how
+company: Sourcemeta[^95]. Balena taught me how
 customers can see Open Source as a competitive advantage, and of course, I
 embraced the same principle at Sourcemeta.
 
@@ -131,8 +131,8 @@ to governments and early stage tech startups.
 At Sourcemeta, our goal is simple: we want to provide the very best
 enterprise-grade tooling and services across the entire JSON Schema ecosystem.
 All our offerings, including the fastest schema validator available in the
-market[^124] and an upcoming self-hostable
-schema registry[^125], are publicly
+market[^94] and an upcoming self-hostable
+schema registry[^93], are publicly
 available on GitHub under the
 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) and a non-copy-left
 licensing model that guarantees our sustainability.
@@ -156,34 +156,29 @@ After all, I wouldn't be here if it wasn't for Open Source.
 - LinkedIn: [https://www.linkedin.com/in/jviotti/](https://www.linkedin.com/in/jviotti/)
 - GitHub: [https://github.com/jviotti](https://github.com/jviotti)
 - O'Reilly Book: Unifying Business, Data, and Code: Designing Data
-  Products with JSON Schema[^126]
+  Products with JSON Schema[^92]
 
 \newpage
 
 
-[^101]: https://www.linkedin.com/in/jviotti/
-[^102]: https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/
-[^103]: https://www.sourcemeta.com
-[^104]: https://github.com/sourcemeta/blaze
-[^105]: https://github.com/sourcemeta/jsonschema
-[^106]: https://www.learnjsonschema.com
-[^107]: https://github.com/sourcemeta/jsonbinpack
-[^108]: https://conference.json-schema.org
-[^109]: https://www.apidays.global
-[^110]: https://github.com/balena-io/etcher
-[^111]: https://github.com/nodejs/single-executable
-[^112]: https://web.archive.org/web/20060824154750/https://shipit.ubuntu.com/
-[^113]: https://www.balena.io
-[^114]: https://tracxn.com/d/companies/balena/__JtBmhcg6AzZ55v7bc2Gdc5BeiFUvVzfp50VJgNYEYjA
-[^115]: https://github.com/balena-io/open-balena
-[^116]: https://www.amazon.com/Using-Specification-Refinement-Prentice-hall-International/dp/0139484728
-[^117]: https://www.amazon.com/Communicating-sequential-processes-Prentice-Hall-International/dp/0131532715
-[^118]: https://www.jviotti.com/dissertation.pdf
-[^119]: https://www.postman.com
-[^120]: https://opencollective.com/json-schema/updates/ben-hutton-joins-postman
-[^121]: https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/
-[^122]: https://www.learnjsonschema.com
-[^123]: https://www.sourcemeta.com
-[^124]: https://github.com/sourcemeta/blaze
-[^125]: https://github.com/sourcemeta/registry
-[^126]: https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/
+[^92]: https://learning.oreilly.com/library/view/unifying-business-data/9781098144999/
+[^93]: https://github.com/sourcemeta/registry
+[^94]: https://github.com/sourcemeta/blaze
+[^95]: https://www.sourcemeta.com
+[^96]: https://www.learnjsonschema.com
+[^97]: https://opencollective.com/json-schema/updates/ben-hutton-joins-postman
+[^98]: https://www.postman.com
+[^99]: https://www.jviotti.com/dissertation.pdf
+[^100]: https://www.amazon.com/Communicating-sequential-processes-Prentice-Hall-International/dp/0131532715
+[^101]: https://www.amazon.com/Using-Specification-Refinement-Prentice-hall-International/dp/0139484728
+[^102]: https://github.com/balena-io/open-balena
+[^103]: https://tracxn.com/d/companies/balena/__JtBmhcg6AzZ55v7bc2Gdc5BeiFUvVzfp50VJgNYEYjA
+[^104]: https://www.balena.io
+[^105]: https://web.archive.org/web/20060824154750/https://shipit.ubuntu.com/
+[^106]: https://github.com/nodejs/single-executable
+[^107]: https://github.com/balena-io/etcher
+[^108]: https://www.apidays.global
+[^109]: https://conference.json-schema.org
+[^110]: https://github.com/sourcemeta/jsonbinpack
+[^111]: https://github.com/sourcemeta/jsonschema
+[^112]: https://www.linkedin.com/in/jviotti/

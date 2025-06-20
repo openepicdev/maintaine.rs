@@ -4,7 +4,7 @@
 > [github.com/freak4pc](https://github.com/freak4pc)  
 > [maintaine.rs/freak4pc](https://maintaine.rs/freak4pc)
 
-My name is Shai, currently a Staff iOS Engineer @ monday.com. I’m most known as the maintainer of RxSwift[^128] and many other frameworks and libraries related to Combine, Apple's first-party Reactive framework. I first met a real-life computer at about 6 years old, when my cousin gave me an old IBM XT for the holiday of Passover. I’ve been fascinated by this incredible machine ever since, and even experienced first-hand what a “bug” means when my first motherboard burned into flames because of a flying bug finding its way into that same IBM XT.
+My name is Shai, currently a Staff iOS Engineer @ monday.com. I’m most known as the maintainer of RxSwift[^115] and many other frameworks and libraries related to Combine, Apple's first-party Reactive framework. I first met a real-life computer at about 6 years old, when my cousin gave me an old IBM XT for the holiday of Passover. I’ve been fascinated by this incredible machine ever since, and even experienced first-hand what a “bug” means when my first motherboard burned into flames because of a flying bug finding its way into that same IBM XT.
 
 I grew up in a relatively low-income family and always had to push for myself to learn as much as possible by myself. It started with PHP 3 and HTML in the old days, and as I worked in one of my earlier jobs - my boss had an issue with a contractor that closed shop, gave me a CD with their code and told me - “Congrats Shai, starting today, you’re an iOS developer”. Little did I know how true he was, as I fell completely in love with this tiny device circa-2011, and was mesmerized with writing code and seeing other people simply touching a screen and interacting with it.
 
@@ -36,10 +36,10 @@ Growing a community is a relatively tough challenge. Things that help are “Goo
 
 Open Source has been, and still is, a wonderful journey. I hope to keep doing it for many many years to come, and keep publishing more work even during my day-to-day job.
 
-Feel free to reach out to me on all platforms as \@freak4pc[^129] (X, GitHub, etc.), I’d love to hear from you!
+Feel free to reach out to me on all platforms as \@freak4pc[^114] (X, GitHub, etc.), I’d love to hear from you!
 
 \newpage
 
 
-[^128]: https://github.com/ReactiveX/RxSwift
-[^129]: https://github.com/freak4pc
+[^114]: https://github.com/freak4pc
+[^115]: https://github.com/ReactiveX/RxSwift

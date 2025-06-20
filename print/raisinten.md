@@ -12,11 +12,11 @@ When I was first introduced to Open Source in university, I found the concept ve
 
 ## Hello, Node.js
 
-In the fall of 2020, I cloned Node.js and attempted to compile it on my family laptop which was running a 32-bit Ubuntu OS. It failed to compile, so I submitted my first C++ patch[^137] to add back 32-bit Linux support and the maintainers landed it! That validation motivated me to work on more things that caught my interest in Node.js and its dependencies like V8, libuv and OpenSSL. I was nominated and subsequently appointed to serve as a collaborator[^138] and a voting member of the Technical Steering Community (TSC)[^139] by the project community. I eventually became Node.js's 36th highest contributor out of 3,595 worldwide. To help grow the community, I provided one-on-one mentorship to numerous contributors and nominated and onboarded new collaborators. I'm best known for creating the Single Executable Applications feature in Node.js[^140] and leading the development of this strategic initiative which is critical to the success of the project. In recognition of my contributions, I received the "Outstanding Contribution from a New Arrival" award[^141] as part of the JavaScriptLandia Awards at 2022's OpenJS World. Beyond honing my technical skills, I found a supportive and inspiring community.
+In the fall of 2020, I cloned Node.js and attempted to compile it on my family laptop which was running a 32-bit Ubuntu OS. It failed to compile, so I submitted my first C++ patch[^135] to add back 32-bit Linux support and the maintainers landed it! That validation motivated me to work on more things that caught my interest in Node.js and its dependencies like V8, libuv and OpenSSL. I was nominated and subsequently appointed to serve as a collaborator[^134] and a voting member of the Technical Steering Community (TSC)[^133] by the project community. I eventually became Node.js's 36th highest contributor out of 3,595 worldwide. To help grow the community, I provided one-on-one mentorship to numerous contributors and nominated and onboarded new collaborators. I'm best known for creating the Single Executable Applications feature in Node.js[^132] and leading the development of this strategic initiative which is critical to the success of the project. In recognition of my contributions, I received the "Outstanding Contribution from a New Arrival" award[^131] as part of the JavaScriptLandia Awards at 2022's OpenJS World. Beyond honing my technical skills, I found a supportive and inspiring community.
 
 ## Hey, Electron
 
-I later became involved in the Electron project, where I rose to become the 54th highest contributor out of 1,303 worldwide. Eventually I was nominated and accepted into Electron's Governance[^142]. My work there is primarily focused on performance. For example, I contributed[^143] a 60% speedup for a complex and long-standing Intel macOS issue that was slowing down the startup times in Google Chrome and all Electron-based apps.
+I later became involved in the Electron project, where I rose to become the 54th highest contributor out of 1,303 worldwide. Eventually I was nominated and accepted into Electron's Governance[^130]. My work there is primarily focused on performance. For example, I contributed[^129] a 60% speedup for a complex and long-standing Intel macOS issue that was slowing down the startup times in Google Chrome and all Electron-based apps.
 
 ## Thank you, Open Source
 
@@ -26,23 +26,23 @@ Open Source has not only shaped my career but also given me a sense of purpose, 
 
 ## What's in it for you?
 
-If you need my expertise, get in touch on my [personal email](mailto:raisinten@gmail.com) for consulting. If you appreciate my Open Source work, here's your chance to support it directly[^144].
+If you need my expertise, get in touch on my [personal email](mailto:raisinten@gmail.com) for consulting. If you appreciate my Open Source work, here's your chance to support it directly[^128].
 
-Follow me on Twitter / X[^145], LinkedIn[^146] and Bluesky[^147] for insights into Open Source and a glimpse of life through my lens. Follow me on GitHub[^148] for my Open Source projects. Follow me on YouTube[^149] to catch my talks. Let's connect!
+Follow me on Twitter / X[^127], LinkedIn[^126] and Bluesky[^125] for insights into Open Source and a glimpse of life through my lens. Follow me on GitHub[^124] for my Open Source projects. Follow me on YouTube[^123] to catch my talks. Let's connect!
 
 \newpage
 
 
-[^137]: https://github.com/nodejs/node/commit/ab587ca46b49190564a4d808115af3a9b5ba71b6
-[^138]: https://github.com/nodejs/node/issues/36833
-[^139]: https://github.com/nodejs/TSC/issues/1141
-[^140]: https://github.com/nodejs/node/pull/45038
-[^141]: https://openjsf.org/blog/first-ever-javascriptlandia-awards-celebrate-community-leaders
-[^142]: https://github.com/electron/governance/pull/485
-[^143]: https://chromium-review.googlesource.com/c/crashpad/crashpad/+/3721655
-[^144]: https://github.com/sponsors/RaisinTen
-[^145]: https://x.com/RaisinTen
-[^146]: https://linkedin.com/in/darshansen
-[^147]: https://bsky.app/profile/raisinten.bsky.social
-[^148]: https://github.com/RaisinTen
-[^149]: https://www.youtube.com/@RaisinTen
+[^123]: https://www.youtube.com/@RaisinTen
+[^124]: https://github.com/RaisinTen
+[^125]: https://bsky.app/profile/raisinten.bsky.social
+[^126]: https://linkedin.com/in/darshansen
+[^127]: https://x.com/RaisinTen
+[^128]: https://github.com/sponsors/RaisinTen
+[^129]: https://chromium-review.googlesource.com/c/crashpad/crashpad/+/3721655
+[^130]: https://github.com/electron/governance/pull/485
+[^131]: https://openjsf.org/blog/first-ever-javascriptlandia-awards-celebrate-community-leaders
+[^132]: https://github.com/nodejs/node/pull/45038
+[^133]: https://github.com/nodejs/TSC/issues/1141
+[^134]: https://github.com/nodejs/node/issues/36833
+[^135]: https://github.com/nodejs/node/commit/ab587ca46b49190564a4d808115af3a9b5ba71b6
