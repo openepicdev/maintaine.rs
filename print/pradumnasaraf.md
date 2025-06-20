@@ -14,7 +14,7 @@ For me, Open Source is more than just code, it’s a place where people from all
 
 ## **Open Source Projects that I am involved in**
 
-I have been involved in many projects, especially in the DevOps space. I’m actively involved in CNCF projects, Docker, and various community projects, like the EddieHub Community. In these, I contribute to everything from documentation to DevOps tools implementation, depending on the project’s needs. My key areas of contribution are Docker, Kubernetes, and CI/CD (mostly GitHub Actions). In addition, I also maintain a lot of my Open Source projects daily. You can check them on my GitHub[^385].
+I have been involved in many projects, especially in the DevOps space. I’m actively involved in CNCF projects, Docker, and various community projects, like the EddieHub Community. In these, I contribute to everything from documentation to DevOps tools implementation, depending on the project’s needs. My key areas of contribution are Docker, Kubernetes, and CI/CD (mostly GitHub Actions). In addition, I also maintain a lot of my Open Source projects daily. You can check them on my GitHub[^351].
 
 ## **Growing an Open Source community**
 
@@ -56,4 +56,4 @@ You can connect with me on these channels:
 \newpage
 
 
-[^385]: https://github.com/Pradumnasaraf
+[^351]: https://github.com/Pradumnasaraf

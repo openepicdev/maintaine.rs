@@ -93,7 +93,7 @@ I've worked on Homebrew for 16 years this year and never taken more than a coupl
 I enjoy it and seem to be resistant to the burnout that's affected other maintainers.
 
 The main reason I think I've been able to do this is in my mantra (and blog post):
-"Open Source Maintainers Owe You Nothing"[^75].
+"Open Source Maintainers Owe You Nothing"[^66].
 
 I encourage every maintainer to read and internalise this.
 Unless it's your full-time job to work on your open-source project: you can walk away at any time, guilt-free.
@@ -116,4 +116,4 @@ Keep up the good work!
 \newpage
 
 
-[^75]: https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/
+[^66]: https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/

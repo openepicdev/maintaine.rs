@@ -8,13 +8,13 @@ I have wanted to work with Open Source since I first heard the term. I’ve alwa
 
 In my career I always wanted to be useful and produce useful work. Open Source makes me feel that way.
 
-I’m Cezar Augusto, and I created [Extension.js](https://extension.js.org/), an open-source tool that makes it very easy to create cross-browser extensions.
+I’m Cezar Augusto, and I created [Extension.js][1], an open-source tool that makes it very easy to create cross-browser extensions.
 
 ### Open-source journey
 
-I started contributing to Open Source by triaging bugs and writing or translating documentation — mostly for projects related to front-end development and browsers, which have always been my core interest. I’ve always been fascinated by how browsers work, and that obsession led me to contribute to projects like MDN[^334] and the iconic Front-End Developer Interview Questions[^335], which I later helped maintain.
+I started contributing to Open Source by triaging bugs and writing or translating documentation — mostly for projects related to front-end development and browsers, which have always been my core interest. I’ve always been fascinated by how browsers work, and that obsession led me to contribute to projects like MDN[^301] and the iconic Front-End Developer Interview Questions[^300], which I later helped maintain.
 
-At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an open-source browser. These were the early days of the Brave Desktop Browser[^336], which gave me my first meaningful contribution and my first real contact with browser extension development.
+At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an open-source browser. These were the early days of the Brave Desktop Browser[^299], which gave me my first meaningful contribution and my first real contact with browser extension development.
 
 ## Extension.js
 
@@ -58,6 +58,6 @@ To all my fellow maintainers and open-source contributors: thank you — your qu
 \newpage
 
 
-[^334]: https://developer.mozilla.org/
-[^335]: https://h5bp.org/Front-end-Developer-Interview-Questions/
-[^336]: https://github.com/brave/browser-laptop
+[^299]: https://github.com/brave/browser-laptop
+[^300]: https://h5bp.org/Front-end-Developer-Interview-Questions/
+[^301]: https://developer.mozilla.org/

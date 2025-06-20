@@ -4,11 +4,11 @@
 > [github.com/delta456](https://github.com/delta456)  
 > [maintaine.rs/delta456](https://maintaine.rs/delta456)
 
-I’m **Swastik Baranwal**[^76], an Open Source Developer. I’ve contributed to several Open Source projects and collaborate with maintainers across the ecosystem.
+I’m **Swastik Baranwal**[^84], an Open Source Developer. I’ve contributed to several Open Source projects and collaborate with maintainers across the ecosystem.
 
 ## My Journey
 
-I was introduced to Open Source in 2019 through Hacktoberfest[^77]. That’s when I discovered The V Programming Language[^78] and saw people building an entirely new language. I was fascinated by their dedication.
+I was introduced to Open Source in 2019 through Hacktoberfest[^83]. That’s when I discovered The V Programming Language[^82] and saw people building an entirely new language. I was fascinated by their dedication.
 
 Just 12 days in, I made my first PR by implementing some basic string methods. I was amazed by how committed the community was. I began contributing and collaborating with them while learning to use tools like `git`, `make`, GitHub, and other essential development utilities.
 
@@ -18,11 +18,11 @@ Now, _five years_ later, I maintain several projects and help newcomers get into
 
 I’ve been part of The V Programming Language since the beginning of my Open Source journey and serve as one of its main developers. I’ve implemented features like operator overloading, syntax highlighting, support for match branch expressions, and fixed several compiler issues. I remain highly involved in the community.
 
-I also maintain a personal project called Box CLI Maker[^79], which helps draw and use boxes in terminal applications. It’s used in several packages, notably in **Kubernetes’s minikube**[^80]. I even appeared on a podcast discussing it during GitHub Open Source Friday[^81]. I plan to continue improving and expanding the project.
+I also maintain a personal project called Box CLI Maker[^81], which helps draw and use boxes in terminal applications. It’s used in several packages, notably in **Kubernetes’s minikube**[^80]. I even appeared on a podcast discussing it during GitHub Open Source Friday[^79]. I plan to continue improving and expanding the project.
 
-I actively contribute to the WebDriver[^82] ecosystem—including Selenium[^83], Appium[^84], and WebDriverIO[^85]—as part of my work with LambdaTest[^86] OSPO. I’ve implemented many features and fixes, especially in the _Python_ and _Java_ bindings of Selenium, and work closely with other maintainers.
+I actively contribute to the WebDriver[^78] ecosystem—including Selenium[^77], Appium[^76], and WebDriverIO[^75]—as part of my work with LambdaTest[^74] OSPO. I’ve implemented many features and fixes, especially in the _Python_ and _Java_ bindings of Selenium, and work closely with other maintainers.
 
-Beyond that, I’m involved with projects like the TODO Group[^87], charm[^88], nixpkgs[^89], catppuccin[^90], and others in areas such as Open Source Governance, Terminal UI, CLIs, WebDriver, Compilers, Low-Level Programming, and DevTools.
+Beyond that, I’m involved with projects like the TODO Group[^73], charm[^72], nixpkgs[^71], catppuccin[^70], and others in areas such as Open Source Governance, Terminal UI, CLIs, WebDriver, Compilers, Low-Level Programming, and DevTools.
 
 ## Challenges I’ve Faced as a Maintainer
 
@@ -64,9 +64,9 @@ While I mainly focus on developing Open Source projects, I also support local co
 
 I volunteer with **FOSS United**, a non-profit that promotes and strengthens the Free and Open Source Software (FOSS) ecosystem in India.
 
-FOSS United[^91] organizes meetups, city conferences, an annual conference, college events, and hackathons. It also offers grants to Indian Open Source projects.
+FOSS United[^69] organizes meetups, city conferences, an annual conference, college events, and hackathons. It also offers grants to Indian Open Source projects.
 
-I help organize meetups for FOSS United Delhi[^92], a city chapter. I manage venue arrangements, speaker outreach, and community engagement for these events.
+I help organize meetups for FOSS United Delhi[^68], a city chapter. I manage venue arrangements, speaker outreach, and community engagement for these events.
 
 I believe FOSS United will become a foundational pillar of India’s Open Source ecosystem. I’m proud to be part of it and honored to have been elected to its _Governance Board_.
 
@@ -78,26 +78,26 @@ Want to see what I’m working on next?
 - **GitHub**: [https://github.com/delta456](https://github.com/delta456)
 - **LinkedIn**: [https://www.linkedin.com/in/swastik-baranwal/](https://www.linkedin.com/in/swastik-baranwal/)
 
-If you like my open-source work, then feel free to sponsor me via GitHub Sponsors[^93]
+If you like my open-source work, then feel free to sponsor me via GitHub Sponsors[^67]
 
 \newpage
 
 
-[^76]: https://swastik.is-a.dev/
-[^77]: https://hacktoberfest.com/
-[^78]: https://vlang.io/
-[^79]: https://github.com/Delta456/box-cli-maker
+[^67]: https://github.com/sponsors/Delta456
+[^68]: https://fossunited.org/c/delhi
+[^69]: https://fossunited.org/
+[^70]: https://catppuccin.com/
+[^71]: https://github.com/NixOS/nixpkgs
+[^72]: https://charm.sh/
+[^73]: https://todogroup.org/
+[^74]: https://www.lambdatest.com/
+[^75]: https://webdriver.io/
+[^76]: https://appium.io
+[^77]: https://www.selenium.dev/
+[^78]: https://developer.mozilla.org/en-US/docs/Web/WebDriver
+[^79]: https://www.youtube.com/watch?v=gs8FFp0rAbk
 [^80]: https://github.com/kubernetes/minikube
-[^81]: https://www.youtube.com/watch?v=gs8FFp0rAbk
-[^82]: https://developer.mozilla.org/en-US/docs/Web/WebDriver
-[^83]: https://www.selenium.dev/
-[^84]: https://appium.io
-[^85]: https://webdriver.io/
-[^86]: https://www.lambdatest.com/
-[^87]: https://todogroup.org/
-[^88]: https://charm.sh/
-[^89]: https://github.com/NixOS/nixpkgs
-[^90]: https://catppuccin.com/
-[^91]: https://fossunited.org/
-[^92]: https://fossunited.org/c/delhi
-[^93]: https://github.com/sponsors/Delta456
+[^81]: https://github.com/Delta456/box-cli-maker
+[^82]: https://vlang.io/
+[^83]: https://hacktoberfest.com/
+[^84]: https://swastik.is-a.dev/

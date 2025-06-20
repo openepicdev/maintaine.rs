@@ -4,19 +4,19 @@
 > [github.com/sabderemane](https://github.com/sabderemane)  
 > [maintaine.rs/sabderemane](https://maintaine.rs/sabderemane)
 
-I’m Sarah Abderemane[^351], a software engineer at Kraken based in France.
+I’m Sarah Abderemane[^323], a software engineer at Kraken based in France.
 
-I’ve been a contributor to some projects related to the Python language and Django framework[^352] and I’m a maintainer of the Django website[^353] for a few years.
+I’ve been a contributor to some projects related to the Python language and Django framework[^322] and I’m a maintainer of the Django website[^321] for a few years.
 
-You can find out more about me on my website[^354] and follow me on social media.
+You can find out more about me on my website[^320] and follow me on social media.
 
 ## How I started to contribute
 
-My journey began a few years ago with Hacktoberfest[^355], the most popular project to start contributing to Open Source.
+My journey began a few years ago with Hacktoberfest[^319], the most popular project to start contributing to Open Source.
 
 I contributed to a small project to explain part of a language like you’re 5, for python language. After some time, I ended up reviewing others’ issues. There was some issue in my submission for Hacktoberfest so I chatted with the maintainer to figure out the issue. At the end, I was offered to become a maintainer for the next year to help review the submissions and create new issues.
 
-Then, I contributed to bigger issues and bigger projects with the creation of the read the docs of Jupyter accessibility[^356] repository and I finally contributed to Django website to implement dark mode on the website and I became a maintainer after this.
+Then, I contributed to bigger issues and bigger projects with the creation of the read the docs of Jupyter accessibility[^318] repository and I finally contributed to Django website to implement dark mode on the website and I became a maintainer after this.
 
 ## Vision and challenges
 
@@ -34,17 +34,17 @@ Building a community when you are a maintainer is not simple on a project which 
 
 It’s not easy to attract contributors and maintainers on a big project that have specific rules to follow, in order to keep all Django projects healthy and sustainable, but having a welcoming community is important.
 
-One way we grow the community is via a mentorship program, Djangonaut Space[^357], that helps folks to contribute to Django core and its ecosystem with a mentor and a supporter to help through the Open Source journey with things like impostor syndrome.
+One way we grow the community is via a mentorship program, Djangonaut Space[^317], that helps folks to contribute to Django core and its ecosystem with a mentor and a supporter to help through the Open Source journey with things like impostor syndrome.
 
 I hope that we have more people who contribute to Open Source and Django projects, and they will be the next generation to contribute and maintain those projects.
 
 \newpage
 
 
-[^351]: https://github.com/sabderemane
-[^352]: https://github.com/django/django
-[^353]: https://github.com/django/djangoproject.com
-[^354]: http://sarahabd.com/
-[^355]: https://hacktoberfest.com/
-[^356]: https://jupyter-accessibility.readthedocs.io/en/latest/
-[^357]: https://djangonaut.space/
+[^317]: https://djangonaut.space/
+[^318]: https://jupyter-accessibility.readthedocs.io/en/latest/
+[^319]: https://hacktoberfest.com/
+[^320]: http://sarahabd.com/
+[^321]: https://github.com/django/djangoproject.com
+[^322]: https://github.com/django/django
+[^323]: https://github.com/sabderemane
