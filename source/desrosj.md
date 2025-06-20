@@ -6,13 +6,15 @@
 
 Hello, my name is Jonathan Desrosiers. I’ve been a credited contributor to the WordPress project since 2013, a Core Committer since 2018, and a maintainer of several components throughout that time.
 
-I first encountered Open Source in college, using WordPress to build some websites for myself, school projects, and some freelance clients. That experience eventually led to a day job building WordPress sites, and soon after, I began attending and speaking at WordCamps.
+I first encountered Open Source in college, using WordPress to build some websites for myself, school projects, and some freelance clients. That experience eventually led to a day job building WordPress sites, and soon after I began attending and speaking at WordCamps.
 
 One day, I found a bug that was affecting my work. Instead of working around it, I submitted a patch. That sparked a deeper interest in how the software was built and maintained. I’ve been contributing to Open Source ever since.
 
 Because WordPress overlaps with many other Open Source projects, it’s common to discover upstream problems. This frequently leads to submitting bug reports or patches to other code bases. Even though each project has its own goals, there's a shared sense of collaboration and stewardship across the ecosystem that’s both gratifying and contagious.
 
-This essay is based on a [talk I gave at WordCamp Europe 2025](https://jonathandesrosiers.com/2025/06/how-a-core-committer-thinks-making-decisions-for-millions/?utm_source=maintaine.rs&utm_medium=essay) titled _“How a Core Committer Thinks: Making Decisions for Millions,”_ which was heavily influenced by the works of [Havoc Pennington](https://ometer.com/) and [Karl Fogel](https://www.red-bean.com/kfogel/). It also includes some thoughts from a [blog post I published](https://jonathandesrosiers.com/2025/06/the-impact-of-open-source-work/?utm_source=maintaine.rs&utm_medium=essay) reflecting on the keynote session at the same event.
+After seeing [my session at WordCamp Europe 2025](https://jonathandesrosiers.com/wceu-2025), Nick invited me to adapt the talk into an essay for this project. The presentation, titled “How a Core Committer Thinks: Making Decisions for Millions,” was heavily influenced by the works of [Havoc Pennington](https://ometer.com/) and [Karl Fogel](https://www.red-bean.com/kfogel/). It also includes some thoughts from a [blog post I published](https://jonathandesrosiers.com/oss-impact) reflecting on the keynote session at the same event.
+
+I hope you find it useful and inspiring in your own work as a maintainer.
 
 ---
 
@@ -24,7 +26,7 @@ Open Source is about coming together despite our differences to accomplish a sha
 
 Maintaining Open Source software and making decisions that affect every user in unique ways is both a burden and a privilege. Just the thought of this scale can sometimes make committing code terrifying, even to seasoned maintainers. But having decision-making frameworks and foundational philosophies in place help ensure that we make the best choices we can for our users.
 
-We should all strive to understand how the software we rely on in our personal and professional lives approach change and manage risk while making decisions. Here's how the [WordPress core philosophies](https://wordpress.org/about/philosophy/) are used to guide maintainers when making decisions.
+We should all strive to understand how maintainers of the software we rely on in our personal and professional lives approach change and manage risk. Here's how the WordPress core philosophies are used to guide maintainers when making decisions.
 
 ## Maintainers in the WordPress Project
 
@@ -39,19 +41,19 @@ In the 22-year history of the project:
 - 55 have committed in the last 2 years
 - 23 have maintained a once per month commit average over that same two-year period
 
-There is also a second type of maintainer called a component maintainer. Component maintainers do not always have write access, but good ones exhibit many of the same qualities as committers while focusing on their small chunk of the software. Because of the overlapping responsibilities, it’s common for committers to also serve as component maintainers, and for component maintainers to eventually be granted committer status.
+There is also a second type of maintainer called a component maintainer. Component maintainers do not always have write access to WordPress Core, but good ones exhibit many of the same qualities as committers while focusing on their small chunk of the software. Because of the overlapping responsibilities, it’s common for committers to also serve as component maintainers, and for component maintainers to eventually be granted committer status.
 
 The code base is currently divided into 43 components and 20 sub-components with 65 unique contributors actively maintaining them. Of those contributors, 37 (approximately 57%) have been granted commit access. Every Open Source community should strive to achieve a healthy balance of new, intermediate, expert, and even emeritus contributors to ensure long-term stability. But that’s a topic to dive into another time!
 
 ## The Pathways of Change
 
-There are many unique ways a change can find its way into the WordPress code that is shipped to the world. Like most software, change usually takes the form of a bug report, feature request, enhancement, or task. But while a ticket is the most common starting point, not all ideas originate there. Some begin with a “what if” on a personal blog, an issue in the user support forums, or even a working group at a [Contributor Day](https://make.wordpress.org/community/handbook/contributor-day/contributor-days/) event. Let’s explore three common pathways a change can move through the project before diving into the principles maintainers use to make decisions.
+There are many unique ways a change can find its way into the WordPress code that is shipped to the world. Like most software, change usually takes the form of a bug report, feature request, enhancement, or task. But while a ticket is the most common starting point, not all ideas originate there. Some begin with a “what if” on a personal blog, an issue in the user support forums, or even a working group at a Contributor Day event. Let’s explore three common pathways a change can move through the project before diving into the principles maintainers use to make decisions.
 
 ### Tickets in Trac
 
-Most ideas start as a ticket in the project’s bug tracking software, [Trac](https://core.trac.wordpress.org/). Though antiquated in some ways, I’m fond of Trac because you must first outline and describe a specific problem in order to create a ticket. This step is sometimes skipped when solving problems in software (both intentionally and not), and can result in bad decisions or unforeseen consequences.
+Most ideas start as a ticket in the project’s bug tracking software, Trac. Though antiquated in some ways, I’m fond of Trac because you must first outline and describe a specific problem in order to create a ticket. This step is sometimes skipped when solving problems in software (both intentionally and not), and can result in bad decisions or unforeseen consequences.
 
-After the ticket is created, discussion happens in the comments or on the [WordPress Slack instance](https://make.wordpress.org/chat/). Once contributors feel that they have enough information, patches are created and attached to the ticket or submitted as pull requests to the [wordpress-develop repository on GitHub](https://github.com/wordpress/wordpress-develop). After a consensus is reached on a solution and adequate testing has been performed, a Core Committer gives a final review before committing (or rejecting) the proposed change.
+After the ticket is created, discussion happens in the comments or on the WordPress Slack instance. Once contributors feel that they have enough information, patches are created and attached to the ticket or submitted as pull requests to the wordpress-develop repository on GitHub. After a consensus is reached on a solution and adequate testing has been performed, a Core Committer gives a final review before committing (or rejecting) the proposed change.
 
 ### Canonical Feature Plugins
 
@@ -59,11 +61,11 @@ While tickets on Trac are the most prevalent path, some are built out by the com
 
 A great example of this practice today can be found with the Performance Team. They maintain several feature plugins that implement new and emerging ways of improving the performance of WordPress websites. While the desired end goal is to one day include these features in the software, they can also easily continue as canonical plugins should they not be a good fit at any given time.
 
-In the most recent major release ([6.8 “Cecil”](https://wordpress.org/news/2025/04/cecil/)), one such feature plugin was included after over 7 months of iterating, testing, and feedback: support for the new [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API). Once the contributors focusing on this feature plugin were happy with the implementation, a [Trac ticket](https://core.trac.wordpress.org/ticket/62503) was opened to further discuss the problem being addressed and review the code before a committer finally authored the [changeset](https://core.trac.wordpress.org/changeset/59837).
+In the most recent major release ([6.8 “Cecil”](https://wordpress.org/news/2025/04/cecil/)), one such feature plugin was included after over 7 months of iterating, testing, and feedback: support for the new Speculation Rules API. Once the contributors focusing on this feature plugin were happy with the implementation, a Trac ticket was opened to further discuss the problem being addressed and review the code before a committer finally authored the changeset.
 
 ### The Block Editor
 
-The block editor (also known as the [Gutenberg project](https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/)) uses yet another unique workflow. It is maintained as a long-running [feature plugin](https://wordpress.org/plugins/gutenberg/) where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each [major release](https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/) of WordPress, changes are merged into the canonical code base by updating the dependency manifest.
+The block editor (also known as the [Gutenberg project](https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/)) uses yet another unique workflow. It is maintained as a long-running feature plugin where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each major release of WordPress, committers merge the changes into the canonical code base by updating the dependency manifest.
 
 ## Evaluating Ideas
 
@@ -120,7 +122,7 @@ The best ideas are rooted in real user problems, well-scoped and practical, main
 In [WordPress 5.5 “Eckstine,”](https://wordpress.org/news/2020/08/eckstine/) a new API was added for generating an XML sitemap for every site. Let’s go through the process of evaluating the rationale presented when a proposal was made to include the feature.
 
 - Sitemaps use a consistent, de facto standard supported by all major search engines. This speaks to the maintainability and predictability of the feature. There is a widely adapted standard shaping the expectations and requirements while limiting the scope.
-- 4 out of the top 15 plugins on the [WordPress.org plugin repository](https://wordpress.org/plugins/) at the time shipped their own implementation of an XML sitemap. This demonstrated a widespread demand for the feature.
+- 4 out of the top 15 plugins on the WordPress.org plugin directory at the time shipped their own implementation of an XML sitemap. This demonstrated a widespread demand for the feature.
 - Every site should have equal opportunity to be crawled by search engines and discovered by users. This strongly aligns with the project’s mission to [democratize publishing](https://wordpress.org/about/).
 
 In addition to evaluating the idea, the implementation details should also be scrutinized.
@@ -131,7 +133,7 @@ In addition to evaluating the idea, the implementation details should also be sc
 - Site owners can customize their sitemap to their liking through the use of plugins or custom code.
 - Sitemaps are enabled by default for all sites.
 
-Let’s evaluate this feature by applying the [project’s foundational philosophies](https://wordpress.org/about/philosophy/).
+Let’s evaluate this feature by applying the project’s foundational philosophies.
 
 ### Out of the box
 
@@ -301,5 +303,7 @@ WordPress Project. _WordPress Core Handbook – Version Numbering._ WordPress.or
 Jonathan Desrosiers. “How a Core Committer Thinks: Making Decisions for Millions.” _[jonathandesrosiers.com](http://jonathandesrosiers.com)_, June 2025 [https://jonathandesrosiers.com/2025/06/how-a-core-committer-thinks-making-decisions-for-millions/](https://jonathandesrosiers.com/2025/06/how-a-core-committer-thinks-making-decisions-for-millions/?utm_source=maintaine.rs&utm_medium=essay)
 
 Jonathan Desrosiers. “The Impact of Open Source Work.” _[jonathandesrosiers.com](http://jonathandesrosiers.com)_, June 2025 [https://jonathandesrosiers.com/2025/06/the-impact-of-open-source-work/](https://jonathandesrosiers.com/2025/06/the-impact-of-open-source-work/?utm_source=maintaine.rs&utm_medium=essay)
+
+Contributor Days. WordPress Community Handbook. Accessed June 15, 2025. https://make.wordpress.org/community/handbook/contributor-day/contributor-days/
 
 \newpage
