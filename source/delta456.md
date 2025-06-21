@@ -80,7 +80,6 @@ I hope the next generation of developers builds on these values: sharing knowled
 
 > **"The most sustainable contribution is not just the code you write — it’s the community you grow."**
 
-
 ## Connect with Me
 
 Want to see what I’m working on next?
