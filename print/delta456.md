@@ -66,9 +66,19 @@ I volunteer with **FOSS United**, a non-profit that promotes and strengthens the
 
 FOSS United[^69] organizes meetups, city conferences, an annual conference, college events, and hackathons. It also offers grants to Indian Open Source projects.
 
-I help organize meetups for FOSS United Delhi[^68], a city chapter. I manage venue arrangements, speaker outreach, and community engagement for these events.
+I help organize meetups for FOSS United Delhi[^68], a city chapter. I manage venue arrangements, speaker outreach, and community engagement for these events. From May 2023 to January 2025, I also served as a CFP reviewer for the foundation.
 
 I believe FOSS United will become a foundational pillar of India’s Open Source ecosystem. I’m proud to be part of it and honored to have been elected to its _Governance Board_.
+
+## Leaving a Legacy
+
+Open Source has shaped so much of who I am. It’s connected me with people I never would’ve met otherwise, taught me how to collaborate, how to deal with tough situations, and how to keep learning — always. It gave me the mindset to build things not just for myself, but for others too.
+
+What I hope to leave behind isn’t just code or projects, but something people can learn from — whether it’s how I approached problems, how I worked with others, or how I stayed curious. If someone finds my work and it helps them take their first step into Open Source, or they feel a little less alone as a maintainer — that’s the legacy I care about.
+
+I hope the next generation of developers builds on these values: sharing knowledge, helping others grow, and keeping the Open Source spirit alive.
+
+> **"The most sustainable contribution is not just the code you write — it’s the community you grow."**
 
 ## Connect with Me
 
