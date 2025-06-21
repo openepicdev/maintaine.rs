@@ -63,23 +63,36 @@ def convert_file_links_to_footnotes(content, next_available_footnote, all_existi
     # Collect all links to convert
     links_to_convert = []
     
-    # Find inline links [text](url)
-    inline_matches = re.finditer(r'\[([^\]]+?)\]\((https?://[^\s)]+)\)', cleaned_content)
-    for match in inline_matches:
-        text, url = match.groups()
-        if not looks_like_url(text, url):
-            links_to_convert.append((match.span(), text, url))
+    # Single comprehensive pattern to find all link types
+    # This pattern matches:
+    # 1. Inline links: [text](url)
+    # 2. Reference links: [text][ref]
+    # 3. Implicit reference: [text][]
+    # 4. Shorthand reference: [text] (not followed by brackets, parens, or colon)
+    link_pattern = r'\[([^\]^]+?)\](?:\[([^\]]*)\]|\((https?://[^\s)]+)\)|(?!\[|\(|:))'
     
-    # Find reference links [text][ref] or [text][]
-    ref_matches = re.finditer(r'\[([^\]]+?)\]\[([^\]]*)\]', cleaned_content)
-    for match in ref_matches:
-        text, ref_label = match.groups()
-        ref_label = ref_label.lower() if ref_label else text.lower()
+    for match in re.finditer(link_pattern, cleaned_content):
+        text = match.group(1)
+        ref_label = match.group(2) if match.group(2) is not None else None
+        inline_url = match.group(3)
         
-        if ref_label in reference_links:
-            url = reference_links[ref_label]
-            if not looks_like_url(text, url):
-                links_to_convert.append((match.span(), text, url))
+        if inline_url:
+            # Inline link [text](url)
+            if not looks_like_url(text, inline_url):
+                links_to_convert.append((match.span(), text, inline_url))
+        else:
+            # Reference-style link (explicit, implicit, or shorthand)
+            if ref_label is not None:
+                # Explicit [text][ref] or implicit [text][]
+                lookup_label = ref_label.lower() if ref_label else text.lower()
+            else:
+                # Shorthand [ref]
+                lookup_label = text.lower()
+            
+            if lookup_label in reference_links:
+                url = reference_links[lookup_label]
+                if not looks_like_url(text, url):
+                    links_to_convert.append((match.span(), text, url))
     
     # Sort by position (reverse order to avoid position shifts when replacing)
     links_to_convert.sort(key=lambda x: x[0][0], reverse=True)

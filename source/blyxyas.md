@@ -46,7 +46,7 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
 
 2. Keep your CI pipelines safe
    - You probably use CI (and if you don't, absolutely do!) as a way to test your project before launching it to the greater product, make sure that your workflow files are safe! Don't use unknown dependencies (in fact, use as little dependencies as possible), with as little external applications as possible.
-   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, [each `run` field is a weak point.](runweakpoint)
+   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, [each `run` field is a weak point.][runweakpoint]
 3. Better and smaller pull requests produce better code
 
    - Avoid big pull requests. Making pull requests smaller is the best strategy to improve review times, code quality and overall team mentality.

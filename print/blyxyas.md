@@ -4,7 +4,7 @@
 > [github.com/blyxyas](https://github.com/blyxyas)  
 > [maintaine.rs/blyxyas](https://maintaine.rs/blyxyas)
 
-I'm Alejandra, one of the people that maintains Clippy[^304], Rust's[^303] official linter. And for this Maintainer Month of May I've come to [opensource.org](https://opensource.org) about some often-overlook aspects of maintaining a FOSS project, some of my personal story with FOSS, some tips about software security, and how to better help maintainers as a contributor. Strap in because this will be a wild ride!
+I'm Alejandra, one of the people that maintains Clippy[^306], Rust's[^305] official linter. And for this Maintainer Month of May I've come to [opensource.org](https://opensource.org) about some often-overlook aspects of maintaining a FOSS project, some of my personal story with FOSS, some tips about software security, and how to better help maintainers as a contributor. Strap in because this will be a wild ride!
 
 ## Who are you again?
 
@@ -46,7 +46,7 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
 
 2. Keep your CI pipelines safe
    - You probably use CI (and if you don't, absolutely do!) as a way to test your project before launching it to the greater product, make sure that your workflow files are safe! Don't use unknown dependencies (in fact, use as little dependencies as possible), with as little external applications as possible.
-   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, [each `run` field is a weak point.](runweakpoint)
+   - Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, each `run` field is a weak point.[^304]
 3. Better and smaller pull requests produce better code
 
    - Avoid big pull requests. Making pull requests smaller is the best strategy to improve review times, code quality and overall team mentality.
@@ -57,7 +57,7 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
 
 4. Use automated tooling
 
-   - This is a very simple step, don't guess about memory leaks, use a heap memory profiler (like [heaptrack]). Don't guess about memory safety, use a static
+   - This is a very simple step, don't guess about memory leaks, use a heap memory profiler (like heaptrack[^303]). Don't guess about memory safety, use a static
      code analyzer or a language that has memory safety built-in (like Rust). Don't guess about the origin of something, bisect it in your program (like with `git bisect`[^302]).
    - Know your system, the better you know the tools you're using the better code you'll produce and the faster you'll be able to iterate on a design. With this I don't mean learning a fancy-schmancy IDE or keyboard layout, but learning to make `perf` valuable, learning to read stack traces, learning to efficiently search throughout your documentation to find that edge case that has been bugging you out all week.
 
@@ -85,5 +85,7 @@ And that's everything I'll talk about today! I hope that you have learned someth
 \newpage
 
 [^302]: https://git-scm.com/docs/git-bisect
-[^303]: https://rust-lang.org
-[^304]: https://github.com/rust-lang/rust-clippy
+[^303]: https://github.com/KDE/heaptrack
+[^304]: https://github.com/advisories/GHSA-8v8w-v8xg-79rf
+[^305]: https://rust-lang.org
+[^306]: https://github.com/rust-lang/rust-clippy
