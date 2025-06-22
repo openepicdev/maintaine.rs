@@ -95,7 +95,7 @@ No one should be marginalized by a lack of opportunity.
 
 One of the most important duties of a Core committer is collecting feedback to determine the best solution for the largest number of people. No matter how good someone is at consensus building, it will almost never be perfect. Perfect is so rare that you should be suspicious when it occurs. Consider whether certain perspectives are missing or if the right questions have been asked.
 
-> “Consensus merely means an agreement that everyone is willing to live with” [^2].
+&nbsp;&nbsp;&nbsp; _“Consensus merely means an agreement that everyone is willing to live with”_ [^2].
 
 In his writings, Karl Fogel explains that consensus can be either explicit or implicit. When seeking explicit consensus, always be clear what is being proposed. When someone objects, continue the discussion until the time is right to propose a new consensus. An example of implicit consensus is when a committer finds and fixes a small bug on their own. The act of committing is assuming consensus. If anyone objects, then a discussion can be had to reach a new consensus. If one can’t be reached, version control is a wonderful tool that allows for easily reverting a change.
 
@@ -115,7 +115,7 @@ Producing strong rationale for a change is much harder. It requires a complete u
 
 The best ideas are rooted in real user problems, well-scoped and practical, maintainable and testable, and compatible with the project’s philosophies. It’s backed with evidence, context, and potential impact while avoiding speculation. Rationale should always go beyond personal desire and novelty, and demonstrate how the change will benefit the majority of your users.
 
-> The guiding principle is simple: ask "why," rather than "why not" [^3].
+&nbsp;&nbsp;&nbsp; _The guiding principle is simple: ask "why," rather than "why not"_ [^3].
 
 ## A Case Study: XML Sitemaps
 
@@ -182,7 +182,7 @@ The case study above shows how the feature strongly aligned with 6 of the 8 proj
 
 Oftentimes, doing nothing is the right thing. Not all proposals deserve implementation. Perhaps there’s poor rationale, a lack of clarity, or no compelling use case. Even when changes seem good, not everything will fit into the current long-term goals of the project. In software, stability is also a feature. And backwards compatibility is sacred.
 
-> “In open source no is temporary, and yes is forever” [^5].
+&nbsp;&nbsp;&nbsp; _“In open source no is temporary, and yes is forever”_ [^5].
 
 There can also be benefits to _not_ being merged into Core. If a feature is built out using the plugin model, it can simply live on as a community maintained canonical plugin. A plugin will not be restricted by the WordPress release cycle (usually 3 times per year). This extends feedback loops and can prevent faster iteration in the early days of a feature. And while backwards compatibility is still important, it’s not applied as a steadfast policy like when code ships in WordPress itself.
 
@@ -200,7 +200,7 @@ Good communication skills are essential for Open Source maintainers. When contri
 
 ### Changing Our Minds
 
-> “In the presence of good rationale, maintainers should be willing to change their mind often” [^3].
+&nbsp;&nbsp;&nbsp; _“In the presence of good rationale, maintainers should be willing to change their mind often”_ [^3].
 
 The best signal that an idea is ready to be reconsidered is the presence of new, clarified, or strengthened rationale. Maintainers should always be willing to change their minds as often as necessary. But they should be confident enough in their conclusions and how they were reached to stand by them under scrutiny. This concept is also referred to as “strong opinions loosely held.”
 
@@ -208,7 +208,7 @@ The best signal that an idea is ready to be reconsidered is the presence of new,
 
 The most important part of any decision-making framework is evaluating cost and risk. Cost is not just monetary. What is the cost to maintain a given change? What complexities and friction does a change introduce to users? What are the risks for regressions? What are the impacts on extenders? Cost and risk can also be unknown or realized only in the future.
 
-> “All code is presumed harmful, because it will have bugs and maintenance costs, and introduce behaviors that will interact with other features” [^3].
+&nbsp;&nbsp;&nbsp; _“All code is presumed harmful, because it will have bugs and maintenance costs, and introduce behaviors that will interact with other features”_ [^3].
 
 Even when one character or line is changed, there is still a non-zero amount of risk. Remember, stability is also a feature, and backwards compatibility is a sacred pact with users that has helped WordPress grow significantly over the last 22 years.
 
@@ -233,7 +233,7 @@ In some situations, a “no” can be given due to an unreasonably high opportun
 
 ### Maintainers Are the Code They Commit
 
-> “It's easy to write a patch. It's hard to maintain a software project over the long term” [^3].
+&nbsp;&nbsp;&nbsp; _“It's easy to write a patch. It's hard to maintain a software project over the long term”_ [^3].
 
 When a change is made to a code base, the committer making that change is taking on a lot of extra responsibility. In some ways, they now own that change and any resulting test failures, bugs, features built on top of the change, or even security issues that may follow. They must be willing to stand behind the changes they make until new rationale is presented.
 
@@ -271,8 +271,6 @@ These principles may not map perfectly to your project or community, and that’
 
 - [https://jonathandesrosiers.com/](https://jonathandesrosiers.com/)
 - [https://profiles.wordpress.org/desrosj/](https://profiles.wordpress.org/desrosj/)
-
-## Citations
 
 [^1]: "Usage Statistics and Market Share of Content Management Systems," _W3Techs – Web Technology Surveys_, accessed June 15, 2025, [https://w3techs.com/technologies/overview/content_management](https://w3techs.com/technologies/overview/content_management).
 [^2]: Karl Fogel. _Producing Open Source Software_, Chapter 4. [https://producingoss.com/en/](https://producingoss.com/en/)
