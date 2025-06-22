@@ -4,13 +4,13 @@
 > [github.com/sy-records](https://github.com/sy-records)  
 > [maintaine.rs/sy-records](https://maintaine.rs/sy-records)
 
-I’m Luffy, a full-stack developer passionate about Open Source. You can find me on GitHub \@sy-records[^15].
+I’m Luffy, a full-stack developer passionate about Open Source. You can find me on GitHub \@sy-records[^25].
 
 Before getting involved with Open Source, I was just an ordinary software user and a PHP developer, knowing little about the communities, collaboration, or the idea of contributing behind the scenes.
 
 As time passed, I gradually realized that Open Source is not just a collection of technologies — it’s also an extension of values and spirit.
 
-I created projects like Simps and PHPMQTT[^5], and actively contributed to several open-source projects including Docsify[^14], Hyperf[^13], Swoole[^12], Typecho[^11], and Apache Answer[^10].
+I created projects like Simps and PHPMQTT[^15], and actively contributed to several open-source projects including Docsify[^24], Hyperf[^23], Swoole[^22], Typecho[^21], and Apache Answer[^20].
 
 From being a user to becoming a contributor, and eventually a maintainer of Open Source projects, this journey has profoundly changed my career path and shaped my understanding of the tech world.
 
@@ -54,11 +54,11 @@ Recently, I’ve been active in the Apache Answer project.
 
 In addition, I continue to contribute to projects such as:
 
-- laravel/octane[^9]: Supercharge the performance of your Laravel application.
-- hyperf[^8]: High-performance coroutine framework based on PHP Swoole.
-- docsify[^7]: A magical documentation site generator.
-- typecho[^6]: A simple yet powerful blogging platform based on PHP.
-- simps/mqtt[^5]: MQTT Protocol Analysis and Coroutine Client for PHP. Supports versions 3.1, 3.1.1, and 5.0 of the MQTT protocol, including WebSocket support.
+- laravel/octane[^19]: Supercharge the performance of your Laravel application.
+- hyperf[^18]: High-performance coroutine framework based on PHP Swoole.
+- docsify[^17]: A magical documentation site generator.
+- typecho[^16]: A simple yet powerful blogging platform based on PHP.
+- simps/mqtt[^15]: MQTT Protocol Analysis and Coroutine Client for PHP. Supports versions 3.1, 3.1.1, and 5.0 of the MQTT protocol, including WebSocket support.
 
 Since PHP was the language that started my journey, I also contribute to the PHP ecosystem, including websites and Chinese documentation translations.
 
@@ -90,14 +90,14 @@ I look forward to continuing this journey alongside more passionate and like-min
 \newpage
 
 
-[^5]: https://github.com/simps/mqtt
-[^6]: https://github.com/typecho/typecho
-[^7]: https://github.com/docsifyjs/docsify
-[^8]: https://github.com/hyperf/hyperf
-[^9]: https://github.com/laravel/octane
-[^10]: https://github.com/apache/answer
-[^11]: https://github.com/typecho
-[^12]: https://github.com/swoole
-[^13]: https://github.com/hyperf
-[^14]: https://github.com/docsifyjs
-[^15]: https://github.com/sy-records
+[^15]: https://github.com/simps/mqtt
+[^16]: https://github.com/typecho/typecho
+[^17]: https://github.com/docsifyjs/docsify
+[^18]: https://github.com/hyperf/hyperf
+[^19]: https://github.com/laravel/octane
+[^20]: https://github.com/apache/answer
+[^21]: https://github.com/typecho
+[^22]: https://github.com/swoole
+[^23]: https://github.com/hyperf
+[^24]: https://github.com/docsifyjs
+[^25]: https://github.com/sy-records

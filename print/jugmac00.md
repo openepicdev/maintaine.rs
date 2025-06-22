@@ -4,7 +4,7 @@
 > [github.com/jugmac00](https://github.com/jugmac00)  
 > [maintaine.rs/jugmac00](https://maintaine.rs/jugmac00)
 
-Hi, my name is Jürgen Gmach[^122], and I am an open-source advocate by heart.
+Hi, my name is Jürgen Gmach[^132], and I am an open-source advocate by heart.
 
 Although I started writing code already at the age of 13 (generation C64), and
 I have been a professional software engineer since 2007, I only started
@@ -42,7 +42,7 @@ for each of them.
 
 During the sprint, I learned about a tool that automatically creates different
 environments for your libraries and runs the test suite for each configuration.
-The tool is called tox[^121], and I immediately fell
+The tool is called tox[^131], and I immediately fell
 in love with it.
 
 tox (always lowercase, even at the beginning of a sentence) had a few issues
@@ -87,7 +87,7 @@ debug their 500 lines configuration file for their multi-billion dollar
 company.
 
 At this time, I read the blog post
-I am not your supplier[^120],
+I am not your supplier[^130],
 which resonated with me and helped me prioritize the important things in life.
 
 ## Free lunch is over
@@ -106,7 +106,7 @@ authentication, using security linters, and so on, at some point you need to
 rely on others.
 
 For tox we make heavy use of the security features offered by GitHub, that is
-e.g. Dependabot[^119] which helps with keeping the
+e.g. Dependabot[^129] which helps with keeping the
 dependencies secure, which is one of the greatest challenges in today's
 security landscape. Supply-chain attacks are a real threat.
 
@@ -135,7 +135,7 @@ _This text is licensed via Creative Commons BY-SA 4.0_
 \newpage
 
 
-[^119]: https://github.com/dependabot
-[^120]: https://www.softwaremaxims.com/blog/not-a-supplier
-[^121]: https://tox.wiki/en/latest/
-[^122]: https://github.com/jugmac00
+[^129]: https://github.com/dependabot
+[^130]: https://www.softwaremaxims.com/blog/not-a-supplier
+[^131]: https://tox.wiki/en/latest/
+[^132]: https://github.com/jugmac00

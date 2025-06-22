@@ -131,14 +131,10 @@ def convert_file_links_to_footnotes(content, next_available_footnote, all_existi
 def convert_and_save_markdown(source_dir, dest_dir):
     """Convert and save markdown files to a new directory."""
     # First pass: collect all existing footnotes across all files
-    print("Collecting existing footnotes...")
     all_existing_footnotes = collect_all_existing_footnotes(source_dir)
     
     # Start numbering new footnotes after the highest existing one
     next_footnote = max(all_existing_footnotes) + 1 if all_existing_footnotes else 1
-    
-    print(f"Found existing footnotes: {sorted(all_existing_footnotes) if all_existing_footnotes else 'None'}")
-    print(f"Starting new footnotes from: {next_footnote}")
     
     # Second pass: process each file
     for root, _, files in os.walk(source_dir):
@@ -153,8 +149,6 @@ def convert_and_save_markdown(source_dir, dest_dir):
 
                 dest_path = os.path.join(dest_dir, rel_path)
                 os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-
-                print(f"Processing: {rel_path}")
 
                 with open(src_path, 'r', encoding='utf-8') as f:
                     content = f.read()

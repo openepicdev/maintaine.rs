@@ -12,7 +12,7 @@ One day, I found a bug that was affecting my work. Instead of working around it,
 
 Because WordPress overlaps with many other Open Source projects, it’s common to discover upstream problems. This frequently leads to submitting bug reports or patches to other code bases. Even though each project has its own goals, there's a shared sense of collaboration and stewardship across the ecosystem that’s both gratifying and contagious.
 
-After seeing my session at WordCamp Europe 2025[^182], Nick invited me to adapt the talk into an essay for this project. The presentation, titled “How a Core Committer Thinks: Making Decisions for Millions,” was heavily influenced by the works of Havoc Pennington[^181] and Karl Fogel[^180]. It also includes some thoughts from a blog post I published[^179] reflecting on the keynote session at the same event.
+After seeing my session at WordCamp Europe 2025[^183], Nick invited me to adapt the talk into an essay for this project. The presentation, titled “How a Core Committer Thinks: Making Decisions for Millions,” was heavily influenced by the works of Havoc Pennington[^182] and Karl Fogel[^181]. It also includes some thoughts from a blog post I published[^180] reflecting on the keynote session at the same event.
 
 I hope you find it useful and inspiring in your own work as a maintainer.
 
@@ -30,7 +30,7 @@ We should all strive to understand how maintainers of the software we rely on in
 
 ## Maintainers in the WordPress Project
 
-As of June 2025, WordPress powers 43.5% of _all_ websites and 61% of websites using a known CMS.<sup>[1[^178]]</sup> Businesses, doctors, banks, governments, individuals, and nonprofits are just a few of the many stakeholders that rely on the project’s maintainers to deliver stable, reliable, and effective software across countless use cases.
+As of June 2025, WordPress powers 43.5% of _all_ websites and 61% of websites using a known CMS.[^1] Businesses, doctors, banks, governments, individuals, and nonprofits are just a few of the many stakeholders that rely on the project’s maintainers to deliver stable, reliable, and effective software across countless use cases.
 
 In the WordPress project, a Core Committer is a trusted contributor that has been granted write access to the canonical WordPress code base. In addition to reviewing and authoring changes to the code base, they are also responsible for upholding the project’s philosophies, mentoring contributors, keeping the project on track, and deeply considering the impact of even the smallest change.
 
@@ -61,11 +61,11 @@ While tickets on Trac are the most prevalent path, some are built out by the com
 
 A great example of this practice today can be found with the Performance Team. They maintain several feature plugins that implement new and emerging ways of improving the performance of WordPress websites. While the desired end goal is to one day include these features in the software, they can also easily continue as canonical plugins should they not be a good fit at any given time.
 
-In the most recent major release (6.8 “Cecil”[^177]), one such feature plugin was included after over 7 months of iterating, testing, and feedback: support for the new Speculation Rules API. Once the contributors focusing on this feature plugin were happy with the implementation, a Trac ticket was opened to further discuss the problem being addressed and review the code before a committer finally authored the changeset.
+In the most recent major release (6.8 “Cecil”[^179]), one such feature plugin was included after over 7 months of iterating, testing, and feedback: support for the new Speculation Rules API. Once the contributors focusing on this feature plugin were happy with the implementation, a Trac ticket was opened to further discuss the problem being addressed and review the code before a committer finally authored the changeset.
 
 ### The Block Editor
 
-The block editor (also known as the Gutenberg project[^176]) uses yet another unique workflow. It is maintained as a long-running feature plugin where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each major release of WordPress, committers merge the changes into the canonical code base by updating the dependency manifest.
+The block editor (also known as the Gutenberg project[^178]) uses yet another unique workflow. It is maintained as a long-running feature plugin where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each major release of WordPress, committers merge the changes into the canonical code base by updating the dependency manifest.
 
 ## Evaluating Ideas
 
@@ -95,7 +95,9 @@ No one should be marginalized by a lack of opportunity.
 
 One of the most important duties of a Core committer is collecting feedback to determine the best solution for the largest number of people. No matter how good someone is at consensus building, it will almost never be perfect. Perfect is so rare that you should be suspicious when it occurs. Consider whether certain perspectives are missing or if the right questions have been asked.
 
-> “Consensus merely means an agreement that everyone is willing to live with” <sup>[2[^173]]</sup>.
+> “Consensus merely means an agreement that everyone is willing to live with” [^2].
+
+<!-- blank line -->
 
 In his writings, Karl Fogel explains that consensus can be either explicit or implicit. When seeking explicit consensus, always be clear what is being proposed. When someone objects, continue the discussion until the time is right to propose a new consensus. An example of implicit consensus is when a committer finds and fixes a small bug on their own. The act of committing is assuming consensus. If anyone objects, then a discussion can be had to reach a new consensus. If one can’t be reached, version control is a wonderful tool that allows for easily reverting a change.
 
@@ -115,15 +117,15 @@ Producing strong rationale for a change is much harder. It requires a complete u
 
 The best ideas are rooted in real user problems, well-scoped and practical, maintainable and testable, and compatible with the project’s philosophies. It’s backed with evidence, context, and potential impact while avoiding speculation. Rationale should always go beyond personal desire and novelty, and demonstrate how the change will benefit the majority of your users.
 
-> The guiding principle is simple: ask "why," rather than "why not" <sup>[3[^170]]</sup>.
+> The guiding principle is simple: ask "why," rather than "why not" [^3].
 
 ## A Case Study: XML Sitemaps
 
-In WordPress 5.5 “Eckstine,”[^175] a new API was added for generating an XML sitemap for every site. Let’s go through the process of evaluating the rationale presented when a proposal was made to include the feature.
+In WordPress 5.5 “Eckstine,”[^177] a new API was added for generating an XML sitemap for every site. Let’s go through the process of evaluating the rationale presented when a proposal was made to include the feature.
 
 - Sitemaps use a consistent, de facto standard supported by all major search engines. This speaks to the maintainability and predictability of the feature. There is a widely adapted standard shaping the expectations and requirements while limiting the scope.
 - 4 out of the top 15 plugins on the WordPress.org plugin directory at the time shipped their own implementation of an XML sitemap. This demonstrated a widespread demand for the feature.
-- Every site should have equal opportunity to be crawled by search engines and discovered by users. This strongly aligns with the project’s mission to democratize publishing[^174].
+- Every site should have equal opportunity to be crawled by search engines and discovered by users. This strongly aligns with the project’s mission to democratize publishing[^176].
 
 In addition to evaluating the idea, the implementation details should also be scrutinized.
 
@@ -161,7 +163,7 @@ The implementation included a lean yet extensible foundation allowing plugins to
 
 We always need to consider and respect the massive and mostly silent user base. The fact that 4 of the top 15 plugins were shipping a Sitemap implementation demonstrated the vote of the silent majority while also clearly confirming that the feature met the 80% principle.
 
-As a community, we should contemplate how to better engage with all users who are not yet vocal. After all, “each interaction with a user is an opportunity to get a new participant” <sup>[4[^173]]</sup>.
+As a community, we should contemplate how to better engage with all users who are not yet vocal. After all, “each interaction with a user is an opportunity to get a new participant” [^4].
 
 ### Democratize Publishing
 
@@ -182,7 +184,7 @@ The case study above shows how the feature strongly aligned with 6 of the 8 proj
 
 Oftentimes, doing nothing is the right thing. Not all proposals deserve implementation. Perhaps there’s poor rationale, a lack of clarity, or no compelling use case. Even when changes seem good, not everything will fit into the current long-term goals of the project. In software, stability is also a feature. And backwards compatibility is sacred.
 
-> “In open source no is temporary, and yes is forever” <sup>[5[^172]]</sup>.
+> “In open source no is temporary, and yes is forever” [^5].
 
 There can also be benefits to _not_ being merged into Core. If a feature is built out using the plugin model, it can simply live on as a community maintained canonical plugin. A plugin will not be restricted by the WordPress release cycle (usually 3 times per year). This extends feedback loops and can prevent faster iteration in the early days of a feature. And while backwards compatibility is still important, it’s not applied as a steadfast policy like when code ships in WordPress itself.
 
@@ -200,7 +202,7 @@ Good communication skills are essential for Open Source maintainers. When contri
 
 ### Changing Our Minds
 
-> “In the presence of good rationale, maintainers should be willing to change their mind often” <sup>[3[^170]]</sup>.
+> “In the presence of good rationale, maintainers should be willing to change their mind often” [^3].
 
 The best signal that an idea is ready to be reconsidered is the presence of new, clarified, or strengthened rationale. Maintainers should always be willing to change their minds as often as necessary. But they should be confident enough in their conclusions and how they were reached to stand by them under scrutiny. This concept is also referred to as “strong opinions loosely held.”
 
@@ -208,7 +210,7 @@ The best signal that an idea is ready to be reconsidered is the presence of new,
 
 The most important part of any decision-making framework is evaluating cost and risk. Cost is not just monetary. What is the cost to maintain a given change? What complexities and friction does a change introduce to users? What are the risks for regressions? What are the impacts on extenders? Cost and risk can also be unknown or realized only in the future.
 
-> “All code is presumed harmful, because it will have bugs and maintenance costs, and introduce behaviors that will interact with other features” <sup>[3[^170]]</sup>.
+> “All code is presumed harmful, because it will have bugs and maintenance costs, and introduce behaviors that will interact with other features” [^3].
 
 Even when one character or line is changed, there is still a non-zero amount of risk. Remember, stability is also a feature, and backwards compatibility is a sacred pact with users that has helped WordPress grow significantly over the last 22 years.
 
@@ -229,11 +231,11 @@ Time and resources are finite. Especially in Open Source projects.
 
 Every feature merged or bug fixed is a vote against another that could have taken its place. The time to review, test, document, and support one change subracts time and resources from another somewhere else.
 
-In some situations, a “no” can be given due to an unreasonably high opportunity cost. An example of this can be seen in the WordPress project leading up to the initial release of the new block editor in version 5.0 “Bebo.”[^171] It was important that as many contributors as possible were focused on the objective at hand. Many changes received a “no” answer in large part because of the amount of resources it drew away from the Gutenberg project.
+In some situations, a “no” can be given due to an unreasonably high opportunity cost. An example of this can be seen in the WordPress project leading up to the initial release of the new block editor in version 5.0 “Bebo.”[^175] It was important that as many contributors as possible were focused on the objective at hand. Many changes received a “no” answer in large part because of the amount of resources it drew away from the Gutenberg project.
 
 ### Maintainers Are the Code They Commit
 
-> “It's easy to write a patch. It's hard to maintain a software project over the long term” <sup>[3[^170]]</sup>.
+> “It's easy to write a patch. It's hard to maintain a software project over the long term” [^3].
 
 When a change is made to a code base, the committer making that change is taking on a lot of extra responsibility. In some ways, they now own that change and any resulting test failures, bugs, features built on top of the change, or even security issues that may follow. They must be willing to stand behind the changes they make until new rationale is presented.
 
@@ -241,17 +243,17 @@ The code you commit is an extension of you.
 
 ## Growing Your Community
 
-Growing an Open Source project is not the focus of this essay, but expanding the pool of available contributors should be in the back of your mind with every action we take. Though unique challenges come with growth, a growing project means more resources available to squash bugs and build out features. After all, “given enough eyeballs, all bugs are shallow” <sup>[6[^169]]</sup>.
+Growing an Open Source project is not the focus of this essay, but expanding the pool of available contributors should be in the back of your mind with every action we take. Though unique challenges come with growth, a growing project means more resources available to squash bugs and build out features. After all, “given enough eyeballs, all bugs are shallow” [^6].
 
 Maintainers play a critical role in community growth by conducting themselves in ways that embrace other contributors. Lead by example in everything you do. Be consistent and approachable. Make space for new contributors by reviewing their patches, answering questions, and encouraging contributions of all sizes. Recognize that everyone participates at different levels and with different motivations. It may not be immediately apparent how, but every size and shape of contribution is important in some way.
 
-Consider a simple bug ticket with a clear solution. As a maintainer with deep knowledge, you could likely solve this better and faster than a new contributor. But delegating the task to someone else would be more constructive long-term in most cases. The act signals trust, helps build confidence, and strengthens the community dynamics. Other contributors will notice this and be more likely to volunteer or share their experience with colleagues. <sup>[7[^168]]</sup>
+Consider a simple bug ticket with a clear solution. As a maintainer with deep knowledge, you could likely solve this better and faster than a new contributor. But delegating the task to someone else would be more constructive long-term in most cases. The act signals trust, helps build confidence, and strengthens the community dynamics. Other contributors will notice this and be more likely to volunteer or share their experience with colleagues. [^7]
 
 A simple code review or “great job” can be the difference between a one-time contributor and a future maintainer. You never know what someone needs to hear, so be generous with feedback.
 
 ## The Meaning in Our Work
 
-If you’ve made it this far, you likely care deeply about Open Source software (and if not, you should). Few ideas have reshaped the modern world as profoundly as Open Source. You may not know it, but Open Source is everywhere you look. Routers, refrigerators, trains, cars, rockets<sup>[8[^167]]</sup>, stock exchanges<sup>[9[^166]]</sup>, and even nuclear research<sup>[10[^165]]</sup>.
+If you’ve made it this far, you likely care deeply about Open Source software (and if not, you should). Few ideas have reshaped the modern world as profoundly as Open Source. You may not know it, but Open Source is everywhere you look. Routers, refrigerators, trains, cars, rockets[^8], stock exchanges[^9], and even nuclear research[^10].
 
 When you’ve been trying to reproduce a bug with specific and obscure criteria for over an hour, it’s easy to lose sight of the meaning in our work as maintainers. But don’t ever forget that your work is important and matters. The “why” will not always be obvious.
 
@@ -261,7 +263,7 @@ The incredible stories of how Open Source is changing the world often go untold.
 
 We are all stewards of the projects we maintain, championing the guiding principles used to make decisions. No one project, maintainer, or contributor is perfect. Philosophies will be interpreted in different ways at different times, even by the same person. As maintainers, we should reflect on the decision-making frameworks we use.
 
-Are they clearly defined and transparent? Are we following them to the best of our ability? How can our time and effort have a greater impact? Are we upholding the four core freedoms of the GPL[^164]? Are we focused on the needs of our long term goals, and the needs of our users?
+Are they clearly defined and transparent? Are we following them to the best of our ability? How can our time and effort have a greater impact? Are we upholding the four core freedoms of the GPL[^174]? Are we focused on the needs of our long term goals, and the needs of our users?
 
 The ideals I’ve described above helped WordPress grow to power over 43% of the web. For more than two decades, thousands of contributors have used the project’s philosophies to rally behind one shared mission: to democratize publishing.
 
@@ -274,25 +276,16 @@ These principles may not map perfectly to your project or community, and that’
 
 ## Citations
 
-<sup>1</sup> "Usage Statistics and Market Share of Content Management Systems," _W3Techs – Web Technology Surveys_, accessed June 15, 2025, [https://w3techs.com/technologies/overview/content_management](https://w3techs.com/technologies/overview/content_management).
-
-<sup>2</sup> Karl Fogel. _Producing Open Source Software_, Chapter 4. [https://producingoss.com/en/](https://producingoss.com/en/)
-
-<sup>3</sup> Havoc Pennington. “Free Software UI.” [https://ometer.com/features.html](https://ometer.com/features.html)
-
-<sup>4</sup> Karl Fogel. _Producing Open Source Software_, Chapter 8: Treat Every User as a Potential Participant. [https://producingoss.com/en/](https://producingoss.com/en/)
-
-<sup>5</sup> Aaron Jorbin. _Five lessons from Eight Years as a WordPress Core Committer_ [https://aaron.jorb.in/five-lessons-from-eight-years-as-a-wordpress-core-committer/](https://aaron.jorb.in/five-lessons-from-eight-years-as-a-wordpress-core-committer/)
-
-<sup>6</sup> Eric S. Raymond. “The Cathedral and the Bazaar,” Section 4: Release Early, Release Often. [http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html)
-
-<sup>7</sup> Karl Fogel. _Producing Open Source Software_. Chapter 8: Delegation. [https://producingoss.com/en/delegation.html](https://producingoss.com/en/delegation.html)
-
-<sup>8</sup> Vaughan-Nichols, Steven J. _From Earth to Orbit with Linux and SpaceX._ ZDNet, June 2, 2020. [https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/](https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/)
-
-<sup>9</sup> _Red Hat to Ring the NYSE Opening Bell in Celebration of 20 Years of Open Source Leadership._ Red Hat, June 26, 2013. [https://www.redhat.com/en/about/press-releases/nyse-0](https://www.redhat.com/en/about/press-releases/nyse-0)
-
-<sup>10</sup> Bahyl, Vladimir, Benjamin Chardi, Jan van Eldik, Ulrich Fuchs, Thorsten Kleinwort, Martin Murth, and Tim Smith. _Installing, Running and Maintaining Large Linux Clusters at CERN._ arXiv preprint cs/0306058, June 2003. [https://arxiv.org/abs/cs/0306058](https://arxiv.org/abs/cs/0306058)
+[^1]: "Usage Statistics and Market Share of Content Management Systems," _W3Techs – Web Technology Surveys_, accessed June 15, 2025, [https://w3techs.com/technologies/overview/content_management](https://w3techs.com/technologies/overview/content_management).
+[^2]: Karl Fogel. _Producing Open Source Software_, Chapter 4. [https://producingoss.com/en/](https://producingoss.com/en/)
+[^3]: Havoc Pennington. “Free Software UI.” [https://ometer.com/features.html](https://ometer.com/features.html)
+[^4]: Karl Fogel. _Producing Open Source Software_, Chapter 8: Treat Every User as a Potential Participant. [https://producingoss.com/en/](https://producingoss.com/en/)
+[^5]: Aaron Jorbin. _Five lessons from Eight Years as a WordPress Core Committer_ [https://aaron.jorb.in/five-lessons-from-eight-years-as-a-wordpress-core-committer/](https://aaron.jorb.in/five-lessons-from-eight-years-as-a-wordpress-core-committer/)
+[^6]: Eric S. Raymond. “The Cathedral and the Bazaar,” Section 4: Release Early, Release Often. [http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html)
+[^7]: Karl Fogel. _Producing Open Source Software_. Chapter 8: Delegation. [https://producingoss.com/en/delegation.html](https://producingoss.com/en/delegation.html)
+[^8]: Vaughan-Nichols, Steven J. _From Earth to Orbit with Linux and SpaceX._ ZDNet, June 2, 2020. [https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/](https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/)
+[^9]: _Red Hat to Ring the NYSE Opening Bell in Celebration of 20 Years of Open Source Leadership._ Red Hat, June 26, 2013. [https://www.redhat.com/en/about/press-releases/nyse-0](https://www.redhat.com/en/about/press-releases/nyse-0)
+[^10]: Bahyl, Vladimir, Benjamin Chardi, Jan van Eldik, Ulrich Fuchs, Thorsten Kleinwort, Martin Murth, and Tim Smith. _Installing, Running and Maintaining Large Linux Clusters at CERN._ arXiv preprint cs/0306058, June 2003. [https://arxiv.org/abs/cs/0306058](https://arxiv.org/abs/cs/0306058)
 
 ## Further Reading
 
@@ -308,23 +301,13 @@ Contributor Days. WordPress Community Handbook. Accessed June 15, 2025. https://
 
 \newpage
 
-
-[^164]: https://www.gnu.org/licenses/quick-guide-gplv3.html#the-foundations-of-the-gpl
-[^165]: https://arxiv.org/abs/cs/0306058
-[^166]: https://www.redhat.com/en/about/press-releases/nyse-0
-[^167]: https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/
-[^168]: https://producingoss.com/en/producingoss.html#delegation
-[^169]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html
-[^170]: https://ometer.com/features.html
-[^171]: https://wordpress.org/news/2018/12/bebo/
-[^172]: https://aaron.jorb.in/five-lessons-from-eight-years-as-a-wordpress-core-committer/
-[^173]: https://producingoss.com/
-[^174]: https://wordpress.org/about/
-[^175]: https://wordpress.org/news/2020/08/eckstine/
-[^176]: https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/
-[^177]: https://wordpress.org/news/2025/04/cecil/
-[^178]: https://w3techs.com/technologies/overview/content_management
-[^179]: https://jonathandesrosiers.com/oss-impact
-[^180]: https://www.red-bean.com/kfogel/
-[^181]: https://ometer.com/
-[^182]: https://jonathandesrosiers.com/wceu-2025
+[^174]: https://www.gnu.org/licenses/quick-guide-gplv3.html#the-foundations-of-the-gpl
+[^175]: https://wordpress.org/news/2018/12/bebo/
+[^176]: https://wordpress.org/about/
+[^177]: https://wordpress.org/news/2020/08/eckstine/
+[^178]: https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/
+[^179]: https://wordpress.org/news/2025/04/cecil/
+[^180]: https://jonathandesrosiers.com/oss-impact
+[^181]: https://www.red-bean.com/kfogel/
+[^182]: https://ometer.com/
+[^183]: https://jonathandesrosiers.com/wceu-2025

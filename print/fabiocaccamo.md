@@ -20,9 +20,9 @@ These days, I focus primarily on `Python` and `Django` (my favorite technologies
 
 Here are a few that I'm particularly proud of:
 
-- **python-benedict[^288]** — A supercharged `dict` subclass that makes working with dictionaries easier and more powerful.
-- **django-admin-interface[^287]** — A modern, responsive and customizable UI on top of the default Django admin.
-- **FCUUID[^286]** — A reliable way to generate and persist UUIDs on iOS devices.
+- **python-benedict[^289]** — A supercharged `dict` subclass that makes working with dictionaries easier and more powerful.
+- **django-admin-interface[^288]** — A modern, responsive and customizable UI on top of the default Django admin.
+- **FCUUID[^287]** — A reliable way to generate and persist UUIDs on iOS devices.
 
 These libraries are used and appreciated by developers all over the world, and I'm incredibly grateful for the feedback and support received.
 
@@ -71,6 +71,6 @@ Thanks for reading! :)
 \newpage
 
 
-[^286]: https://github.com/fabiocaccamo/FCUUID
-[^287]: https://github.com/fabiocaccamo/django-admin-interface
-[^288]: https://github.com/fabiocaccamo/python-benedict
+[^287]: https://github.com/fabiocaccamo/FCUUID
+[^288]: https://github.com/fabiocaccamo/django-admin-interface
+[^289]: https://github.com/fabiocaccamo/python-benedict

@@ -4,9 +4,9 @@
 > [github.com/shazow](https://github.com/shazow)  
 > [maintaine.rs/shazow](https://maintaine.rs/shazow)
 
-My first big Open Source project was urllib3[^91]. Today it's used by almost every Python user and receives about a billion downloads each month, but it started in 2007 out of necessity.
+My first big Open Source project was urllib3[^101]. Today it's used by almost every Python user and receives about a billion downloads each month, but it started in 2007 out of necessity.
 
-I was working at TinEye[^90] (formerly known as Idée Inc.) as my first "real" job out of university, and we needed to upload billions of images to Amazon S3. I wrote a script to get processing and estimated how long it would take to finish... two months! Turns out in 2007, HTTP libraries weren't reusing sockets or connection pooling, weren't thread-safe, didn't fully support multipart encoding, didn't know about resuming or retries or redirecting, and much more that we take for granted today.
+I was working at TinEye[^100] (formerly known as Idée Inc.) as my first "real" job out of university, and we needed to upload billions of images to Amazon S3. I wrote a script to get processing and estimated how long it would take to finish... two months! Turns out in 2007, HTTP libraries weren't reusing sockets or connection pooling, weren't thread-safe, didn't fully support multipart encoding, didn't know about resuming or retries or redirecting, and much more that we take for granted today.
 
 It took me about a week to write the first version of what ultimately became urllib3, along with workerpool for managing concurrent jobs in Python, and roughly one more week to do the entire S3 upload using these new tools. A month and a half ahead of schedule, and we became one of Amazon's biggest S3 customers at the time.
 
@@ -22,7 +22,7 @@ Releasing urllib3 under my own name allowed me to continue maintaining and impro
 
 Hundreds of contributors started streaming in, too. Nobody loves maintaining a fork if they don't have to, so it's rational to report bugs upstream and supply improvements if we have them.
 
-The growth of urllib3 since the first release in 2008 has been a complicated journey. Today, my role is more of a meta-maintainer where I support our active maintainers (thank you Seth M. Larson, Quentin Pradet, Illia Volochii!) while allowing people to transition into alumni maintainers over time as life circumstances change. It's important to remember that while funding Open Source is very important and impactful (please consider supporting urllib3[^89]), it's not always about money. People don't want to work on one thing their whole life, so we have to allow for transition and succession.
+The growth of urllib3 since the first release in 2008 has been a complicated journey. Today, my role is more of a meta-maintainer where I support our active maintainers (thank you Seth M. Larson, Quentin Pradet, Illia Volochii!) while allowing people to transition into alumni maintainers over time as life circumstances change. It's important to remember that while funding Open Source is very important and impactful (please consider supporting urllib3[^99]), it's not always about money. People don't want to work on one thing their whole life, so we have to allow for transition and succession.
 
 I learned many lessons from my first big Open Source project, and I continue to apply them to all of my projects since then with great success. I hope you'll join along!
 
@@ -31,6 +31,6 @@ I learned many lessons from my first big Open Source project, and I continue to 
 \newpage
 
 
-[^89]: https://urllib3.readthedocs.io/en/latest/sponsors.html
-[^90]: https://tineye.com/
-[^91]: https://github.com/urllib3/urllib3/
+[^99]: https://urllib3.readthedocs.io/en/latest/sponsors.html
+[^100]: https://tineye.com/
+[^101]: https://github.com/urllib3/urllib3/

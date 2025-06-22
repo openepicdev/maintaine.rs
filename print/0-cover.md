@@ -11,7 +11,7 @@ titlepage-rule-height: 0
 Edition: 2025  
 Editor: Nick Vidal
 
-The **maintaine.rs** book is a curated collection of stories from top Open Source maintainers, gathered during GitHub's Maintainer Month[^113] in May 2025.
+The **maintaine.rs** book is a curated collection of stories from top Open Source maintainers, gathered during GitHub's Maintainer Month[^123] in May 2025.
 
 All stories are licensed under Creative Commons Attribution-ShareAlike (CC BY-SA). Attribution belongs to each individual author.
 
@@ -36,4 +36,4 @@ All stories are licensed under Creative Commons Attribution-ShareAlike (CC BY-SA
 ```
 
 
-[^113]: https://maintainermonth.github.com/
+[^123]: https://maintainermonth.github.com/

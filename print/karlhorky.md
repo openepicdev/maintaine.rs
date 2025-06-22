@@ -4,9 +4,9 @@
 > [github.com/karlhorky](https://github.com/karlhorky)  
 > [maintaine.rs/karlhorky](https://maintaine.rs/karlhorky)
 
-Hi, I'm Karl Horky (GitHub[^384],
-LinkedIn[^383]), Technical
-Founder at UpLeveled[^382] - tech education
+Hi, I'm Karl Horky (GitHub[^385],
+LinkedIn[^384]), Technical
+Founder at UpLeveled[^383] - tech education
 programs for all skill levels.
 
 In an educational landscape of AI-generated solutions,
@@ -28,8 +28,8 @@ Through my work in education, I've become interested in:
 
 - new approaches in web frameworks like React Server Components /
   Server Actions and the Islands Architecture
-- SQL-in-JS tooling like SafeQL[^381],
-  `prettier-plugin-embed`[^380],
+- SQL-in-JS tooling like SafeQL[^382],
+  `prettier-plugin-embed`[^381],
   [Postgres.js](https://github.com/porsager/postgres)
 - secure-by-default and pit-of-success approaches to building
   safe and correct software, eg. enforcement and guidance through
@@ -45,19 +45,19 @@ beginners to more experienced engineers.
 As part of this work, we maintain some of our own Open Source
 projects:
 
-- Preflight[^379]: command
+- Preflight[^380]: command
   line interface for students to check their code quality
-- `eslint-config-upleveled`[^378]
+- `eslint-config-upleveled`[^379]
   and
-  `eslint-plugin-upleveled`[^377]:
+  `eslint-plugin-upleveled`[^378]:
   ESLint config and plugin with custom rules
-- System Setup[^376]:
+- System Setup[^377]:
   Windows, macOS and Linux setup guides
 - numerous example repositories like Examples of Broken Security
   with Next.js +
-  Postgres.js[^375]
+  Postgres.js[^376]
   and UpLeveled Next.js example - Winter
-  2025[^374]
+  2025[^375]
 
 ## Papercuts
 
@@ -99,7 +99,7 @@ Route Handlers did not have the same capabilities to check return
 types using TypeScript, and contributed this feature to Next.js:
 
 - Add optional generic parameter to
-  `NextResponse`[^373]
+  `NextResponse`[^374]
   in `vercel/next.js`
 
 During a June 2024 iteration on our Expo / React Native lecture,
@@ -108,7 +108,7 @@ obsolete config in `.npmrc`:
 
 - Switch to `create-expo-app` + `blank-typescript`, remove
   `.npmrc`
-  cmds[^372] in
+  cmds[^373] in
   `upleveled/system-setup`
 
 More recently, a March 2025 upgrade to
@@ -119,7 +119,7 @@ update:
 
 - Document eslint-import-resolver-typescript `bun` option, fix
   ESM
-  import[^371]
+  import[^372]
   in `un-ts/eslint-plugin-import-x`
 
 ## Supporting Ecosystem Evolution
@@ -132,16 +132,16 @@ Extending compatibility has included issues and pull requests
 such as:
 
 - Node.js Type Stripping in
-  `node_modules/*/*.ts`[^370]
+  `node_modules/*/*.ts`[^371]
   in `nodejs/typescript`
 - Add nested
-  transforms[^369] in
+  transforms[^370] in
   `porsager/postgres`
 - Support for SafeQL on
-  Windows[^368]
+  Windows[^369]
   in `ts-safeql/safeql`
 - Recognize referential actions as keywords in ON
-  UPDATE/DELETE[^367]
+  UPDATE/DELETE[^368]
   in `sql-formatter-org/sql-formatter`
 
 Encouraging adoption of new technologies has also ranged across
@@ -149,14 +149,14 @@ multiple topics, but an area which has often required additional
 attention has been ESM, including TypeScript module resolution:
 
 - "module": "node16" error: `This expression is not
-callable`[^366] in
+callable`[^367] in
   `postcss/postcss`
 - disposable-email-domains: Use CommonJS export for "module":
-  "node16"[^365]
+  "node16"[^366]
   in `DefinitelyTyped/DefinitelyTyped`
 - Module not found: Fully Specified ESM Imports (with `.js`
   extension) in
-  TypeScript[^364] in
+  TypeScript[^365] in
   `vercel/next.js`
 
 While we have not yet invested the time to become deeply involved
@@ -165,17 +165,17 @@ becoming a TC39 champion, we have at times added feedback in
 existing discussions or contributed short proposal notes:
 
 - Skip parameters in function parameter
-  lists[^363]
+  lists[^364]
   on Bluesky
 - `await fetch.json(url)`
-  proposal[^362]
+  proposal[^363]
   on Twitter
 - Standard wire data format + form field error message UI for
   showing server validation errors without
-  JS[^361] on
+  JS[^362] on
   Twitter
 - Add style ordinal/cardinal to NumberFormat
-  (RBNF)[^360]
+  (RBNF)[^361]
   in `tc39/ecma402`
 
 ## Tips for Contributors
@@ -192,7 +192,7 @@ There are plenty of resources on how to get started with open
 source, so I won't write another guide on that. If you're looking
 for a good place to start, try How to Contribute to Open Source
 by Open Source
-Guides[^359].
+Guides[^360].
 
 Here are my more personal field notes for contributors:
 
@@ -226,7 +226,7 @@ Here are my more personal field notes for contributors:
    - using AI tools can make the difference between contributing
      and not contributing
 6. Use the Refined
-   GitHub[^358]
+   GitHub[^359]
    browser extension to simplify the GitHub interface and add
    helpful features
 7. Report issues with enough information to make them actionable
@@ -264,46 +264,46 @@ Experience) for new contributors:
    - embed runnable examples and playgrounds in the docs
 4. Provide a bug reproduction template
    - example: Next.js repro
-     template[^357]
+     template[^358]
    - example: Reproduction Template of ESLint
-     Stylistic[^356]
+     Stylistic[^357]
    - example: GitHub template for creating a Rspack minimal
      reproducible
-     example[^355]
+     example[^356]
    - more examples: Awesome Open Source
-     Automation[^354]
+     Automation[^355]
 
 \newpage
 
 
-[^354]: https://github.com/karlhorky/awesome-open-source-automation
-[^355]: https://github.com/web-infra-dev/rspack-repro
-[^356]: https://github.com/eslint-community/eslint-stylistic-repro-template
-[^357]: https://codesandbox.io/p/devbox/github/vercel/next.js/tree/canary/examples/reproduction-template
-[^358]: https://github.com/refined-github/refined-github
-[^359]: https://opensource.guide/how-to-contribute/
-[^360]: https://github.com/tc39/ecma402/issues/494#issuecomment-2249792266
-[^361]: https://x.com/karlhorky/status/1689254427159375873
-[^362]: https://x.com/karlhorky/status/1758072415114957091
-[^363]: https://bsky.app/profile/karlhorky.com/post/3lomlbj5gts2m
-[^364]: https://github.com/vercel/next.js/issues/41961
-[^365]: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/64137
-[^366]: https://github.com/postcss/postcss/issues/1814
-[^367]: https://github.com/sql-formatter-org/sql-formatter/pull/849
-[^368]: https://github.com/ts-safeql/safeql/issues/80#issuecomment-1882913207
-[^369]: https://github.com/porsager/postgres/pull/460
-[^370]: https://github.com/nodejs/typescript/issues/14
-[^371]: https://github.com/un-ts/eslint-plugin-import-x/pull/262
-[^372]: https://github.com/upleveled/system-setup/pull/79
-[^373]: https://github.com/vercel/next.js/pull/47526
-[^374]: https://github.com/upleveled/next-js-example-winter-2025-eu
-[^375]: https://github.com/upleveled/security-vulnerability-examples-next-js-postgres
-[^376]: https://github.com/upleveled/system-setup
-[^377]: https://github.com/upleveled/eslint-plugin-upleveled
-[^378]: https://github.com/upleveled/eslint-config-upleveled
-[^379]: https://github.com/upleveled/preflight
-[^380]: https://github.com/Sec-ant/prettier-plugin-embed/blob/main/ConfigExamples.md
-[^381]: https://safeql.dev/
-[^382]: https://upleveled.io
-[^383]: https://www.linkedin.com/in/karlhorky/
-[^384]: https://github.com/karlhorky
+[^355]: https://github.com/karlhorky/awesome-open-source-automation
+[^356]: https://github.com/web-infra-dev/rspack-repro
+[^357]: https://github.com/eslint-community/eslint-stylistic-repro-template
+[^358]: https://codesandbox.io/p/devbox/github/vercel/next.js/tree/canary/examples/reproduction-template
+[^359]: https://github.com/refined-github/refined-github
+[^360]: https://opensource.guide/how-to-contribute/
+[^361]: https://github.com/tc39/ecma402/issues/494#issuecomment-2249792266
+[^362]: https://x.com/karlhorky/status/1689254427159375873
+[^363]: https://x.com/karlhorky/status/1758072415114957091
+[^364]: https://bsky.app/profile/karlhorky.com/post/3lomlbj5gts2m
+[^365]: https://github.com/vercel/next.js/issues/41961
+[^366]: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/64137
+[^367]: https://github.com/postcss/postcss/issues/1814
+[^368]: https://github.com/sql-formatter-org/sql-formatter/pull/849
+[^369]: https://github.com/ts-safeql/safeql/issues/80#issuecomment-1882913207
+[^370]: https://github.com/porsager/postgres/pull/460
+[^371]: https://github.com/nodejs/typescript/issues/14
+[^372]: https://github.com/un-ts/eslint-plugin-import-x/pull/262
+[^373]: https://github.com/upleveled/system-setup/pull/79
+[^374]: https://github.com/vercel/next.js/pull/47526
+[^375]: https://github.com/upleveled/next-js-example-winter-2025-eu
+[^376]: https://github.com/upleveled/security-vulnerability-examples-next-js-postgres
+[^377]: https://github.com/upleveled/system-setup
+[^378]: https://github.com/upleveled/eslint-plugin-upleveled
+[^379]: https://github.com/upleveled/eslint-config-upleveled
+[^380]: https://github.com/upleveled/preflight
+[^381]: https://github.com/Sec-ant/prettier-plugin-embed/blob/main/ConfigExamples.md
+[^382]: https://safeql.dev/
+[^383]: https://upleveled.io
+[^384]: https://www.linkedin.com/in/karlhorky/
+[^385]: https://github.com/karlhorky
