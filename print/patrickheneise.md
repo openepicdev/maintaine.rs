@@ -75,9 +75,9 @@ As I continue this journey, I hope to keep growing communities, connecting devel
 
 Let's make an awesome Open Source future together.
 
-/ Patrick Heneise[^85], April 28, 2025
+/ Patrick Heneise[^95], April 28, 2025
 
 \newpage
 
 
-[^85]: https://github.com/patrickheneise
+[^95]: https://github.com/patrickheneise

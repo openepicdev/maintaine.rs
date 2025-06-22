@@ -4,7 +4,7 @@
 > [github.com/bxcodec](https://github.com/bxcodec)  
 > [maintaine.rs/bxcodec](https://maintaine.rs/bxcodec)
 
-I’m Iman Tumorang[^352], currently working as a full-time engineer at Veriff[^351], one of the biggest ID verification solution startups in Estonia. Prior to this, I also worked in a couple of industries, such as payment, media, and CRM. Throughout my professional journey, I’ve been following the open-source community. Even though I haven’t made considerable contributions to any popular projects, I can proudly say I’ve been maintaining a couple of my Golang libraries, which a few people fortunately use.
+I’m Iman Tumorang[^353], currently working as a full-time engineer at Veriff[^352], one of the biggest ID verification solution startups in Estonia. Prior to this, I also worked in a couple of industries, such as payment, media, and CRM. Throughout my professional journey, I’ve been following the open-source community. Even though I haven’t made considerable contributions to any popular projects, I can proudly say I’ve been maintaining a couple of my Golang libraries, which a few people fortunately use.
 
 I noticed a correlation between my professional career and open-source contributions. All my Golang libraries are inspired by the problems I encounter in my work. Sometimes, I need to create a small library to speed up development time. If I see that it can be helpful in the public, I will make it open-source; if not, it will remain an internal source within the company.
 
@@ -59,5 +59,5 @@ And last but not least, people are using Open Source. I appreciate your trust in
 \newpage
 
 
-[^351]: https://veriff.com
-[^352]: https://imantumorang.com/
+[^352]: https://veriff.com
+[^353]: https://imantumorang.com/

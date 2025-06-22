@@ -4,13 +4,13 @@
 > [github.com/skywinder](https://github.com/skywinder)  
 > [maintaine.rs/skywinder](https://maintaine.rs/skywinder)
 
-My journey into Open Source began over a decade ago when I created the GitHub Changelog Generator[^55].
+My journey into Open Source began over a decade ago when I created the GitHub Changelog Generator[^65].
 
 At that time, it was my first real project written in Ruby — and I couldn’t have imagined how much it would resonate with the community. The project quickly gained momentum, reaching over **6,000 stars**, becoming one of GitHub’s trending repositories back then, which felt truly incredible.
 
 As my career evolved and my focus shifted to other projects and various new initiatives — the Changelog Generator was gracefully passed into new hands.
 
-I’m especially grateful to Olle Jonsson[^56], who picked up the project and took it to a new level: improving the codebase, making it more professional, polished, and sustainable.
+I’m especially grateful to Olle Jonsson[^66], who picked up the project and took it to a new level: improving the codebase, making it more professional, polished, and sustainable.
 
 Olle’s dedication gave the project a second life, and it’s one of the most beautiful feelings in Open Source — seeing a project grow beyond yourself, like raising a child who eventually becomes independent and thrives on their own.
 
@@ -35,13 +35,13 @@ For me, Open Source is about freedom, community, and shared progress. It's a spa
 
 I’ve created several popular Open Source projects, including:
 
-GitHub Changelog Generator[^55] — a tool to automate changelog creation
+GitHub Changelog Generator[^65] — a tool to automate changelog creation
 
-web3swift[^54] — a Swift library for interacting with Ethereum
+web3swift[^64] — a Swift library for interacting with Ethereum
 
-ActionSheetPicker[^53] — a widely used iOS UI component
+ActionSheetPicker[^63] — a widely used iOS UI component
 
-I also actively contribute to OMI[^52], an innovative wearable AI hardware project that I'm very excited about right now.
+I also actively contribute to OMI[^62], an innovative wearable AI hardware project that I'm very excited about right now.
 
 ## How do you grow your community?
 
@@ -84,8 +84,8 @@ Clear communication, patience, and setting a strong but welcoming project cultur
 \newpage
 
 
-[^52]: https://github.com/BasedHardware/omi/
-[^53]: https://github.com/skywinder/ActionSheetPicker-3.0
-[^54]: https://github.com/web3swift-team/web3swift
-[^55]: https://github.com/github-changelog-generator/github-changelog-generator
-[^56]: https://github.com/olleolleolle
+[^62]: https://github.com/BasedHardware/omi/
+[^63]: https://github.com/skywinder/ActionSheetPicker-3.0
+[^64]: https://github.com/web3swift-team/web3swift
+[^65]: https://github.com/github-changelog-generator/github-changelog-generator
+[^66]: https://github.com/olleolleolle

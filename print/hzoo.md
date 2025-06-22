@@ -8,7 +8,7 @@
 
 **Henry:** I would like to frame how I got involved in Open Source very specifically because I think it's a typical experience. People are very intimidated by Open Source, even though they use it a lot. Consuming Open Source is really easy \- you can import a package on NPM or whatever language. But to contribute, you have to make a GitHub account, and while it's easier than before, there are cultural barriers to get around.
 
-Open Source is its own culture, and every project is almost like its own city or country[^50]. I think we all want to respect different cultures, and I feel like I would love that people do that for every project or language.
+Open Source is its own culture, and every project is almost like its own city or country[^60]. I think we all want to respect different cultures, and I feel like I would love that people do that for every project or language.
 
 The way I got involved was realizing that somebody was working on the projects that I use. I like to make the analogy that it's similar to volunteering in a garden, or a library, or a church. It's like going to church where they give you breakfast or worship and small groups. These things are set up for you. You participate and then you go home. It's very consumerist.
 
@@ -16,13 +16,13 @@ It's the same with coding \- you use React, ESLint, uBlock Origin or whatever, a
 
 Someone told me that contributing is a thing anyone can do. It's very similar to Wikipedia \- anyone can contribute, but most people don't. I started by looking into projects I was using personally. You don't want to get involved in a random project \- you want something you actually use.
 
-I tried working on a project and it was too complicated, so I ended up working on a linter, which eventually became ESLint[^49]. I was fixing spacing and formatting, which is now solved through Prettier[^48]. That helped me learn about Babel.
+I tried working on a project and it was too complicated, so I ended up working on a linter, which eventually became ESLint[^59]. I was fixing spacing and formatting, which is now solved through Prettier[^58]. That helped me learn about Babel.
 
 I think most people get involved in Open Source by accident. People are perfectly capable of contributing, but they don't know the non-technical aspects of Open Source.
 
 **Interviewer:** How did you get involved with Babel?
 
-**Henry:** I didn't create Babel[^47]. Someone else made it. What happened was I just showed up. I answered some questions in the issues and did some basic docs. I didn't even know the project well. I was just interested, and everyone was using it. They put my name on a blog post saying "Thank you for contributing." I felt almost guilty because I barely did anything, but it actually made me want to do more.
+**Henry:** I didn't create Babel[^57]. Someone else made it. What happened was I just showed up. I answered some questions in the issues and did some basic docs. I didn't even know the project well. I was just interested, and everyone was using it. They put my name on a blog post saying "Thank you for contributing." I felt almost guilty because I barely did anything, but it actually made me want to do more.
 
 **Interviewer:** That's how you get people involved \- you acknowledge them.
 
@@ -40,7 +40,7 @@ It's like joining a church, attending one service, and then the pastor leaves an
 
 **Interviewer:** There was a point in your work at Babel that you decided to do less coding and focus more on community. Why did you feel that need? Was it an easy transition or was it by accident as well?
 
-**Henry:** I wrote about this a little bit in a blog[^46] about quitting. It relates to quitting my job too. I worked at Adobe, and I moved to New York City to work there because they found me through Open Source. The only reason I joined was I thought I would do Open Source at work. That didn't happen, but my bosses were amazing. Eventually, I asked them, "Can I do Babel half-time?" and I did that. After a year, I felt like I couldn't compromise myself doing half job, half Open Source. So I just quit, and they were very supportive.
+**Henry:** I wrote about this a little bit in a blog[^56] about quitting. It relates to quitting my job too. I worked at Adobe, and I moved to New York City to work there because they found me through Open Source. The only reason I joined was I thought I would do Open Source at work. That didn't happen, but my bosses were amazing. Eventually, I asked them, "Can I do Babel half-time?" and I did that. After a year, I felt like I couldn't compromise myself doing half job, half Open Source. So I just quit, and they were very supportive.
 
 In 2018, Babel was becoming more important in JavaScript, and I felt I could do more to sustain the project by leaving my job. Having been involved longer, I realized the most important things about the project were the non-technical side \- the community.
 
@@ -52,7 +52,7 @@ People showed up to do the code, so I was okay letting others do that while I wo
 
 Sales in Open Source is very different because I'm not selling a SaaS product. I'm saying, "You already use Babel every day. Will you give back?" It's weird because everyone's already using it for free. It's more like, "Can you give money so that we can sustain this project?" We could do this for free, but we might burn out. People leave for health reasons, getting older, having kids, getting married, moving. There's no obligation to do any of this, which makes it special but also makes it hard.
 
-**Interviewer:** This is related to the tragedy of the commons[^45], right? You have 100 companies using the project, and maybe five of them support it. Why should a company sponsor if the other five are already doing that? If you don't have those skills around fundraising and trying to compel people to sponsor, it can be quite challenging.
+**Interviewer:** This is related to the tragedy of the commons[^55], right? You have 100 companies using the project, and maybe five of them support it. Why should a company sponsor if the other five are already doing that? If you don't have those skills around fundraising and trying to compel people to sponsor, it can be quite challenging.
 
 **Henry:** Yeah, it's actually crazy that we raised so much. Looking back at our Open Collective, I think we've fundraised over a million dollars, which is actually kind of crazy.
 
@@ -74,7 +74,7 @@ I think you have to learn to trust people. That's always going to be hard, espec
 
 The tragedy of the commons in Open Source is around contribution, not distribution. The whole point of Open Source is that anyone can read and download for free. But the problem is there aren't enough people helping.
 
-Nadia Eghbal, who I did a podcast[^42] with, wrote a book called "Working in Public[^44]." She has this two-by-two grid of different kinds of projects based on contributor growth and user growth. Babel was cited as an example of what's called "the stadium" \- low contributor growth, high user growth. So you have like two or three people and hundreds of thousands of users. That just doesn't work[^43].
+Nadia Eghbal, who I did a podcast[^52] with, wrote a book called "Working in Public[^54]." She has this two-by-two grid of different kinds of projects based on contributor growth and user growth. Babel was cited as an example of what's called "the stadium" \- low contributor growth, high user growth. So you have like two or three people and hundreds of thousands of users. That just doesn't work[^53].
 
 The problem with AI is that it could potentially make this problem worse. You might think, "We're going to have more contributors because it's easier to contribute." But I'm thinking, well, someone has to review it. Yes, you can use AI to review the code, but I don't think anyone would use a project where the reviews were AI-driven. The person still has to look line by line, just in case of a supply chain attack.
 
@@ -84,7 +84,7 @@ So I feel like it would lead to bigger Open Source projects because AI will use 
 
 **Interviewer:** Is there something else you'd like to share?
 
-**Henry:** I would love to share why I do Open Source and why I quit my job. The podcast that I do, it's called Hope In Source[^42]. That has been really fun for me.
+**Henry:** I would love to share why I do Open Source and why I quit my job. The podcast that I do, it's called Hope In Source[^52]. That has been really fun for me.
 
 I would like to offer to people in Open Source to think about it in a spiritual sense. There is something that people could be missing out on by not thinking from that lens. When I think about Open Source, I think about volunteer work, helping people, and that's very similar to serving in a church.
 
@@ -99,12 +99,12 @@ I want to not just say I love community all the time, but live that out in my li
 \newpage
 
 
-[^42]: https://hopeinsource.com/
-[^43]: https://xkcd.com/2347/
-[^44]: https://press.stripe.com/working-in-public
-[^45]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
-[^46]: https://www.henryzoo.com/oss
-[^47]: https://babeljs.io/
-[^48]: https://prettier.io/
-[^49]: https://eslint.org/
-[^50]: https://increment.com/open-source/the-city-guide-to-open-source/
+[^52]: https://hopeinsource.com/
+[^53]: https://xkcd.com/2347/
+[^54]: https://press.stripe.com/working-in-public
+[^55]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+[^56]: https://www.henryzoo.com/oss
+[^57]: https://babeljs.io/
+[^58]: https://prettier.io/
+[^59]: https://eslint.org/
+[^60]: https://increment.com/open-source/the-city-guide-to-open-source/

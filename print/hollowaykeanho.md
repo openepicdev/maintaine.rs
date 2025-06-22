@@ -358,11 +358,11 @@ Special thanks to:
 - **Cory Galyna (Germany)** - For supporting me all the way throughout my
   entrepreneurship with her management wisdom.
 
-This article is licensed under Creative Commons[^4]
-Attribution-NoDerivatives 4.0 International License[^3].
+This article is licensed under Creative Commons[^14]
+Attribution-NoDerivatives 4.0 International License[^13].
 
 \newpage
 
 
-[^3]: https://creativecommons.org/licenses/by-nd/4.0/
-[^4]: https://creativecommons.org/
+[^13]: https://creativecommons.org/licenses/by-nd/4.0/
+[^14]: https://creativecommons.org/

@@ -8,7 +8,7 @@ I'm Alejandra, one of the people that maintains [Clippy](https://github.com/rust
 
 ## Who are you again?
 
-As I said, I'm one of the people that maintains Rust's official linter, Clippy. You can execute Rust's linter any time[^1] if you have [Cargo] installed via `cargo clippy`. I've been working on Clippy full time as a maintainer for about 2 years. In that time I've implemented several lints, fixed a lot of bugs, reviewed hundreds of pull requests, implemented benchmarking tools into Clippy and integrated Clippy into other benchmarking tools. Even proposed a Rust Project Goal that got accepted!
+As I said, I'm one of the people that maintains Rust's official linter, Clippy. You can execute Rust's linter any time[^11] if you have [Cargo] installed via `cargo clippy`. I've been working on Clippy full time as a maintainer for about 2 years. In that time I've implemented several lints, fixed a lot of bugs, reviewed hundreds of pull requests, implemented benchmarking tools into Clippy and integrated Clippy into other benchmarking tools. Even proposed a Rust Project Goal that got accepted!
 
 While I'm not the oldest maintainer, (not even close) I have some things to say, and I think that my advice could be valuable to whoever is happy to hear it.
 
@@ -52,7 +52,7 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
    - Avoid big pull requests. Making pull requests smaller is the best strategy to improve review times, code quality and overall team mentality.
    - Pull requests under 150 lines are reviewed the fastest and thus, can fix issues the fastest.
    - As a general guideline, always think about all the boundaries that the pull request code might handle, and how to break in the worst way possible that poor contributor's code.
-   - Get in the mud, explore the deep end of your contributor's code[^2]. Break your tests, read documentation for every single one of the added functions, see if functions could be removed, check if loops could be early-returned.
+   - Get in the mud, explore the deep end of your contributor's code[^12]. Break your tests, read documentation for every single one of the added functions, see if functions could be removed, check if loops could be early-returned.
    - Don't forget to talk to your contributors about documentation!
 
 4. Use automated tooling
@@ -78,8 +78,8 @@ First, thanks a lot for wanting to help your fellow developers! The biggest help
 
 And that's everything I'll talk about today! I hope that you have learned something new and used your critical thinking skills to decide if these thoughts fit your mental model. Thanks for listening to my ramblings and have a great week. Peace!
 
-[^1]: (unless you have a `minimal` profile set in your configuration).
-[^2]: You can actually fetch a remote pull request with `git fetch origin pull/$pr_num/head:$branch_name`!
+[^11]: (unless you have a `minimal` profile set in your configuration).
+[^12]: You can actually fetch a remote pull request with `git fetch origin pull/$pr_num/head:$branch_name`!
 
 [bisect]: https://git-scm.com/docs/git-bisect
 [heaptrack]: https://github.com/KDE/heaptrack

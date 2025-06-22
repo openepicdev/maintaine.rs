@@ -16,7 +16,7 @@ A few years later I was the co-author of an IRC bot \- released in the open for 
 
 ## A hundred lines of code
 
-As a side thing for the bot project, I got involved in creating a small tool for downloading content over HTTP in late 1996, and it did not take long until the side thing became my main spare time project. In the spring of 1998 we renamed that project to curl[^51] and a special journey had started for real. Oh, and by that time the term Open Source was also coined so now we had a term for what we were doing\!
+As a side thing for the bot project, I got involved in creating a small tool for downloading content over HTTP in late 1996, and it did not take long until the side thing became my main spare time project. In the spring of 1998 we renamed that project to curl[^61] and a special journey had started for real. Oh, and by that time the term Open Source was also coined so now we had a term for what we were doing\!
 
 Those projects of mine were Open Source from day one as I wanted to contribute to the ever growing collection of free and useful code out there. I was acutely aware that I needed help from others to make my projects polished and to get them to properly work in many different environments \- to reach success basically. I asked for people’s bug reports, patches, feedback and comments. In the beginning they were few and infrequent, but the more the project matured and improved, interaction with others increased. I have always tried to thank contributors and give them proper credit, as that is often the only currency available. I always try to be inclusive in wording and speak of “we” and not “I” about the project, even in times when most of the changes were done by me.
 
@@ -45,4 +45,4 @@ Let’s make an awesome Open Source future.
 \newpage
 
 
-[^51]: https://curl.se/
+[^61]: https://curl.se/
