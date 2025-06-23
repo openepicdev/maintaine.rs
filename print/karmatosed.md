@@ -59,11 +59,11 @@ You should put your seatbelt on first. A project reflects the state of its maint
 
 Want to read more from me? Please visit [binatethoughts.com](http://binatethoughts.com)
 
-Want to sponsor me? You can go through GitHub[^290] or also [get in touch](mailto:hello@tammielister.com).
+Want to sponsor me? You can go through GitHub[^293] or also [get in touch](mailto:hello@tammielister.com).
 
 There is always sponsorship, of course, that is volunteered, and I’ll do as much as possible whilst still keeping things flowing – let’s get contributing\!
 
 \newpage
 
 
-[^290]: https://github.com/karmatosed
+[^293]: https://github.com/karmatosed

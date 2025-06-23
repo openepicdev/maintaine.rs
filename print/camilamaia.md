@@ -6,9 +6,9 @@
 
 **Breaking Barriers: Unlocking Opportunities Through Open Source**
 
-Have you ever found yourself stuck in the endless loop of needing experience to get a job, but struggling to get experience because no one will hire you without it? It’s a typical case of a Catch-22[^281] — a paradox where you need something you can’t get without already having it. It’s a frustrating cycle that many people in tech — especially those from underrepresented groups—face. You may feel like you’ve hit a wall, unable to break through. But what if the very thing you're missing—experience—is something you can create on your own?
+Have you ever found yourself stuck in the endless loop of needing experience to get a job, but struggling to get experience because no one will hire you without it? It’s a typical case of a Catch-22[^284] — a paradox where you need something you can’t get without already having it. It’s a frustrating cycle that many people in tech — especially those from underrepresented groups—face. You may feel like you’ve hit a wall, unable to break through. But what if the very thing you're missing—experience—is something you can create on your own?
 
-I'm Camila Maia[^280], a backend developer who's been in tech since 2010. For the past few years, I've been diving deep into Developer Experience and dedicating a good part of my time to contributing to and advocating for Open Source. I'm also Brazilian, a woman, a lesbian, and a person with a disability (low vision) — sharing this feels important, especially for those who might be looking for someone they can relate to.
+I'm Camila Maia[^283], a backend developer who's been in tech since 2010. For the past few years, I've been diving deep into Developer Experience and dedicating a good part of my time to contributing to and advocating for Open Source. I'm also Brazilian, a woman, a lesbian, and a person with a disability (low vision) — sharing this feels important, especially for those who might be looking for someone they can relate to.
 
 In this article, I’ll take you through my journey in the Open Source world — how it’s shaped my path, continues to guide my professional choices, and keeps influencing what’s ahead. I’ll also share how it helped me find purpose in my career, something I couldn’t achieve while working exclusively with private code in companies.
 
@@ -16,13 +16,13 @@ On top of that, I’ll explore how Open Source is not just a tool for developmen
 
 ## Open Source, Camila. Camila, Open Source
 
-It all started during my time at Loadsmart[^279], a logistics company where I spent nearly four years. It was there that I met Gustavo Barbosa[^278] — and everything started to shift. He introduced me to Danger[^277], an open-source tool that automates tasks and highlights issues during code reviews, and a plugin he had created, danger-android_lint[^276], which integrates Android Lint checks directly into pull requests. From the moment I saw it, I was hooked.
+It all started during my time at Loadsmart[^282], a logistics company where I spent nearly four years. It was there that I met Gustavo Barbosa[^281] — and everything started to shift. He introduced me to Danger[^280], an open-source tool that automates tasks and highlights issues during code reviews, and a plugin he had created, danger-android_lint[^279], which integrates Android Lint checks directly into pull requests. From the moment I saw it, I was hooked.
 
-At the time, around 2018, GitHub Actions[^275] wasn’t around yet. The idea of automating Pull Request reviews in such a simple, flexible way felt like magic. But what truly fascinated me was the global collaboration I saw happening. People from different corners of the world working together on the same codebase, even though they had never met — that blew my mind. It was this sense of community that drew me in and made me realize the power of Open Source.
+At the time, around 2018, GitHub Actions[^278] wasn’t around yet. The idea of automating Pull Request reviews in such a simple, flexible way felt like magic. But what truly fascinated me was the global collaboration I saw happening. People from different corners of the world working together on the same codebase, even though they had never met — that blew my mind. It was this sense of community that drew me in and made me realize the power of Open Source.
 
-One day, we spent hours trying to fix a bug in Danger and just couldn’t crack it. While I was visiting Loadsmart’s New York office, we decided to check out a CocoaPods Peer Lab Meetup[^274] at Artsy[^273] — hoping we could get help. There, we paired with Orta Therox[^272], the creator of Danger, and together we finally solved it. Sitting with him, learning, chatting, eating pizza — it was surreal. That experience showed me firsthand how Open Source can lead to genuine connection, shared knowledge, and opportunities that might never happen in more traditional tech spaces.
+One day, we spent hours trying to fix a bug in Danger and just couldn’t crack it. While I was visiting Loadsmart’s New York office, we decided to check out a CocoaPods Peer Lab Meetup[^277] at Artsy[^276] — hoping we could get help. There, we paired with Orta Therox[^275], the creator of Danger, and together we finally solved it. Sitting with him, learning, chatting, eating pizza — it was surreal. That experience showed me firsthand how Open Source can lead to genuine connection, shared knowledge, and opportunities that might never happen in more traditional tech spaces.
 
-As I immersed myself more and more in the Open Source world, I started hearing stories that inspired me deeply. I learned about Felix Krause[^271] and his tool Fastlane[^270], Max Stoiber[^269] and his project react-boilerplate[^268], and many others who had built incredible things. Each story added fuel to the fire — I knew I wanted to be part of this movement.
+As I immersed myself more and more in the Open Source world, I started hearing stories that inspired me deeply. I learned about Felix Krause[^274] and his tool Fastlane[^273], Max Stoiber[^272] and his project react-boilerplate[^271], and many others who had built incredible things. Each story added fuel to the fire — I knew I wanted to be part of this movement.
 
 ## Born from the Fire: My Own Open Source Spark
 
@@ -30,7 +30,7 @@ It was mid-2019, and I was playing the “firefighter” role on my team — the
 
 Debugging was painful. To test a single endpoint, I often had to recreate an entire chain of previous requests, sometimes across services we didn’t even control. That’s when I started thinking: there has to be a better way. I sketched out what this “better way” could look like — something to test both owned and third-party APIs, generate up-to-date documentation automatically, and even chain requests together. I spent a weekend building a proof of concept and shared it with my team on Monday.
 
-That project became ScanAPI[^267]. I built it from the beginning with Open Source in mind, designing it to be language-agnostic and easy to extend. It started as a tool to solve our pain, but quickly grew into something bigger — a way to help anyone, anywhere, ensure their APIs actually work the way they’re supposed to.
+That project became ScanAPI[^270]. I built it from the beginning with Open Source in mind, designing it to be language-agnostic and easy to extend. It started as a tool to solve our pain, but quickly grew into something bigger — a way to help anyone, anywhere, ensure their APIs actually work the way they’re supposed to.
 
 ## A Door Opens
 
@@ -40,9 +40,9 @@ In March of that year, I left my job. With more free time on my hands, I decided
 
 Then, in May, something unexpected happened.
 
-I received an email from someone named Daniel Compton[^266] at GitHub. It wasn’t spam — it was real. New Relic[^265], a major tech company, wanted to sponsor my GitHub profile. I was stunned. It was the first time someone wanted to _financially_ support what I was building. It felt surreal.
+I received an email from someone named Daniel Compton[^269] at GitHub. It wasn’t spam — it was real. New Relic[^268], a major tech company, wanted to sponsor my GitHub profile. I was stunned. It was the first time someone wanted to _financially_ support what I was building. It felt surreal.
 
-There was just one problem: GitHub Sponsors[^264] wasn’t available in Brazil yet. After a few back-and-forth emails, Daniel told me:
+There was just one problem: GitHub Sponsors[^267] wasn’t available in Brazil yet. After a few back-and-forth emails, Daniel told me:
 
 > “We’re working to enable Brazil as an option for Sponsors so you can sign up. You’ll be the first person in Brazil to join!”
 
@@ -50,7 +50,7 @@ That sentence stuck with me. _The first person in Brazil._ I couldn’t believe 
 
 And still in May 2021, it happened. I officially became the first Brazilian to join GitHub Sponsors. It was a spark. A glimmer of something I had never thought could be real: what if I could _live_ from Open Source? What if the work I loved, the work that felt most meaningful to me, could also sustain me?
 
-Later that year, in December, ScanAPI received a one-time donation of $1,000 USD through GitHub Sponsors. It came from Red Hat[^263]. No email. No announcement. Just support. Back in October 2020, I had given a talk about ScanAPI to their internal engineering team, invited by Og Maciel[^262]. I had no idea it had made that kind of impact. But apparently, it had.
+Later that year, in December, ScanAPI received a one-time donation of $1,000 USD through GitHub Sponsors. It came from Red Hat[^266]. No email. No announcement. Just support. Back in October 2020, I had given a talk about ScanAPI to their internal engineering team, invited by Og Maciel[^265]. I had no idea it had made that kind of impact. But apparently, it had.
 
 That was the beginning of a dream. A dream to live off Open Source. Not just for me — but so that others, especially those who come from places and backgrounds like mine, could see that it’s possible too.
 
@@ -78,7 +78,7 @@ The hunt for a new job had begun. I was specifically targeting companies based i
 
 Throughout this search, I kept coming back to the impact Open Source had already had on my career. I realized early on that my contributions were immensely valuable in hiring processes. These weren’t just code commits — they gave me access to real, meaningful experiences. Through Open Source, I had found myself managing people, projects, and even events. I built leadership skills, collaborated with diverse teams, and took on responsibilities that extended far beyond the technical. All of that gave me concrete, lived examples to draw on when facing tough interview questions — not hypotheticals, but stories rooted in actual work.
 
-I came across some open roles at SoundCloud[^261], and it immediately stood out. I already knew about their legacy — they were the birthplace of Prometheus[^260], one of the most widely used monitoring systems in the world. That alone said a lot. But what really caught my attention was their approach to time: they had a practice called Self-Allocated Time (SAT), previously known as Hacker Time[^259]. SAT is a structured policy that gives engineers dedicated time — every week — to explore, create, learn, and contribute beyond the daily backlog. It’s not just tolerated; it’s part of how they work. And that includes contributing to Open Source.
+I came across some open roles at SoundCloud[^264], and it immediately stood out. I already knew about their legacy — they were the birthplace of Prometheus[^263], one of the most widely used monitoring systems in the world. That alone said a lot. But what really caught my attention was their approach to time: they had a practice called Self-Allocated Time (SAT), previously known as Hacker Time[^262]. SAT is a structured policy that gives engineers dedicated time — every week — to explore, create, learn, and contribute beyond the daily backlog. It’s not just tolerated; it’s part of how they work. And that includes contributing to Open Source.
 
 I also had personal connections at SoundCloud, and through them, I knew their commitment to diversity and inclusion was genuine. It wasn’t just a marketing ploy.
 
@@ -86,7 +86,7 @@ I applied. I got the offer. I relocated. In January 2022, I joined SoundCloud �
 
 ## A Wild Side Quest Appears
 
-Before we continue, let’s take a quick break from the main timeline and rewind a bit — back to July 2021. My cousin — Maria[^258] — asked if we could schedule a one-on-one — she had a bunch of questions about tech. After trying many different paths in life, she was now considering a career change to something more stable, and I.T. was on her radar.
+Before we continue, let’s take a quick break from the main timeline and rewind a bit — back to July 2021. My cousin — Maria[^261] — asked if we could schedule a one-on-one — she had a bunch of questions about tech. After trying many different paths in life, she was now considering a career change to something more stable, and I.T. was on her radar.
 
 That conversation turned into a series. We started meeting regularly with a clear goal: figure out if she would actually enjoy working in tech.
 
@@ -104,13 +104,13 @@ From there, I started building a whole methodology to teach her how to code — 
 
 ## Open Source: A Powerful Educational Tool
 
-For Maria’s hands-on learning journey, we chose to work on brutils-python[^253] — a utilities library focused on Brazil-specific data formats. With it, you can validate, format, and generate common national identifiers like personal tax IDs (similar to a Social Security Number), business registration numbers, vehicle license plates, voter IDs, and more.
+For Maria’s hands-on learning journey, we chose to work on brutils-python[^256] — a utilities library focused on Brazil-specific data formats. With it, you can validate, format, and generate common national identifiers like personal tax IDs (similar to a Social Security Number), business registration numbers, vehicle license plates, voter IDs, and more.
 
 It was the perfect project: no complex frameworks, no web development, and highly modular features. Ideal for practicing core software development skills in a real-world environment.
 
 In February 2023, Maria made her very first contribution.
 
-Step by step, she learned how the library worked — how to contribute to it, how to maintain it, how to think collaboratively and build for the long term. By October of that same year, during Hacktoberfest[^257], she was already coordinating a group of over ten people contributing simultaneously.
+Step by step, she learned how the library worked — how to contribute to it, how to maintain it, how to think collaboratively and build for the long term. By October of that same year, during Hacktoberfest[^260], she was already coordinating a group of over ten people contributing simultaneously.
 
 We started sharing the project and this journey in conferences and tech communities. Over time, the impact grew: the library reached over 4,000 downloads per month.
 
@@ -122,7 +122,7 @@ With all of this unfolding, we couldn’t help but ask: _what if this same appro
 
 ## Cumbuca Dev
 
-In August 2023, after everything we had learned from Maria’s journey, we decided to take things a step further — and that’s when Cumbuca Dev[^256] was born.
+In August 2023, after everything we had learned from Maria’s journey, we decided to take things a step further — and that’s when Cumbuca Dev[^259] was born.
 
 Cumbuca Dev is a community-driven educational initiative focused on helping people from underrepresented groups gain real experience in tech, especially through Open Source. We believe learning doesn’t have to happen in isolation, and that meaningful experience doesn’t have to wait until after you land your first job.
 
@@ -137,7 +137,7 @@ It started with one person. Now, it’s growing into something bigger.
 
 I spent almost two years working at SoundCloud. It was a time of deep learning and meaningful connections — I met incredible people and, for the first time, got to work in a truly diverse team. But even with all the positives, I couldn’t contribute to Open Source as much as I wanted to through the company.
 
-In December 2023, I joined Trade Republic[^255]. But it didn’t take long for me to realize: my path was no longer about working for a company. Cumbuca was taking shape. New projects were blooming. And my time simply wasn’t enough anymore.
+In December 2023, I joined Trade Republic[^258]. But it didn’t take long for me to realize: my path was no longer about working for a company. Cumbuca was taking shape. New projects were blooming. And my time simply wasn’t enough anymore.
 
 So, I made a decision: In May 2024, I left Trade Republic to fully dedicate myself to Cumbuca — and I didn’t stop there. I also moved back to Brazil. Cumbuca was born with Brazil in mind — to help break cycles of exclusion in a country full of potential but short on opportunity. Being closer to the people we aim to support, especially during these crucial first years, was vital. Building real connections, understanding the local context, and being physically present in these spaces matters, especially when your goal is to create something truly grounded in the local reality.
 
@@ -163,7 +163,7 @@ We’re also building and maintaining repositories with real-world scale and com
 While we’re starting in Portuguese, we plan to gradually translate everything into English too.
 It takes time, but we believe it will pay off — and that by building strong foundations in our own language, we’ll create more powerful contributions to the global community.
 
-One of the first steps in this journey is Git e GitHub para Humanos[^252] — our first public book, written entirely in Portuguese.
+One of the first steps in this journey is Git e GitHub para Humanos[^255] — our first public book, written entirely in Portuguese.
 
 The name roughly translates to "Git and GitHub for Humans", and that’s exactly the point: making these tools feel approachable to people who are just getting started — especially those who are still learning to program and might feel overwhelmed by all the jargon out there.
 
@@ -186,7 +186,7 @@ If there’s one thing I’ve learned through all of this, it’s that Open Sour
 
 I want to take a moment to thank everyone who has contributed to this journey — whether by sharing knowledge, offering guidance, sharing your story, or simply being part of the community. Your support has been invaluable, and I’m incredibly grateful for each and every person who has helped shape this experience. It’s through collaboration, mutual support, and the inspiring stories we share that we motivate others and continue to move forward together.
 
-If you're curious to learn more about the projects we're building, feel free to explore [cumbuca.dev][cumbuca-site], our GitHub organization at [github.com/cumbucadev][cumbuca-org], and some of the initiatives close to our hearts like ScanAPI[^254], brutils-python[^253], and Git e GitHub para Humanos[^252]. We’d love for you to join us on this journey — whether by contributing, learning, or simply sharing the passion for making Open Source more inclusive for everyone.
+If you're curious to learn more about the projects we're building, feel free to explore [cumbuca.dev][cumbuca-site], our GitHub organization at [github.com/cumbucadev][cumbuca-org], and some of the initiatives close to our hearts like ScanAPI[^257], brutils-python[^256], and Git e GitHub para Humanos[^255]. We’d love for you to join us on this journey — whether by contributing, learning, or simply sharing the passion for making Open Source more inclusive for everyone.
 
 Open Source is a powerful way to break the First Job Catch-22. If you feel stuck, know that you're not alone — the community is here to help you create your own opportunities. Just start contributing, and you'll be amazed at how doors begin to open.
 
@@ -196,33 +196,33 @@ Open Source is a powerful way to break the First Job Catch-22. If you feel stuck
 \newpage
 
 
-[^252]: https://github.com/cumbucadev/git-e-github-para-humanos
-[^253]: https://github.com/brazilian-utils/brutils-python
-[^254]: https://scanapi.dev
-[^255]: https://traderepublic.com/
-[^256]: https://cumbuca.dev
-[^257]: https://hacktoberfest.com/
-[^258]: https://github.com/antoniamaia
-[^259]: https://developers.soundcloud.com/blog/stop-hacker-time
-[^260]: https://prometheus.io/
-[^261]: https://soundcloud.com/
-[^262]: https://github.com/omaciel
-[^263]: https://www.redhat.com/
-[^264]: https://github.com/sponsors
-[^265]: https://newrelic.com/
-[^266]: https://github.com/danielcompton
-[^267]: https://github.com/scanapi/scanapi
-[^268]: https://github.com/react-boilerplate/react-boilerplate
-[^269]: https://github.com/mxstbr
-[^270]: https://github.com/fastlane/fastlane
-[^271]: https://github.com/KrauseFx
-[^272]: https://github.com/orta
-[^273]: https://github.com/artsy
-[^274]: https://artsy.github.io/blog/2015/08/10/peer-lab/
-[^275]: https://github.com/features/actions
-[^276]: https://github.com/loadsmart/danger-android_lint
-[^277]: https://danger.systems/
-[^278]: https://github.com/barbosa
-[^279]: https://loadsmart.com/
-[^280]: https://github.com/camilamaia
-[^281]: https://en.wikipedia.org/wiki/Catch-22_(logic)
+[^255]: https://github.com/cumbucadev/git-e-github-para-humanos
+[^256]: https://github.com/brazilian-utils/brutils-python
+[^257]: https://scanapi.dev
+[^258]: https://traderepublic.com/
+[^259]: https://cumbuca.dev
+[^260]: https://hacktoberfest.com/
+[^261]: https://github.com/antoniamaia
+[^262]: https://developers.soundcloud.com/blog/stop-hacker-time
+[^263]: https://prometheus.io/
+[^264]: https://soundcloud.com/
+[^265]: https://github.com/omaciel
+[^266]: https://www.redhat.com/
+[^267]: https://github.com/sponsors
+[^268]: https://newrelic.com/
+[^269]: https://github.com/danielcompton
+[^270]: https://github.com/scanapi/scanapi
+[^271]: https://github.com/react-boilerplate/react-boilerplate
+[^272]: https://github.com/mxstbr
+[^273]: https://github.com/fastlane/fastlane
+[^274]: https://github.com/KrauseFx
+[^275]: https://github.com/orta
+[^276]: https://github.com/artsy
+[^277]: https://artsy.github.io/blog/2015/08/10/peer-lab/
+[^278]: https://github.com/features/actions
+[^279]: https://github.com/loadsmart/danger-android_lint
+[^280]: https://danger.systems/
+[^281]: https://github.com/barbosa
+[^282]: https://loadsmart.com/
+[^283]: https://github.com/camilamaia
+[^284]: https://en.wikipedia.org/wiki/Catch-22_(logic)

@@ -94,14 +94,14 @@ Open Source is a shared responsibility and a powerful force for innovation. Itâ€
 Open Source is built on invisible work: code reviews, mentorship, documentation, and triage. That work deserves recognition and support. As the landscape evolves and AI plays a bigger role, maintainers must innovate while staying sustainable and inclusive. The future of Open Source depends on shared responsibility and visible maintainership.
 
 **Connect with Sai Krishna:**  
- GitHub: saikrishna321[^344]  
+ GitHub: saikrishna321[^347]  
  Blog: [saikrishna.tech](https://saikrishna.tech/)
-LinkedIn: Sai Krishna[^343]
+LinkedIn: Sai Krishna[^346]
 
 ---
 
 \newpage
 
 
-[^343]: https://www.linkedin.com/in/sai-krishna-3755407b/
-[^344]: https://github.com/saikrishna321
+[^346]: https://www.linkedin.com/in/sai-krishna-3755407b/
+[^347]: https://github.com/saikrishna321

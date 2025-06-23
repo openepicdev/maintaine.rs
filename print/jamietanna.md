@@ -4,9 +4,9 @@
 > [github.com/jamietanna](https://github.com/jamietanna)  
 > [maintaine.rs/jamietanna](https://maintaine.rs/jamietanna)
 
-My name's Jamie Tanna[^238] and I've been contributing to Open Source for >11 years, which extends to before my professional career began.
+My name's Jamie Tanna[^241] and I've been contributing to Open Source for >11 years, which extends to before my professional career began.
 
-As with many others, my first foray into Open Source was a few spelling and grammar fixes[^246], but I remember being part of a computer security forum several years prior, where we would share code.
+As with many others, my first foray into Open Source was a few spelling and grammar fixes[^249], but I remember being part of a computer security forum several years prior, where we would share code.
 
 Over the years, I've contributed in various ways to projects - helping answer others' issues on issue trackers, submitting suggestions for bug fixes, implementing features, writing/improving documentation and helping contribute to discussions about the way the project is shaped, but I've also been one of those annoying "any updates?" users, too.
 
@@ -18,21 +18,21 @@ In recent years, I've fortunately worked at companies with a better policy aroun
 
 I've enjoyed being in the place in my career and at a company where - if there is a need to raise a bug upstream, or indeed finding the fix to a bug we're facing, or there's functionality we want to contribute, I can go ahead and do that without much pomp and ceremony.
 
-At the end of the day, we all benefit from continuing to work on the commons, companies most of all[^231]!
+At the end of the day, we all benefit from continuing to work on the commons, companies most of all[^234]!
 
 ## Collector of Open Source projects
 
-I have quite a number of projects I've built (with differing levels of support) that I have a page on my website[^245] listing all the projects!
+I have quite a number of projects I've built (with differing levels of support) that I have a page on my website[^248] listing all the projects!
 
-The main ones that folks may know are `oapi-codegen`[^244], the OpenAPI-to-Go code generator, and dependency-management-data[^243], a tool for better understanding your dependency tree.
+The main ones that folks may know are `oapi-codegen`[^247], the OpenAPI-to-Go code generator, and dependency-management-data[^246], a tool for better understanding your dependency tree.
 
-I've also previously been the primary maintainer for the Jenkins job-dsl-plugin[^242], and on the maintainer team for Wiremock[^241], and I've had contributor access to several projects over the last decade, and I'm also a fairly regular contributor to a number of other projects like Renovate[^240].
+I've also previously been the primary maintainer for the Jenkins job-dsl-plugin[^245], and on the maintainer team for Wiremock[^244], and I've had contributor access to several projects over the last decade, and I'm also a fairly regular contributor to a number of other projects like Renovate[^243].
 
 Something that may be clear from the projects is that they're in a spread of different ecosystems - there's a lot in Jenkins, Java and Cucumber, or a number in Go, or around the OpenAPI ecosystem, or more recently, in the dependency management and insight space.
 
 These all follow where my "focus" as an engineer has been at a given point in time, some of which I've been continuing to work on after I've stepped away from that ecosystem.
 
-The Open Source project I've been most consistently contributing[^239] to is my personal website and blog[^238], which is also an Open Source project in of itself. It's shared freely to the world, with mostly `Apache-2.0` code snippets, and I truly do see this as another project I continue to invest in, whether writing blog posts as a form of blogumentation[^237], or sharing some lukewarm takes about Git commits[^236].
+The Open Source project I've been most consistently contributing[^242] to is my personal website and blog[^241], which is also an Open Source project in of itself. It's shared freely to the world, with mostly `Apache-2.0` code snippets, and I truly do see this as another project I continue to invest in, whether writing blog posts as a form of blogumentation[^240], or sharing some lukewarm takes about Git commits[^239].
 
 ## Where does the time go?
 
@@ -46,19 +46,19 @@ At time of writing, `oapi-codegen` has 503 open issues, and 173 open Pull Reques
 
 Although I describe myself as co-maintainer of `oapi-codegen`, my co-maintainer (and project creator) is currently super busy and unable to work on the project. This means I'm doing the majority of the work - there's a lot of work to triage, prioritise, debug, add test cases to reproduce and then fix issues, let alone taking on new functionality that could be seen as "it's _just_ a case of merging this PR".
 
-As noted in a post from last May[^228], we indicated that we'd like to try and move to a more sustainable model, taking in sponsorship to try and make the work on the project more consistent.
+As noted in a post from last May[^231], we indicated that we'd like to try and move to a more sustainable model, taking in sponsorship to try and make the work on the project more consistent.
 
-I'm incredibly fortunate to say that I have several sponsors[^235] who are great, and each paying for 1hr/month for me to work on the project, and my employer, Elastic[^234] gives me 4hr/month to work on the project.
+I'm incredibly fortunate to say that I have several sponsors[^238] who are great, and each paying for 1hr/month for me to work on the project, and my employer, Elastic[^237] gives me 4hr/month to work on the project.
 
 I understand that this _absolutely_ isn't the norm and is really quite privileged to be able to say I not only have some "free time" to work on the project, let alone that some of it is paid! With the appreciation I hold for their sponsorship to pay for a number of hours of work, there is still, unfortunately, not enough time.
 
-If you rely on any of the projects I maintain, I'd love to talk with you about sponsoring me[^233]!
+If you rely on any of the projects I maintain, I'd love to talk with you about sponsoring me[^236]!
 
 ## The art of "doing it right"
 
 The other, very intertwined, difficulty I face as a maintainer is complexity.
 
-As `oapi-codegen` is built on top of OpenAPI[^232], there's a lot of functionality that a user _could_ use in their OpenAPI documentation, which we then need to support in `oapi-codegen` - it's a very powerful specification that allows elegant descriptions of metadata, but then requires tooling to respond to those complex use-cases.
+As `oapi-codegen` is built on top of OpenAPI[^235], there's a lot of functionality that a user _could_ use in their OpenAPI documentation, which we then need to support in `oapi-codegen` - it's a very powerful specification that allows elegant descriptions of metadata, but then requires tooling to respond to those complex use-cases.
 
 To make matters a little harder, we often need to be led by users with examples of functionality they're using, before we can add support into the project for what they're doing.
 
@@ -76,15 +76,15 @@ If I had any advice for any new or current maintainers, it would be learn what y
 
 This is a good life lesson, too, but especially with Open Source where we see a lot more entitlement, a lot of the time from large companies.
 
-In Open Source, we're constantly doing free work which the industry benefits from[^231], and as Mike McQuaid puts it, Open Source Maintainers Owe You Nothing[^230].
+In Open Source, we're constantly doing free work which the industry benefits from[^234], and as Mike McQuaid puts it, Open Source Maintainers Owe You Nothing[^233].
 
-Understand what this project is _to you_ the maintainer and what you do/do not want to take on as contributions, and then ideally make it clear by using something like a GitHub badge for [unmaintained.tech](https://unmaintained.tech/) or Joseph Hale's PSAs[^229] to indicate maintenance status, or adding information into `CONTRIBUTING.md` about what is/isn't in scope for the project.
+Understand what this project is _to you_ the maintainer and what you do/do not want to take on as contributions, and then ideally make it clear by using something like a GitHub badge for [unmaintained.tech](https://unmaintained.tech/) or Joseph Hale's PSAs[^232] to indicate maintenance status, or adding information into `CONTRIBUTING.md` about what is/isn't in scope for the project.
 
 Unless you're getting paid as your day job, it's taking up precious free time, and although we love you for doing it, you should only be doing it if you enjoy it. And even if you are getting paid for it, you can't magic up more hours in the day, or necessarily prioritise things differently based on the whims of _one_ of your users.
 
 Secondly, I'd indicate that you should try to be transparent and intentional.
 
-In a post to `oapi-codegen` last year[^228], we made it clear that we appreciate there's a gap in the maintenance we've been doing, and do want to improve it, but can't feasibly without more financial support.
+In a post to `oapi-codegen` last year[^231], we made it clear that we appreciate there's a gap in the maintenance we've been doing, and do want to improve it, but can't feasibly without more financial support.
 
 Having this difficult conversation with your users can help set expectations, and I promise you it'll make you feel better.
 
@@ -96,30 +96,30 @@ The first one is to go forth with empathy, and to remember that your maintainers
 
 The second is to please go and say something nice to one of the maintainers in your life. I guarantee they may only get 1-2 positive messages all year, or it's usually "Hey, this project is great, thanks! BTW, there's a massive bug ..." and that it'll make their day.
 
-And a final one is to talk to your company about sponsoring Open Source[^227], and see if you can start helping the people doing the very hard work you rely upon.
+And a final one is to talk to your company about sponsoring Open Source[^230], and see if you can start helping the people doing the very hard work you rely upon.
 
 Let's try and make the human side of Open Source more sustainable.
 
 \newpage
 
 
-[^227]: https://humanwhocodes.com/blog/2021/05/talk-to-your-company-sponsoring-open-source/
-[^228]: https://github.com/oapi-codegen/oapi-codegen/discussions/1606
-[^229]: https://github.com/thehale/PSAs
-[^230]: https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/
-[^231]: https://www.jvt.me/posts/2022/10/22/tech-industry-free-labour/
-[^232]: https://www.openapis.org/
-[^233]: https://www.jvt.me/support-me/
-[^234]: https://elastic.co
-[^235]: https://github.com/oapi-codegen/oapi-codegen#sponsors
-[^236]: https://www.jvt.me/posts/2024/07/12/things-know-commits/
-[^237]: https://www.jvt.me/posts/2017/06/25/blogumentation/
-[^238]: https://www.jvt.me
-[^239]: https://www.jvt.me/archives/
-[^240]: https://docs.renovatebot.com/
-[^241]: https://github.com/wiremock/wiremock
-[^242]: https://github.com/jenkinsci/job-dsl-plugin/
-[^243]: https://dmd.tanna.dev
-[^244]: https://github.com/oapi-codegen/oapi-codegen
-[^245]: https://www.jvt.me/open-source/
-[^246]: https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/pull/18
+[^230]: https://humanwhocodes.com/blog/2021/05/talk-to-your-company-sponsoring-open-source/
+[^231]: https://github.com/oapi-codegen/oapi-codegen/discussions/1606
+[^232]: https://github.com/thehale/PSAs
+[^233]: https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/
+[^234]: https://www.jvt.me/posts/2022/10/22/tech-industry-free-labour/
+[^235]: https://www.openapis.org/
+[^236]: https://www.jvt.me/support-me/
+[^237]: https://elastic.co
+[^238]: https://github.com/oapi-codegen/oapi-codegen#sponsors
+[^239]: https://www.jvt.me/posts/2024/07/12/things-know-commits/
+[^240]: https://www.jvt.me/posts/2017/06/25/blogumentation/
+[^241]: https://www.jvt.me
+[^242]: https://www.jvt.me/archives/
+[^243]: https://docs.renovatebot.com/
+[^244]: https://github.com/wiremock/wiremock
+[^245]: https://github.com/jenkinsci/job-dsl-plugin/
+[^246]: https://dmd.tanna.dev
+[^247]: https://github.com/oapi-codegen/oapi-codegen
+[^248]: https://www.jvt.me/open-source/
+[^249]: https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/pull/18

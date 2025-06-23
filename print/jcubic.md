@@ -9,13 +9,13 @@ around that time. At first, I used a dual boot with Windows, but soon ditched Wi
 using Linux exclusively.
 
 When I started college in 2002, I read two books:
-_Hackers_[^342] by Steven Levy
-and _Free as in Freedom_[^341] about Richard Stallman
+_Hackers_[^345] by Steven Levy
+and _Free as in Freedom_[^344] about Richard Stallman
 and the GNU project. Those books had a huge influence on me. So, my introduction to Open Source came
 from Free Software and Software Freedom. Note that the term hacker means clever programmer, and not
 a cybercriminal.
 
-My first contact with Open content was in 2006 when I joined OpenClipart[^340].
+My first contact with Open content was in 2006 when I joined OpenClipart[^343].
 It's a site with Public Domain vector graphics in SVG format. SVG is the standard vector format for the web.
 
 In 2007, during my last year of college, I had severe mental health issues, and the medication I was
@@ -28,7 +28,7 @@ around 2010. I also contributed by updating documentation. It first started as a
 ended up as part of the Wiki.
 
 At that time, I also created my first bigger OSS project called jQuery
-Terminal[^339], which I'm still maintaining. Back then, jQuery was the most
+Terminal[^342], which I'm still maintaining. Back then, jQuery was the most
 popular front-end library. Because I was inspired by RMS, I picked the GNU GPL license for the
 project. Soon, I was asked to make the license more permissive, so I switched to GNU LGPL. I got a
 few contributors, and then I was asked again to change the license to MIT or to dual-license, like
@@ -38,22 +38,22 @@ needed to contact individual contributors and ask for permission. From that time
 the MIT license for JavaScript projects that run in the browser.
 
 The same year, I also joined as a developer of OpenClipart and AikiFramework that OCAL used.
-Aiki was an Open Source project led by Bassel Kartabil[^338]
-that was later killed by the Syrian Regime during the civil war[^337].
+Aiki was an Open Source project led by Bassel Kartabil[^341]
+that was later killed by the Syrian Regime during the civil war[^340].
 
 During all those years, I created a few Open Source projects that were somewhat successful, like
-Wayne[^336], Sysend[^335],
-Tagger[^334], LIPS Scheme[^333],
-Gaiman[^332], and
-chat-gpt Bookmarklet[^331].
+Wayne[^339], Sysend[^338],
+Tagger[^337], LIPS Scheme[^336],
+Gaiman[^335], and
+chat-gpt Bookmarklet[^334].
 
 But my biggest project that I'm a maintainer of is
-isomorphic-git[^330]. It's a pure JavaScript implementation of a git
+isomorphic-git[^333]. It's a pure JavaScript implementation of a git
 version control client. Isomorphic
 means that the project works in both the browser and Node.js. The aim of the project is to be as close to "canonical" git as possible.
 
 The story of joining isomorphic-git started when I created a small application called Git Web
-Terminal[^329], where I used both isomorphic-git and jQuery Terminal. When
+Terminal[^332], where I used both isomorphic-git and jQuery Terminal. When
 working on Git Web Terminal, I started getting involved with isomorphic-git on its GitHub issues,
 asking questions, providing answers, and writing some code. Soon, the author of the project asked if
 I wanted to join the isomorphic-git organization. After a while, the original author left the
@@ -75,7 +75,7 @@ A community of contributors starts from normal users that you need to get first.
 with investing in marketing. There are a lot of things you can do to promote your project, but in the
 long term, I think that the most important is SEO. I've even written a blog post about this:
 
-- How to Promote Your Open Source Project with SEO[^328]
+- How to Promote Your Open Source Project with SEO[^331]
 
 ## **What are the main challenges you face as a maintainer?**
 
@@ -103,24 +103,24 @@ vulnerable. If you trust AI-generated code, you may accidentally introduce vulne
 code. The most problematic is so-called vibe coding, when you don't even check what the AI has
 produced.
 
-If you're interested in what I do, you can find me on Twitter/X at \@jcubic[^327].
+If you're interested in what I do, you can find me on Twitter/X at \@jcubic[^330].
 
 \newpage
 
 
-[^327]: https://x.com/jcubic
-[^328]: https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b
-[^329]: https://git-terminal.js.org/
-[^330]: https://isomorphic-git.org/
-[^331]: https://github.com/jcubic/chat-gpt
-[^332]: https://github.com/jcubic/gaiman
-[^333]: https://lips.js.org/
-[^334]: https://github.com/jcubic/tagger
-[^335]: https://github.com/jcubic/sysend
-[^336]: https://github.com/jcubic/wayne
-[^337]: https://en.wikipedia.org/wiki/Syrian_civil_war
-[^338]: https://en.wikipedia.org/wiki/Bassel_Khartabil
-[^339]: https://terminal.jcubic.pl/
-[^340]: https://openclipart.org/
-[^341]: https://en.wikipedia.org/wiki/Free_as_in_Freedom
-[^342]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+[^330]: https://x.com/jcubic
+[^331]: https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b
+[^332]: https://git-terminal.js.org/
+[^333]: https://isomorphic-git.org/
+[^334]: https://github.com/jcubic/chat-gpt
+[^335]: https://github.com/jcubic/gaiman
+[^336]: https://lips.js.org/
+[^337]: https://github.com/jcubic/tagger
+[^338]: https://github.com/jcubic/sysend
+[^339]: https://github.com/jcubic/wayne
+[^340]: https://en.wikipedia.org/wiki/Syrian_civil_war
+[^341]: https://en.wikipedia.org/wiki/Bassel_Khartabil
+[^342]: https://terminal.jcubic.pl/
+[^343]: https://openclipart.org/
+[^344]: https://en.wikipedia.org/wiki/Free_as_in_Freedom
+[^345]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
