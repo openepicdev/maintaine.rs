@@ -26,7 +26,7 @@ Open Source is about coming together despite our differences to accomplish a sha
 
 Maintaining Open Source software and making decisions that affect every user in unique ways is both a burden and a privilege. Just the thought of this scale can sometimes make committing code terrifying, even to seasoned maintainers. But having decision-making frameworks and foundational philosophies in place help ensure that we make the best choices we can for our users.
 
-We should all strive to understand how maintainers of the software we rely on in our personal and professional lives approach change and manage risk. Here's how the WordPress core philosophies are used to guide maintainers when making decisions.
+We should all strive to understand how maintainers of the software we rely on in our personal and professional lives approach change and manage risk. Here's how the [WordPress project's philosophies](https://wordpress.org/about/philosophy/) are used to guide maintainers when making decisions.
 
 ## Maintainers in the WordPress Project
 
@@ -47,7 +47,7 @@ The code base is currently divided into 43 components and 20 sub-components with
 
 ## The Pathways of Change
 
-There are many unique ways a change can find its way into the WordPress code that is shipped to the world. Like most software, change usually takes the form of a bug report, feature request, enhancement, or task. But while a ticket is the most common starting point, not all ideas originate there. Some begin with a “what if” on a personal blog, an issue in the user support forums, or even a working group at a Contributor Day event. Let’s explore three common pathways a change can move through the project before diving into the principles maintainers use to make decisions.
+There are many unique ways a change can find its way into the WordPress code that is shipped to the world. Like most software, change usually takes the form of a bug report, feature request, enhancement, or task. But while a ticket is the most common starting point, not all ideas originate there. Some begin with a “what if” on a personal blog, an issue in the user support forums, or even a working group at a [Contributor Day event](https://make.wordpress.org/community/handbook/contributor-day/contributor-days/). Let’s explore three common pathways a change can move through the project before diving into the principles maintainers use to make decisions.
 
 ### Tickets in Trac
 
@@ -65,7 +65,7 @@ In the most recent major release ([6.8 “Cecil”](https://wordpress.org/news/2
 
 ### The Block Editor
 
-The block editor (also known as the [Gutenberg project](https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/)) uses yet another unique workflow. It is maintained as a long-running feature plugin where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each major release of WordPress, committers merge the changes into the canonical code base by updating the dependency manifest.
+The block editor (also known as the [Gutenberg project](https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/)) uses yet another unique workflow. It is maintained as a long-running feature plugin where new functionality is added and refined. Because the block editor is primarily built with JavaScript (with some TypeScript sprinkled in), the related code is published to over 100 different npm packages. This happens every two weeks when a new version of the plugin is released to the 300,000+ sites that currently have it activated. Before each [major release of WordPress](https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/), committers merge the changes into the canonical code base by updating the dependency manifest.
 
 ## Evaluating Ideas
 
@@ -282,17 +282,5 @@ These principles may not map perfectly to your project or community, and that’
 [^8]: Vaughan-Nichols, Steven J. _From Earth to Orbit with Linux and SpaceX._ ZDNet, June 2, 2020. [https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/](https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/)
 [^9]: _Red Hat to Ring the NYSE Opening Bell in Celebration of 20 Years of Open Source Leadership._ Red Hat, June 26, 2013. [https://www.redhat.com/en/about/press-releases/nyse-0](https://www.redhat.com/en/about/press-releases/nyse-0)
 [^10]: Bahyl, Vladimir, Benjamin Chardi, Jan van Eldik, Ulrich Fuchs, Thorsten Kleinwort, Martin Murth, and Tim Smith. _Installing, Running and Maintaining Large Linux Clusters at CERN._ arXiv preprint cs/0306058, June 2003. [https://arxiv.org/abs/cs/0306058](https://arxiv.org/abs/cs/0306058)
-
-## Further Reading
-
-WordPress Project. “Philosophy.” _wordpress.org_. Accessed June 15, 2025. [https://wordpress.org/about/philosophy/](https://wordpress.org/about/philosophy/)
-
-WordPress Project. _WordPress Core Handbook – Version Numbering._ WordPress.org. Accessed June 15, 2025. [https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/](https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/)
-
-Jonathan Desrosiers. “How a Core Committer Thinks: Making Decisions for Millions.” _[jonathandesrosiers.com](http://jonathandesrosiers.com)_, June 2025 [https://jonathandesrosiers.com/2025/06/how-a-core-committer-thinks-making-decisions-for-millions/](https://jonathandesrosiers.com/2025/06/how-a-core-committer-thinks-making-decisions-for-millions/?utm_source=maintaine.rs&utm_medium=essay)
-
-Jonathan Desrosiers. “The Impact of Open Source Work.” _[jonathandesrosiers.com](http://jonathandesrosiers.com)_, June 2025 [https://jonathandesrosiers.com/2025/06/the-impact-of-open-source-work/](https://jonathandesrosiers.com/2025/06/the-impact-of-open-source-work/?utm_source=maintaine.rs&utm_medium=essay)
-
-Contributor Days. WordPress Community Handbook. Accessed June 15, 2025. https://make.wordpress.org/community/handbook/contributor-day/contributor-days/
 
 \newpage
