@@ -6,9 +6,9 @@
 
 My first active interaction with open-source happened back in 2014, and I was immediately captivated by the concept. The idea of people collaborating openly, across borders, with a shared goal of creating something better fascinated me. At the time, I didn’t contribute much code, largely due to imposter syndrome, which was in full swing. Yet, even then, I sensed that contributing to open-source wasn’t just about writing code. People can give back in so many other ways.
 
-So, I found my own path, helping by securing funding for one of the projects and promoting tools at conferences[^399].
+So, I found my own path, helping by securing funding for one of the projects and promoting tools at conferences[^402].
 
-Everyone needs a role model—someone to inspire or spark that first sense of purpose. For me, that person was Benjamin Lupton[^398]. We were using DocPad[^397], and after watching Ben's DocPad presentation[^396], I knew I was slowly becoming an open-source enthusiast, or maybe even a fanatic.
+Everyone needs a role model—someone to inspire or spark that first sense of purpose. For me, that person was Benjamin Lupton[^401]. We were using DocPad[^400], and after watching Ben's DocPad presentation[^399], I knew I was slowly becoming an open-source enthusiast, or maybe even a fanatic.
 
 ## What’s Open Source to you?
 
@@ -18,22 +18,22 @@ There is no other place, no company that can give you this. The ability to work 
 
 ## What projects are you involved in?
 
-I’m active in the AsyncAPI Initiative[^395], and my highest priority is the AsyncAPI spec[^394] and the AsyncAPI Generator[^393]. At the moment, I’m the Executive Director of the initiative, but I’m stepping down in favour of our new Governance Board[^392].
+I’m active in the AsyncAPI Initiative[^398], and my highest priority is the AsyncAPI spec[^397] and the AsyncAPI Generator[^396]. At the moment, I’m the Executive Director of the initiative, but I’m stepping down in favour of our new Governance Board[^395].
 
 ## How do you grow your community?
 
 This is a long story to tell. In short, by putting the community first and everything else later, the most successful programs we’ve implemented to grow the community are:
 
-- **Dedicated participation in mentorships** (GitHub[^391]). We also set up our own mentorship program. We're pushing for a new concept we call `Maintainership`, which focuses not on creating new projects but on mentoring people on how to become a maintainer and how complex and responsible a role it is.
-- **AsyncAPI Conference** ([conference.asyncapi.com](https://conference.asyncapi.com/)) – rather than a single annual event that requires extensive travel, we hold multiple events and host smaller sessions at well-established conferences. This approach allows us to reach a larger, more diverse audience in different locations. I recommend you read in detail how from an online one-day event we scaled to most of the continents with multiple events a year[^390] so you can learn how such an approach can help you gain funding for the projects and friends that help to scale your community.
-- Build a program that recognizes people who promote your project. Call it Ambassador, Champion, Hero, Jedi - whatever you like, just recognize these people and give them space. You will never be able to promote the project alone as much as in a group of various influencers. Our Ambassador program[^389] gathers people who talk about AsyncAPI at conferences, record videos, write articles - basically create publicly available content.
+- **Dedicated participation in mentorships** (GitHub[^394]). We also set up our own mentorship program. We're pushing for a new concept we call `Maintainership`, which focuses not on creating new projects but on mentoring people on how to become a maintainer and how complex and responsible a role it is.
+- **AsyncAPI Conference** ([conference.asyncapi.com](https://conference.asyncapi.com/)) – rather than a single annual event that requires extensive travel, we hold multiple events and host smaller sessions at well-established conferences. This approach allows us to reach a larger, more diverse audience in different locations. I recommend you read in detail how from an online one-day event we scaled to most of the continents with multiple events a year[^393] so you can learn how such an approach can help you gain funding for the projects and friends that help to scale your community.
+- Build a program that recognizes people who promote your project. Call it Ambassador, Champion, Hero, Jedi - whatever you like, just recognize these people and give them space. You will never be able to promote the project alone as much as in a group of various influencers. Our Ambassador program[^392] gathers people who talk about AsyncAPI at conferences, record videos, write articles - basically create publicly available content.
 
 We also run other community programs.
 
 ## What are the main challenges you face as a maintainer
 
 Financial sustainability.
-You can sponsor me[^388] of course or hire my services[^387] to fix that.
+You can sponsor me[^391] of course or hire my services[^390] to fix that.
 
 ## What are some ways contributors can better support maintainers
 
@@ -66,16 +66,16 @@ Does this speed-up balance out the AI spam? Does it mean nothing has changed? I 
 \newpage
 
 
-[^387]: https://www.brainfart.dev/services
-[^388]: https://github.com/sponsors/derberg
-[^389]: https://www.asyncapi.com/community/ambassadors
-[^390]: https://www.brainfart.dev/blog/foss-grow-through-events
-[^391]: https://github.com/asyncapi/community/tree/master/mentorship
-[^392]: https://www.asyncapi.com/blog/new-governance-board
-[^393]: https://github.com/asyncapi/generator
-[^394]: https://github.com/asyncapi/spec
-[^395]: https://www.asyncapi.com/en
-[^396]: https://www.youtube.com/watch?v=Zu1uhI0uT2o
-[^397]: https://docpad.bevry.me/
-[^398]: https://github.com/balupton
-[^399]: https://www.youtube.com/watch?v=F-1goNbdBkc&t=1652s
+[^390]: https://www.brainfart.dev/services
+[^391]: https://github.com/sponsors/derberg
+[^392]: https://www.asyncapi.com/community/ambassadors
+[^393]: https://www.brainfart.dev/blog/foss-grow-through-events
+[^394]: https://github.com/asyncapi/community/tree/master/mentorship
+[^395]: https://www.asyncapi.com/blog/new-governance-board
+[^396]: https://github.com/asyncapi/generator
+[^397]: https://github.com/asyncapi/spec
+[^398]: https://www.asyncapi.com/en
+[^399]: https://www.youtube.com/watch?v=Zu1uhI0uT2o
+[^400]: https://docpad.bevry.me/
+[^401]: https://github.com/balupton
+[^402]: https://www.youtube.com/watch?v=F-1goNbdBkc&t=1652s

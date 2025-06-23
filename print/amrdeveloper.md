@@ -4,9 +4,9 @@
 > [github.com/amrdeveloper](https://github.com/amrdeveloper)  
 > [maintaine.rs/amrdeveloper](https://maintaine.rs/amrdeveloper)
 
-I’m Amr Hesham (Known with username @AmrDeveloper[^299]), and I am working as a Compiler engineer, and today I'm writing about my way into Open Source..
+I’m Amr Hesham (Known with username @AmrDeveloper[^302]), and I am working as a Compiler engineer, and today I'm writing about my way into Open Source..
 
-Currently, I am the creator and maintainer of GitQL[^298], LLQL[^297], ClangQL[^296], LinkHub[^295], TurtleGraphics[^294] and some other nice projects, and I contribute almost daily to the LLVM[^293] foundation, especially in Clang, which is a C/C++ compiler and in the past, I contributed to other projects like Rust analyzer[^292], CheckStyle[^291], etc..
+Currently, I am the creator and maintainer of GitQL[^301], LLQL[^300], ClangQL[^299], LinkHub[^298], TurtleGraphics[^297] and some other nice projects, and I contribute almost daily to the LLVM[^296] foundation, especially in Clang, which is a C/C++ compiler and in the past, I contributed to other projects like Rust analyzer[^295], CheckStyle[^294], etc..
 
 ## **How did you get involved with Open Source?**
 
@@ -41,12 +41,12 @@ It’s essential to maintain your motivation and organize your time, enjoying wh
 \newpage
 
 
-[^291]: https://github.com/checkstyle/checkstyle
-[^292]: https://github.com/rust-lang/rust-analyzer
-[^293]: https://github.com/llvm
-[^294]: https://github.com/AmrDeveloper/Turtle
-[^295]: https://github.com/AmrDeveloper/linkhub
-[^296]: https://github.com/AmrDeveloper/ClangQL
-[^297]: https://github.com/AmrDeveloper/LLQL
-[^298]: https://github.com/AmrDeveloper/GQL
-[^299]: https://github.com/AmrDeveloper
+[^294]: https://github.com/checkstyle/checkstyle
+[^295]: https://github.com/rust-lang/rust-analyzer
+[^296]: https://github.com/llvm
+[^297]: https://github.com/AmrDeveloper/Turtle
+[^298]: https://github.com/AmrDeveloper/linkhub
+[^299]: https://github.com/AmrDeveloper/ClangQL
+[^300]: https://github.com/AmrDeveloper/LLQL
+[^301]: https://github.com/AmrDeveloper/GQL
+[^302]: https://github.com/AmrDeveloper

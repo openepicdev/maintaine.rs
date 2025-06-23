@@ -94,12 +94,12 @@ Open Source thrives on **visible maintenance** and **shared responsibility**. As
 
 _Connect with Srinivasan:_
 
-- GitHub: SrinivasanTarget[^401]
+- GitHub: SrinivasanTarget[^404]
 - Blog: [srini.codes](https://srini.codes/)
-- LinkedIn: Director of Engineering, LambdaTest[^400]
+- LinkedIn: Director of Engineering, LambdaTest[^403]
 
 \newpage
 
 
-[^400]: https://www.linkedin.com/posts/srinivasan-sekar_excited-to-announce-my-next-chapter-as-director-activity-7277153305443581952-YfPM
-[^401]: https://github.com/SrinivasanTarget
+[^403]: https://www.linkedin.com/posts/srinivasan-sekar_excited-to-announce-my-next-chapter-as-director-activity-7277153305443581952-YfPM
+[^404]: https://github.com/SrinivasanTarget

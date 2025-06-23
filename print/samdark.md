@@ -4,7 +4,7 @@
 > [github.com/samdark](https://github.com/samdark)  
 > [maintaine.rs/samdark](https://maintaine.rs/samdark)
 
-I'm Alexander Makarov[^319] maintainer of the Yii framework[^318], and today I'm writing about my way in Open Source.
+I'm Alexander Makarov[^322] maintainer of the Yii framework[^321], and today I'm writing about my way in Open Source.
 
 I graduated in 2007 from the Computer Science faculty and at that time I wasn't paying any attention to Open Source. I knew there were free software you're not paying for that some people did for whatever reason and there are paid software companies that did it for profit. I made some free software myself such as a cyber-club management system written in Delphi. I've posted it to some forums as a zip archive containing exe files but never thought that someone would ever want to look at the source code.
 
@@ -19,7 +19,7 @@ There are, of course, difficulties:
 1. Lack of time. We're involved in commercial projects so the time we can allocate to Open Source is quite limited.
 2. Lack of funding. We'd like to buy yourself time to work on Open Source full time but that is only partially possible thanks to the foundation we've created. It's quite small so personally, I'm not using any of the funds. Team members do and I am glad that they've got more time this way.
 3. Can't really plan. Because it's hard to predict what time is available for each team member and even for myself, any deadlines start to make almost no sense.
-4. Sometimes critics are hard on maintainers[^317].
+4. Sometimes critics are hard on maintainers[^320].
 
 To support your favorite product or maintainer you can:
 
@@ -42,6 +42,6 @@ If you're a maintainer, don't hesitate to ask for help, communicate with people 
 \newpage
 
 
-[^317]: https://github.com/samdark/opensource-hate
-[^318]: https://www.yiiframework.com/
-[^319]: https://github.com/samdark
+[^320]: https://github.com/samdark/opensource-hate
+[^321]: https://www.yiiframework.com/
+[^322]: https://github.com/samdark

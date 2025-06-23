@@ -12,9 +12,9 @@ I’m Cezar Augusto, and I created [Extension.js][1], an open-source tool that m
 
 ### Open-source journey
 
-I started contributing to Open Source by triaging bugs and writing or translating documentation — mostly for projects related to front-end development and browsers, which have always been my core interest. I’ve always been fascinated by how browsers work, and that obsession led me to contribute to projects like MDN[^302] and the iconic Front-End Developer Interview Questions[^301], which I later helped maintain.
+I started contributing to Open Source by triaging bugs and writing or translating documentation — mostly for projects related to front-end development and browsers, which have always been my core interest. I’ve always been fascinated by how browsers work, and that obsession led me to contribute to projects like MDN[^305] and the iconic Front-End Developer Interview Questions[^304], which I later helped maintain.
 
-At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an open-source browser. These were the early days of the Brave Desktop Browser[^300], which gave me my first meaningful contribution and my first real contact with browser extension development.
+At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an open-source browser. These were the early days of the Brave Desktop Browser[^303], which gave me my first meaningful contribution and my first real contact with browser extension development.
 
 ## Extension.js
 
@@ -58,6 +58,6 @@ To all my fellow maintainers and open-source contributors: thank you — your qu
 \newpage
 
 
-[^300]: https://github.com/brave/browser-laptop
-[^301]: https://h5bp.org/Front-end-Developer-Interview-Questions/
-[^302]: https://developer.mozilla.org/
+[^303]: https://github.com/brave/browser-laptop
+[^304]: https://h5bp.org/Front-end-Developer-Interview-Questions/
+[^305]: https://developer.mozilla.org/
