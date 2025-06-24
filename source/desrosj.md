@@ -178,7 +178,7 @@ Enabling the feature by default for all WordPress sites strongly aligns with the
 
 The case study above shows how the feature strongly aligned with 6 of the 8 project philosophies. But what about the other 2? And what else should be considered when making decisions about changes to software?
 
-### “No” &ne; Never
+### "No" != Never
 
 Oftentimes, doing nothing is the right thing. Not all proposals deserve implementation. Perhaps there’s poor rationale, a lack of clarity, or no compelling use case. Even when changes seem good, not everything will fit into the current long-term goals of the project. In software, stability is also a feature. And backwards compatibility is sacred.
 
