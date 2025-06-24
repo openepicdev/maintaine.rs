@@ -16,12 +16,12 @@ sudo apt install texlive texlive-latex-extra
 
 Follow the instructions from [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) to install the template.
 
-## Generating the PDFs
+## Generating the books
 
-This script generates two versions of the PDF: one optimized for online viewing with clickable inline links, and another formatted for print with footnotes.
+This script generates EPUB and two versions of the PDF: one optimized for online viewing with clickable inline links, and another formatted for print with footnotes.
 
 ```bash
-python3 generate_pdf.py
+python3 generate_books.py
 ```
 
 ## License
