@@ -61,7 +61,7 @@ Personally, I’m also concerned about the threat posed by potentially malicious
 
 Too many contributors use it incorrectly and end up spamming projects. But for me, as an experienced maintainer who can verify AI-generated output, it speeds up my work.
 
-Does this speedup balance out the AI spam? Does it mean nothing has changed? I have no idea. :)
+Does this speed-up balance out the AI spam? Does it mean nothing has changed? I have no idea. :)
 
 \newpage
 

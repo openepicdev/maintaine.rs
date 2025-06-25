@@ -4,7 +4,7 @@
 > [github.com/blyxyas](https://github.com/blyxyas)  
 > [maintaine.rs/blyxyas](https://maintaine.rs/blyxyas)
 
-I'm Alejandra, one of the people that maintains Clippy[^310], Rust's[^309] official linter. And for this Maintainer Month of May I've come to [opensource.org](https://opensource.org) about some often-overlooked aspects of maintaining a FOSS project, some of my personal story with FOSS, some tips about software security, and how to better help maintainers as a contributor. Strap in because this will be a wild ride!
+I'm Alejandra, one of the people that maintains Clippy[^310], Rust's[^309] official linter. And for this Maintainer Month of May I've come to [opensource.org](https://opensource.org) about some often-overlook aspects of maintaining a FOSS project, some of my personal story with FOSS, some tips about software security, and how to better help maintainers as a contributor. Strap in because this will be a wild ride!
 
 ## Who are you again?
 

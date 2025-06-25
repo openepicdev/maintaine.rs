@@ -38,7 +38,7 @@ I see two two challenges:
 
 And a bonus one: Don't use Security to Shame People
 
-Typically people can only keep a few things on their mind (3-4 things). Imagine, you're a developer. Those four things are quickly used up: one or two functional requirements, performance, food & coffee, and maybe there's something going on in your personal life. Now, imagine a pen-tester gets to work on the same projects. What's on their mind? security, security, security, coffee. Of course, they will find issues.. and that's okay. We're here to help. An audit is just an opportunity to learn and fix problems before real attackers find them.
+Typically people can only keep a few things on their mind (3-4 things). Imagine, you're a developer. Those four things are quickly used up: one or two functional requirements, performance, food & coffe, and maybe there's something going on in your personal life. Now, imagine a pen-tester gets to work on the same projects. What's on their mind? security, security, security, coffee. Of course, they will find issues.. and that's okay. We're here to help. An audit is just an opportunity to learn and fix problems before real attackers find them.
 
 ## What’s the impact of AI on Open Source development?
 
