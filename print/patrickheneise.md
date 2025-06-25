@@ -4,7 +4,7 @@
 > [github.com/patrickheneise](https://github.com/patrickheneise)  
 > [maintaine.rs/patrickheneise](https://maintaine.rs/patrickheneise)
 
-I work full-time building solar trackers at Nevados Engineering, but my path through software development has been paved with Open Source every step of the way.
+My day job at Nevados involves building utility scale solar projects with zero grading using our innovative tracking solution but my path through software development has been paved with Open Source every step of the way.
 
 ## The Beginning
 
@@ -38,7 +38,7 @@ I don't think of these as projects I "maintain" - they're more like gardens I te
 
 ## The Challenges
 
-Time is always the biggest constraint in my Open Source contributions. With a full-time job at Nevados Engineering, where we're building innovative solar trackers that don't require grading, and family commitments, I can only dedicate a few hours a month to my Open Source projects. I have a backlog of ideas and improvements I want to implement, but I can only focus on a few at a time.
+Time is always the biggest constraint in my Open Source contributions. With a full time role at Nevados and family commitments, I can only dedicate a few hours a month to my Open Source projects. I have a backlog of ideas and improvements I want to implement, but I can only focus on a few at a time.
 
 When users open issues or request features for my projects, I try to encourage them to submit PRs rather than just reporting problems. This approach has mixed results. Sometimes, users step up and contribute code, turning from consumers into collaborators. Other times, the issues remain open, waiting for when I can find time to address them. I try to help guide contributors through the process of making their first PR, but I can't always provide the level of support I'd like to.
 
