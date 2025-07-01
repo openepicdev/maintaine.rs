@@ -62,8 +62,8 @@ This year, Maintainer Month is highlighting project security and the implication
 
 ---
 
-If anything here resonated—or if you just want to talk, I’d love to hear from you.
+If anything here resonated—or if you just want to talk, I’d love to hear from you. You can find me on GitHub at [\@kgodey](https://github.com/kgodey), [LinkedIn](https://www.linkedin.com/in/kritigodey/), or reach me by email at <kriti@mathesar.org>.
 
-You can find me on GitHub at [\@kgodey](https://github.com/kgodey), [LinkedIn](https://www.linkedin.com/in/kritigodey/), or reach me by email at <kriti@mathesar.org>.
+If you'd like to support Mathesar Foundation, you can sponsor us on [GitHub](https://github.com/sponsors/mathesar-foundation) or [Open Collective](https://opencollective.com/mathesar).
 
 \newpage
