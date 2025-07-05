@@ -252,14 +252,13 @@ def run_pandoc_html(md_dir, html_dir):
 source_dir = "./source"
 print_dir = "./print"
 html_dir = "./docs"
-output_original_pdf = "maintainers.pdf"
-output_print_pdf = "maintainers_print.pdf"
-output_original_epub = "maintainers.epub"
-output_original_html = "maintainers.html"
+output_original_pdf = os.path.join(html_dir, "maintainers.pdf")
+output_print_pdf = os.path.join(html_dir, "maintainers_print.pdf")
+output_epub = os.path.join(html_dir, "maintainers.epub")
 
 # --- Execution ---
 convert_and_save_markdown(source_dir, print_dir)
 run_pandoc(source_dir, output_original_pdf)
 run_pandoc(print_dir, output_print_pdf)
-run_pandoc_epub(source_dir, output_original_epub)
+run_pandoc_epub(source_dir, output_epub)
 run_pandoc_html(source_dir, html_dir)
