@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>raphael</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">raphael</h1>
+</header>
+<h1 id="raphael-raphaël-simon"><span class="citation" data-cites="raphael">@raphael</span> – Raphaël Simon</h1>
+<blockquote>
+<p><img src="https://github.com/raphael.png" width="64" height="64" /><br />
+<a href="https://github.com/raphael">github.com/raphael</a><br />
+<a href="https://maintaine.rs/raphael">maintaine.rs/raphael</a></p>
+</blockquote>
+<p>Hi, I’m Raphaël Simon, the creator of Goa, which you can find at <a href="https://goa.design/">goa.design</a>. It’s a design-first framework that helps with building APIs and microservices in Go.</p>
+<p>Goa began as a personal project with the simple goal of streamlining my workday and ensuring that our APIs were built correctly from the outset. It wasn’t initially intended to be a community project.</p>
+<p>Turns out, sometimes solving your own problems ends up helping a lot of other people too.</p>
+<h2 id="from-one-rails-app-to-fifty-services"><strong>From one Rails app to fifty services</strong></h2>
+<p>At the time, I was working at RightScale, which is now part of Flexera. The platform was growing from a single Rails application into a distributed system with over 50 microservices, running on hundreds of virtual machines.</p>
+<p>This scaling led to a pretty common issue: inconsistent APIs.</p>
+<p>Each service had its own style and little quirks. Nothing major on its own, but all together, it made the whole system tough to understand, integrate, and change. Once an API was live, it was almost impossible to fix without causing problems for customers or other parts of the system.</p>
+<p>We really needed a better approach: designing APIs first, making sure they were consistent, and letting teams move quickly without creating headaches later on.</p>
+<p>In Ruby, we had built <a href="https://praxis-framework.io/">Praxis</a> to help with that. But as we were moving towards Go, I wondered if we could do even better.</p>
+<p>After some trial and error, two main ideas came to light:</p>
+<ul>
+<li><strong>Completely separate the design from the actual implementation.</strong></li>
+<li><strong>Describe the API using a simple, expressive DSL written in Go itself.</strong></li>
+</ul>
+<p>That’s how Goa started. At first, it was just a solution for our team. I put it on GitHub mostly out of habit, not expecting much else.</p>
+<h2 id="the-tweet-that-changed-everything"><strong>The tweet that changed everything</strong></h2>
+<p>For a while, Goa just sat quietly on GitHub with a few stars.</p>
+<p>Then one day, Brian Ketelsen, who co-founded Gopher Academy and organizes GopherCon, stumbled upon it. He tweeted, “I think I want to marry the guy who wrote Goa.”</p>
+<p>I wasn’t even on Twitter at the time. A coworker had to show me the tweet. It made me laugh and made me realize that maybe Goa was resonating with people beyond just our immediate needs.</p>
+<p>After that tweet, plus some blog posts and mentions on Go Time, Goa’s GitHub stars jumped from about 10 to over 1,000 in just a few days.</p>
+<p>That momentum brought in new contributors, community interest, and eventually an invitation to present Goa at GopherCon 2016.</p>
+<p>Open Source has a way of surprising you, often when you least expect it.</p>
+<h2 id="sharing-work-openly"><strong>Sharing work openly</strong></h2>
+<p>Publishing Goa was always about sharing something I thought was genuinely useful.</p>
+<p>My early experience with Linux showed me how powerful it is to work with systems you can understand, modify, and improve yourself. I carried those lessons with me, and when Goa came together, it felt natural to share it. Not because it was perfect, but because it might help others.</p>
+<p>Open sourcing Goa also made it better. Real users brought new ideas, edge cases, and improvements that our internal team never would have found on its own.</p>
+<p>In Open Source, the project grows beyond its creator. And that’s exactly how it should be.</p>
+<h2 id="what-made-goa-different"><strong>What made Goa different</strong></h2>
+<p>From the start, a few things were really important:</p>
+<p>First, the generated code had to look natural, like something a human would write. Go developers really value clean, idiomatic code. If the generated code looked too mechanical or awkward, people wouldn’t use it.</p>
+<p>Second, the DSL had to feel intuitive. Designing an API should be about describing real things — data structures, endpoints, payloads — without getting bogged down in technical details.</p>
+<p>Finally, complexity needed to be hidden unless you wanted to dig deeper. Goa should make the hard stuff invisible most of the time, but still be understandable under the hood.</p>
+<p>These early choices made a big difference and are still key to what makes Goa useful today.</p>
+<h2 id="unexpected-connections"><strong>Unexpected connections</strong></h2>
+<p>One of the best surprises has been Goa’s strong adoption in Japan.</p>
+<p>The Japanese Go community picked up Goa early on, and some of the most important contributions came from developers like Taichi Sasaki and <span class="citation" data-cites="ikawaha">@ikawaha</span>. They didn’t just use the framework — they helped shape it.</p>
+<p>It’s a reminder that once you put something out there, you can’t predict where it will end up or how far it will go.</p>
+<h2 id="where-goa-is-today"><strong>Where Goa is today</strong></h2>
+<p>Goa has come a long way since those early days.</p>
+<p>Today, it generates complete scaffolding for HTTP and gRPC services, automatically creates OpenAPI documentation, and builds strongly typed client libraries that make working with APIs simpler and safer.</p>
+<p>But the most important thing is that Goa is still evolving.</p>
+<p>New features are constantly being added, driven by real-world needs from the community. Right now, for instance, we’re expanding support for Server-Sent Events (SSE), making it easier to build Model Context Protocol (MCP) servers using Goa.</p>
+<p>Projects like this keep Goa growing naturally, one practical improvement at a time, without losing sight of the original goal: to help developers design and build reliable APIs more easily and with less hassle.</p>
+<p>Goa isn’t just a framework you install once and forget. It’s something you can grow with and help grow as your services change.</p>
+<h2 id="lessons-from-the-journey"><strong>Lessons from the journey</strong></h2>
+<p>Building and maintaining an Open Source project teaches you a lot more than you’d expect. Goa has taught me many things, including:</p>
+<ul>
+<li>Solve a real problem that you really understand.</li>
+<li>Make your project easy for people to get started with.</li>
+<li>Stay responsive, but also make sure it’s sustainable for you.</li>
+<li>Value every contributor, no matter how big or small their contribution is.</li>
+</ul>
+<p>And maybe most importantly, <strong>be ready for the unexpected.</strong> Sometimes a random tweet can open doors you didn’t even know existed.</p>
+<p>Building Goa has been one of the most rewarding experiences of my career. I’m thankful for everyone who found it, contributed to it, challenged it, and made it better.</p>
+<p>I’m excited for what’s next and for the new ideas that Goa will continue to inspire.</p>
+</body>
+</html>

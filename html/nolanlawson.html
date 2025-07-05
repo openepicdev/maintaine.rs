@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>nolanlawson</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">nolanlawson</h1>
+</header>
+<h1 id="nolanlawson-nolan-lawson"><span class="citation" data-cites="nolanlawson">@nolanlawson</span> – Nolan Lawson</h1>
+<blockquote>
+<p><img src="https://github.com/nolanlawson.png" width="64" height="64" /><br />
+<a href="https://github.com/nolanlawson">github.com/nolanlawson</a><br />
+<a href="https://maintaine.rs/nolanlawson">maintaine.rs/nolanlawson</a></p>
+</blockquote>
+<p>I first got involved in Open Source in the early 2010’s. Back then, it was a fun hobby project – a good excuse to flex my coding muscle, gain a little clout, and put my vision of software out there in the world.</p>
+<p>Nowadays, Open Source is still the realm of tinkerers, dreamers, and hobbyists, but it has also exploded in popularity. Nearly every piece of software in the world relies on it. And yet, a lot of our practices around Open Source have not evolved to meet the challenges of this new reality: supply chain attacks, maintainer burnout, and never-ending dependency upgrades are all problems that we’ve only begun to grapple with.</p>
+<p>In this article, I’d like to humbly offer some advice to my fellow maintainers to meet the moment of today’s Open Source landscape.</p>
+<h2 id="my-background">My background</h2>
+<p>My first major Open Source project was <a href="https://en.wikipedia.org/wiki/Hoodie_(software)">PouchDB</a>, a JavaScript database. I got involved because I felt I could offer something useful to the project – bug fixes, performance improvements, new APIs. And plus, it was fun.</p>
+<p>However, I quickly learned that spending every weeknight and weekend toiling away at open GitHub issues is a quick path to burnout. I wrote <a href="https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/">an article</a> on the topic that struck a nerve with the Open Source community, and eventually coincided with my stepping away from the project in 2017.</p>
+<p>Since then, I’ve learned a lot about how to pace yourself with Open Source projects, how to avoid burning out, and when to call it quits. My key advice to new maintainers would be:</p>
+<p><strong>You do not owe anyone anything.</strong> There is a reason Open Source licenses have all-caps warnings like “THE SOFTWARE IS PROVIDED ‘AS IS,’ WITHOUT WARRANTY OF ANY KIND.” There can be a perverse effect in Open Source where the more work you do, the more is asked of you. Remember that just because you did work in the past does not give others a right to demand more from you, no matter how urgent they may sound in a GitHub issue.</p>
+<p><strong>If it’s not fun anymore, you can step away.</strong> Think about why you got into Open Source in the first place. Was it to scratch an itch? Explore a new language or framework? If the conditions that led you to Open Source in the first place have changed, then you should reflect on whether it makes sense to keep doing it, or whether you should move on to other projects.</p>
+<p><strong>Leaving a project is not the end of the world.</strong> As my friend Jan Lehnardt has said, <a href="https://narrativ.es/@janl/113339884688525095">“The tech comes and goes, but the people remain.”</a> You can step away from a project without sacrificing the community or reputation you’ve built up in the interim. And in the end, your software still <em>works</em> and delivers value for people, even without you actively working on it. And by leaving, you may even open up space for newer contributors to fill your shoes.</p>
+<h2 id="making-open-source-work-for-the-long-haul">Making Open Source work for the long haul</h2>
+<p>Despite my experience with burnout, I do still believe that Open Source is a force for good in the world, and that there is value in being a long-term maintainer of a project. But I’ve also learned some techniques that can help reduce the maintenance burden and keep burnout at bay.</p>
+<p>I still maintain several small Open Source projects, but my years of experience have caused me to temper the naïve enthusiasm of my early days. Here is the advice I would give to maintainers who want their projects to thrive in the long run:</p>
+<p><strong>Be careful adding new features.</strong> In any successful Open Source project, the number of feature requests tends to grow (perhaps <a href="https://www.laws-of-software.com/laws/zawinski/">until it can read email</a>). But due to the <a href="https://en.wikipedia.org/wiki/Pareto_principle">Pareto Principle</a>, <em>these are not the same requests</em>. You may find that you have 10 people asking for 10 different features, but each one is only useful to those 10 individual people. And if you add all those features to the project, you make your project more complex, harder to maintain, and harder for new users to understand. Sometimes it is worth saying “no” to a feature request, or suggesting that the user do what’s great about Open Source: just fork it!</p>
+<p><strong>Reduce dependencies.</strong> This is not only helpful for long-term maintenance, but also <a href="https://en.wikipedia.org/wiki/Supply_chain_security">supply-chain security</a>. Every dependency is something that must be tended to and upgraded, especially as the laundry list of <a href="https://cve.mitre.org/">CVEs</a> piles up. Do you really need to support Internet Explorer 9 and Node.js 6? Do you really need a utility library to <a href="https://en.wikipedia.org/wiki/Npm_left-pad_incident">pad a string</a>? If not, unburden yourself and trim your project down to the bare essentials.</p>
+<p><strong>Avoid breaking changes.</strong> Many Open Source maintainers have taken <a href="https://semver.org/">Semantic Versioning</a> as an invitation to make breaking changes whenever they feel like it. Don’t like the way you named an API? Just rename it! However, think about the maintenance burden this places on consumers of your software (who may be other Open Source maintainers!). Every breaking change is something you have to document (potentially forever), and it immediately obsoletes the informal documentation built up in Stack Overflow, blog posts, etc. Breaking changes should be as infrequent and minimal as possible.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I love Open Source, and I’m grateful for the friends and experiences I’ve gained from it, as well as the talented pool of other Open Source maintainers who keep the whole system humming. I do believe, though, that we maintainers should take some responsibility for the software we’ve built, and to be cognizant of the way the rest of the world has grown to rely on it.</p>
+<p>Of course, the burden does not fall on us alone. The <a href="https://xkcd.com/2347/">“random person in Nebraska”</a> is not to blame for the rest of the world relying on their work: as I said before, they don’t owe anyone anything. Companies that use Open Source should make an effort to give back – either through money or time – to the software that sustains them.</p>
+<p>That said, we don’t live in a perfect world, and currently Open Source is in a strange moment where it’s often created by part-time hobbyists for the benefit of stupendously profitable corporations that give very little back. There is still value in doing it, and the relationship can be reciprocal, but maintainers often have to navigate this world alone, and to jealously guard their own mental health and the long-term health of their projects.</p>
+<p>If you are just now getting into Open Source, I would say: wonderful! It’s desperately needed, and you will likely learn and grow in a million ways throughout the process. Do try, though, to be respectful of your own well-being, and of the well-being of a world that has taken Open Source as a critical dependency. Very likely, the world will be counting on the next generation of maintainers to do it well and to do it sustainably.</p>
+</body>
+</html>
