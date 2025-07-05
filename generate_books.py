@@ -251,7 +251,7 @@ def run_pandoc_html(md_dir, html_dir):
 # --- Configuration ---
 source_dir = "./source"
 print_dir = "./print"
-html_dir = "./html"
+html_dir = "./docs"
 output_original_pdf = "maintainers.pdf"
 output_print_pdf = "maintainers_print.pdf"
 output_original_epub = "maintainers.epub"
