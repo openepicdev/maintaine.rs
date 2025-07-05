@@ -212,15 +212,54 @@ def run_pandoc_epub(md_dir, output_epub):
     else:
         print(f"Pandoc failed with exit code {result.returncode} for {output_epub}")
 
+def run_pandoc_html(md_dir, html_dir):
+    """Run Pandoc to generate individual HTML files from each markdown file."""
+    markdown_files = sorted(glob.glob(os.path.join(md_dir, "*.md")))
+
+    if not markdown_files:
+        print(f"No Markdown files found in {md_dir}")
+        return
+
+    # Create html directory if it doesn't exist
+    os.makedirs(html_dir, exist_ok=True)
+
+    print(f"\nGenerating HTML")
+    
+    for md_file in markdown_files:
+        # Get filename without extension
+        base_name = os.path.splitext(os.path.basename(md_file))[0]
+        output_html = os.path.join(html_dir, f"{base_name}.html")
+        
+        pandoc_command = [
+            "pandoc",
+            md_file,
+            "--from=markdown",
+            "--to=html5",
+            "--metadata-file=./metadata.yaml",
+            "--metadata", f"title={base_name}",
+            "--standalone",
+            "--css=style.css",
+            "-o", 
+            output_html
+        ]
+
+        result = subprocess.run(pandoc_command)
+
+        if result.returncode != 0:
+            print(f"  Failed to create {output_html}")
+
 # --- Configuration ---
 source_dir = "./source"
 print_dir = "./print"
+html_dir = "./html"
 output_original_pdf = "maintainers.pdf"
 output_print_pdf = "maintainers_print.pdf"
 output_original_epub = "maintainers.epub"
+output_original_html = "maintainers.html"
 
 # --- Execution ---
 convert_and_save_markdown(source_dir, print_dir)
 run_pandoc(source_dir, output_original_pdf)
 run_pandoc(print_dir, output_print_pdf)
 run_pandoc_epub(source_dir, output_original_epub)
+run_pandoc_html(source_dir, html_dir)

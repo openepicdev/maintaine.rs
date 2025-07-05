@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>karlhorky</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">karlhorky</h1>
+</header>
+<h1 id="karlhorky-karl-horky"><span class="citation" data-cites="karlhorky">@karlhorky</span> – Karl Horky</h1>
+<blockquote>
+<p><img src="https://github.com/karlhorky.png" width="64" height="64" /><br />
+<a href="https://github.com/karlhorky">github.com/karlhorky</a><br />
+<a href="https://maintaine.rs/karlhorky">maintaine.rs/karlhorky</a></p>
+</blockquote>
+<p>Hi, I’m Karl Horky (<a href="https://github.com/karlhorky">GitHub</a>, <a href="https://www.linkedin.com/in/karlhorky/">LinkedIn</a>), Technical Founder at <a href="https://upleveled.io">UpLeveled</a> - tech education programs for all skill levels.</p>
+<p>In an educational landscape of AI-generated solutions, disconnected islands of knowledge and barriers to entry, I focus on helping students level up by designing accessible curricula and contributing to Open Source.</p>
+<h2 id="then-and-now">Then and Now</h2>
+<p>I’ve been in Open Source for over 13 years, and in tech for more than 20, through which I have used a range of languages and technologies, from QBasic and C to Perl, PHP, Python, Ruby on Rails and then finally on to JavaScript / TypeScript.</p>
+<p>Now I mostly work with TypeScript, React, Next.js, Node.js, SQL and Bash.</p>
+<p>Through my work in education, I’ve become interested in:</p>
+<ul>
+<li>new approaches in web frameworks like React Server Components / Server Actions and the Islands Architecture</li>
+<li>SQL-in-JS tooling like <a href="https://safeql.dev/">SafeQL</a>, <a href="https://github.com/Sec-ant/prettier-plugin-embed/blob/main/ConfigExamples.md"><code>prettier-plugin-embed</code></a>, <a href="https://github.com/porsager/postgres">Postgres.js</a></li>
+<li>secure-by-default and pit-of-success approaches to building safe and correct software, eg. enforcement and guidance through linting rules and expressive, strict API design</li>
+<li>patterns to reduce abstraction and indirection in code</li>
+</ul>
+<h2 id="upleveled-and-open-source">UpLeveled and Open Source</h2>
+<p>My work at UpLeveled has focused on designing, developing and delivering accessible curricula for students ranging from beginners to more experienced engineers.</p>
+<p>As part of this work, we maintain some of our own Open Source projects:</p>
+<ul>
+<li><a href="https://github.com/upleveled/preflight">Preflight</a>: command line interface for students to check their code quality</li>
+<li><a href="https://github.com/upleveled/eslint-config-upleveled"><code>eslint-config-upleveled</code></a> and <a href="https://github.com/upleveled/eslint-plugin-upleveled"><code>eslint-plugin-upleveled</code></a>: ESLint config and plugin with custom rules</li>
+<li><a href="https://github.com/upleveled/system-setup">System Setup</a>: Windows, macOS and Linux setup guides</li>
+<li>numerous example repositories like <a href="https://github.com/upleveled/security-vulnerability-examples-next-js-postgres">Examples of Broken Security with Next.js + Postgres.js</a> and <a href="https://github.com/upleveled/next-js-example-winter-2025-eu">UpLeveled Next.js example - Winter 2025</a></li>
+</ul>
+<h2 id="papercuts">Papercuts</h2>
+<p>In addition to our own projects, UpLeveled also lives what we teach and aims to be good Open Source citizens by contributing to other projects when we encounter problems.</p>
+<p>One common type of problem we encounter is the “papercut”:</p>
+<ol type="1">
+<li>bugs or inconsistencies which appear to be minor</li>
+<li>to more experienced developers, mildly annoying and not worth fixing</li>
+<li>to students, potentially a blocker to their learning</li>
+</ol>
+<p>These papercuts can include errors during setup steps, documentation issues, small bugs and even security issues.</p>
+<p>By fixing these papercuts, we can help students focus on learning and building projects, and raise all boats by contributing the fix to everyone else.</p>
+<h2 id="upgrading">Upgrading</h2>
+<p>Another area of focus for UpLeveled is keeping up to date:</p>
+<ul>
+<li>we produce new versions of our curricula multiple times per year</li>
+<li>we upgrade to new versions of OSes, browsers, runtimes, frameworks and libraries</li>
+<li>we report and fix any issues we encounter during the upgrades</li>
+<li>we adopt new patterns and consider new tools</li>
+</ul>
+<p>Some examples of issues and pull requests related to these upgrades:</p>
+<p>In January 2023, while adopting the Next.js App Router and switching our material to React Server Components, we found that Route Handlers did not have the same capabilities to check return types using TypeScript, and contributed this feature to Next.js:</p>
+<ul>
+<li><a href="https://github.com/vercel/next.js/pull/47526">Add optional generic parameter to <code>NextResponse</code></a> in <code>vercel/next.js</code></li>
+</ul>
+<p>During a June 2024 iteration on our Expo / React Native lecture, we switched the scaffolder and template we used and dropped the obsolete config in <code>.npmrc</code>:</p>
+<ul>
+<li><a href="https://github.com/upleveled/system-setup/pull/79">Switch to <code>create-expo-app</code> + <code>blank-typescript</code>, remove <code>.npmrc</code> cmds</a> in <code>upleveled/system-setup</code></li>
+</ul>
+<p>More recently, a March 2025 upgrade to <code>eslint-import-resolver-typescript@4.2.0</code> caused resolution errors for Bun modules like <code>bun:test</code> while using <code>eslint-plugin-import-x</code>, which we fixed with a documentation update:</p>
+<ul>
+<li><a href="https://github.com/un-ts/eslint-plugin-import-x/pull/262">Document eslint-import-resolver-typescript <code>bun</code> option, fix ESM import</a> in <code>un-ts/eslint-plugin-import-x</code></li>
+</ul>
+<h2 id="supporting-ecosystem-evolution">Supporting Ecosystem Evolution</h2>
+<p>Over the long term, another goal of UpLeveled is to help evolve the ecosystem by extending compatibility, encouraging adoption of new technologies and discussing new standards proposals.</p>
+<p>Extending compatibility has included issues and pull requests such as:</p>
+<ul>
+<li><a href="https://github.com/nodejs/typescript/issues/14">Node.js Type Stripping in <code>node_modules/*/*.ts</code></a> in <code>nodejs/typescript</code></li>
+<li><a href="https://github.com/porsager/postgres/pull/460">Add nested transforms</a> in <code>porsager/postgres</code></li>
+<li><a href="https://github.com/ts-safeql/safeql/issues/80#issuecomment-1882913207">Support for SafeQL on Windows</a> in <code>ts-safeql/safeql</code></li>
+<li><a href="https://github.com/sql-formatter-org/sql-formatter/pull/849">Recognize referential actions as keywords in ON UPDATE/DELETE</a> in <code>sql-formatter-org/sql-formatter</code></li>
+</ul>
+<p>Encouraging adoption of new technologies has also ranged across multiple topics, but an area which has often required additional attention has been ESM, including TypeScript module resolution:</p>
+<ul>
+<li><a href="https://github.com/postcss/postcss/issues/1814">“module”: “node16” error: <code>This expression is not callable</code></a> in <code>postcss/postcss</code></li>
+<li><a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/64137">disposable-email-domains: Use CommonJS export for “module”: “node16”</a> in <code>DefinitelyTyped/DefinitelyTyped</code></li>
+<li><a href="https://github.com/vercel/next.js/issues/41961">Module not found: Fully Specified ESM Imports (with <code>.js</code> extension) in TypeScript</a> in <code>vercel/next.js</code></li>
+</ul>
+<p>While we have not yet invested the time to become deeply involved in shaping standards by activities like writing spec docs or becoming a TC39 champion, we have at times added feedback in existing discussions or contributed short proposal notes:</p>
+<ul>
+<li><a href="https://bsky.app/profile/karlhorky.com/post/3lomlbj5gts2m">Skip parameters in function parameter lists</a> on Bluesky</li>
+<li><a href="https://x.com/karlhorky/status/1758072415114957091"><code>await fetch.json(url)</code> proposal</a> on Twitter</li>
+<li><a href="https://x.com/karlhorky/status/1689254427159375873">Standard wire data format + form field error message UI for showing server validation errors without JS</a> on Twitter</li>
+<li><a href="https://github.com/tc39/ecma402/issues/494#issuecomment-2249792266">Add style ordinal/cardinal to NumberFormat (RBNF)</a> in <code>tc39/ecma402</code></li>
+</ul>
+<h2 id="tips-for-contributors">Tips for Contributors</h2>
+<p>I can highly recommend getting involved in Open Source - benefits include the ability to:</p>
+<ul>
+<li>learn about new technologies</li>
+<li>learn how to communicate and work with others</li>
+<li>network with developers in the community</li>
+<li>become familiar with interesting projects</li>
+</ul>
+<p>There are plenty of resources on how to get started with open source, so I won’t write another guide on that. If you’re looking for a good place to start, try <a href="https://opensource.guide/how-to-contribute/">How to Contribute to Open Source by Open Source Guides</a>.</p>
+<p>Here are my more personal field notes for contributors:</p>
+<ol type="1">
+<li>Superpower: match the style and philosophy of the project
+<ul>
+<li>read the code of the project and try to match the style</li>
+<li>also match the philosophy or goal of the project, if there is one</li>
+<li>avoids wasting time on back and forth</li>
+</ul></li>
+<li>Superpower: review your own contributions
+<ul>
+<li>read your own code as if you’re the reviewer</li>
+<li>try to find issues and fix them before submitting</li>
+<li>comment on surprising or unusual parts of your contribution</li>
+</ul></li>
+<li>Start small, but contribute widely
+<ul>
+<li>to ease into Open Source, make small contributions - small contributions are also helpful for others</li>
+<li>if you resolve or work around an issue others have reported, add your approach if it’s not already there</li>
+<li>if you find a small issue, report or fix it</li>
+<li>get into the habit of looking through the issues and pull requests of projects you use - soon you’ll be contributing to a wide range of projects</li>
+</ul></li>
+<li>Don’t fall in love with your solution
+<ul>
+<li>be open to feedback and changes</li>
+<li>acknowledge that your solution might not be the best one, or may not be accepted at all</li>
+</ul></li>
+<li>Use AI carefully in your contributions
+<ul>
+<li>AI can help you understand the codebase and suggest changes that match the style</li>
+<li>review AI-generated code carefully - it can produce low-quality output aka “AI slop”</li>
+<li>using AI tools can make the difference between contributing and not contributing</li>
+</ul></li>
+<li>Use the <a href="https://github.com/refined-github/refined-github">Refined GitHub</a> browser extension to simplify the GitHub interface and add helpful features</li>
+<li>Report issues with enough information to make them actionable
+<ul>
+<li>explain what you were trying to do</li>
+<li>describe what you observed</li>
+<li>describe what you expected</li>
+<li>include a minimal reproduction repo or code block</li>
+<li>include the steps to reproduce the issue</li>
+<li>include relevant version numbers</li>
+<li>prefer code blocks over screenshots</li>
+<li>think through the problem and provide a guess of what the problem might be near the end of the issue</li>
+</ul></li>
+</ol>
+<h2 id="suggestions-for-maintainers">Suggestions for Maintainers</h2>
+<p>During my time contributing to Open Source, I have also developed opinions on how projects can optimize their CX (Contributor Experience) for new contributors:</p>
+<ol type="1">
+<li>Optimize for contributions from web clients such as the GitHub web interface
+<ul>
+<li>avoid requiring a full local dev environment or terminal execution, also for contributions changing tests</li>
+</ul></li>
+<li>Optimize for AI-assisted contributions
+<ul>
+<li>describe the project’s style and provide instructions for LLMs in standard locations like <code>.github/instructions/*.instructions.md</code> or <code>.cursor/rules/*.mdc</code></li>
+</ul></li>
+<li>Simplify documentation and make it easier to understand for a wide audience
+<ul>
+<li>avoid jargon</li>
+<li>prioritize clarity over purity / brevity - short explanations are often not enough for a wide audience</li>
+<li>don’t avoid repetition - it can help with navigation and comprehension</li>
+<li>embed runnable examples and playgrounds in the docs</li>
+</ul></li>
+<li>Provide a bug reproduction template
+<ul>
+<li>example: <a href="https://codesandbox.io/p/devbox/github/vercel/next.js/tree/canary/examples/reproduction-template">Next.js repro template</a></li>
+<li>example: <a href="https://github.com/eslint-community/eslint-stylistic-repro-template">Reproduction Template of ESLint Stylistic</a></li>
+<li>example: <a href="https://github.com/web-infra-dev/rspack-repro">GitHub template for creating a Rspack minimal reproducible example</a></li>
+<li>more examples: <a href="https://github.com/karlhorky/awesome-open-source-automation">Awesome Open Source Automation</a></li>
+</ul></li>
+</ol>
+</body>
+</html>
