@@ -238,7 +238,7 @@ def run_pandoc_html(md_dir, html_dir):
             "--metadata-file=./metadata.yaml",
             "--metadata", f"title={base_name}",
             "--standalone",
-            "--css=style.css",
+            "--css=style2.css",
             "-o", 
             output_html
         ]

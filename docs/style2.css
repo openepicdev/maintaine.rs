@@ -1,0 +1,52 @@
+body {
+    font-size: 2rem;
+    margin: 100px;
+    padding: 100px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0f0f0;
+}
+
+header {
+    display: none;
+}
+
+h1 {
+    border-bottom: 3px solid #95ca51;
+    margin: 0 25px;
+    padding: 25px;
+}
+
+blockquote {
+    background: #f8fbf4;
+    margin: 25px;
+    padding: 25px;
+}
+
+blockquote img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #95ca51;
+}
+
+.maintainer-name {
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+}
+
+.maintainer-handle {
+    color: #95ca51;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.3rem;
+        margin: 20px;
+        padding: 20px;
+    }    
+}
