@@ -205,8 +205,9 @@ section {
     margin-bottom: 0.25rem;
 }
 
-.maintainer-handle {
+.maintainer-handle a {
     color: #95ca51;
+    text-decoration: none;
     font-weight: 500;
     margin-bottom: 1rem;
 }
