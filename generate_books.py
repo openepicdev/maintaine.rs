@@ -247,6 +247,15 @@ def run_pandoc_html(md_dir, html_dir):
 
         if result.returncode != 0:
             print(f"  Failed to create {output_html}")
+        else:
+            # Insert home button after successful HTML generation
+            sed_command = [
+                'sed', '-i',
+                's|</body>|<a href="https://maintaine.rs" class="home-button">🏠</a>\\n</body>|',
+                output_html
+            ]
+            
+            sed_result = subprocess.run(sed_command)
 
 # --- Configuration ---
 source_dir = "./source"
