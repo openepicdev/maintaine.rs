@@ -214,13 +214,17 @@ a:hover {
     blockquote {
         background: #f8fbf4;
     }
+
+    .home-button {
+        display: none;
+    }
 }
 
 /* Home button */
 .home-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     width: 60px;
     height: 60px;
     background: linear-gradient(135deg, #95ca51 0%, #7fb83d 100%);
@@ -240,4 +244,25 @@ a:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 30px rgba(149, 202, 81, 0.6);
     color: white;
+}
+
+/* Mobile adjustments for home button */
+@media (max-width: 768px) {
+    .home-button {
+        left: 15px;
+        bottom: 15px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-button {
+        left: 10px;
+        bottom: 10px;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
 }
