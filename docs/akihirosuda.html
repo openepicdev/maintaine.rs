@@ -61,5 +61,6 @@
 <h3 id="library-sandboxing">Library Sandboxing</h3>
 <p>When writing software, it is practically inevitable to depend on third-party libraries. This supply chain is now under attack. Notably, the <a href="https://tukaani.org/xz-backdoor/">liblzma incident</a> in 2024 demonstrated that even well-known libraries could be compromised by a malicious contributor. Also, there has been an ongoing <a href="https://mhouge.dk/blog/rogue-one-a-malware-story">incident</a> of fake Go modules published with very plausible content and a high number of GitHub stars.</p>
 <p>To mitigate such attacks, I’m now working on a new project <a href="https://github.com/AkihiroSuda/gomodjail">“gomodjail”</a>, the “jail” for Go modules. gomodjail is similar to containers in the sense of syscall restrictions, but it works in much finer granularity. My current focus is on the Go language, but I hope that I will be able to apply the same sandboxing technique to other languages too, as similar incidents have <a href="https://thehackernews.com/2025/05/malicious-npm-packages-infect-3200.html">occurred</a> in other language communities.</p>
+<a href="https://maintaine.rs" class="home-button">🏠</a>
 </body>
 </html>
