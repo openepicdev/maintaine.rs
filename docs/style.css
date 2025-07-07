@@ -68,6 +68,18 @@ h3 {
     z-index: 1;
 }
 
+.hero-image {
+    margin-bottom: 2rem;
+}
+
+.hero-logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    filter: drop-shadow(0 4px 20px rgba(149, 202, 81, 0.3));
+}
+
 .hero-title {
     color: #2c3e50;
     margin-bottom: 1rem;
@@ -346,6 +358,11 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero-logo {
+        width: 80px;
+        height: 80px;
+    }
+
     .hero-title {
         font-size: 2.5rem;
     }
@@ -394,6 +411,11 @@ section {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+
+    .hero-logo {
+        width: 60px;
+        height: 60px;
     }
     
     .hero-title {
