@@ -229,6 +229,10 @@ section {
     line-height: 1.6;
 }
 
+.maintainer-read-more {
+    margin-top: 2rem;
+}
+
 /* About Section */
 .about {
     background-color: white;
