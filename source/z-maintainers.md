@@ -5,13 +5,13 @@ Edition: 2025
 
 > [opencollective.com/maintainers](https://opencollective.com/maintainers)
 
-![](source/opencollective.png){ width=300px height=160px }
+![](source/opencollective.png){ width=300px height=87px }
 
 ## Share your own Open Source story at:
 
 > [maintaine.rs](https://maintaine.rs)
 
-![](source/maintainers.png){ width=256px height=256px }
+![](source/maintainers.png){ width=200px height=200px }
 
 \newpage
 

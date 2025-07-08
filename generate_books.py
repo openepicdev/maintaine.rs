@@ -183,6 +183,40 @@ def run_pandoc(md_dir, output_pdf):
     else:
         print(f"Pandoc failed with exit code {result.returncode} for {output_pdf}")
 
+def run_pandoc_print(md_dir, output_pdf):
+    """Run Pandoc to generate PDF from markdown files in a directory."""
+    markdown_files = sorted(glob.glob(os.path.join(md_dir, "*.md")))
+
+    if not markdown_files:
+        print(f"No Markdown files found in {md_dir}")
+        return
+
+    pandoc_command = [
+        "pandoc",
+        *markdown_files,
+        "--pdf-engine=pdflatex",
+        "--from=markdown+raw_tex",
+        "--template=eisvogel",
+        "--metadata-file=./metadata.yaml",
+        "--listings",
+        "-V", "geometry:paperwidth=6in",
+        "-V", "geometry:paperheight=9in",
+        "-V", "geometry:margin=0.75in",
+        "-V", "geometry:top=0.75in",
+        "-V", "geometry:bottom=1.0in",
+        "-V", "geometry:left=0.75in",
+        "-V", "geometry:right=0.75in",
+        "-o", output_pdf
+    ]
+
+    print(f"\nGenerating PDF: {output_pdf}")
+    result = subprocess.run(pandoc_command)
+
+    if result.returncode == 0:
+        print(f"PDF created: {output_pdf}")
+    else:
+        print(f"Pandoc failed with exit code {result.returncode} for {output_pdf}")
+
 def run_pandoc_epub(md_dir, output_epub):
     """Run Pandoc to generate EPUB from markdown files in a directory."""
     markdown_files = sorted(glob.glob(os.path.join(md_dir, "*.md")))
@@ -268,6 +302,6 @@ output_epub = os.path.join(html_dir, "maintainers.epub")
 # --- Execution ---
 convert_and_save_markdown(source_dir, print_dir)
 run_pandoc(source_dir, output_original_pdf)
-run_pandoc(print_dir, output_print_pdf)
+run_pandoc_print(print_dir, output_print_pdf)
 run_pandoc_epub(source_dir, output_epub)
 run_pandoc_html(source_dir, html_dir)
