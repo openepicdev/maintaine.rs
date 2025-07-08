@@ -69,7 +69,8 @@ h3 {
 }
 
 .hero-image {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 .hero-logo {
@@ -363,8 +364,8 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-logo {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
 
     .hero-title {
@@ -418,8 +419,8 @@ section {
     }
 
     .hero-logo {
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
     }
     
     .hero-title {
