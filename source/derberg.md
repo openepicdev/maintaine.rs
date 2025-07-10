@@ -4,11 +4,11 @@
 > [github.com/derberg](https://github.com/derberg)  
 > [maintaine.rs/derberg](https://maintaine.rs/derberg)
 
-My first active interaction with open-source happened back in 2014, and I was immediately captivated by the concept. The idea of people collaborating openly, across borders, with a shared goal of creating something better fascinated me. At the time, I didn’t contribute much code, largely due to imposter syndrome, which was in full swing. Yet, even then, I sensed that contributing to open-source wasn’t just about writing code. People can give back in so many other ways.
+My first active interaction with Open Sourcehappened back in 2014, and I was immediately captivated by the concept. The idea of people collaborating openly, across borders, with a shared goal of creating something better fascinated me. At the time, I didn’t contribute much code, largely due to imposter syndrome, which was in full swing. Yet, even then, I sensed that contributing to Open Sourcewasn’t just about writing code. People can give back in so many other ways.
 
 So, I found my own path, helping by securing funding for one of the projects and [promoting tools at conferences](https://www.youtube.com/watch?v=F-1goNbdBkc&t=1652s).
 
-Everyone needs a role model—someone to inspire or spark that first sense of purpose. For me, that person was [Benjamin Lupton](https://github.com/balupton). We were using [DocPad](https://docpad.bevry.me/), and after watching [Ben's DocPad presentation](https://www.youtube.com/watch?v=Zu1uhI0uT2o), I knew I was slowly becoming an open-source enthusiast, or maybe even a fanatic.
+Everyone needs a role model—someone to inspire or spark that first sense of purpose. For me, that person was [Benjamin Lupton](https://github.com/balupton). We were using [DocPad](https://docpad.bevry.me/), and after watching [Ben's DocPad presentation](https://www.youtube.com/watch?v=Zu1uhI0uT2o), I knew I was slowly becoming an Open Sourceenthusiast, or maybe even a fanatic.
 
 ## What’s Open Source to you?
 
@@ -53,7 +53,7 @@ Much more could be done though.
 
 ## What do you think are the biggest security challenges facing Open Source today
 
-The biggest challenge is that users of open-source software expect maintainers, who aren't paid for their work, to be fully responsible for producing secure software.
+The biggest challenge is that users of Open Sourcesoftware expect maintainers, who aren't paid for their work, to be fully responsible for producing secure software.
 
 Personally, I’m also concerned about the threat posed by potentially malicious maintainers.
 

@@ -10,13 +10,13 @@ Before getting involved with Open Source, I was just an ordinary software user a
 
 As time passed, I gradually realized that Open Source is not just a collection of technologies — it’s also an extension of values and spirit.
 
-I created projects like Simps and [PHPMQTT](https://github.com/simps/mqtt), and actively contributed to several open-source projects including [Docsify](https://github.com/docsifyjs), [Hyperf](https://github.com/hyperf), [Swoole](https://github.com/swoole), [Typecho](https://github.com/typecho), and [Apache Answer](https://github.com/apache/answer).
+I created projects like Simps and [PHPMQTT](https://github.com/simps/mqtt), and actively contributed to several Open Sourceprojects including [Docsify](https://github.com/docsifyjs), [Hyperf](https://github.com/hyperf), [Swoole](https://github.com/swoole), [Typecho](https://github.com/typecho), and [Apache Answer](https://github.com/apache/answer).
 
 From being a user to becoming a contributor, and eventually a maintainer of Open Source projects, this journey has profoundly changed my career path and shaped my understanding of the tech world.
 
 ## How did you get involved with Open Source?
 
-In 2019, I joined the Swoole open-source project and began working on a documentation overhaul.
+In 2019, I joined the Swoole Open Sourceproject and began working on a documentation overhaul.
 
 This involved not only redesigning the front-end UI but also correcting outdated content and adding more sample code.
 
@@ -77,13 +77,13 @@ I sincerely hope that more fresh contributors will join and help revitalize the 
 
 Incidentally, I'm also pushing for a new release of docsify in Maintainer Month, which can be experienced at https://preview.docsifyjs.org/.
 
-Currently, I make time during my workday to check GitHub notifications and emails from Gmail, trying to balance my main job while also staying active in the open-source community.
+Currently, I make time during my workday to check GitHub notifications and emails from Gmail, trying to balance my main job while also staying active in the Open Sourcecommunity.
 
 ## Final Thoughts
 
 From an ordinary user to a project maintainer, this journey has brought me growth, friendships, and a sense of accomplishment.
 
-I am deeply grateful to the open-source community for the support and opportunities it has given me.
+I am deeply grateful to the Open Sourcecommunity for the support and opportunities it has given me.
 
 I look forward to continuing this journey alongside more passionate and like-minded friends.
 

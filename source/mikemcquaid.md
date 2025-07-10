@@ -96,7 +96,7 @@ The main reason I think I've been able to do this is in my mantra (and blog post
 ["Open Source Maintainers Owe You Nothing"](https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/).
 
 I encourage every maintainer to read and internalise this.
-Unless it's your full-time job to work on your open-source project: you can walk away at any time, guilt-free.
+Unless it's your full-time job to work on your Open Sourceproject: you can walk away at any time, guilt-free.
 Additionally, no-one can make you do anything you don't want to do.
 
 When I was employed at GitHub I (pretty much single handedly) built the "archive a repository" feature exactly for this reason.

@@ -16,7 +16,7 @@ If you think of the project as your house, welcoming someone in is great. Even b
 
 **Provide signposts to contribution**
 
-If you want contributions, be sure to show how and where they are wanted. It’s one thing to say ‘all contributions are welcome’, but that’s open-source theatre because honestly, it’s likely not all are in every area as welcome as others. There are always more areas needed than some. Highlight these and make sure someone gets off to contribution success from the start.
+If you want contributions, be sure to show how and where they are wanted. It’s one thing to say ‘all contributions are welcome’, but that’s Open Sourcetheatre because honestly, it’s likely not all are in every area as welcome as others. There are always more areas needed than some. Highlight these and make sure someone gets off to contribution success from the start.
 
 **Document everything possible**
 

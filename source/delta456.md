@@ -88,6 +88,6 @@ Want to see what I’m working on next?
 - **GitHub**: [https://github.com/delta456](https://github.com/delta456)
 - **LinkedIn**: [https://www.linkedin.com/in/swastik-baranwal/](https://www.linkedin.com/in/swastik-baranwal/)
 
-If you like my open-source work, then feel free to sponsor me via [GitHub Sponsors](https://github.com/sponsors/Delta456)
+If you like my Open Sourcework, then feel free to sponsor me via [GitHub Sponsors](https://github.com/sponsors/Delta456)
 
 \newpage

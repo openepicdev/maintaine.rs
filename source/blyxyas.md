@@ -18,7 +18,7 @@ While being a maintainer is wonderful (that's why I do it), it takes a special k
 
 For me, some hard aspects include:
 
-- Having a Life/Work/Open-Source balance
+- Having a Life/Work/Open Sourcebalance
 - Maintaining even when you have outside conflicts.
 - Taking part and giving feedback on the schedule that the contributors deserve.
 - Making hard decisions, taking everything always into account because ultimately you're the final say into a lot of things

@@ -4,11 +4,11 @@
 > [github.com/saikrishna321](https://github.com/saikrishna321)  
 > [maintaine.rs/saikrishna321](https://maintaine.rs/saikrishna321)
 
-Hi\! I’m Sai Krishna (Director of Engineering, LambdaTest), an open-source contributor and maintainer with over a decade of experience. My journey began as an OSS user, overcoming the difficulties associated with mobile test automation. Witnessing firsthand how open-source tools empower the community sparked a deep interest in giving back. That’s where my journey truly started. Since then, I’ve contributed to and maintained key projects like Appium, co-created tools like AppiumTestDistribution (ATD), and actively mentored the next generation of testers. For me, Open Source isn’t just about code. It’s about creating impact through community collaboration.
+Hi\! I’m Sai Krishna (Director of Engineering, LambdaTest), an Open Sourcecontributor and maintainer with over a decade of experience. My journey began as an OSS user, overcoming the difficulties associated with mobile test automation. Witnessing firsthand how Open Sourcetools empower the community sparked a deep interest in giving back. That’s where my journey truly started. Since then, I’ve contributed to and maintained key projects like Appium, co-created tools like AppiumTestDistribution (ATD), and actively mentored the next generation of testers. For me, Open Source isn’t just about code. It’s about creating impact through community collaboration.
 
 ## **1\. How did you get involved with Open Source?**
 
-Like many others, I started as an open-source user. As I relied on tools like Appium in my day-to-day testing efforts, I realized how these community-built tools made life easier for so many. That realization inspired me to contribute back. I began small, triaging issues and writing documentation, and gradually moved toward contributing code. Over time, I got involved in projects like Appium, Selenium, and ATD, eventually taking on maintainer roles to help shape the direction of the tools I once just used.
+Like many others, I started as an Open Sourceuser. As I relied on tools like Appium in my day-to-day testing efforts, I realized how these community-built tools made life easier for so many. That realization inspired me to contribute back. I began small, triaging issues and writing documentation, and gradually moved toward contributing code. Over time, I got involved in projects like Appium, Selenium, and ATD, eventually taking on maintainer roles to help shape the direction of the tools I once just used.
 
 ## **2\. What’s Open Source to you?**
 

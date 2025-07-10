@@ -42,11 +42,11 @@ Finally, to balance security with community contributions, **we hold off on runn
 
 "One of the biggest security challenges facing Open Source today is the increasing prevalence of supply chain attacks, where malicious code is injected into widely used projects. The recent compromise of a popular GitHub Action, `tj-actions`, (CVE-2025-30066) is a stark reminder of this threat.
 
-Attackers are targeting the open-source ecosystem because its interconnected nature allows a single successful attack to have a widespread impact. Open Source projects are as vulnerable as any other software, and we need to be very vigilant about these kinds of attacks
+Attackers are targeting the Open Sourceecosystem because its interconnected nature allows a single successful attack to have a widespread impact. Open Source projects are as vulnerable as any other software, and we need to be very vigilant about these kinds of attacks
 
 ## What’s the impact of AI on Open Source development?
 
-AI is having a significant and multifaceted impact on open-source development. On the one hand, it's accelerating development workflows in exciting ways. This can be a huge benefit, especially for smaller open-source projects with limited resources.
+AI is having a significant and multifaceted impact on Open Sourcedevelopment. On the one hand, it's accelerating development workflows in exciting ways. This can be a huge benefit, especially for smaller Open Sourceprojects with limited resources.
 
 However, this increased speed can come with a downside. There's a real risk of a decrease in code quality if AI-generated contributions aren't carefully reviewed. I've also observed instances where AI-generated code introduces new issues or requires significant rework, ultimately wasting the time of both contributors and maintainers.
 
