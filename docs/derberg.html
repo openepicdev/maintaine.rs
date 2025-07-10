@@ -1,69 +1,220 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>derberg</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-  </style>
-  <link rel="stylesheet" href="style2.css" />
-  
-  
-  
-  
-</head>
-<body>
-<header id="title-block-header">
-<h1 class="title">derberg</h1>
-</header>
-<h1 id="derberg-lukasz-gornicki"><span class="citation" data-cites="derberg">@derberg</span> – Lukasz Gornicki</h1>
-<blockquote>
-<p><img src="https://github.com/derberg.png" width="64" height="64" /><br />
-<a href="https://github.com/derberg">github.com/derberg</a><br />
-<a href="https://maintaine.rs/derberg">maintaine.rs/derberg</a></p>
-</blockquote>
-<p>My first active interaction with open-source happened back in 2014, and I was immediately captivated by the concept. The idea of people collaborating openly, across borders, with a shared goal of creating something better fascinated me. At the time, I didn’t contribute much code, largely due to imposter syndrome, which was in full swing. Yet, even then, I sensed that contributing to open-source wasn’t just about writing code. People can give back in so many other ways.</p>
-<p>So, I found my own path, helping by securing funding for one of the projects and <a href="https://www.youtube.com/watch?v=F-1goNbdBkc&amp;t=1652s">promoting tools at conferences</a>.</p>
-<p>Everyone needs a role model—someone to inspire or spark that first sense of purpose. For me, that person was <a href="https://github.com/balupton">Benjamin Lupton</a>. We were using <a href="https://docpad.bevry.me/">DocPad</a>, and after watching <a href="https://www.youtube.com/watch?v=Zu1uhI0uT2o">Ben’s DocPad presentation</a>, I knew I was slowly becoming an open-source enthusiast, or maybe even a fanatic.</p>
-<h2 id="whats-open-source-to-you">What’s Open Source to you?</h2>
-<p>A diverse community that fosters innovation. As simple as that.</p>
-<p>There is no other place, no company that can give you this. The ability to work together with people from different cultures, different sides of the world. The ability to work with people having different experience, different points of view creates an environment where innovation happens.</p>
-<h2 id="what-projects-are-you-involved-in">What projects are you involved in?</h2>
-<p>I’m active in the <a href="https://www.asyncapi.com/en">AsyncAPI Initiative</a>, and my highest priority is the <a href="https://github.com/asyncapi/spec">AsyncAPI spec</a> and the <a href="https://github.com/asyncapi/generator">AsyncAPI Generator</a>. At the moment, I’m the Executive Director of the initiative, but I’m stepping down in favour of our new <a href="https://www.asyncapi.com/blog/new-governance-board">Governance Board</a>.</p>
-<h2 id="how-do-you-grow-your-community">How do you grow your community?</h2>
-<p>This is a long story to tell. In short, by putting the community first and everything else later, the most successful programs we’ve implemented to grow the community are:</p>
-<ul>
-<li><strong>Dedicated participation in mentorships</strong> (<a href="https://github.com/asyncapi/community/tree/master/mentorship">GitHub</a>). We also set up our own mentorship program. We’re pushing for a new concept we call <code>Maintainership</code>, which focuses not on creating new projects but on mentoring people on how to become a maintainer and how complex and responsible a role it is.</li>
-<li><strong>AsyncAPI Conference</strong> (<a href="https://conference.asyncapi.com/">conference.asyncapi.com</a>) – rather than a single annual event that requires extensive travel, we hold multiple events and host smaller sessions at well-established conferences. This approach allows us to reach a larger, more diverse audience in different locations. I recommend you <a href="https://www.brainfart.dev/blog/foss-grow-through-events">read in detail how from an online one-day event we scaled to most of the continents with multiple events a year</a> so you can learn how such an approach can help you gain funding for the projects and friends that help to scale your community.</li>
-<li>Build a program that recognizes people who promote your project. Call it Ambassador, Champion, Hero, Jedi - whatever you like, just recognize these people and give them space. You will never be able to promote the project alone as much as in a group of various influencers. Our <a href="https://www.asyncapi.com/community/ambassadors">Ambassador program</a> gathers people who talk about AsyncAPI at conferences, record videos, write articles - basically create publicly available content.</li>
-</ul>
-<p>We also run other community programs.</p>
-<h2 id="what-are-the-main-challenges-you-face-as-a-maintainer">What are the main challenges you face as a maintainer</h2>
-<p>Financial sustainability. You can <a href="https://github.com/sponsors/derberg">sponsor me</a> of course or <a href="https://www.brainfart.dev/services">hire my services</a> to fix that.</p>
-<h2 id="what-are-some-ways-contributors-can-better-support-maintainers">What are some ways contributors can better support maintainers</h2>
-<ul>
-<li>Read the contributor guidelines :)</li>
-<li>Be proactive: research first and ask thoughtful questions.</li>
-<li>Remember: your new feature might be great and solve your use case, but ultimately I will be the one to maintain it. Writing code is easy; maintaining it is much harder. Keep this in mind when you urge maintainers to merge something and avoid putting yourself in a privileged position, expecting only gratitude instead of healthy skepticism.</li>
-</ul>
-<p>Honestly, if every contributor at least followed the first bullet point, the world would be a better place! :)</p>
-<h2 id="what-are-some-of-the-key-security-practices-youve-implemented-in-your-project">What are some of the key security practices you’ve implemented in your project</h2>
-<p>I highly rely on external services that are free for Open Source and verify overall security of the project and check changes per pull request.</p>
-<p>I’m mainly focusing on making sure our secrets do not leak, and that we use GitHub Actions in a secure way.</p>
-<p>Much more could be done though.</p>
-<h2 id="what-do-you-think-are-the-biggest-security-challenges-facing-open-source-today">What do you think are the biggest security challenges facing Open Source today</h2>
-<p>The biggest challenge is that users of open-source software expect maintainers, who aren’t paid for their work, to be fully responsible for producing secure software.</p>
-<p>Personally, I’m also concerned about the threat posed by potentially malicious maintainers.</p>
-<h2 id="whats-the-impact-of-ai-on-open-source-development">What’s the impact of AI on Open Source development?</h2>
-<p>Too many contributors use it incorrectly and end up spamming projects. But for me, as an experienced maintainer who can verify AI-generated output, it speeds up my work.</p>
-<p>Does this speedup balance out the AI spam? Does it mean nothing has changed? I have no idea. :)</p>
-<a href="https://maintaine.rs" class="home-button">🏠</a>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>derberg</title>
+    <style>
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      span.underline {
+        text-decoration: underline;
+      }
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      ul.task-list {
+        list-style: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">derberg</h1>
+    </header>
+    <h1 id="derberg-lukasz-gornicki">
+      <span class="citation" data-cites="derberg">@derberg</span> – Lukasz
+      Gornicki
+    </h1>
+    <blockquote>
+      <p>
+        <img
+          src="https://github.com/derberg.png"
+          width="64"
+          height="64"
+        /><br />
+        <a href="https://github.com/derberg">github.com/derberg</a><br />
+        <a href="https://maintaine.rs/derberg">maintaine.rs/derberg</a>
+      </p>
+    </blockquote>
+    <p>
+      My first active interaction with Open Source happened back in 2014, and I
+      was immediately captivated by the concept. The idea of people
+      collaborating openly, across borders, with a shared goal of creating
+      something better fascinated me. At the time, I didn’t contribute much
+      code, largely due to imposter syndrome, which was in full swing. Yet, even
+      then, I sensed that contributing to Open Source wasn’t just about writing
+      code. People can give back in so many other ways.
+    </p>
+    <p>
+      So, I found my own path, helping by securing funding for one of the
+      projects and
+      <a href="https://www.youtube.com/watch?v=F-1goNbdBkc&amp;t=1652s"
+        >promoting tools at conferences</a
+      >.
+    </p>
+    <p>
+      Everyone needs a role model—someone to inspire or spark that first sense
+      of purpose. For me, that person was
+      <a href="https://github.com/balupton">Benjamin Lupton</a>. We were using
+      <a href="https://docpad.bevry.me/">DocPad</a>, and after watching
+      <a href="https://www.youtube.com/watch?v=Zu1uhI0uT2o"
+        >Ben’s DocPad presentation</a
+      >, I knew I was slowly becoming an Open Source enthusiast, or maybe even a
+      fanatic.
+    </p>
+    <h2 id="whats-open-source-to-you">What’s Open Source to you?</h2>
+    <p>A diverse community that fosters innovation. As simple as that.</p>
+    <p>
+      There is no other place, no company that can give you this. The ability to
+      work together with people from different cultures, different sides of the
+      world. The ability to work with people having different experience,
+      different points of view creates an environment where innovation happens.
+    </p>
+    <h2 id="what-projects-are-you-involved-in">
+      What projects are you involved in?
+    </h2>
+    <p>
+      I’m active in the
+      <a href="https://www.asyncapi.com/en">AsyncAPI Initiative</a>, and my
+      highest priority is the
+      <a href="https://github.com/asyncapi/spec">AsyncAPI spec</a> and the
+      <a href="https://github.com/asyncapi/generator">AsyncAPI Generator</a>. At
+      the moment, I’m the Executive Director of the initiative, but I’m stepping
+      down in favour of our new
+      <a href="https://www.asyncapi.com/blog/new-governance-board"
+        >Governance Board</a
+      >.
+    </p>
+    <h2 id="how-do-you-grow-your-community">How do you grow your community?</h2>
+    <p>
+      This is a long story to tell. In short, by putting the community first and
+      everything else later, the most successful programs we’ve implemented to
+      grow the community are:
+    </p>
+    <ul>
+      <li>
+        <strong>Dedicated participation in mentorships</strong> (<a
+          href="https://github.com/asyncapi/community/tree/master/mentorship"
+          >GitHub</a
+        >). We also set up our own mentorship program. We’re pushing for a new
+        concept we call <code>Maintainership</code>, which focuses not on
+        creating new projects but on mentoring people on how to become a
+        maintainer and how complex and responsible a role it is.
+      </li>
+      <li>
+        <strong>AsyncAPI Conference</strong> (<a
+          href="https://conference.asyncapi.com/"
+          >conference.asyncapi.com</a
+        >) – rather than a single annual event that requires extensive travel,
+        we hold multiple events and host smaller sessions at well-established
+        conferences. This approach allows us to reach a larger, more diverse
+        audience in different locations. I recommend you
+        <a href="https://www.brainfart.dev/blog/foss-grow-through-events"
+          >read in detail how from an online one-day event we scaled to most of
+          the continents with multiple events a year</a
+        >
+        so you can learn how such an approach can help you gain funding for the
+        projects and friends that help to scale your community.
+      </li>
+      <li>
+        Build a program that recognizes people who promote your project. Call it
+        Ambassador, Champion, Hero, Jedi - whatever you like, just recognize
+        these people and give them space. You will never be able to promote the
+        project alone as much as in a group of various influencers. Our
+        <a href="https://www.asyncapi.com/community/ambassadors"
+          >Ambassador program</a
+        >
+        gathers people who talk about AsyncAPI at conferences, record videos,
+        write articles - basically create publicly available content.
+      </li>
+    </ul>
+    <p>We also run other community programs.</p>
+    <h2 id="what-are-the-main-challenges-you-face-as-a-maintainer">
+      What are the main challenges you face as a maintainer
+    </h2>
+    <p>
+      Financial sustainability. You can
+      <a href="https://github.com/sponsors/derberg">sponsor me</a> of course or
+      <a href="https://www.brainfart.dev/services">hire my services</a> to fix
+      that.
+    </p>
+    <h2 id="what-are-some-ways-contributors-can-better-support-maintainers">
+      What are some ways contributors can better support maintainers
+    </h2>
+    <ul>
+      <li>Read the contributor guidelines :)</li>
+      <li>Be proactive: research first and ask thoughtful questions.</li>
+      <li>
+        Remember: your new feature might be great and solve your use case, but
+        ultimately I will be the one to maintain it. Writing code is easy;
+        maintaining it is much harder. Keep this in mind when you urge
+        maintainers to merge something and avoid putting yourself in a
+        privileged position, expecting only gratitude instead of healthy
+        skepticism.
+      </li>
+    </ul>
+    <p>
+      Honestly, if every contributor at least followed the first bullet point,
+      the world would be a better place! :)
+    </p>
+    <h2
+      id="what-are-some-of-the-key-security-practices-youve-implemented-in-your-project"
+    >
+      What are some of the key security practices you’ve implemented in your
+      project
+    </h2>
+    <p>
+      I highly rely on external services that are free for Open Source and
+      verify overall security of the project and check changes per pull request.
+    </p>
+    <p>
+      I’m mainly focusing on making sure our secrets do not leak, and that we
+      use GitHub Actions in a secure way.
+    </p>
+    <p>Much more could be done though.</p>
+    <h2
+      id="what-do-you-think-are-the-biggest-security-challenges-facing-open-source-today"
+    >
+      What do you think are the biggest security challenges facing Open Source
+      today
+    </h2>
+    <p>
+      The biggest challenge is that users of Open Source software expect
+      maintainers, who aren’t paid for their work, to be fully responsible for
+      producing secure software.
+    </p>
+    <p>
+      Personally, I’m also concerned about the threat posed by potentially
+      malicious maintainers.
+    </p>
+    <h2 id="whats-the-impact-of-ai-on-open-source-development">
+      What’s the impact of AI on Open Source development?
+    </h2>
+    <p>
+      Too many contributors use it incorrectly and end up spamming projects. But
+      for me, as an experienced maintainer who can verify AI-generated output,
+      it speeds up my work.
+    </p>
+    <p>
+      Does this speedup balance out the AI spam? Does it mean nothing has
+      changed? I have no idea. :)
+    </p>
+    <a href="https://maintaine.rs" class="home-button">🏠</a>
+  </body>
 </html>

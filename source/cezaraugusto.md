@@ -8,13 +8,13 @@ I have wanted to work with Open Source since I first heard the term. I’ve alwa
 
 In my career I always wanted to be useful and produce useful work. Open Source makes me feel that way.
 
-I’m Cezar Augusto, and I created [Extension.js][1], an open-source tool that makes it very easy to create cross-browser extensions.
+I’m Cezar Augusto, and I created [Extension.js][1], an Open Source tool that makes it very easy to create cross-browser extensions.
 
-### Open-source journey
+### Open Source journey
 
 I started contributing to Open Source by triaging bugs and writing or translating documentation — mostly for projects related to front-end development and browsers, which have always been my core interest. I’ve always been fascinated by how browsers work, and that obsession led me to contribute to projects like [MDN][2] and the iconic [Front-End Developer Interview Questions][3], which I later helped maintain.
 
-At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an open-source browser. These were the early days of the [Brave Desktop Browser][4], which gave me my first meaningful contribution and my first real contact with browser extension development.
+At the time, I wasn’t very confident in my code. But once I gained that confidence, I started looking around ways to contribute code to an Open Source browser. These were the early days of the [Brave Desktop Browser][4], which gave me my first meaningful contribution and my first real contact with browser extension development.
 
 ## Extension.js
 
@@ -28,7 +28,7 @@ Used by hundreds of projects, Extension.js is a tool I’m proud to see helping 
 
 ## Challenges
 
-Extension.js began as a solution to a personal need, and it’s continued to grow alongside my career. But it needs to evolve. Maintaining an open-source project taught me something no book or job ever could: progress often happens quietly. The most important work is often invisible — reviewing issues, refactoring silently, or managing expectations. It’s not glamorous, but it’s what keeps projects alive.
+Extension.js began as a solution to a personal need, and it’s continued to grow alongside my career. But it needs to evolve. Maintaining an Open Source project taught me something no book or job ever could: progress often happens quietly. The most important work is often invisible — reviewing issues, refactoring silently, or managing expectations. It’s not glamorous, but it’s what keeps projects alive.
 
 As a maintainer, I'm constantly balancing shipping with listening, and personal growth with community needs. I’m often eager to ship a feature or fix a bug, but the project is now bigger than me — and that means being more thoughtful about the impact of every decision. It’s not easy, but it’s deeply rewarding.
 
@@ -36,9 +36,9 @@ As a maintainer, I'm constantly balancing shipping with listening, and personal 
 
 Artificial Intelligence empowers developers in ways that make projects more accessible to build, allowing individual maintainers to ship features, debug issues, and write documentation at a pace that once required a full team.
 
-It also makes contributions from both seasoned engineers and newcomers equally impactful, which is a huge help for solo maintainers or small teams working on larger open-source projects.
+It also makes contributions from both seasoned engineers and newcomers equally impactful, which is a huge help for solo maintainers or small teams working on larger Open Source projects.
 
-The next generation of open-source projects won’t be built by teams — they’ll be orchestrated by individuals augmented by AI, opening doors to diverse contributors and lowering the barrier to innovation in ways we’ve never seen before.
+The next generation of Open Source projects won’t be built by teams — they’ll be orchestrated by individuals augmented by AI, opening doors to diverse contributors and lowering the barrier to innovation in ways we’ve never seen before.
 
 ## Advice
 
@@ -50,7 +50,7 @@ For contributors and maintainers: make your project easy to contribute to, and t
 
 For everybody else: acknowledging good work is one of the simplest, most meaningful actions you can take to honor someone’s effort. Whenever you can, contribute — whether with code, knowledge, promotion, or anything you’re good at — to your favorite projects and developers.
 
-To all my fellow maintainers and open-source contributors: thank you — your quiet dedication powers the tools, ideas, and communities that move the web forward.
+To all my fellow maintainers and Open Source contributors: thank you — your quiet dedication powers the tools, ideas, and communities that move the web forward.
 
 ---
 

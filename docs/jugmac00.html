@@ -1,68 +1,211 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>jugmac00</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-  </style>
-  <link rel="stylesheet" href="style2.css" />
-  
-  
-  
-  
-</head>
-<body>
-<header id="title-block-header">
-<h1 class="title">jugmac00</h1>
-</header>
-<h1 id="jugmac00-jürgen-gmach"><span class="citation" data-cites="jugmac00">@jugmac00</span> – Jürgen Gmach</h1>
-<blockquote>
-<p><img src="https://github.com/jugmac00.png" width="64" height="64" /><br />
-<a href="https://github.com/jugmac00">github.com/jugmac00</a><br />
-<a href="https://maintaine.rs/jugmac00">maintaine.rs/jugmac00</a></p>
-</blockquote>
-<p>Hi, my name is <a href="https://github.com/jugmac00">Jürgen Gmach</a>, and I am an open-source advocate by heart.</p>
-<p>Although I started writing code already at the age of 13 (generation C64), and I have been a professional software engineer since 2007, I only started contributing to open-source software a couple of years ago.</p>
-<p>While I had been using many open-source applications and tools like Drupal, WordPress, Roundcube, Dovecot, Postfix, Apache, Nginx, PHP, Python, and a few Linux distributions for several years, I never felt the need or the urge to contribute to them - they just worked.</p>
-<h2 id="turning-point">Turning point</h2>
-<p>Things changed when I became the maintainer of a 14-year-old custom intranet application built on the Zope / Python 2 stack. Python 2 support ended in 2020, which meant I needed to migrate the application to Python 3. The problem was that there was no Python 3 version available for Zope.</p>
-<p>As a team of one, migrating both the application and the Zope framework was a mission impossible.</p>
-<h2 id="but-zope-is-open-source-software">… But Zope is open-source software</h2>
-<p>Luckily, Zope is both open-source software and was still used by a couple of companies, which funded a series of sprints, where dozens of developers from diverse companies and organizations came together and with combined efforts over several years, successfully ported Zope to Python 3. An open-source success story!</p>
-<h2 id="this-was-only-the-beginning">This was only the beginning</h2>
-<p>During the migration, we needed to make sure that Zope is both working on Python 2 and 3 at the same time. As we had to migrate around 300 libraries, it was a real pain to create and update separate environments for Python 2 and 3 for each of them.</p>
-<p>During the sprint, I learned about a tool that automatically creates different environments for your libraries and runs the test suite for each configuration. The tool is called <a href="https://tox.wiki/en/latest/">tox</a>, and I immediately fell in love with it.</p>
-<p>tox (always lowercase, even at the beginning of a sentence) had a few issues and rough edges, so at first I created several issues on its bug tracker, but after a while, I felt this relentless urge to give something back. At first I started looking through all the reported issues of the project, to get an overview of what needed to be done, closed a couple of already fixed issues, and then I just started working on tickets - one after another. The code base used bleeding-edge tools and Python versions, and I got invaluable feedback on my pull requests from a very experienced engineer. I just could not stop anymore.</p>
-<h2 id="congratulations">Congratulations</h2>
-<p>After a while, the maintainer of tox announced me as a maintainer myself!</p>
-<p>I could not believe it, becoming the maintainer of a tool, which offers so much value, which gets downloaded more than 20 million times a month, and which is used both across other high-profile open-source projects and multi-billion dollar companies alike.</p>
-<p>Being the maintainer of such a high-profile tool might have also had a big impact when I successfully applied at Canonical. Meanwhile, I work full time on Open Source helping to maintain Ubuntu, one of the most popular Linux distributions of our time. I also contributed to several hundreds of open source projects to a varying degree, and I am a frequent speaker at conferences, where I share my experience and try to remove the barriers for others to become part of the Open Source success story.</p>
-<h2 id="maintainer-woes">Maintainer woes</h2>
-<p>Being a maintainer of a high-profile open-source application such as tox is not always shiny. You need to manage your time and the expectations of your users.</p>
-<p>There is always the decision of whether I should fix the latest reported bug, or spend time with my family.</p>
-<p>Users of your open-source applications are humans, too, and as such there are also not so friendly ones. Several times I faced angry users who complained about a bug, or who insisted heavily on new features or requested help to debug their 500 lines configuration file for their multi-billion dollar company.</p>
-<p>At this time, I read the blog post <a href="https://www.softwaremaxims.com/blog/not-a-supplier">I am not your supplier</a>, which resonated with me and helped me prioritize the important things in life.</p>
-<h2 id="free-lunch-is-over">Free lunch is over</h2>
-<p>While you can handle overambitious requests more easily, it is another thing to receive a security issue - especially when you are busy in life with other things.</p>
-<p>Then you need to have the ability to defer work to other maintainers and ask for help in the community.</p>
-<h2 id="security">Security</h2>
-<p>When it comes to security, we both apply the best practices like two-factor authentication, using security linters, and so on, at some point you need to rely on others.</p>
-<p>For tox we make heavy use of the security features offered by GitHub, that is e.g. <a href="https://github.com/dependabot">Dependabot</a> which helps with keeping the dependencies secure, which is one of the greatest challenges in today’s security landscape. Supply-chain attacks are a real threat.</p>
-<h2 id="what-you-can-do">What you can do</h2>
-<p>I love being an open-source maintainer, getting in touch with users across the world, and knowing my contribution helps tens of thousands of users.</p>
-<p>As an open-source user, you can do a couple of things. The most obvious one is certainly helping to fund the project, either directly or via your employer which relies on the project. Even the smallest contribution counts.</p>
-<p>But there are many other ways. Take great care when creating issues, e.g. making it as easy as possible for the maintainers to reproduce a bug.</p>
-<p>Even if you are a happy user, and you do not need a bug fix or a new feature, reach out to the maintainer of your favorite project and say “Thank you!”. This will conjure a smile on the maintainer’s face - I know firsthand.</p>
-<p>Please never forget, that even with all the anonymity the web offers, at the very end, a maintainer is still a human. Be kind. Be friendly. Be part of the open-source movement.</p>
-<p><em>This text is licensed via Creative Commons BY-SA 4.0</em></p>
-<a href="https://maintaine.rs" class="home-button">🏠</a>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>jugmac00</title>
+    <style>
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      span.underline {
+        text-decoration: underline;
+      }
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      ul.task-list {
+        list-style: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">jugmac00</h1>
+    </header>
+    <h1 id="jugmac00-jürgen-gmach">
+      <span class="citation" data-cites="jugmac00">@jugmac00</span> – Jürgen
+      Gmach
+    </h1>
+    <blockquote>
+      <p>
+        <img
+          src="https://github.com/jugmac00.png"
+          width="64"
+          height="64"
+        /><br />
+        <a href="https://github.com/jugmac00">github.com/jugmac00</a><br />
+        <a href="https://maintaine.rs/jugmac00">maintaine.rs/jugmac00</a>
+      </p>
+    </blockquote>
+    <p>
+      Hi, my name is <a href="https://github.com/jugmac00">Jürgen Gmach</a>, and
+      I am an Open Source advocate by heart.
+    </p>
+    <p>
+      Although I started writing code already at the age of 13 (generation C64),
+      and I have been a professional software engineer since 2007, I only
+      started contributing to Open Source software a couple of years ago.
+    </p>
+    <p>
+      While I had been using many Open Source applications and tools like
+      Drupal, WordPress, Roundcube, Dovecot, Postfix, Apache, Nginx, PHP,
+      Python, and a few Linux distributions for several years, I never felt the
+      need or the urge to contribute to them - they just worked.
+    </p>
+    <h2 id="turning-point">Turning point</h2>
+    <p>
+      Things changed when I became the maintainer of a 14-year-old custom
+      intranet application built on the Zope / Python 2 stack. Python 2 support
+      ended in 2020, which meant I needed to migrate the application to Python
+      3. The problem was that there was no Python 3 version available for Zope.
+    </p>
+    <p>
+      As a team of one, migrating both the application and the Zope framework
+      was a mission impossible.
+    </p>
+    <h2 id="but-zope-is-open-source-software">
+      … But Zope is Open Source software
+    </h2>
+    <p>
+      Luckily, Zope is both Open Source software and was still used by a couple
+      of companies, which funded a series of sprints, where dozens of developers
+      from diverse companies and organizations came together and with combined
+      efforts over several years, successfully ported Zope to Python 3. An Open
+      Source success story!
+    </p>
+    <h2 id="this-was-only-the-beginning">This was only the beginning</h2>
+    <p>
+      During the migration, we needed to make sure that Zope is both working on
+      Python 2 and 3 at the same time. As we had to migrate around 300
+      libraries, it was a real pain to create and update separate environments
+      for Python 2 and 3 for each of them.
+    </p>
+    <p>
+      During the sprint, I learned about a tool that automatically creates
+      different environments for your libraries and runs the test suite for each
+      configuration. The tool is called
+      <a href="https://tox.wiki/en/latest/">tox</a>, and I immediately fell in
+      love with it.
+    </p>
+    <p>
+      tox (always lowercase, even at the beginning of a sentence) had a few
+      issues and rough edges, so at first I created several issues on its bug
+      tracker, but after a while, I felt this relentless urge to give something
+      back. At first I started looking through all the reported issues of the
+      project, to get an overview of what needed to be done, closed a couple of
+      already fixed issues, and then I just started working on tickets - one
+      after another. The code base used bleeding-edge tools and Python versions,
+      and I got invaluable feedback on my pull requests from a very experienced
+      engineer. I just could not stop anymore.
+    </p>
+    <h2 id="congratulations">Congratulations</h2>
+    <p>
+      After a while, the maintainer of tox announced me as a maintainer myself!
+    </p>
+    <p>
+      I could not believe it, becoming the maintainer of a tool, which offers so
+      much value, which gets downloaded more than 20 million times a month, and
+      which is used both across other high-profile Open Source projects and
+      multi-billion dollar companies alike.
+    </p>
+    <p>
+      Being the maintainer of such a high-profile tool might have also had a big
+      impact when I successfully applied at Canonical. Meanwhile, I work full
+      time on Open Source helping to maintain Ubuntu, one of the most popular
+      Linux distributions of our time. I also contributed to several hundreds of
+      open source projects to a varying degree, and I am a frequent speaker at
+      conferences, where I share my experience and try to remove the barriers
+      for others to become part of the Open Source success story.
+    </p>
+    <h2 id="maintainer-woes">Maintainer woes</h2>
+    <p>
+      Being a maintainer of a high-profile Open Source application such as tox
+      is not always shiny. You need to manage your time and the expectations of
+      your users.
+    </p>
+    <p>
+      There is always the decision of whether I should fix the latest reported
+      bug, or spend time with my family.
+    </p>
+    <p>
+      Users of your Open Source applications are humans, too, and as such there
+      are also not so friendly ones. Several times I faced angry users who
+      complained about a bug, or who insisted heavily on new features or
+      requested help to debug their 500 lines configuration file for their
+      multi-billion dollar company.
+    </p>
+    <p>
+      At this time, I read the blog post
+      <a href="https://www.softwaremaxims.com/blog/not-a-supplier"
+        >I am not your supplier</a
+      >, which resonated with me and helped me prioritize the important things
+      in life.
+    </p>
+    <h2 id="free-lunch-is-over">Free lunch is over</h2>
+    <p>
+      While you can handle overambitious requests more easily, it is another
+      thing to receive a security issue - especially when you are busy in life
+      with other things.
+    </p>
+    <p>
+      Then you need to have the ability to defer work to other maintainers and
+      ask for help in the community.
+    </p>
+    <h2 id="security">Security</h2>
+    <p>
+      When it comes to security, we both apply the best practices like
+      two-factor authentication, using security linters, and so on, at some
+      point you need to rely on others.
+    </p>
+    <p>
+      For tox we make heavy use of the security features offered by GitHub, that
+      is e.g. <a href="https://github.com/dependabot">Dependabot</a> which helps
+      with keeping the dependencies secure, which is one of the greatest
+      challenges in today’s security landscape. Supply-chain attacks are a real
+      threat.
+    </p>
+    <h2 id="what-you-can-do">What you can do</h2>
+    <p>
+      I love being an Open Source maintainer, getting in touch with users across
+      the world, and knowing my contribution helps tens of thousands of users.
+    </p>
+    <p>
+      As an Open Source user, you can do a couple of things. The most obvious
+      one is certainly helping to fund the project, either directly or via your
+      employer which relies on the project. Even the smallest contribution
+      counts.
+    </p>
+    <p>
+      But there are many other ways. Take great care when creating issues, e.g.
+      making it as easy as possible for the maintainers to reproduce a bug.
+    </p>
+    <p>
+      Even if you are a happy user, and you do not need a bug fix or a new
+      feature, reach out to the maintainer of your favorite project and say
+      “Thank you!”. This will conjure a smile on the maintainer’s face - I know
+      firsthand.
+    </p>
+    <p>
+      Please never forget, that even with all the anonymity the web offers, at
+      the very end, a maintainer is still a human. Be kind. Be friendly. Be part
+      of the Open Source movement.
+    </p>
+    <p><em>This text is licensed via Creative Commons BY-SA 4.0</em></p>
+    <a href="https://maintaine.rs" class="home-button">🏠</a>
+  </body>
 </html>

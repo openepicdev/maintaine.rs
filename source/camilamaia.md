@@ -16,7 +16,7 @@ On top of that, I’ll explore how Open Source is not just a tool for developmen
 
 ## Open Source, Camila. Camila, Open Source
 
-It all started during my time at [Loadsmart][loadsmart], a logistics company where I spent nearly four years. It was there that I met [Gustavo Barbosa][barbosa] — and everything started to shift. He introduced me to [Danger][danger], an open-source tool that automates tasks and highlights issues during code reviews, and a plugin he had created, [danger-android_lint][danger-android_lint], which integrates Android Lint checks directly into pull requests. From the moment I saw it, I was hooked.
+It all started during my time at [Loadsmart][loadsmart], a logistics company where I spent nearly four years. It was there that I met [Gustavo Barbosa][barbosa] — and everything started to shift. He introduced me to [Danger][danger], an Open Source tool that automates tasks and highlights issues during code reviews, and a plugin he had created, [danger-android_lint][danger-android_lint], which integrates Android Lint checks directly into pull requests. From the moment I saw it, I was hooked.
 
 At the time, around 2018, [GitHub Actions][github-actions] wasn’t around yet. The idea of automating Pull Request reviews in such a simple, flexible way felt like magic. But what truly fascinated me was the global collaboration I saw happening. People from different corners of the world working together on the same codebase, even though they had never met — that blew my mind. It was this sense of community that drew me in and made me realize the power of Open Source.
 
