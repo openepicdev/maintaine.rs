@@ -4,9 +4,9 @@
 > [github.com/bxcodec](https://github.com/bxcodec)  
 > [maintaine.rs/bxcodec](https://maintaine.rs/bxcodec)
 
-I’m [Iman Tumorang](https://imantumorang.com/), currently working as a full-time engineer at [Veriff](https://veriff.com), one of the biggest ID verification solution startups in Estonia. Prior to this, I also worked in a couple of industries, such as payment, media, and CRM. Throughout my professional journey, I’ve been following the open-source community. Even though I haven’t made considerable contributions to any popular projects, I can proudly say I’ve been maintaining a couple of my Golang libraries, which a few people fortunately use.
+I’m [Iman Tumorang](https://imantumorang.com/), currently working as a full-time engineer at [Veriff](https://veriff.com), one of the biggest ID verification solution startups in Estonia. Prior to this, I also worked in a couple of industries, such as payment, media, and CRM. Throughout my professional journey, I’ve been following the Open Source community. Even though I haven’t made considerable contributions to any popular projects, I can proudly say I’ve been maintaining a couple of my Golang libraries, which a few people fortunately use.
 
-I noticed a correlation between my professional career and open-source contributions. All my Golang libraries are inspired by the problems I encounter in my work. Sometimes, I need to create a small library to speed up development time. If I see that it can be helpful in the public, I will make it open-source; if not, it will remain an internal source within the company.
+I noticed a correlation between my professional career and Open Source contributions. All my Golang libraries are inspired by the problems I encounter in my work. Sometimes, I need to create a small library to speed up development time. If I see that it can be helpful in the public, I will make it open-source; if not, it will remain an internal source within the company.
 
 In this story, I will share how I delved into the world of Open Source, including the learnings, the challenges, and, of course, the fun of it.
 
@@ -16,7 +16,7 @@ Back in 2016, my first job, I was lucky enough to land a position at a small sta
 
 So, what did I do? In one month, I learned what the new industry trend is. I saw a couple of big companies (startups) moving to Golang. I knew this because I have a couple of friends working at some of those big companies. So, I learned Golang, even though my stack initially included only NodeJS and Ruby on Rails. I dedicated my time to learning Golang while looking for new opportunities.
 
-I made my first Golang library, [saint](https://github.com/bxcodec/saint). Back then, I didn’t clearly know anything about Open Source; I realized that later. I built that simple library just for the sake of my portfolio and also as proof to recruiters: “Look, my resume shows I worked with NodeJs and Ruby on Rails, but I can learn Golang in 1 month, including building a new open-source library that people can use.”
+I made my first Golang library, [saint](https://github.com/bxcodec/saint). Back then, I didn’t clearly know anything about Open Source; I realized that later. I built that simple library just for the sake of my portfolio and also as proof to recruiters: “Look, my resume shows I worked with NodeJs and Ruby on Rails, but I can learn Golang in 1 month, including building a new Open Source library that people can use.”
 
 Luckily enough, with some friends' connections, I landed a new company that will become my starting point for creating more libraries and getting noticed by many companies that actually affect my career.
 
@@ -30,7 +30,7 @@ Not stopping there, I made another blog post and a new library in Golang, [faker
 
 And because of these two projects on GitHub, I became one of the top Go GitHub developers in Indonesia, LOL. It is based on GitHub stars gained.
 
-With these stats, I can easily apply to any company in Indonesia back then. At least I will get noticed first. Even though I know it’s just a kind of fun thing to do, I think it helps motivate me to work more on my open-source libraries. I address the new issues that people raise in the library, or maybe think of creating a new library that might be useful for others.
+With these stats, I can easily apply to any company in Indonesia back then. At least I will get noticed first. Even though I know it’s just a kind of fun thing to do, I think it helps motivate me to work more on my Open Source libraries. I address the new issues that people raise in the library, or maybe think of creating a new library that might be useful for others.
 
 ## **Challenges as Maintainers\!**
 
@@ -38,9 +38,9 @@ Since then, I’ve created a couple of libraries, but I think because I was not 
 
 One of the biggest challenges is prioritizing. For example, I have a full-time job, which involves dealing with business issues and sometimes tight deadlines. It can be stressful and frustrating. These conditions only lead me to deprioritize the libraries that I maintain. I felt guilty because I sometimes see people raising issues, yet I never reply until five months later. This has become a problem. For some important libraries used by many people, such as [faker](https://github.com/bxcodec/faker), I moved them to a new GitHub organization, where I can invite other contributors to help me maintain them. However, for libraries that are not widely used, I maintain them myself.
 
-I remembered that GitHub released a new feature about donations, but still, my projects are not significant enough to make people willing to donate. It’s just a small library that can be easily replaced by others. So donations are really not helping me to stay motivated; I can’t switch careers to be a full-time open-source maintainer. Maintaining Open Source is a noble responsibility; you must not expect anything in return. When people donate, don’t take it for granted; instead, be more serious about maintaining the project.
+I remembered that GitHub released a new feature about donations, but still, my projects are not significant enough to make people willing to donate. It’s just a small library that can be easily replaced by others. So donations are really not helping me to stay motivated; I can’t switch careers to be a full-time Open Source maintainer. Maintaining Open Source is a noble responsibility; you must not expect anything in return. When people donate, don’t take it for granted; instead, be more serious about maintaining the project.
 
-To address this motivation or prioritization issue, I actually made my library used by the company I worked for. For example, this library [dbresolver](https://github.com/bxcodec/dbresolver) is about managing DB connections for both RW and RO connections with load balancer functionality. I created this while working at Xendit, the biggest payment gateway in Southeast Asia. This library is used in one of the core projects at Xendit, which gives me some responsibility to maintain the open-source version since I have a real user utilizing it. Additionally, I can leverage it for marketing by saying, 'Hey, this company is using this' – even though I was the one who developed it, LOL.
+To address this motivation or prioritization issue, I actually made my library used by the company I worked for. For example, this library [dbresolver](https://github.com/bxcodec/dbresolver) is about managing DB connections for both RW and RO connections with load balancer functionality. I created this while working at Xendit, the biggest payment gateway in Southeast Asia. This library is used in one of the core projects at Xendit, which gives me some responsibility to maintain the Open Source version since I have a real user utilizing it. Additionally, I can leverage it for marketing by saying, 'Hey, this company is using this' – even though I was the one who developed it, LOL.
 
 ## **Final Thoughts**
 

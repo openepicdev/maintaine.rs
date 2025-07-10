@@ -8,7 +8,7 @@ My name is Leonardo Javier Russo, I’m a software developer from Argentina. I g
 
 ## The meaning of Open Source
 
-I believe that when software is developed to contribute to society, it's selfish not to share the source code. In my opinion, the true value of a project isn't determined solely by the number of people it has reached, but also by how willing the developer is to share their work with other developers, so that they can improve it or offer alternative versions. Free and open-source software is the greatest expression of that line of thought.
+I believe that when software is developed to contribute to society, it's selfish not to share the source code. In my opinion, the true value of a project isn't determined solely by the number of people it has reached, but also by how willing the developer is to share their work with other developers, so that they can improve it or offer alternative versions. Free and Open Source software is the greatest expression of that line of thought.
 
 ## Current projects
 
