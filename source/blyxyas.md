@@ -60,7 +60,9 @@ Security was this Maintainer Month's topic, so I'll also give out some pieces of
    - This is a very simple step, don't guess about memory leaks, use a heap memory profiler (like [heaptrack]). Don't guess about memory safety, use a static
      code analyzer or a language that has memory safety built-in (like Rust). Don't guess about the origin of something, bisect it in your program (like with [`git bisect`][bisect]).
    - Know your system, the better you know the tools you're using the better code you'll produce and the faster you'll be able to iterate on a design. With this I don't mean learning a fancy-schmancy IDE or keyboard layout, but learning to make `perf` valuable, learning to read stack traces, learning to efficiently search throughout your documentation to find that edge case that has been bugging you out all week.
-
+<br>
+<br>
+<br>
 5. Keep learning
    - Even if your brain is huge, with the best-quality gray matter in this sector of the galaxy, there have been people before you. The big advantage we have over humans before our time is the collective knowledge that aids us to achieve excellence. Do not let your ego and pride get in the way of making great software, because precisely the way to make great software is knowing who to ask the right question to get the desired results.
 
