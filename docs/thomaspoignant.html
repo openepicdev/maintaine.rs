@@ -1,251 +1,69 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="generator" content="pandoc" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
-    <title>thomaspoignant</title>
-    <style>
-      code {
-        white-space: pre-wrap;
-      }
-      span.smallcaps {
-        font-variant: small-caps;
-      }
-      span.underline {
-        text-decoration: underline;
-      }
-      div.column {
-        display: inline-block;
-        vertical-align: top;
-        width: 50%;
-      }
-      div.hanging-indent {
-        margin-left: 1.5em;
-        text-indent: -1.5em;
-      }
-      ul.task-list {
-        list-style: none;
-      }
-    </style>
-    <link rel="stylesheet" href="style2.css" />
-  </head>
-  <body>
-    <header id="title-block-header">
-      <h1 class="title">thomaspoignant</h1>
-    </header>
-    <h1 id="thomaspoignant-thomas-poignant">
-      <span class="citation" data-cites="thomaspoignant">@thomaspoignant</span>
-      – Thomas Poignant
-    </h1>
-    <blockquote>
-      <p>
-        <img
-          src="https://github.com/thomaspoignant.png"
-          width="64"
-          height="64"
-        /><br />
-        <a href="https://github.com/thomaspoignant">github.com/thomaspoignant</a
-        ><br />
-        <a href="https://maintaine.rs/thomaspoignant"
-          >maintaine.rs/thomaspoignant</a
-        >
-      </p>
-    </blockquote>
-    <p>
-      I am Thomas Poignant, living in Paris, France and I am writing about my
-      Open Source journey.
-    </p>
-    <p>
-      I am currently Head Of Engineering in Leboncoin
-      <em>(one of the largest classified ad marketplace in Europe),</em> and
-      I’ve worked in the software engineering field for more than 16 years.
-    </p>
-    <p>
-      I started with Open Source like many of us by using it, but I always had
-      in mind that I wanted to contribute back to the awesome ecosystem that
-      Open Source provides. And when I moved to a more leadership position in my
-      day job, putting me away from the code more and more, it was obvious for
-      me that I will be involved more in Open Source.
-    </p>
-    <p>
-      I started with a small library called
-      <a href="https://www.npmjs.com/package/scim-patch">scim-patch</a>, and now
-      I spend most of my time around feature flags I am building
-      <a href="https://github.com/thomaspoignant/go-feature-flag"
-        >GO Feature Flag</a
-      >, a feature flag platform that works with all your favorite languages and
-      is integrated easily in any company tech. You can start using feature
-      flags super fast with GO Feature Flag.
-    </p>
-    <p>
-      And I am also part of the
-      <a href="https://openfeature.dev">OpenFeature</a> technical committee.
-      OpenFeature provides an open specification that provides a
-      vendor-agnostic, community-driven API for feature flagging that works with
-      any management tool or in-house solution.
-    </p>
-    <h2 id="what-are-the-main-challenges-you-face-as-a-maintainer">
-      What are the main challenges you face as a maintainer?
-    </h2>
-    <p>
-      Honestly, the biggest pain for me is just
-      <strong>finding the time</strong> outside of my regular job to actually do
-      all the stuff I’ve got planned for the project. It feels like there’s
-      always a backlog in my head!
-    </p>
-    <p>
-      Another thing that’s a bit of a downer is
-      <strong
-        >not really knowing who’s using the thing I pour my energy into</strong
-      >. As a maintainer, you rarely get a good sense of your project’s impact.
-      It’s kind of weird not knowing who’s finding it useful or what they like
-      about it. You just keep plugging away hoping it’s helping someone out
-      there.
-    </p>
-    <h2 id="how-do-you-grow-your-community">How do you grow your community?</h2>
-    <p>
-      You’ve got to put people first, right? If what you’re building isn’t a
-      good experience, it’s tough to get anyone to stick around, let alone
-      contribute. That’s why with GO Feature Flag, I really focus on making it
-      the best tool it can be, with clear docs and helpful support. People need
-      to dig what you’re doing before they’ll jump in to help.
-    </p>
-    <p>
-      After that, it’s all about being welcoming. I try to be super polite and
-      positive with everyone who uses the project, always trying to sort out any
-      problems they run into. Making people feel welcome is huge.
-    </p>
-    <p>
-      But yeah, getting a <em>contributing</em> community going is a different
-      beast. You see folks pop in to fix their own little itch, which is
-      awesome! But getting people to commit to the bigger picture, to really
-      dive deep and contribute in a substantial way? That’s a tough nut to
-      crack. People have their own stuff going on, and it takes a lot for
-      someone to invest the time to really understand a complex project.
-    </p>
-    <h2
-      id="what-are-some-of-the-key-security-practices-youve-implemented-in-your-project"
-    >
-      What are some of the key security practices you’ve implemented in your
-      project?
-    </h2>
-    <p>
-      Security is a big deal, and we’ve baked it into our workflow in a few key
-      ways. First off,
-      <strong
-        >Dependabot keeps our dependencies on their toes with weekly
-        updates</strong
-      >, so we’re not lagging behind on crucial fixes.
-    </p>
-    <p>
-      <strong
-        >We run security checks on the Docker images and Helm charts we are
-        building</strong
-      >
-      to catch any potential vulnerabilities early on.
-    </p>
-    <p>
-      For ongoing monitoring, <strong>we’ve integrated Snyk</strong> into our
-      processes. It helps us continuously scan for and address security issues.
-    </p>
-    <p>
-      Finally, to balance security with community contributions,
-      <strong
-        >we hold off on running CI pipelines for first-time contributors</strong
-      >. This gives us a chance to review their changes before automated
-      processes kick in.
-    </p>
-    <h2
-      id="what-do-you-think-are-the-biggest-security-challenges-facing-open-source-today"
-    >
-      What do you think are the biggest security challenges facing Open Source
-      today?
-    </h2>
-    <p>
-      "One of the biggest security challenges facing Open Source today is the
-      increasing prevalence of supply chain attacks, where malicious code is
-      injected into widely used projects. The recent compromise of a popular
-      GitHub Action, <code>tj-actions</code>, (CVE-2025-30066) is a stark
-      reminder of this threat.
-    </p>
-    <p>
-      Attackers are targeting the Open Source ecosystem because its
-      interconnected nature allows a single successful attack to have a
-      widespread impact. Open Source projects are as vulnerable as any other
-      software, and we need to be very vigilant about these kinds of attacks
-    </p>
-    <h2 id="whats-the-impact-of-ai-on-open-source-development">
-      What’s the impact of AI on Open Source development?
-    </h2>
-    <p>
-      AI is having a significant and multifaceted impact on Open Source
-      development. On the one hand, it’s accelerating development workflows in
-      exciting ways. This can be a huge benefit, especially for smaller Open
-      Source projects with limited resources.
-    </p>
-    <p>
-      However, this increased speed can come with a downside. There’s a real
-      risk of a decrease in code quality if AI-generated contributions aren’t
-      carefully reviewed. I’ve also observed instances where AI-generated code
-      introduces new issues or requires significant rework, ultimately wasting
-      the time of both contributors and maintainers.
-    </p>
-    <h2 id="what-advice-would-you-give-to-current-and-new-maintainers">
-      What advice would you give to current and new maintainers?
-    </h2>
-    <p>
-      My advice to both current and new maintainers is: Do it! Open Source is an
-      incredibly exciting and rewarding journey. You’ll benefit immensely from
-      the feedback and help you receive from the community, and you’ll find that
-      the experience directly contributes to your growth and skills in your
-      day-to-day work.
-    </p>
-    <h2 id="conclusion">Conclusion</h2>
-    <p>
-      In closing, remember that Open Source is a journey. You can start small,
-      gradually increasing your impact over time.
-    </p>
-    <p>
-      It’s also important to keep in mind that success isn’t always measured in
-      GitHub stars. From my own experience, a project with a modest star count
-      (28 stars) can still have a significant impact, reaching nearly 3 million
-      downloads.
-    </p>
-    <p>
-      If you’re looking to get involved and contribute in Open Source, please
-      feel free to join me in building the GO Feature Flag at
-      <a href="https://github.com/thomaspoignant/go-feature-flag"
-        >https://github.com/thomaspoignant/go-feature-flag</a
-      >. We’re always happy to welcome new contributors!
-    </p>
-    <ul>
-      <li>
-        GO Feature Flag Website:
-        <a href="https://gofeatureflag.org">https://gofeatureflag.org</a>
-      </li>
-      <li>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/poignantthomas/"
-          >https://www.linkedin.com/in/poignantthomas/</a
-        >
-      </li>
-      <li>
-        GitHub:
-        <a href="https://github.com/thomaspoignant"
-          >https://github.com/thomaspoignant</a
-        >
-      </li>
-      <li>
-        Bluesky:
-        <a href="https://thomaspoignant.bsky.social"
-          >https://thomaspoignant.bsky.social</a
-        >
-      </li>
-    </ul>
-    <a href="https://maintaine.rs" class="home-button">🏠</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>thomaspoignant</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style2.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">thomaspoignant</h1>
+</header>
+<h1 id="thomaspoignant-thomas-poignant"><span class="citation" data-cites="thomaspoignant">@thomaspoignant</span> – Thomas Poignant</h1>
+<blockquote>
+<p><img src="https://github.com/thomaspoignant.png" width="64" height="64" /><br />
+<a href="https://github.com/thomaspoignant">github.com/thomaspoignant</a><br />
+<a href="https://maintaine.rs/thomaspoignant">maintaine.rs/thomaspoignant</a></p>
+</blockquote>
+<p>I am Thomas Poignant, living in Paris, France and I am writing about my Open Source journey.</p>
+<p>I am currently Head Of Engineering in Leboncoin <em>(one of the largest classified ad marketplace in Europe),</em> and I’ve worked in the software engineering field for more than 16 years.</p>
+<p>I started with Open Source like many of us by using it, but I always had in mind that I wanted to contribute back to the awesome ecosystem that Open Source provides. And when I moved to a more leadership position in my day job, putting me away from the code more and more, it was obvious for me that I will be involved more in Open Source.</p>
+<p>I started with a small library called <a href="https://www.npmjs.com/package/scim-patch">scim-patch</a>, and now I spend most of my time around feature flags I am building <a href="https://github.com/thomaspoignant/go-feature-flag">GO Feature Flag</a>, a feature flag platform that works with all your favorite languages and is integrated easily in any company tech. You can start using feature flags super fast with GO Feature Flag.</p>
+<p>And I am also part of the <a href="https://openfeature.dev">OpenFeature</a> technical committee. OpenFeature provides an open specification that provides a vendor-agnostic, community-driven API for feature flagging that works with any management tool or in-house solution.</p>
+<h2 id="what-are-the-main-challenges-you-face-as-a-maintainer">What are the main challenges you face as a maintainer?</h2>
+<p>Honestly, the biggest pain for me is just <strong>finding the time</strong> outside of my regular job to actually do all the stuff I’ve got planned for the project. It feels like there’s always a backlog in my head!</p>
+<p>Another thing that’s a bit of a downer is <strong>not really knowing who’s using the thing I pour my energy into</strong>. As a maintainer, you rarely get a good sense of your project’s impact. It’s kind of weird not knowing who’s finding it useful or what they like about it. You just keep plugging away hoping it’s helping someone out there.</p>
+<h2 id="how-do-you-grow-your-community">How do you grow your community?</h2>
+<p>You’ve got to put people first, right? If what you’re building isn’t a good experience, it’s tough to get anyone to stick around, let alone contribute. That’s why with GO Feature Flag, I really focus on making it the best tool it can be, with clear docs and helpful support. People need to dig what you’re doing before they’ll jump in to help.</p>
+<p>After that, it’s all about being welcoming. I try to be super polite and positive with everyone who uses the project, always trying to sort out any problems they run into. Making people feel welcome is huge.</p>
+<p>But yeah, getting a <em>contributing</em> community going is a different beast. You see folks pop in to fix their own little itch, which is awesome! But getting people to commit to the bigger picture, to really dive deep and contribute in a substantial way? That’s a tough nut to crack. People have their own stuff going on, and it takes a lot for someone to invest the time to really understand a complex project.</p>
+<h2 id="what-are-some-of-the-key-security-practices-youve-implemented-in-your-project">What are some of the key security practices you’ve implemented in your project?</h2>
+<p>Security is a big deal, and we’ve baked it into our workflow in a few key ways. First off, <strong>Dependabot keeps our dependencies on their toes with weekly updates</strong>, so we’re not lagging behind on crucial fixes.</p>
+<p><strong>We run security checks on the Docker images and Helm charts we are building</strong> to catch any potential vulnerabilities early on.</p>
+<p>For ongoing monitoring, <strong>we’ve integrated Snyk</strong> into our processes. It helps us continuously scan for and address security issues.</p>
+<p>Finally, to balance security with community contributions, <strong>we hold off on running CI pipelines for first-time contributors</strong>. This gives us a chance to review their changes before automated processes kick in.</p>
+<h2 id="what-do-you-think-are-the-biggest-security-challenges-facing-open-source-today">What do you think are the biggest security challenges facing Open Source today?</h2>
+<p>"One of the biggest security challenges facing Open Source today is the increasing prevalence of supply chain attacks, where malicious code is injected into widely used projects. The recent compromise of a popular GitHub Action, <code>tj-actions</code>, (CVE-2025-30066) is a stark reminder of this threat.</p>
+<p>Attackers are targeting the Open Source ecosystem because its interconnected nature allows a single successful attack to have a widespread impact. Open Source projects are as vulnerable as any other software, and we need to be very vigilant about these kinds of attacks</p>
+<h2 id="whats-the-impact-of-ai-on-open-source-development">What’s the impact of AI on Open Source development?</h2>
+<p>AI is having a significant and multifaceted impact on Open Source development. On the one hand, it’s accelerating development workflows in exciting ways. This can be a huge benefit, especially for smaller Open Source projects with limited resources.</p>
+<p>However, this increased speed can come with a downside. There’s a real risk of a decrease in code quality if AI-generated contributions aren’t carefully reviewed. I’ve also observed instances where AI-generated code introduces new issues or requires significant rework, ultimately wasting the time of both contributors and maintainers.</p>
+<h2 id="what-advice-would-you-give-to-current-and-new-maintainers">What advice would you give to current and new maintainers?</h2>
+<p>My advice to both current and new maintainers is: Do it! Open Source is an incredibly exciting and rewarding journey. You’ll benefit immensely from the feedback and help you receive from the community, and you’ll find that the experience directly contributes to your growth and skills in your day-to-day work.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In closing, remember that Open Source is a journey. You can start small, gradually increasing your impact over time.</p>
+<p>It’s also important to keep in mind that success isn’t always measured in GitHub stars. From my own experience, a project with a modest star count (28 stars) can still have a significant impact, reaching nearly 3 million downloads.</p>
+<p>If you’re looking to get involved and contribute in Open Source, please feel free to join me in building the GO Feature Flag at <a href="https://github.com/thomaspoignant/go-feature-flag">https://github.com/thomaspoignant/go-feature-flag</a>. We’re always happy to welcome new contributors!</p>
+<ul>
+<li>GO Feature Flag Website: <a href="https://gofeatureflag.org">https://gofeatureflag.org</a></li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/poignantthomas/">https://www.linkedin.com/in/poignantthomas/</a></li>
+<li>GitHub: <a href="https://github.com/thomaspoignant">https://github.com/thomaspoignant</a></li>
+<li>Bluesky: <a href="https://thomaspoignant.bsky.social">https://thomaspoignant.bsky.social</a></li>
+</ul>
+<a href="https://maintaine.rs" class="home-button">🏠</a>
+</body>
 </html>
