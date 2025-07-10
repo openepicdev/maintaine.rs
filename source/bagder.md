@@ -4,7 +4,7 @@
 > [github.com/bagder](https://github.com/bagder)  
 > [maintaine.rs/bagder](https://maintaine.rs/bagder)
 
-I worked full-time on a project that was just one hundred lines of code in 1996\.
+I work full-time on a project that was just one hundred lines of code in 1996\.
 
 In the early 1990s a friend of mine helped me land a “computer gig” at just twenty years old. I had not attended university, but I had already spent years wasting all my spare time programming my C64 home computer in assembler, writing demos and games.
 
