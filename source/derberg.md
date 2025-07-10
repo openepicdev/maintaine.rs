@@ -18,7 +18,7 @@ There is no other place, no company that can give you this. The ability to work 
 
 ## What projects are you involved in?
 
-I’m active in the [AsyncAPI Initiative](https://www.asyncapi.com/en), and my highest priority is the [AsyncAPI spec](https://github.com/asyncapi/spec) and the [AsyncAPI Generator](https://github.com/asyncapi/generator). At the moment, I’m the Executive Director of the initiative, but I’m stepping down in favour of our new [Governance Board](https://www.asyncapi.com/blog/new-governance-board).
+I’m active in the [AsyncAPI Initiative](https://www.asyncapi.com/en), and my highest priority is the [AsyncAPI Specification](https://github.com/asyncapi/spec) and the [AsyncAPI Generator](https://github.com/asyncapi/generator). At the moment, I’m the Executive Director of the initiative, but I’m stepping down in favour of our new [Governance Board](https://www.asyncapi.com/blog/new-governance-board).
 
 ## How do you grow your community?
 
