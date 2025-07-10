@@ -1,317 +1,101 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="generator" content="pandoc" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
-    <title>blyxyas</title>
-    <style>
-      code {
-        white-space: pre-wrap;
-      }
-      span.smallcaps {
-        font-variant: small-caps;
-      }
-      span.underline {
-        text-decoration: underline;
-      }
-      div.column {
-        display: inline-block;
-        vertical-align: top;
-        width: 50%;
-      }
-      div.hanging-indent {
-        margin-left: 1.5em;
-        text-indent: -1.5em;
-      }
-      ul.task-list {
-        list-style: none;
-      }
-    </style>
-    <link rel="stylesheet" href="style2.css" />
-  </head>
-  <body>
-    <header id="title-block-header">
-      <h1 class="title">blyxyas</h1>
-    </header>
-    <h1 id="blyxyas-alejandra-gonzalez">
-      <span class="citation" data-cites="blyxyas">@blyxyas</span> – Alejandra
-      Gonzalez
-    </h1>
-    <blockquote>
-      <p>
-        <img
-          src="https://github.com/blyxyas.png"
-          width="64"
-          height="64"
-        /><br />
-        <a href="https://github.com/blyxyas">github.com/blyxyas</a><br />
-        <a href="https://maintaine.rs/blyxyas">maintaine.rs/blyxyas</a>
-      </p>
-    </blockquote>
-    <p>
-      I’m Alejandra, one of the people that maintains
-      <a href="https://github.com/rust-lang/rust-clippy">Clippy</a>,
-      <a href="https://rust-lang.org">Rust’s</a> official linter. And for this
-      Maintainer Month of May I’ve come to
-      <a href="https://opensource.org">opensource.org</a> about some
-      often-overlooked aspects of maintaining a FOSS project, some of my
-      personal story with FOSS, some tips about software security, and how to
-      better help maintainers as a contributor. Strap in because this will be a
-      wild ride!
-    </p>
-    <h2 id="who-are-you-again">Who are you again?</h2>
-    <p>
-      As I said, I’m one of the people that maintains Rust’s official linter,
-      Clippy. You can execute Rust’s linter any time<a
-        href="#fn1"
-        class="footnote-ref"
-        id="fnref1"
-        role="doc-noteref"
-        ><sup>1</sup></a
-      >
-      if you have [Cargo] installed via <code>cargo clippy</code>. I’ve been
-      working on Clippy full time as a maintainer for about 2 years. In that
-      time I’ve implemented several lints, fixed a lot of bugs, reviewed
-      hundreds of pull requests, implemented benchmarking tools into Clippy and
-      integrated Clippy into other benchmarking tools. Even proposed a Rust
-      Project Goal that got accepted!
-    </p>
-    <p>
-      While I’m not the oldest maintainer, (not even close) I have some things
-      to say, and I think that my advice could be valuable to whoever is happy
-      to hear it.
-    </p>
-    <h2 id="the-hard-aspects-of-being-a-maintainer">
-      The hard aspects of being a maintainer
-    </h2>
-    <p>
-      While being a maintainer is wonderful (that’s why I do it), it takes a
-      special kind of person to revisit the same software every day for years
-      without a monetary driving force behind it.
-    </p>
-    <p>For me, some hard aspects include:</p>
-    <ul>
-      <li>Having a Life/Work/Open Source balance</li>
-      <li>Maintaining even when you have outside conflicts.</li>
-      <li>
-        Taking part and giving feedback on the schedule that the contributors
-        deserve.
-      </li>
-      <li>
-        Making hard decisions, taking everything always into account because
-        ultimately you’re the final say into a lot of things
-      </li>
-      <li>
-        Avoiding burnout (this is a really important point and should be talked
-        about more)
-      </li>
-    </ul>
-    <p>
-      I’ve struggled with all these aspects in different stages of my life,
-      reaching some kind of stability is always hard because the environment is
-      always changing (both in and out of FOSS).
-    </p>
-    <p>
-      At the end of the day we’re humans managing human work. With people that
-      deserve their reviews, reviews that deserve their quality assurance (in a
-      timely manner) and users that deserve that their issues be resolved.
-      Everything takes a little bit of time, and we only have limited time in
-      our day.
-    </p>
-    <p>
-      You will eventually learn to balance everything out (not that I’ve
-      completely reached out that priced phase yet). I promise ;)
-    </p>
-    <h2 id="what-about-security">What about security?</h2>
-    <p>
-      Security was this Maintainer Month’s topic, so I’ll also give out some
-      pieces of advice from the bottom of my heart. I’m trying to avoid those
-      blanked, safe statements like “make sure you have good tests” because they
-      don’t really help anyone. I’ll give more concrete tips at the risk of
-      sounding too specialized.
-    </p>
-    <ol type="1">
-      <li>
-        <p>
-          Always keep in mind where your code will be run! It’s easy to forget
-          that your code will run on all kinds of architectures, on all kinds of
-          operative systems, sometimes in a server, sometimes with arbitrary
-          user-controlled inputs. This includes but is not limited to:
-        </p>
-        <ul>
-          <li>Arbitrary Unicode inputs.</li>
-          <li>Strings Arbitrarily-length</li>
-          <li>Maybe URLs or paths to files</li>
-          <li>File system access.</li>
-        </ul>
-        <p>
-          If there’s <strong>any</strong> probability that an end-user might
-          exploit your FOSS project to get access into someone’s server, you
-          should disclose it!
-        </p>
-      </li>
-      <li>
-        <p>Keep your CI pipelines safe</p>
-        <ul>
-          <li>
-            You probably use CI (and if you don’t, absolutely do!) as a way to
-            test your project before launching it to the greater product, make
-            sure that your workflow files are safe! Don’t use unknown
-            dependencies (in fact, use as little dependencies as possible), with
-            as little external applications as possible.
-          </li>
-          <li>
-            Each dependency on your CI pipeline (this includes applications /
-            bots in your repo) is a possible vector of attack,
-            <a href="https://github.com/advisories/GHSA-8v8w-v8xg-79rf"
-              >each <code>run</code> field is a weak point.</a
-            >
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Better and smaller pull requests produce better code</p>
-        <ul>
-          <li>
-            Avoid big pull requests. Making pull requests smaller is the best
-            strategy to improve review times, code quality and overall team
-            mentality.
-          </li>
-          <li>
-            Pull requests under 150 lines are reviewed the fastest and thus, can
-            fix issues the fastest.
-          </li>
-          <li>
-            As a general guideline, always think about all the boundaries that
-            the pull request code might handle, and how to break in the worst
-            way possible that poor contributor’s code.
-          </li>
-          <li>
-            Get in the mud, explore the deep end of your contributor’s code<a
-              href="#fn2"
-              class="footnote-ref"
-              id="fnref2"
-              role="doc-noteref"
-              ><sup>2</sup></a
-            >. Break your tests, read documentation for every single one of the
-            added functions, see if functions could be removed, check if loops
-            could be early-returned.
-          </li>
-          <li>
-            Don’t forget to talk to your contributors about documentation!
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Use automated tooling</p>
-        <ul>
-          <li>
-            This is a very simple step, don’t guess about memory leaks, use a
-            heap memory profiler (like
-            <a href="https://github.com/KDE/heaptrack">heaptrack</a>). Don’t
-            guess about memory safety, use a static code analyzer or a language
-            that has memory safety built-in (like Rust). Don’t guess about the
-            origin of something, bisect it in your program (like with
-            <a href="https://git-scm.com/docs/git-bisect"
-              ><code>git bisect</code></a
-            >).
-          </li>
-          <li>
-            Know your system, the better you know the tools you’re using the
-            better code you’ll produce and the faster you’ll be able to iterate
-            on a design. With this I don’t mean learning a fancy-schmancy IDE or
-            keyboard layout, but learning to make <code>perf</code> valuable,
-            learning to read stack traces, learning to efficiently search
-            throughout your documentation to find that edge case that has been
-            bugging you out all week.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Keep learning</p>
-        <ul>
-          <li>
-            Even if your brain is huge, with the best-quality gray matter in
-            this sector of the galaxy, there have been people before you. The
-            big advantage we have over humans before our time is the collective
-            knowledge that aids us to achieve excellence. Do not let your ego
-            and pride get in the way of making great software, because precisely
-            the way to make great software is knowing who to ask the right
-            question to get the desired results.
-          </li>
-        </ul>
-      </li>
-    </ol>
-    <h2 id="what-can-i-do-as-a-contributor">What can I do as a contributor?</h2>
-    <p>
-      First, thanks a lot for wanting to help your fellow developers! The
-      biggest help that you can provide (for me) is not really in the code
-      itself, but in what surrounds that code.
-    </p>
-    <ul>
-      <li>
-        <p>
-          Improve your pull request descriptions, have detailed commit messages
-          (with descriptions directly on the commits!), split your pull requests
-          into several commits and for features, don’t try to cram too much into
-          a single pull request. Review you yourself your pull requests (in the
-          Pull Request interface itself) before publishing it, you’ll find a lot
-          of slip-ups this way.
-        </p>
-      </li>
-      <li>
-        <p>
-          Help with long-standing issues, if you’re a trusted contributor, help
-          to give labels (if you have that authority). Give your opinion, get
-          minimal reproducible examples of buggy behaviors!
-        </p>
-      </li>
-      <li>
-        <p>
-          Help with documentation! Not everything has to be about code, adding
-          and updating documentation is probably one of the most valuable things
-          that you can do in a codebase.
-        </p>
-      </li>
-    </ul>
-    <h2 id="conclusion">Conclusion</h2>
-    <p>
-      And that’s everything I’ll talk about today! I hope that you have learned
-      something new and used your critical thinking skills to decide if these
-      thoughts fit your mental model. Thanks for listening to my ramblings and
-      have a great week. Peace!
-    </p>
-    <section class="footnotes" role="doc-endnotes">
-      <hr />
-      <ol>
-        <li id="fn1" role="doc-endnote">
-          <p>
-            (unless you have a <code>minimal</code> profile set in your
-            configuration).<a
-              href="#fnref1"
-              class="footnote-back"
-              role="doc-backlink"
-              >↩︎</a
-            >
-          </p>
-        </li>
-        <li id="fn2" role="doc-endnote">
-          <p>
-            You can actually fetch a remote pull request with
-            <code>git fetch origin pull/$pr_num/head:$branch_name</code>!<a
-              href="#fnref2"
-              class="footnote-back"
-              role="doc-backlink"
-              >↩︎</a
-            >
-          </p>
-        </li>
-      </ol>
-    </section>
-    <a href="https://maintaine.rs" class="home-button">🏠</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>blyxyas</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style2.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">blyxyas</h1>
+</header>
+<h1 id="blyxyas-alejandra-gonzalez"><span class="citation" data-cites="blyxyas">@blyxyas</span> – Alejandra Gonzalez</h1>
+<blockquote>
+<p><img src="https://github.com/blyxyas.png" width="64" height="64" /><br />
+<a href="https://github.com/blyxyas">github.com/blyxyas</a><br />
+<a href="https://maintaine.rs/blyxyas">maintaine.rs/blyxyas</a></p>
+</blockquote>
+<p>I’m Alejandra, one of the people that maintains <a href="https://github.com/rust-lang/rust-clippy">Clippy</a>, <a href="https://rust-lang.org">Rust’s</a> official linter. And for this Maintainer Month of May I’ve come to <a href="https://opensource.org">opensource.org</a> about some often-overlooked aspects of maintaining a FOSS project, some of my personal story with FOSS, some tips about software security, and how to better help maintainers as a contributor. Strap in because this will be a wild ride!</p>
+<h2 id="who-are-you-again">Who are you again?</h2>
+<p>As I said, I’m one of the people that maintains Rust’s official linter, Clippy. You can execute Rust’s linter any time<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> if you have [Cargo] installed via <code>cargo clippy</code>. I’ve been working on Clippy full time as a maintainer for about 2 years. In that time I’ve implemented several lints, fixed a lot of bugs, reviewed hundreds of pull requests, implemented benchmarking tools into Clippy and integrated Clippy into other benchmarking tools. Even proposed a Rust Project Goal that got accepted!</p>
+<p>While I’m not the oldest maintainer, (not even close) I have some things to say, and I think that my advice could be valuable to whoever is happy to hear it.</p>
+<h2 id="the-hard-aspects-of-being-a-maintainer">The hard aspects of being a maintainer</h2>
+<p>While being a maintainer is wonderful (that’s why I do it), it takes a special kind of person to revisit the same software every day for years without a monetary driving force behind it.</p>
+<p>For me, some hard aspects include:</p>
+<ul>
+<li>Having a Life/Work/Open Source balance</li>
+<li>Maintaining even when you have outside conflicts.</li>
+<li>Taking part and giving feedback on the schedule that the contributors deserve.</li>
+<li>Making hard decisions, taking everything always into account because ultimately you’re the final say into a lot of things</li>
+<li>Avoiding burnout (this is a really important point and should be talked about more)</li>
+</ul>
+<p>I’ve struggled with all these aspects in different stages of my life, reaching some kind of stability is always hard because the environment is always changing (both in and out of FOSS).</p>
+<p>At the end of the day we’re humans managing human work. With people that deserve their reviews, reviews that deserve their quality assurance (in a timely manner) and users that deserve that their issues be resolved. Everything takes a little bit of time, and we only have limited time in our day.</p>
+<p>You will eventually learn to balance everything out (not that I’ve completely reached out that priced phase yet). I promise ;)</p>
+<h2 id="what-about-security">What about security?</h2>
+<p>Security was this Maintainer Month’s topic, so I’ll also give out some pieces of advice from the bottom of my heart. I’m trying to avoid those blanked, safe statements like “make sure you have good tests” because they don’t really help anyone. I’ll give more concrete tips at the risk of sounding too specialized.</p>
+<ol type="1">
+<li><p>Always keep in mind where your code will be run! It’s easy to forget that your code will run on all kinds of architectures, on all kinds of operative systems, sometimes in a server, sometimes with arbitrary user-controlled inputs. This includes but is not limited to:</p>
+<ul>
+<li>Arbitrary Unicode inputs.</li>
+<li>Strings Arbitrarily-length</li>
+<li>Maybe URLs or paths to files</li>
+<li>File system access.</li>
+</ul>
+<p>If there’s <strong>any</strong> probability that an end-user might exploit your FOSS project to get access into someone’s server, you should disclose it!</p></li>
+<li><p>Keep your CI pipelines safe</p>
+<ul>
+<li>You probably use CI (and if you don’t, absolutely do!) as a way to test your project before launching it to the greater product, make sure that your workflow files are safe! Don’t use unknown dependencies (in fact, use as little dependencies as possible), with as little external applications as possible.</li>
+<li>Each dependency on your CI pipeline (this includes applications / bots in your repo) is a possible vector of attack, <a href="https://github.com/advisories/GHSA-8v8w-v8xg-79rf">each <code>run</code> field is a weak point.</a></li>
+</ul></li>
+<li><p>Better and smaller pull requests produce better code</p>
+<ul>
+<li>Avoid big pull requests. Making pull requests smaller is the best strategy to improve review times, code quality and overall team mentality.</li>
+<li>Pull requests under 150 lines are reviewed the fastest and thus, can fix issues the fastest.</li>
+<li>As a general guideline, always think about all the boundaries that the pull request code might handle, and how to break in the worst way possible that poor contributor’s code.</li>
+<li>Get in the mud, explore the deep end of your contributor’s code<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Break your tests, read documentation for every single one of the added functions, see if functions could be removed, check if loops could be early-returned.</li>
+<li>Don’t forget to talk to your contributors about documentation!</li>
+</ul></li>
+<li><p>Use automated tooling</p>
+<ul>
+<li>This is a very simple step, don’t guess about memory leaks, use a heap memory profiler (like <a href="https://github.com/KDE/heaptrack">heaptrack</a>). Don’t guess about memory safety, use a static code analyzer or a language that has memory safety built-in (like Rust). Don’t guess about the origin of something, bisect it in your program (like with <a href="https://git-scm.com/docs/git-bisect"><code>git bisect</code></a>).</li>
+<li>Know your system, the better you know the tools you’re using the better code you’ll produce and the faster you’ll be able to iterate on a design. With this I don’t mean learning a fancy-schmancy IDE or keyboard layout, but learning to make <code>perf</code> valuable, learning to read stack traces, learning to efficiently search throughout your documentation to find that edge case that has been bugging you out all week.</li>
+</ul></li>
+<li><p>Keep learning</p>
+<ul>
+<li>Even if your brain is huge, with the best-quality gray matter in this sector of the galaxy, there have been people before you. The big advantage we have over humans before our time is the collective knowledge that aids us to achieve excellence. Do not let your ego and pride get in the way of making great software, because precisely the way to make great software is knowing who to ask the right question to get the desired results.</li>
+</ul></li>
+</ol>
+<h2 id="what-can-i-do-as-a-contributor">What can I do as a contributor?</h2>
+<p>First, thanks a lot for wanting to help your fellow developers! The biggest help that you can provide (for me) is not really in the code itself, but in what surrounds that code.</p>
+<ul>
+<li><p>Improve your pull request descriptions, have detailed commit messages (with descriptions directly on the commits!), split your pull requests into several commits and for features, don’t try to cram too much into a single pull request. Review you yourself your pull requests (in the Pull Request interface itself) before publishing it, you’ll find a lot of slip-ups this way.</p></li>
+<li><p>Help with long-standing issues, if you’re a trusted contributor, help to give labels (if you have that authority). Give your opinion, get minimal reproducible examples of buggy behaviors!</p></li>
+<li><p>Help with documentation! Not everything has to be about code, adding and updating documentation is probably one of the most valuable things that you can do in a codebase.</p></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>And that’s everything I’ll talk about today! I hope that you have learned something new and used your critical thinking skills to decide if these thoughts fit your mental model. Thanks for listening to my ramblings and have a great week. Peace!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>(unless you have a <code>minimal</code> profile set in your configuration).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>You can actually fetch a remote pull request with <code>git fetch origin pull/$pr_num/head:$branch_name</code>!<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<a href="https://maintaine.rs" class="home-button">🏠</a>
+</body>
 </html>

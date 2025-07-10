@@ -1,171 +1,43 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="generator" content="pandoc" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
-    <title>jbednar</title>
-    <style>
-      code {
-        white-space: pre-wrap;
-      }
-      span.smallcaps {
-        font-variant: small-caps;
-      }
-      span.underline {
-        text-decoration: underline;
-      }
-      div.column {
-        display: inline-block;
-        vertical-align: top;
-        width: 50%;
-      }
-      div.hanging-indent {
-        margin-left: 1.5em;
-        text-indent: -1.5em;
-      }
-      ul.task-list {
-        list-style: none;
-      }
-    </style>
-    <link rel="stylesheet" href="style2.css" />
-  </head>
-  <body>
-    <header id="title-block-header">
-      <h1 class="title">jbednar</h1>
-    </header>
-    <h1 id="jbednar-james-a.-bednar">
-      <span class="citation" data-cites="jbednar">@jbednar</span> – James A.
-      Bednar
-    </h1>
-    <blockquote>
-      <p>
-        <img
-          src="https://github.com/jbednar.png"
-          width="64"
-          height="64"
-        /><br />
-        <a href="https://github.com/jbednar">github.com/jbednar</a><br />
-        <a href="https://maintaine.rs/jbednar">maintaine.rs/jbednar</a>
-      </p>
-    </blockquote>
-    <p>
-      I am the original founder of the
-      <a href="https://holoviz.org/">HoloViz.org</a> project, which provides
-      Open Source Python libraries for scientific, engineering, and analytical
-      data exploration and visualization,
-      <a href="https://pyviz.org/">PyViz.org</a>, which catalogs all the open
-      visualization tools available for Python, and
-      <a href="https://pandata.pydata.org/">Pandata.PyData.org</a>, which
-      provides a curated set of highly scalable data processing tools.
-    </p>
-    <p>
-      I have been a vocal proponent of Open Source since grad school in the
-      1990s, where I embraced the new (and still quite rough!) Linux operating
-      system and GCC compiler. My goal was to ensure that my research software
-      would be reproducible by anyone, without any restrictions. Approximately
-      fifteen people ever tried to use any of that esoteric brain simulation
-      code, but I kept focusing on open science when those around me were locked
-      into proprietary tools that I felt were not worth that loss of freedom.
-    </p>
-    <p>
-      Once I became a computer-science professor in 2004, I embraced Python and
-      taught courses arguing that Open Source and flexible “scripting languages”
-      like Python were the way we could finally achieve the still-elusive goal
-      of software reuse (instead of starting every new system from scratch!).
-      However, I felt like a curmudgeon shaking his fist at the sky, with those
-      fanciful ideals seemingly impossibly far away from reality.
-    </p>
-    <p>
-      Two decades later, nearly every cloud computer runs Linux, and Python is
-      now the most popular computing language in the world. Instead of starting
-      from scratch, it is now the norm to stitch a large collection of libraries
-      into a complete Python or Javascript system, requiring very little new
-      code. Open Source won, and software reuse is real! I feel privileged to
-      have witnessed such a profound shift in how software is written and used.
-      Today’s scientists and engineers no longer have to choose between a
-      proprietary platform with hard-coded functionality, or else writing entire
-      systems from scratch in a language like C (like I had to do as a young
-      researcher).
-    </p>
-    <p>
-      My own group’s Open Source tools started out modest, with
-      <a href="https://param.holoviz.org/">Param.HoloViz.org</a> starting in
-      2003 to help make our brain simulator have modular, well-defined software
-      interfaces, and <a href="https://holoviews.org">HoloViews.org</a> joining
-      it in 2010 to make it easier to use
-      <a href="https://matplotlib.org/">Matplotlib</a> for complex
-      multi-dimensional data. Our tools were easy to distribute since they were
-      pure Python, but they needed to be combined with C or Fortran libraries
-      like <a href="https://numpy.org/">NumPy</a> to do any real work, which
-      limited their use to old coders like myself who could compile those
-      languages. <a href="https://www.anaconda.com/">Anaconda.com</a> started to
-      change that in 2012, providing pre-compiled libraries that allowed
-      numerical computing in Python to really take off.
-    </p>
-    <p>
-      By 2015 I had left academia along with three of my former Ph.D. students
-      and we all joined Anaconda’s consulting group, which let us focus on our
-      Open Source tools nearly full time, instead of working on them when they
-      were meant to be writing papers and grant proposals. For each customer, we
-      now walk in with deep expertise on Python’s Open Source tools, offering to
-      quickly put together solutions reusing existing libraries to save them
-      time and money. We then pitch the customer on new Open Source capabilities
-      that we propose to add to the open tooling so that they can use the new
-      features without needing to maintain the tools, and so that they can later
-      take advantage of advances funded by other customers. In client project
-      after client project, we have steadily expanded our tools to include
-      <a href="https://panel.holoviz.org/">Panel.HoloViz.org</a> for building
-      web apps in Python,
-      <a href="https://datashader.org/">Datashader.org</a> for rendering
-      enormous datasets,
-      <a href="https://colorcet.holoviz.org/">Colorcet.HoloViz.org</a> for
-      perceptually accurate colormaps,
-      <a href="https://hvplot.holoviz.org/">hvPlot.HoloViz.org</a> for quickly
-      exploring data, <a href="https://geoviews.org/">GeoViews.org</a> for
-      working with Earth-centered data, and now
-      <a href="https://lumen.holoviz.org/">Lumen.HoloViz.org</a> for exploring
-      data using natural human language thanks to large language models (LLMs).
-    </p>
-    <p>
-      Somewhere in there we introduced the name HoloViz to group these libraries
-      together and show that they are all maintained as a group, and created
-      HoloViz.org and
-      <a href="https://examples.holoviz.org/gallery/index.html"
-        >Examples.HoloViz.org</a
-      >
-      to show how to use them all together. HoloViz is now a
-      <a href="https://numfocus.org">NumFocus</a> sponsored project, ensuring
-      that it will stay free and open forever. Outside of HoloViz, the Python
-      software ecosystem become so diverse and complex that we also needed to
-      create <a href="https://pyviz.org">PyViz.org</a> as an unopinionated
-      overview to make sense of what became <em>hundreds</em> of visualization
-      libraries for Python. The dashboarding and web applications section of
-      PyViz.org went from four tools at the beginning of PyViz to now
-      <em>dozens</em> of competing libraries. In my career, we have gone from
-      having no software available to reuse, to having software but having to
-      struggle to build and connect it together, to today’s problems of having
-      to choose between so many confusing options.
-    </p>
-    <p>
-      Along the way, our tools ended up having a real impact, far beyond our
-      original academic community. Param was used only in our brain simulation
-      framework for its first ten years of life, but it is now downloaded from
-      PyPI and anaconda.org over a million times each month. All told, the
-      HoloViz tools are downloaded ten million times a month, compared to maybe
-      a single thousand people who have ever read my academic books or papers.
-      Open Source has had a much more profound impact than just about anything
-      else I have done in my professional career. What a journey it has been!
-    </p>
-    <p>
-      Thanks to Philipp Rudiger and Jean-Luc Stevens (the original authors of
-      Panel and HoloViews), Jefferson Provost and Chris Ball (the original
-      authors of Param), and all the many other members of the HoloViz team past
-      and present.
-    </p>
-    <a href="https://maintaine.rs" class="home-button">🏠</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>jbednar</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style2.css" />
+  
+  
+  
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">jbednar</h1>
+</header>
+<h1 id="jbednar-james-a.-bednar"><span class="citation" data-cites="jbednar">@jbednar</span> – James A. Bednar</h1>
+<blockquote>
+<p><img src="https://github.com/jbednar.png" width="64" height="64" /><br />
+<a href="https://github.com/jbednar">github.com/jbednar</a><br />
+<a href="https://maintaine.rs/jbednar">maintaine.rs/jbednar</a></p>
+</blockquote>
+<p>I am the original founder of the <a href="https://holoviz.org/">HoloViz.org</a> project, which provides Open Source Python libraries for scientific, engineering, and analytical data exploration and visualization, <a href="https://pyviz.org/">PyViz.org</a>, which catalogs all the open visualization tools available for Python, and <a href="https://pandata.pydata.org/">Pandata.PyData.org</a>, which provides a curated set of highly scalable data processing tools.</p>
+<p>I have been a vocal proponent of Open Source since grad school in the 1990s, where I embraced the new (and still quite rough!) Linux operating system and GCC compiler. My goal was to ensure that my research software would be reproducible by anyone, without any restrictions. Approximately fifteen people ever tried to use any of that esoteric brain simulation code, but I kept focusing on open science when those around me were locked into proprietary tools that I felt were not worth that loss of freedom.</p>
+<p>Once I became a computer-science professor in 2004, I embraced Python and taught courses arguing that Open Source and flexible “scripting languages” like Python were the way we could finally achieve the still-elusive goal of software reuse (instead of starting every new system from scratch!). However, I felt like a curmudgeon shaking his fist at the sky, with those fanciful ideals seemingly impossibly far away from reality.</p>
+<p>Two decades later, nearly every cloud computer runs Linux, and Python is now the most popular computing language in the world. Instead of starting from scratch, it is now the norm to stitch a large collection of libraries into a complete Python or Javascript system, requiring very little new code. Open Source won, and software reuse is real! I feel privileged to have witnessed such a profound shift in how software is written and used. Today’s scientists and engineers no longer have to choose between a proprietary platform with hard-coded functionality, or else writing entire systems from scratch in a language like C (like I had to do as a young researcher).</p>
+<p>My own group’s Open Source tools started out modest, with <a href="https://param.holoviz.org/">Param.HoloViz.org</a> starting in 2003 to help make our brain simulator have modular, well-defined software interfaces, and <a href="https://holoviews.org">HoloViews.org</a> joining it in 2010 to make it easier to use <a href="https://matplotlib.org/">Matplotlib</a> for complex multi-dimensional data. Our tools were easy to distribute since they were pure Python, but they needed to be combined with C or Fortran libraries like <a href="https://numpy.org/">NumPy</a> to do any real work, which limited their use to old coders like myself who could compile those languages. <a href="https://www.anaconda.com/">Anaconda.com</a> started to change that in 2012, providing pre-compiled libraries that allowed numerical computing in Python to really take off.</p>
+<p>By 2015 I had left academia along with three of my former Ph.D. students and we all joined Anaconda’s consulting group, which let us focus on our Open Source tools nearly full time, instead of working on them when they were meant to be writing papers and grant proposals. For each customer, we now walk in with deep expertise on Python’s Open Source tools, offering to quickly put together solutions reusing existing libraries to save them time and money. We then pitch the customer on new Open Source capabilities that we propose to add to the open tooling so that they can use the new features without needing to maintain the tools, and so that they can later take advantage of advances funded by other customers. In client project after client project, we have steadily expanded our tools to include <a href="https://panel.holoviz.org/">Panel.HoloViz.org</a> for building web apps in Python, <a href="https://datashader.org/">Datashader.org</a> for rendering enormous datasets, <a href="https://colorcet.holoviz.org/">Colorcet.HoloViz.org</a> for perceptually accurate colormaps, <a href="https://hvplot.holoviz.org/">hvPlot.HoloViz.org</a> for quickly exploring data, <a href="https://geoviews.org/">GeoViews.org</a> for working with Earth-centered data, and now <a href="https://lumen.holoviz.org/">Lumen.HoloViz.org</a> for exploring data using natural human language thanks to large language models (LLMs).</p>
+<p>Somewhere in there we introduced the name HoloViz to group these libraries together and show that they are all maintained as a group, and created HoloViz.org and <a href="https://examples.holoviz.org/gallery/index.html">Examples.HoloViz.org</a> to show how to use them all together. HoloViz is now a <a href="https://numfocus.org">NumFocus</a> sponsored project, ensuring that it will stay free and open forever. Outside of HoloViz, the Python software ecosystem become so diverse and complex that we also needed to create <a href="https://pyviz.org">PyViz.org</a> as an unopinionated overview to make sense of what became <em>hundreds</em> of visualization libraries for Python. The dashboarding and web applications section of PyViz.org went from four tools at the beginning of PyViz to now <em>dozens</em> of competing libraries. In my career, we have gone from having no software available to reuse, to having software but having to struggle to build and connect it together, to today’s problems of having to choose between so many confusing options.</p>
+<p>Along the way, our tools ended up having a real impact, far beyond our original academic community. Param was used only in our brain simulation framework for its first ten years of life, but it is now downloaded from PyPI and anaconda.org over a million times each month. All told, the HoloViz tools are downloaded ten million times a month, compared to maybe a single thousand people who have ever read my academic books or papers. Open Source has had a much more profound impact than just about anything else I have done in my professional career. What a journey it has been!</p>
+<p>Thanks to Philipp Rudiger and Jean-Luc Stevens (the original authors of Panel and HoloViews), Jefferson Provost and Chris Ball (the original authors of Param), and all the many other members of the HoloViz team past and present.</p>
+<a href="https://maintaine.rs" class="home-button">🏠</a>
+</body>
 </html>
