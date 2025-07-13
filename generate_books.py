@@ -302,7 +302,7 @@ output_epub = os.path.join(html_dir, "maintainers.epub")
 # --- Execution ---
 convert_and_save_markdown(source_dir, print_dir)
 run_pandoc(source_dir, output_original_pdf)
-#run_pandoc_print(print_dir, output_print_pdf)
+run_pandoc_print(print_dir, output_print_pdf)
 run_pandoc_epub(source_dir, output_epub)
 run_pandoc_html(source_dir, html_dir)
 
