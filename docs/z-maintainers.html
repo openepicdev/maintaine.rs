@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style2.css" />
   
@@ -23,14 +32,20 @@
 <header id="title-block-header">
 <h1 class="title">z-maintainers</h1>
 </header>
-<p><strong>maintaine.rs : Unveiling the Open Source heroes that power our digital infrastructure</strong><br />
+<p><strong>maintaine.rs : Unveiling the Open Source heroes that power
+our digital infrastructure</strong><br />
 Edition: 2025</p>
-<h2 id="if-you-enjoyed-this-book-please-consider-making-a-5-donation-to-the-maintainers-who-shared-their-stories-and-experience">If you enjoyed this book, please consider making a $5 donation to the maintainers who shared their stories and experience:</h2>
+<h2
+id="if-you-enjoyed-this-book-please-consider-making-a-5-donation-to-the-maintainers-who-shared-their-stories-and-experience">If
+you enjoyed this book, please consider making a $5 donation to the
+maintainers who shared their stories and experience:</h2>
 <blockquote>
-<p><a href="https://opencollective.com/maintainers">opencollective.com/maintainers</a></p>
+<p><a
+href="https://opencollective.com/maintainers">opencollective.com/maintainers</a></p>
 </blockquote>
 <p><img src="source/opencollective.png" width="300" height="87" /></p>
-<h2 id="share-your-own-open-source-story-at">Share your own Open Source story at:</h2>
+<h2 id="share-your-own-open-source-story-at">Share your own Open Source
+story at:</h2>
 <blockquote>
 <p><a href="https://maintaine.rs">maintaine.rs</a></p>
 </blockquote>
