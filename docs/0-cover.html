@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style2.css" />
   
@@ -23,11 +32,17 @@
 <header id="title-block-header">
 <h1 class="title">0-cover</h1>
 </header>
-<p><strong>maintaine.rs : Unveiling the Open Source heroes that power our digital infrastructure</strong><br />
+<p><strong>maintaine.rs : Unveiling the Open Source heroes that power
+our digital infrastructure</strong><br />
 Edition: 2025<br />
 Editor: Nick Vidal</p>
-<p>The <strong>maintaine.rs</strong> book is a curated collection of stories from top Open Source maintainers, gathered during <a href="https://maintainermonth.github.com/">GitHub’s Maintainer Month</a> in May 2025.</p>
-<p>All stories are licensed under Creative Commons Attribution-ShareAlike (CC BY-SA). Attribution belongs to each individual author.</p>
+<p>The <strong>maintaine.rs</strong> book is a curated collection of
+stories from top Open Source maintainers, gathered during <a
+href="https://maintainermonth.github.com/">GitHub’s Maintainer Month</a>
+in May 2025.</p>
+<p>All stories are licensed under Creative Commons
+Attribution-ShareAlike (CC BY-SA). Attribution belongs to each
+individual author.</p>
 <p><img src="source/cc.png" /></p>
 <a href="https://maintaine.rs" class="home-button">🏠</a>
 </body>
