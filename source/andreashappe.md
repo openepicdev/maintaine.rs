@@ -26,7 +26,7 @@ I work in the security domain. In my opinion, Open Source security (and FOSS sec
 
 ## What do you think are the biggest security challenges facing Open Source today?
 
-I see two two challenges:
+I see two challenges:
 
 1. Maintaining Trust
 

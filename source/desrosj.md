@@ -227,7 +227,7 @@ Backwards compatibility can also help limit downstream costs such as fewer suppo
 
 Time and resources are finite. Especially in Open Source projects.
 
-Every feature merged or bug fixed is a vote against another that could have taken its place. The time to review, test, document, and support one change subracts time and resources from another somewhere else.
+Every feature merged or bug fixed is a vote against another that could have taken its place. The time to review, test, document, and support one change subtracts time and resources from another somewhere else.
 
 In some situations, a “no” can be given due to an unreasonably high opportunity cost. An example of this can be seen in the WordPress project leading up to the initial release of the new block editor in version [5.0 “Bebo.”](https://wordpress.org/news/2018/12/bebo/) It was important that as many contributors as possible were focused on the objective at hand. Many changes received a “no” answer in large part because of the amount of resources it drew away from the Gutenberg project.
 

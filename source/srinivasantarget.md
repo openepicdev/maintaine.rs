@@ -28,7 +28,7 @@ Open Source is a **force multiplier** for innovation. It’s about democratizing
 - **AppiumTestDistribution (ATD)**: Co-founded to solve parallel execution challenges in mobile testing, later expanding to IoT.
 - **Selenium/Taiko**: Contributions to test frameworks and community-driven tooling.
 - **Appium Conference**: Co-Founded to unite global testing enthusiasts and share best practices.
-- **Appium Plugins:** Developed a bunch a Appium plugins to help ease development efforts
+- **Appium Plugins:** Developed a bunch of Appium plugins to help ease development efforts
   - Appium Device Farm
   - Appium Gestures Plugin
   - Appium Wait Plugin
