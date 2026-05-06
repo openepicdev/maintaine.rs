@@ -4,58 +4,63 @@
 > [github.com/Circuit-Overtime](https://github.com/Circuit-Overtime)  
 > [maintaine.rs/circuit-overtime](https://maintaine.rs/circuit-overtime)
 
-Hey, I'm Ayushman Bhattacharya, a 20-year-old developer from India closing out a year shaped by research, hackathons, open source, and a lot of late-night debugging. My 2025 wasn't a highlight reel; it was a long-form story of building things, breaking them, and slowly learning what it means to maintain software that other people actually depend on.
+I'm Ayushman Bhattacharya, a maintainer at [pollinations.ai](https://pollinations.ai), a Google Developer Groups on Campus organizer at JIS University, and a mentor for the GirlScript Summer of Code 2025 Open Source Internship and Open Source Connect 2025. I also ship a steady trickle of small projects under the [Elixpo](https://elixpo.com) umbrella, mostly around AI tooling and developer utilities.
 
-I'm a contributor and maintainer at [pollinations.ai](https://pollinations.ai), a campus organizer for GDG JIS University, and a mentor for the GirlScript Summer of Code Open Source Internship and Open Source Connect. Most of my open source work lives across image and text generation tooling, AI infrastructure, and small developer utilities I keep shipping under the Elixpo umbrella.
+I'm 20 and still in college, which probably matters, because most of what I know about Open Source I learned by lurking in repos that were way over my head and slowly working up the courage to open a PR.
 
-## **How I got here**
+## "What does this `git push` button even do?"
 
-I didn't plan to be in open source. I started in research, with a long-running project that began back in 2021 and only turned into a published paper this year, co-authored with Vivek Yadav, Anwesha Chakraborty, and Piyali Sarkar, under the guidance of Prof. Sonali Bhowmick. Watching something you've iterated on for four years finally get recognized is grounding in a way that hackathon wins never quite are.
+I made my GitHub account in 2020. For most of that first year, I didn't really contribute to anything; I pushed my own school projects, broke my own builds, and treated GitHub as a slightly more public Google Drive. The platform was a tool. The community didn't exist for me yet.
 
-Hackathons did teach me other things, though. Early in 2025, at IIT Kharagpur with Subhro Kolay, Srijan Samaddar, and Saugata Sarkar, we shipped LlamaMedicine, a medically fine-tuned LLM. We didn't win. What I took away was simpler and more useful: polished systems and usable APIs often outperform deeply tuned models, even when the underlying research is solid. That lesson is, in retrospect, the thing that pushed me toward open source. Maintaining a usable tool turns out to matter more than building a clever one.
+That changed during the 2021 lockdown. With nowhere to go and nothing to do, I started actually _reading_ other people's repositories. Not for a class, not for an assignment, just because I was curious. I'd hail from the era of Stack Overflow and Math Exchange, so reading documentation never felt like a chore. Now, instead of just reading docs, I was reading source code, and that turned out to be even more interesting. I'd open a library I depended on, click into a function, and follow the rabbit hole until I either understood what was happening or fell asleep.
 
-## **Open Source projects I'm involved in**
+Somewhere in that lockdown stretch, I started watching old talks. Linus Torvalds on Git. Talks from Linux Foundation events, PyCon, conference videos with three-digit view counts. The thing that stuck with me wasn't the technical material; it was the casualness with which these people talked about a project that millions of strangers depended on. It seemed both impossibly large and oddly approachable. They were, in the end, just people writing code in public.
 
-The project I'm most rooted in is [pollinations.ai](https://pollinations.ai), an open source generative media platform led by Thomas Haferlach and Elliot Fouchy. Over the past year I've gone from contributor to being invited into the organization, ending the year ranked the #3 contributor with 5,600+ commits across the year. I help maintain pieces of the image and text generation pipeline, work on integrations, and triage the steady stream of issues and PRs that come with a project people actually use in production.
+I didn't know I'd quietly decided to become one of them until much later.
 
-Alongside that I maintain a set of smaller projects under [Elixpo](https://elixpo.com), where I experiment with developer tooling and AI workflows. Running my own small projects in parallel with a larger one has been the fastest way I've found to understand the real difference between being a contributor and being a maintainer.
+## "I have no business opening this PR"
 
-## **What being a maintainer actually feels like**
+The first contributions I made outside my own repos were the kind of contributions everyone makes: a typo in a README, a clarification in a doc, a missing edge case in an example. Tiny things. The kind of PR you'd be embarrassed to mention if you didn't remember how big a deal each one felt at the time.
 
-Being a maintainer is mostly the unglamorous middle of things. It's the 2 AM Kubernetes hotfix when a deployment falls over. It's a broken build on someone else's PR that you have to debug to be a fair reviewer. It's deciding whether an ambitious feature request fits the project's scope, and saying no kindly when it doesn't.
+What surprised me was how much you can learn just by submitting a small change. You read the CONTRIBUTING file. You figure out the project's branching style. You see how the maintainer phrases their review comments. You watch what gets merged and what gets quietly closed. By the time I'd done that across a handful of projects, I had a much better mental model of how Open Source actually works than any tutorial had given me.
 
-The hardest part for me has been the volume. Notifications, issue triage, review queues; it adds up faster than you'd think, especially when you're also a student and also showing up to communities in person. I've learned to be honest about what I can pick up this week and what has to wait, instead of pretending I'll get to everything.
+I still wasn't a maintainer of anything in 2022 or 2023. I was contributing where I could, mostly for the practice and the puzzle of it. I was also still in high school for part of that, which is a strange backdrop for any of this.
 
-The most useful thing I've done for myself is automating the boring parts. Linters, formatters, tests in CI, templates for issues and PRs; every minute spent setting these up pays itself back many times over. Anything a bot can do is a thing I don't have to remember to do at 2 AM.
+## "Maybe I should just stay here"
 
-## **Community is the multiplier**
+In 2024, I started contributing to [pollinations.ai](https://pollinations.ai), an Open Source generative media platform led by Thomas Haferlach and Elliot Fouchy. I'd used the project as a user first, run into the kind of small papercut that any active user runs into, and opened a PR to fix it. Then another. Then a few more. There wasn't a moment where I decided to "join" pollinations; I just kept showing up.
 
-The shift from "writing code" to "running a community" happened almost by accident. I was nominated as a mentor for Open Source Connect and the GirlScript Summer of Code Open Source Internship, and then nominated as campus organizer for GDG JIS University by Ankita Chakraborty. Our first session on October 13th drew 250+ registrations.
+What I appreciated, and what I think a lot of healthy Open Source projects share, is that nobody made a fuss about me being new, or being a student, or not having a Big Tech badge attached to my name. The PRs got reviewed. The feedback was direct. When I shipped something useful, it landed. When I overreached, someone said so plainly. That kind of low-ceremony trust is rare, and I think it's underrated as a community-building tool.
 
-I co-hosted Kolkata's Hacktoberfest Meetup with Abhishek Kushwaha and Hrittik Roy at JIS University with 290+ participants, ran Hacktoberfest events for pollinations.ai and Elixpo, and onboarded 50+ new contributors across those efforts. Special thanks to Abiroy Karmakar, Deep Saha, and Abhranil Singha Roy, who showed up for these events the way you hope contributors do. I closed October with a Hacktoberfest Super Contributor badge, but honestly the badge mattered less than watching first-time contributors land their first merged PR and come back the next week with another one.
+Over the next year I worked on parts of the image and text generation pipeline, integrations, and the unglamorous middle layer of any AI project: making the API surface usable, fixing the rough edges, fielding the issues that real users actually run into. At some point during 2025 I was invited into the organization as a maintainer. There wasn't a ceremony. Someone added me to a team in GitHub. I think that's how it usually goes.
 
-Volunteering at HexaFalls at JIS University earlier in the year, alongside Sarosij Ghosh Ray and Abhishek Kushwaha, and getting to meet Krishnendu Dasgupta and Ronit Banerjee in person, drove home that the people side of open source is often what carries you through the parts that don't have a clean technical solution.
+I'd still call this the most important thing that happened to me in Open Source, not because the title changed anything mechanical, but because the responsibility did. The day before, a broken build was someone else's problem. The day after, it was mine.
 
-## **AI in open source, from someone who builds AI tools**
+## "Wait, who's reviewing all of these?"
 
-I work on AI infrastructure for a living, so I'm not going to pretend AI hasn't changed open source. It has. I ship faster. New contributors ramp up faster. Boilerplate is cheaper than it's ever been.
+Maintaining is mostly the unglamorous middle of things. It's a 2 AM hotfix because a deployment fell over. It's debugging a contributor's PR before you can fairly review it. It's rereading the same issue thread three times because the actual bug is buried under six paragraphs of context. It's saying "no" to a thoughtful feature request because it doesn't fit the project's scope, and trying to do it without making the contributor feel dismissed.
 
-The real question for maintainers is reviewing. AI lowers the cost of producing a PR much faster than it lowers the cost of reviewing one. We're already seeing PRs that look polished on the surface but quietly break invariants the AI didn't know about. The asymmetry is going to keep widening, and I think the maintainer skill that matters most over the next few years is reading code critically, not generating it. I try to apply that to my own AI-assisted work too: if I can't explain why a change is correct, the change isn't ready.
+The hardest part, for me, has been volume. Issue notifications, review queues, the steady drip of "hey, quick question" pings; it stacks up faster than you'd think, especially when you're a student and also showing up to communities in person. The thing that's helped most is automation. Linters, formatters, CI checks, issue and PR templates; anything a bot can do is something I don't have to remember to do at 2 AM. The other thing that's helped is being honest, with myself and with contributors, about what I can pick up this week and what has to wait. Pretending you'll get to everything is how maintainers burn out.
 
-## **For new maintainers and contributors**
+## "Wait, _I_ run this meetup?"
 
-A few things I'd tell anyone starting out:
+The shift from "writing code" to "running a community" happened almost by accident. I was nominated as a mentor for Open Source Connect 2025 and the GirlScript Summer of Code 2025 Open Source Internship, which put me on the other side of the contributor experience for the first time. Around the same time, Ankita Chakraborty nominated me as the campus organizer for GDG on Campus at JIS University. Our first session, on October 13th, drew 250+ registrations.
 
-- Ship something small and maintain it for a year. You'll learn more from one boring project you stuck with than from ten cool ones you abandoned.
-- Write the README, the CONTRIBUTING, and the SECURITY.md before you think you need them. Future-you will thank present-you.
-- Saying "no" is part of the job. Scope creep kills more projects than bugs do.
-- Be patient with new contributors. Most of us started with a typo fix on a README somewhere, and someone reviewed that PR like it mattered.
+For Hacktoberfest 2025, I co-hosted Kolkata's Hacktoberfest Meetup at JIS University with Abhishek Kushwaha and Hrittik Roy, with 290+ participants. I also ran Hacktoberfest events for pollinations.ai and Elixpo, and helped onboard 50+ new contributors across those efforts. Special thanks to Abiroy Karmakar, Deep Saha, and Abhranil Singha Roy, who showed up the way you hope contributors do. I ended October with a Hacktoberfest Super Contributor badge, but honestly the badge mattered less than watching first-time contributors land a merged PR and come back the next week with another one.
 
-There were rejections this year too. Failed interviews. Broken deployments. Pull requests I closed without merging and felt bad about for a week. None of it was wasted. All of it was the price of the parts I'm proud of: the published paper at the International Quantum Computing Conference Kolkata 2025 under Prof. Dr. Bidisha Bhabani's mentorship, the year at pollinations, the contributors I got to onboard, the friends I made showing up to events.
+I think this is the part of being a maintainer that surprises people. The code is maybe half the job. The other half is making it possible for someone who has never opened a PR before to feel like they can.
 
-Open source gave me the people, the work, and most of the lessons that defined this year. I plan to keep showing up.
+## Maintainer Month topics
 
-If you want to talk open source, AI tooling, or anything in between, I'm easy to find:
+This year, Maintainer Month is highlighting project security and the implications of AI on Open Source, so a couple of thoughts:
+
+- **On AI in Open Source**: I work on AI infrastructure, so I'm not going to pretend AI hasn't changed Open Source. It has. I ship faster, new contributors ramp up faster, boilerplate is cheaper. The real concern for maintainers is the asymmetry: AI lowers the cost of _producing_ a PR much faster than it lowers the cost of _reviewing_ one. We're already seeing PRs that look polished on the surface but quietly break invariants the AI didn't know about. The maintainer skill that's going to matter most over the next few years is reading code critically, not generating it. I try to apply that to my own AI-assisted work, too: if I can't explain why a change is correct, the change isn't ready.
+
+- **On security as a contributor habit**: Most of what I've learned about Open Source security has been about making the safe path the easy path. A `SECURITY.md` so people know how to report things privately. Tokens with the least privilege they need. Dependabot and image scanning wired into CI so vulnerable dependencies get caught before a human has to remember to look. None of it is glamorous, and most of it doesn't feel necessary until the day it suddenly does.
+
+---
+
+If anything here resonated, or if you just want to talk Open Source, AI tooling, or community building, I'd love to hear from you.
 
 - Personal Website: [https://elixpo.com](https://elixpo.com)
 - LinkedIn: [https://www.linkedin.com/in/elixpo/](https://www.linkedin.com/in/elixpo/)
