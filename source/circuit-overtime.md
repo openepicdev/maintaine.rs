@@ -1,6 +1,6 @@
 # @Circuit-Overtime -- Ayushman Bhattacharya
 
-> ![](https://github.com/Circuit-Overtime.png){ width=64px height=64px }  
+> ![](https://github.com/Circuit-Overtime.png) 
 > [github.com/Circuit-Overtime](https://github.com/Circuit-Overtime)  
 > [maintaine.rs/circuit-overtime](https://maintaine.rs/circuit-overtime)
 
